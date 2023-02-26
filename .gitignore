@@ -1,5 +1,6 @@
 .idea
-datasets/*
+# ingores all anki files
+datasets/*.colpkg
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
