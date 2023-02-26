@@ -1,0 +1,13 @@
+name: ankinator
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - jupyter
+  - pandas
+  - matplotlib
+  - torchaudio
+  - pytorch
+  - torchvision
+  - transformers
+prefix: /opt/homebrew/Caskroom/miniconda/base/envs/ankinator
