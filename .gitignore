@@ -1,6 +1,12 @@
 .idea
 # ingores all anki files
-datasets/*.colpkg
+
+datasets/anki_data/*.colpkg
+datasets/anki_data/*.apkg
+datasets/*.csv
+datasets/Excel/*.xlsx
+*/*.DS_Store
+*.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

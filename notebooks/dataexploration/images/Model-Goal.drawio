@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" modified="2023-03-14T13:35:29.166Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="82wU6buCte0tvREhnXLl" version="21.0.6" type="github">
+  <diagram name="Page-1" id="G2H8CFwAec-l47pfTw5p">
+    <mxGraphModel dx="1434" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n-HEGvDCeYpeztoEyAW6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n-HEGvDCeYpeztoEyAW6-1" target="n-HEGvDCeYpeztoEyAW6-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HEGvDCeYpeztoEyAW6-1" value="Unstructured Text:&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Bullet Points&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Formulas&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Raw Text&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Noisy&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HEGvDCeYpeztoEyAW6-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="n-HEGvDCeYpeztoEyAW6-3" target="n-HEGvDCeYpeztoEyAW6-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HEGvDCeYpeztoEyAW6-3" value="Model" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HEGvDCeYpeztoEyAW6-5" value="Topic Prediction / Topic Summarisation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="480" y="212.5" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HEGvDCeYpeztoEyAW6-7" value="&lt;b&gt;&lt;u&gt;SRC&lt;/u&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HEGvDCeYpeztoEyAW6-8" value="&lt;b&gt;&lt;u&gt;Target&lt;/u&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="510" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
