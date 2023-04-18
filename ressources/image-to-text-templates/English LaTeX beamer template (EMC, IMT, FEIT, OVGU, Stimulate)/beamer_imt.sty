@@ -1,0 +1,36 @@
+% use a serif font only in the math mode
+\usefonttheme[onlymath]{serif}
+
+% use the lmodern font family
+\usepackage{lmodern}
+
+% This theme is nearly a black and white theme and useful for creating presentations that are easy to
+% print on a black-and-white printer. The theme uses grayscale in certain unavoidable cases, but never
+% color. It also changes the font of alerted text to bold face.
+\usecolortheme{dove}
+
+% active a miniframe navigation
+\useoutertheme[subsection=false]{miniframes}
+
+% define the foot line
+\setbeamertemplate{footline}{%
+\begin{minipage}{0.5\textwidth}%
+	% logo of the institue
+	\vspace*{0.1cm}\hspace*{0.2cm}\includegraphics[width=4.25cm]{imt_en}\hfill
+	% insert the number of the slide
+	\scriptsize\insertframenumber
+	\vspace*{0.15cm}%
+\end{minipage}%
+\begin{minipage}{0.49\textwidth}%	
+	% no logo on the right side
+\end{minipage}
+}
+
+% make diagrams a little smaller
+\mode<beamer>{
+	\pgfplotsset{
+		beamer/.append style={
+			height=0.38\textwidth,
+		}
+	}
+}
