@@ -1,3 +1,3 @@
-TODO: Fix HTML Rendering Problems in Anki Deck Strings
-TODO: Look at data from Simon
-TODO: Fix Portrait images
+TODO: Change the other templates, such that they can be used fo generation
+TODO: Cleanup Dataframe where both columns are NONE
+TODO: Generate PDF Decks
