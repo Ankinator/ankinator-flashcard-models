@@ -324,32 +324,41 @@ Advisors:  \\ Prof. John
 
 \begin{document}
 
-\BLOCK{for index, row in data_answers.iterrows()}
+\BLOCK{for index, row in data.iterrows()}
 \begin{frame}%[noframenumbering]
 \frametitle{Unrelated Title}
-\begin{itemize}
 
+\BLOCK{if row["images"] != None}
+\begin{center}
+\BLOCK{for img in row["images"]}
+\VAR{img}
+\BLOCK{endfor}
+\end{center}
+\BLOCK{endif}
+
+\BLOCK{if row['answer'] != None}
+\begin{itemize}
 \BLOCK{for bullet_point in row['answer']}
 \item \VAR{bullet_point}
 \BLOCK{endfor}
-
 \end{itemize}
+\BLOCK{endif}
 
 \note[item]{}
 \end{frame}
 \BLOCK{endfor}
 
 % Images
-\BLOCK{for index, row in data_images.iterrows()}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
-
-\begin{center}
-\VAR{row["images"]}
-\end{center}
-
-\end{frame}
-\BLOCK{endfor}
+%\BLOCK{for index, row in data_images.iterrows()}
+%\begin{frame}%[noframenumbering]
+%\frametitle{Unrelated Title}
+%
+%\begin{center}
+%\VAR{row["images"]}
+%\end{center}
+%
+%\end{frame}
+%\BLOCK{endfor}
 
  \end{document}
 % =============================================================

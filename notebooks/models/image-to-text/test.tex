@@ -1,14 +1,14 @@
-%===============================================================
-%Template for UPC-TALP based on CTU and modified to match UPC-TALP colors and style  
-%The original template from Czech Technical University  % Author: Martin Malý.
-% They are defined by new graphical manual - 2017.
-% Share and modify as you like. Keep the name of the authors.
-% It is forbidden to use the template commercially.
-%===============================================================
+
+
+
+
+
+
+
 
 \documentclass{beamer}
 \usepackage[utf8]{inputenc}
-%\usepackage{lmodern}
+
 
 \usepackage{comment}
 \usetheme{Madrid}
@@ -17,14 +17,14 @@
 \definecolor{cvut_blue}{HTML}{6AADE4}
 \definecolor{cvut_gray}{HTML}{156570}
 \usepackage{biblatex}
-%\usepackage{tikz}
-%\usepackage{pgfplots}
+
+
 \usepackage[makeroom]{cancel}
 \usepackage{threeparttable}
 \usepackage[utf8]{inputenc}
-%\usepackage[usenames,dvipsnames]{xcolor}
-%\addbibresource{biblatex-examples.bib}
-%\setbeamercolor{section in toc}{}
+
+
+
 \setbeamercolor{section in toc}{fg=black,bg=yellow} 
 \setbeamercolor{alerted text}{fg=cvut_blue}
 \usepackage{tikzsymbols}
@@ -34,7 +34,7 @@
 \definecolor{babyblue}{rgb}{0.54, 0.81, 0.94}
 \usepackage{pgf}
 \usepackage{color,soul}
-%\usepackage{pythontex} 
+
 \usepackage{tcolorbox}
 \tcbuselibrary{skins}
 \usepackage{minted}
@@ -44,13 +44,13 @@
 \sethlcolor{lightblue}
 \renewcommand<>{\hl}[1]{\only#2{\beameroriginal{\hl}}{#1}}
 \setbeamertemplate{page number in head/foot}[framenumber]
-%%% attravive box over equestion
+
 \usepackage{empheq}
 \usepackage{xcolor}
 \definecolor{lightgreen}{HTML}{90EE90}
 \newcommand{\boxedeq}[2]{\begin{empheq}[box={\fboxsep=6pt\fbox}]{align}\label{#1}#2\end{empheq}}
 \newcommand{\coloredeq}[2]{\begin{empheq}[box=\colorbox{lightgreen}]{align}\label{#1}#2\end{empheq}}
-\newcommand{\highlight}[1]{%
+\newcommand{\highlight}[1]{
   \colorbox{red!40}{$\displaystyle#1$}}
   
   
@@ -64,7 +64,7 @@
 \definecolor{corn}{rgb}{0.98, 0.93, 0.36}
 \definecolor{jonquil}{rgb}{0.98, 0.85, 0.37}
 \definecolor{bananayellow}{rgb}{1.0, 0.88, 0.21}
-\newcommand{\bert}{\ensuremath{%
+\newcommand{\bert}{\ensuremath{
   \mathchoice{\includegraphics[height=2ex]{Bert-pic-removebg-preview.png}} 
     {\includegraphics[height=2ex]{Bert-pic-removebg-preview.png}}
     {\includegraphics[height=1.5ex]{Bert-pic-removebg-preview.png}}
@@ -77,18 +77,18 @@
 
 
 \usepackage{courier}
-%\usepackage{animate}  
+
 \usepackage{expl3}
-%\usepackage[listings,theorems]{tcolorbox}
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
-%commands for simulating terminal in/output  
-%\scroll[<line separator string>]{<width as TeX dim>} 
-%                             {<number of lines>}{terminal text line}  
-%\clearbuf  %clears line buffer  
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
+
+
+
+
+
+
+
 
 
 
@@ -108,18 +108,18 @@
 \newcommand\clearbuf{\seq_gclear:N\g_linebuffer_seq}
 \ExplSyntaxOff
 
-\setbeamertemplate{headline}{%
+\setbeamertemplate{headline}{
 \begin{beamercolorbox}[colsep=1.5pt]{upper separation line head}
 \end{beamercolorbox}
 \begin{beamercolorbox}{section in head/foot}
     \vskip2pt\insertsectionnavigationhorizontal{\paperwidth}{}{\hskip0pt plus1filll}\vskip2pt
-\end{beamercolorbox}%
+\end{beamercolorbox}
 
 \begin{beamercolorbox}[colsep=1.5pt]{lower separation line head}
 \end{beamercolorbox}
 }
 \makeatletter
-\newcommand\SoulColor{%
+\newcommand\SoulColor{
   \let\set@color\beamerorig@set@color
   \let\reset@color\beamerorig@reset@color}
 \makeatother
@@ -128,33 +128,33 @@
 \usepackage{tikz}
 \setbeamercovered{dynamic}
 
-\newcommand{\highlightt}[1]{%
+\newcommand{\highlightt}[1]{
   \colorbox{blue!40}{$\displaystyle#1$}}
 
 
-\newenvironment<>{problock}[1]{%
-  \begin{actionenv}#2%
-      \def\insertblocktitle{#1}%
-      \par%
-      \mode<presentation>{%
-       % \setbeamercolor{block title}{fg=white,bg=orange!20!black}
-        %\setbeamercolor{block title}{fg=white,bg=red!10!black}
+\newenvironment<>{problock}[1]{
+  \begin{actionenv}#2
+      \def\insertblocktitle{#1}
+      \par
+      \mode<presentation>{
+
+
         \setbeamercolor{block title}{fg=white,bg=cvut_blue}
        \setbeamercolor{block body}{fg=black,bg=white!50}
        \setbeamercolor{itemize item}{fg=orange!20!black}
        \setbeamertemplate{itemize item}[triangle]
-     }%
+     }
       \usebeamertemplate{block begin}
     \par\usebeamertemplate{block end}
     \end{actionenv}
     }
     
     \newcommand<>{\uncovergraphics}[2][{}]{
-    % Taken from: <https://tex.stackexchange.com/a/354033/95423>
+
     \begin{tikzpicture}
     \node[anchor=south west,inner sep=0] (B) at (4,0)
         {\includegraphics[#1]{#2}};
-    \alt#3{}{%
+    \alt#3{}{
         \fill [draw=none, fill=background, fill opacity=0.9] (B.north west) -- (B.north east) -- (B.south east) -- (B.south west) -- (B.north west) -- cycle;
     }
     \end{tikzpicture}
@@ -165,9 +165,9 @@
 
 \newlength\dlf
 \newcommand\alignedbox[3][yellow]{
-  % #1 = color (optional, defaults to yellow)
-  % #2 = before alignment
-  % #3 = after alignment
+
+
+
   &
   \begingroup
   \settowidth\dlf{$\displaystyle #2$}
@@ -180,44 +180,44 @@
 \usepackage{collcell}
 \usepackage{booktabs}
 \usepackage{etoolbox}
-%\usepackage{remreset}% tiny package containing just the \@removefromreset command
+
 \makeatletter
 
 \usepackage{xcoffins}
 \NewCoffin\tablecoffin
 \NewDocumentCommand\Vcentre{m}
-  {%
-    \SetHorizontalCoffin\tablecoffin{#1}%
-    \TypesetCoffin\tablecoffin[l,vc]%
+  {
+    \SetHorizontalCoffin\tablecoffin{#1}
+    \TypesetCoffin\tablecoffin[l,vc]
   }
 
 
 
 \usepackage{pgfpages}
 
-%% Important 
-%%% show note or disable note. 
-%\setbeameroption{show notes on second screen=right} % Both
+
+
+
 
 \setbeamertemplate{note page}{\pagecolor{gray!5}\insertnote}\usepackage{palatino}
 
 
 
-%\setbeamertemplate{footline}{}
-%\setbeamertemplate{footline}{}
+
+
 \usepackage{xcolor}
 \usepackage{soul}
 
 \usepackage{etoolbox}
 \makeatletter
-%\patchcmd{\slideentry}{\ifnum#2>0}{\ifnum2>0}{}{\@error{unable to patch}}% replace the subsection number test with a test that always returns true
+
 \makeatother
 
 \setbeamercolor*{palette primary}{bg=cvut_navy,fg=gray!20!white}
-\setbeamercolor*{palette secondary}{bg=cvut_navy,fg=gray!20!white} % no color
-%\setbeamercolor*{palette secondary}{bg=cvut_navy,fg=cvut_navy}
-%\setbeamercolor*{palette secondary}{bg=cvut_blue,fg=white}
-\setbeamercolor*{palette tertiary}{parent=palette primary} % color of the top and date
+\setbeamercolor*{palette secondary}{bg=cvut_navy,fg=gray!20!white}
+
+
+\setbeamercolor*{palette tertiary}{parent=palette primary}
 \setbeamercolor*{palette quaternary}{fg=cvut_navy,bg=gray!5!white}
 \setbeamercolor*{sidebar}{fg=cvut_navy,bg=gray!15!white}
 \usepackage[first=0,last=9]{lcg}
@@ -226,27 +226,27 @@
 \usepackage{stackengine,tikz}
 \usepackage{transparent}
 \usepackage{pgfpages}
-%\usepackage{graphicx}% http://ctan.org/pkg/graphicx
-\usepackage{booktabs}% http://ctan.org/pkg/booktabs
-%\setbeameroption{show notes}
+
+\usepackage{booktabs}
+
 \colorlet{Gray}{gray!30}
 
 
 
 
     
-\newcommand*{\MinNumber}{0}%
-%\newcommand*{\MaxNumber}{100}%
-\newcommand*{\MaxNumber}{0.4}%
+\newcommand*{\MinNumber}{0}
+
+\newcommand*{\MaxNumber}{0.4}
 \definecolor{bubblegum}{rgb}{0.99, 0.76, 0.8}
-\newcommand{\ApplyGradient}[1]{%
-  \pgfmathsetmacro{\PercentColor}{100.0*(#1-\MinNumber)/(\MaxNumber-\MinNumber)}%
-  %\textcolor{black!\PercentColor}{#1}
-  \edef\x{\noexpand\cellcolor{babyblue!\PercentColor}}\x\textcolor{black}{#1}%
+\newcommand{\ApplyGradient}[1]{
+  \pgfmathsetmacro{\PercentColor}{100.0*(#1-\MinNumber)/(\MaxNumber-\MinNumber)}
+
+  \edef\x{\noexpand\cellcolor{babyblue!\PercentColor}}\x\textcolor{black}{#1}
 }
 \newcolumntype{R}{>{\collectcell\ApplyGradient}{c}<{\endcollectcell}}
 
-%\setbeameroption{show notes on second screen=right}
+
 \setbeamercolor{titlelike}{parent=palette primary}
 \setbeamercolor{frametitle}{parent=palette primary}
 
@@ -263,14 +263,14 @@
 \setbeamertemplate{navigation symbols}{} 
 \setbeamertemplate{caption}{\raggedright\insertcaption\par}
 
-%\setbeamercolor*{block title example}{fg=blue!50,bg= blue!10}
 
-%\setbeamercolor*{block title example}{fg=white,bg= cvut_navy}
+
+
 \setbeamercolor*{block title example}{fg=white,bg=purple!75!black}
 \setbeamercolor*{block body example}{fg= black, bg= white}
 
 
-\setbeamercolor{itemize item}{fg=cvut_navy} % all frames will have red bullets
+\setbeamercolor{itemize item}{fg=cvut_navy}
 \setbeamercolor{block title}{bg=red!30,fg=black}
 \setbeamertemplate{subsection in toc}[subsections numbered]
 
@@ -289,316 +289,69 @@
 \usepackage{booktabs}
 
 
-%\setbeamercolor{block title}{fg=darkred,bg=structure.fg!10!bg!10!bg}
-%\setbeamercolor{block body}{use=block title,bg=block title.bg}
+
+
 \definecolor{NormalBlue}{RGB}{200,200,255}
-%\setbeamercolor{block title}{bg=NormalBlue}yellow
+
 \setbeamercolor{block title}{fg=black, bg=yellow}
 \setbeamercolor{block2}{use=structure,fg=white,bg=purple!75!black}
-% definice makra
+
 \def\bq{\mbox{\kern.1ex\protect\raisebox{-1.3ex}[0pt][0pt]{''}\kern-.1ex}}
 \def\eq{\mbox{\kern-.1ex``\kern.1ex}}
-\def\ifundefined#1{\expandafter\ifx\csname#1\endcsname\relax }%
-\ifundefined{uv}%
+\def\ifundefined#1{\expandafter\ifx\csname#1\endcsname\relax }
+\ifundefined{uv}
         \gdef\uv#1{\bq #1\eq}
 \fi
 
 
-%====================================================
-%========== DEFINITION OF AUTHORS ETC...=============
-%====================================================
+
+
+
 \author[Thesis Defense]{Author}
 \institute[]{Universitat Politècnica de Catalunya \\  Department of Computer Science
 \vspace{2mm} \\ 
 Advisors:  \\ Prof. John 
-%Dr. Marina \\ 
+
 \vspace{2mm}}
 \title[]{Presentation Title}
 
 
   \date[March 31, 2023]{\small{Thesis Defense} \\ \small{March 31, 2023}}
-%====================================================
-%========== BEGINNING OF DOCUMENT ===================
-%====================================================
+
+
+
 
 
 \begin{document}
 
-\begin{frame}%[noframenumbering]
+\begin{frame}
 \frametitle{Unrelated Title}
+
+\begin{center}
+\includegraphics[height=0.6\textheight]{/Users/I516998/Library/Application Support/Anki2/User 1/collection.media/image-64c771e8211adce57e8a6ea56aa73b8a03faeed5.png}
+\end{center}
+
 \begin{itemize}
-
-\item Kfix+Kvar+At+Zt
-
-\end{itemize}
-
-\note[item]{}
-\end{frame}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
-\begin{itemize}
-
-\item G=U-K
-
-\end{itemize}
-
-\note[item]{}
-\end{frame}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
-\begin{itemize}
-
-\item r=i1-[c01(i2-i1)/(c02-c01)]
-
-\end{itemize}
-
-\note[item]{}
-\end{frame}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
-\begin{itemize}
-
-\item Niedrigerer Zinssatz
-
-\end{itemize}
-
-\note[item]{}
-\end{frame}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
-\begin{itemize}
-
-\item Höherer Zinssatz 
-
-\end{itemize}
-
-\note[item]{}
-\end{frame}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
-\begin{itemize}
-
-\item (positiver) Kapitalwert des niedrigeren Zinssatzes
-
-\end{itemize}
-
-\note[item]{}
-\end{frame}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
-\begin{itemize}
-
-\item (Negativer)Kapitalwert des höheren Zinssatzes
-
-\end{itemize}
-
-\note[item]{}
-\end{frame}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
-\begin{itemize}
-
-\item G+Zt+At
-
-\end{itemize}
-
-\note[item]{}
-\end{frame}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
-\begin{itemize}
-
-\item (Gewinn+FK Zinsen)/(FK+EK)
-
-\end{itemize}
-
-\note[item]{}
-\end{frame}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
-\begin{itemize}
-
-\item Gewinn/EK
-
-\end{itemize}
-
-\note[item]{}
-\end{frame}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
-\begin{itemize}
-
-\item Gewinn/Umsatz
-
-\end{itemize}
-
-\note[item]{}
-\end{frame}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
-\begin{itemize}
-
-\item Abschreibung auf Forderungen an Wertberichtigung auf Forderungen
-
-\end{itemize}
-
-\note[item]{}
-\end{frame}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
-\begin{itemize}
-
-\item 1. Zweifelhafte Forderungen an Kundenforderungen
-\item 2. Abschreibungen auf Forderungen an Zweifelhafte Forderungen
-
-\end{itemize}
-
-\note[item]{}
-\end{frame}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
-\begin{itemize}
-
-\item Forderungsverluste & Umsatzsteuer an Kundenforderungen
-
-\end{itemize}
-
-\note[item]{}
-\end{frame}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
-\begin{itemize}
-
-\item Bank an Erträge aus abgeschr. Ford. & USt.
-
+\item alles was im Rahmen eines Modells erklärt wird, wechselseitige Beziehung
+\item abc
 \end{itemize}
 
 \note[item]{}
 \end{frame}
 
-% Images
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
 
-\begin{center}
-\includegraphics[width=0.6\textwidth]{/Users/I516998/Library/Application Support/Anki2/User 1/collection.media/img1963991816782229408.jpg}
-\end{center}
 
-\end{frame}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
 
-\begin{center}
-\includegraphics[width=0.6\textwidth]{/Users/I516998/Library/Application Support/Anki2/User 1/collection.media/img6198499762462923278.jpg}
-\end{center}
 
-\end{frame}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
 
-\begin{center}
-\includegraphics[width=0.6\textwidth]{/Users/I516998/Library/Application Support/Anki2/User 1/collection.media/img816191628497522554.jpg}
-\end{center}
 
-\end{frame}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
 
-\begin{center}
-\includegraphics[width=0.6\textwidth]{/Users/I516998/Library/Application Support/Anki2/User 1/collection.media/img8608825578963105513.jpg}
-\end{center}
 
-\end{frame}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
 
-\begin{center}
-\includegraphics[width=0.6\textwidth]{/Users/I516998/Library/Application Support/Anki2/User 1/collection.media/img1879412642540800749.jpg}
-\end{center}
 
-\end{frame}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
 
-\begin{center}
-\includegraphics[width=0.6\textwidth]{/Users/I516998/Library/Application Support/Anki2/User 1/collection.media/img4610769368882521779.jpg}
-\end{center}
-
-\end{frame}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
-
-\begin{center}
-\includegraphics[width=0.6\textwidth]{/Users/I516998/Library/Application Support/Anki2/User 1/collection.media/img3974229742760914545.jpg}
-\end{center}
-
-\end{frame}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
-
-\begin{center}
-\includegraphics[width=0.6\textwidth]{/Users/I516998/Library/Application Support/Anki2/User 1/collection.media/image-4939730c1ac0c2af290e1660f30782aa507cf7e8.png}
-\end{center}
-
-\end{frame}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
-
-\begin{center}
-\includegraphics[width=0.6\textwidth]{/Users/I516998/Library/Application Support/Anki2/User 1/collection.media/image-7909c792e66290c955dc0a002fbbc99bc8d94da5.png}
-\end{center}
-
-\end{frame}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
-
-\begin{center}
-\includegraphics[width=0.6\textwidth]{/Users/I516998/Library/Application Support/Anki2/User 1/collection.media/image-36ed6232a5b0bbfd83f6ff59b15c00d51b048617.png}
-\end{center}
-
-\end{frame}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
-
-\begin{center}
-\includegraphics[width=0.6\textwidth]{/Users/I516998/Library/Application Support/Anki2/User 1/collection.media/image-b2270d0f1c0b65a6cf0c5a0a1c079674c8cf0dae.png}
-\end{center}
-
-\end{frame}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
-
-\begin{center}
-\includegraphics[width=0.6\textwidth]{/Users/I516998/Library/Application Support/Anki2/User 1/collection.media/image-45db37487146d9d5f7917a9754f9da632f978ca7.png}
-\end{center}
-
-\end{frame}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
-
-\begin{center}
-\includegraphics[width=0.6\textwidth]{/Users/I516998/Library/Application Support/Anki2/User 1/collection.media/image-0a9614154db41c2ebd6b3d30c33a1fb425c96c48.png}
-\end{center}
-
-\end{frame}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
-
-\begin{center}
-\includegraphics[width=0.6\textwidth]{/Users/I516998/Library/Application Support/Anki2/User 1/collection.media/image-ef994671bb0c8ac6883de922a7ea246535a2d2e4.png}
-\end{center}
-
-\end{frame}
-\begin{frame}%[noframenumbering]
-\frametitle{Unrelated Title}
-
-\begin{center}
-\includegraphics[width=0.6\textwidth]{/Users/I516998/Library/Application Support/Anki2/User 1/collection.media/image-433b56172a96c65f963fc6a6f9e15ecefca3c96b.png}
-\end{center}
-
-\end{frame}
 
  \end{document}
-% =============================================================
-% =========================== END =============================
-% =============================================================
+
+
+
