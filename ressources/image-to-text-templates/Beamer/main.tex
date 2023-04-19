@@ -468,7 +468,7 @@ Advisors:  \\ Prof. John
 %
 %\end{frame}
 
-\BLOCK{for index, row in data.iterrows()}
+\BLOCK{for index, row in data_answers.iterrows()}
 \begin{frame}%[noframenumbering]
 \frametitle{Unrelated Title}
 \begin{itemize}
@@ -495,6 +495,28 @@ Advisors:  \\ Prof. John
 \end{frame}
 \BLOCK{endfor}
 
+% Images
+\BLOCK{for index, row in data_images.iterrows()}
+\begin{frame}%[noframenumbering]
+\frametitle{Unrelated Title}
+
+\begin{center}
+\VAR{row["images"]}
+\end{center}
+%\begin{figure}
+%\begin{center}
+%
+%%%%\vspace{10pt}
+%%\vspace{-0.3cm}
+%\vspace{0.2cm}
+%\includegraphics[width=0.6\textwidth]{BERT-2020.pdf}
+%
+%
+%    \label{ActionButton}
+%  \end{center}
+%\end{figure}
+\end{frame}
+\BLOCK{endfor}
 
 
 %\begin{frame}
