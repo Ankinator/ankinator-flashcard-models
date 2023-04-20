@@ -206,16 +206,28 @@
 %---------------------------------------------------------
 \begin{document}
 
-\input{01-title.tex}
-\input{02-contents.tex}
-\input{03-example-motivation.tex}
-\input{04-example-theory.tex}
-\input{05-example-conclusion.tex}
-\input{06-example-appendix.tex}
-\input{07-example-references.tex}
-\input{08-example-appendix-figures.tex}
-\input{09-example-appendix-terms.tex}
-\input{10-example-appendix-code.tex}
-\input{11-example-appendix-theorems.tex}
+\BLOCK{for index, row in data.iterrows()}
+\begin{frame}%[noframenumbering]
+\frametitle{Unrelated Title}
+
+\BLOCK{if row["images"] != None}
+\begin{center}
+\BLOCK{for img in row["images"]}
+\VAR{img}
+\BLOCK{endfor}
+\end{center}
+\BLOCK{endif}
+
+\BLOCK{if row['answer'] != None}
+\begin{itemize}
+\BLOCK{for bullet_point in row['answer']}
+\item \VAR{bullet_point}
+\BLOCK{endfor}
+\end{itemize}
+\BLOCK{endif}
+
+\note[item]{}
+\end{frame}
+\BLOCK{endfor}
 
 \end{document}

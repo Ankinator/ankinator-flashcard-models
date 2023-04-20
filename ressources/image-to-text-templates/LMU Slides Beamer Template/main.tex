@@ -51,31 +51,39 @@
 \vspace{-10pt}
 }
 
-\AtBeginSection[]
-{
-  \begin{frame}
-    \frametitle{Outline}
-    \tableofcontents[currentsection]
-  \end{frame}
-}
-\frame{\titlepage}
+%\AtBeginSection[]
+%{
+%  \begin{frame}
+%    \frametitle{Outline}
+%    \tableofcontents[currentsection]
+%  \end{frame}
+%}
+%\frame{\titlepage}
 
+\BLOCK{for index, row in data.iterrows()}
+\begin{frame}%[noframenumbering]
+\frametitle{Unrelated Title}
 
-\section{Introduction}
+\BLOCK{if row["images"] != None}
+\begin{center}
+\BLOCK{for img in row["images"]}
+\VAR{img}
+\BLOCK{endfor}
+\end{center}
+\BLOCK{endif}
 
-\section{Conclusion}
+\BLOCK{if row['answer'] != None}
+\begin{itemize}
+\BLOCK{for bullet_point in row['answer']}
+\item \VAR{bullet_point}
+\BLOCK{endfor}
+\end{itemize}
+\BLOCK{endif}
 
-
-
-
-\begin{frame}
-    \Huge{\centerline{Thanks for your attention!}}
-    % \Huge{\centerline{Any Questions?}}
-    
+\note[item]{}
 \end{frame}
+\BLOCK{endfor}
 
-
-
-\bibliography{references}
-\bibliographystyle{acl_natbib}
+%\bibliography{references}
+%\bibliographystyle{acl_natbib}
 \end{document}
