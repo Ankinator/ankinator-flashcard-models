@@ -1,0 +1,30 @@
+% use a serif font only in the math mode
+\usefonttheme[onlymath]{serif}
+
+% use the lmodern font family
+\usepackage{lmodern}
+
+% This theme is nearly a black and white theme and useful for creating presentations that are easy to
+% print on a black-and-white printer. The theme uses grayscale in certain unavoidable cases, but never
+% color. It also changes the font of alerted text to bold face.
+\usecolortheme{dove}
+
+% define the blue color
+\definecolor{ovgu_emv_blue}{rgb}{0,0.29,0.70}
+
+% define the foot line
+\setbeamertemplate{footline}{%
+\begin{minipage}{0.5\textwidth}%
+	% logo of the university
+	\vspace*{0.1cm}\hspace*{0.2cm}\includegraphics[width=2.4cm]{ovgu}\hfill
+	% insert the number of the slide
+	\scriptsize\insertframenumber
+	\vspace*{0.15cm}%
+\end{minipage}%
+\begin{minipage}{0.49\textwidth}%	
+	% logo of the EMC chair
+	\hfill\includegraphics[width=1.36cm]{emv}\hspace*{0.1cm}%
+\end{minipage}
+}
+
+
