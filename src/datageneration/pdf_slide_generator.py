@@ -70,7 +70,7 @@ class PDFSlideGenerator():
 
     def _process_answers(self, x: List[str]) -> Union[List[str], None]:
         if re.match(r'.*<br>.*', x[1]):
-            inputs = x[1].split('<br>')
+            inputs = re.split(r'<br>|\n', x[1])
             x = [BeautifulSoup(i, features="lxml").text for i in inputs if
                  not re.match(r'<img src=".*">', i) and BeautifulSoup(i, features="lxml").text != ""]
             if len(x) == 0:
