@@ -1,0 +1,58 @@
+% beamer class with 4:3 aspect ratio
+%\documentclass{beamer}
+% Beamer class with 16:9 aspect ratio.
+% Note: When 32:18 is specified, the height of the slides remains constant.
+\documentclass[aspectratio=3218]{beamer}
+
+% load all packages
+\input{packages}
+
+% style of the Chair for Electromagnetic Compatibility
+%\usepackage{beamer_emc}
+% style of the Institute for Medical Engineering
+%\usepackage{beamer_imt}
+% style of the Faculty of Electrical Engineering and Information Technology
+%\usepackage{beamer_feit}
+% style of the Otto-von-Guericke-University
+%\usepackage{beamer_ovgu}
+\usepackage{beamer_ovgu_169}
+% style of STIMULATE (Solution Centre for Image Guided Local Therapies)
+%\usepackage{beamer_stimulate}
+
+\title[Short Title]{Title of the Presentation}
+\author{John Doe}
+\institute[Chair for EMC]{
+	Chair for Electromagnetic Compatibility \\
+	Institute for Medical Engineering \\
+	Otto-von-Guericke-University Magdeburg, Germany
+}
+\mode<presentation>{\keywords{Put some keywords here, separated by commas, e.g. Non-Technical Project, Academic Writing}}
+\date[01/01/2023]{Date of the Presentation, e.g. January 1th 2023}
+
+\begin{document}
+
+\BLOCK{for index, row in data.iterrows()}
+\begin{frame}%[noframenumbering]
+\frametitle<presentation>{Unrelated Title}
+
+\BLOCK{if row["images"] != None}
+\begin{center}
+\BLOCK{for img in row["images"]}
+\VAR{img}
+\BLOCK{endfor}
+\end{center}
+\BLOCK{endif}
+
+\BLOCK{if row['answer'] != None}
+\begin{itemize}
+\BLOCK{for bullet_point in row['answer']}
+\item \VAR{bullet_point}
+\BLOCK{endfor}
+\end{itemize}
+\BLOCK{endif}
+
+\note[item]{}
+\end{frame}
+\BLOCK{endfor}
+
+\end{document}

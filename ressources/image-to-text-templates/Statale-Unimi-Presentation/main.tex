@@ -1,0 +1,46 @@
+\documentclass{beamer}
+\usepackage{amsfonts,amsmath,oldgerm}
+\usetheme{sintef}
+
+\newcommand{\testcolor}[1]{\colorbox{#1}{\textcolor{#1}{test}}~\texttt{#1}}
+
+\usefonttheme[onlymath]{serif}
+
+\titlebackground*{assets/background}
+
+\newcommand{\hrefcol}[2]{\textcolor{cyan}{\href{#1}{#2}}}
+
+\title{Statale Beamer Presentation Theme}
+\subtitle{Using \LaTeX\ to prepare slides}
+\course{Master's Degree in Computer Science}
+\author{\href{mailto:ciao@gio.im}{Giorgio Marchetti}}
+\IDnumber{1234567}
+
+\begin{document}
+%\maketitle
+
+\BLOCK{for index, row in data.iterrows()}
+\begin{frame}%[noframenumbering]
+\frametitle{Unrelated Title}
+
+\BLOCK{if row["images"] != None}
+\begin{center}
+\BLOCK{for img in row["images"]}
+\VAR{img}
+\BLOCK{endfor}
+\end{center}
+\BLOCK{endif}
+
+\BLOCK{if row['answer'] != None}
+\begin{itemize}
+\BLOCK{for bullet_point in row['answer']}
+\item \VAR{bullet_point}
+\BLOCK{endfor}
+\end{itemize}
+\BLOCK{endif}
+
+\note[item]{}
+\end{frame}
+\BLOCK{endfor}
+
+\end{document}

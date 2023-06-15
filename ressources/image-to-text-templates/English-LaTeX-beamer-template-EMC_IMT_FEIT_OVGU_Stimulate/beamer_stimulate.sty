@@ -1,0 +1,119 @@
+% activate a miniframe navigation
+\useoutertheme{miniframes}
+
+% use a serif font only in the math mode
+\usefonttheme[onlymath]{serif}
+
+% define the STIMULATE color
+\definecolor{stimulate}{rgb}{0.199,0.637,0.637}
+
+\RequirePackage{tikz}
+\RequirePackage{textpos}
+
+\setbeamercolor{titlelike}{fg=white}
+\setbeamercolor{title page}{fg=white}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{section in toc}[ball unnumbered]
+
+\setbeamercolor{section number projected}{bg=stimulate}
+\setbeamercolor{title}{fg=white}
+\setbeamercolor{subtitle}{fg=white}
+\setbeamercolor{author}{fg=white}
+\setbeamercolor{institute}{fg=white}
+\setbeamercolor{date}{fg=white}
+\setbeamercolor{frametitle}{fg=stimulate,bg=white}
+\setbeamercolor{itemize item}{fg=stimulate}
+\setbeamercolor{itemize subitem}{fg=stimulate}
+\setbeamercolor{enumerate item}{fg=stimulate}
+\setbeamercolor{enumerate subitem}{fg=stimulate}
+\setbeamercolor{block title}{fg=stimulate}
+\setbeamercolor{block body}{bg=white}
+\setbeamercolor{mini frame}{fg=stimulate}
+\setbeamercolor{section in head/foot}{fg=stimulate}
+\setbeamercolor{section in toc shaded}{fg=stimulate!200}
+\setbeamercolor{section in toc}{fg=stimulate,bg=stimulate}
+\setbeamercolor{subsection in toc shaded}{fg=stimulate!40}
+\setbeamercolor{subsection in toc}{fg=stimulate}
+\setbeamertemplate{navigation symbols}{}
+\setbeamerfont{title page}{family=\rmfamily}
+\setbeamerfont{author}{size=\small}
+
+% define title page
+\setbeamertemplate{title page}{%
+	\begin{textblock*}{\paperwidth}(-2.6em,-4.5cm)%
+		\includegraphics[width=\paperwidth,height=3.5cm]{ExFa}%
+	\end{textblock*}%
+	\begin{textblock*}{3.3cm}(8.5cm,-4.2cm)%
+		\colorbox{white}{\includegraphics[width=3cm]{StimulateLogo}}%
+	\end{textblock*}%
+	\begin{textblock*}{3.3cm}(8.5cm,-2.75cm)%
+		\colorbox{white}{\includegraphics[width=3cm]{Forschungscampus}}%
+	\end{textblock*}%
+	\begin{textblock*}{\paperwidth}(-2.6em,-1cm)%
+		\colorbox{stimulate}{%
+		\begin{minipage}[c][6cm]{\paperwidth}%\vskip35pt
+		\centering%
+			\usebeamerfont{title}\inserttitle\par%
+			\vspace*{0.5ex}%
+			\usebeamerfont{subtitle}\insertsubtitle%
+			\vspace*{0.5ex}%
+			\textcolor{white}{\hrule height 2pt}%
+			\bigskip%
+			\usebeamerfont{author}\insertauthor\par%
+			\vspace*{1ex}%
+			\usebeamerfont{institute}\insertinstitute\par%
+			\vspace*{1ex}%
+			\usebeamerfont{date}\insertdate\par%
+			\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic%
+		\end{minipage}\hspace{-6pt}%
+		}%
+	\end{textblock*}%
+}
+
+\newenvironment{withoutheadline}{%
+	\setbeamercolor{background canvas}{bg=stimulate}%
+	\setbeamertemplate{headline}[default]%
+	\def\beamer@entrycode{\vspace*{-\headheight}}%
+	\setbeamertemplate{footline}{%
+	\colorbox{stimulate}{%
+		\begin{minipage}{\paperwidth}%	
+			\hspace*{0.5cm}\color{white}{\tiny{\copyright \hspace*{0.1cm}\textit{Stimulate} - Solution Centre for Image Guided Local Therapies}}\hfill%
+		\end{minipage}\hspace{-6pt}%
+	}}
+}{}
+
+\setbeamertemplate{headline}{%
+	\vspace{0.02cm}%
+	\begin{minipage}{0.8\paperwidth}%
+    % insert the default navigation (miniframes)
+    \insertnavigation{0.75\paperwidth}%
+   	\vskip4pt%
+	\end{minipage}%
+	\begin{minipage}{0.2\paperwidth}%
+		\includegraphics[width=0.2\paperwidth]{StimulateLogo}%
+	\end{minipage}%
+	\vspace{0.02cm}%
+	\newline
+	\color{stimulate}\rule{\paperwidth}{1pt} 
+}
+
+\setbeamertemplate{footline}{%
+	\colorbox{stimulate}{%
+		\begin{minipage}{\paperwidth}%	
+			\hspace*{0.5cm}\color{white}{\tiny{\copyright \hspace*{0.1cm}\textit{Stimulate} - Solution Centre for Image Guided Local Therapies}%
+			\hfill\tiny\insertframenumber\hspace*{0.5cm}}%
+		\end{minipage}\hspace{-6pt}%
+	}%
+}
+
+% color figure captions
+\usepackage[font=scriptsize,labelfont={color=stimulate,scriptsize}]{caption}
+
+% make diagrams a little smaller
+\mode<beamer>{
+	\pgfplotsset{
+		beamer/.append style={
+			height=0.38\textwidth,
+		}
+	}
+}
