@@ -1,6 +1,7 @@
 .idea
 # ingores all anki files
 
+datasets/extractor_classifier/*
 datasets/anki_data/*.colpkg
 datasets/anki_data/*.apkg
 datasets/*.csv
