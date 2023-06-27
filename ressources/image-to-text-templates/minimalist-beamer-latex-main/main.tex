@@ -1,0 +1,40 @@
+\documentclass[aspectratio=169]{beamer}
+\usepackage{panqueques}
+
+\title{minimalist-title}
+\author{name}
+\date{\today}
+
+\begin{document}
+
+%title-page %%edit in 1-title-page folder
+%\include{1-title-page/custom}
+
+\BLOCK{for index, row in data.iterrows()}
+\begin{frame}%[noframenumbering]
+\frametitle{Unrelated Title}
+
+\BLOCK{if row["images"] != None}
+\begin{center}
+\BLOCK{for img in row["images"]}
+\VAR{img}
+\BLOCK{endfor}
+\end{center}
+\BLOCK{endif}
+
+\BLOCK{if row['answer'] != None}
+\begin{itemize}
+\BLOCK{for bullet_point in row['answer']}
+\item \VAR{bullet_point}
+\BLOCK{endfor}
+\end{itemize}
+\BLOCK{endif}
+
+\note[item]{}
+\end{frame}
+\BLOCK{endfor}
+
+%reference %%edit in 3-reference folder
+%\include{3-reference/ref}
+
+\end{document}

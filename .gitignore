@@ -1,13 +1,16 @@
 .idea
-# ingores all anki files
 
+
+# ingores all anki files
 datasets/anki_data/*.colpkg
 datasets/anki_data/*.apkg
 datasets/*.csv
 datasets/Excel/*.xlsx
 */*.DS_Store
 *.DS_Store
+datasets/extractor_classifier/*
 
+out
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
