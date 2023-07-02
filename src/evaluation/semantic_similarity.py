@@ -1,4 +1,6 @@
 from typing import List, Tuple, Dict
+
+import pandas as pd
 from sentence_transformers import SentenceTransformer, util
 from src.evaluation.evaluator import Evaluator
 import torch
@@ -32,6 +34,8 @@ class SentenceTransformerEvaluator(Evaluator):
     """
 
     def __init__(self, model_name='all-MiniLM-L6-v2', save_to_file=True):
+        self.sentences_from_reference = None
+        self.sentences_from_model = None
         self.similiarities = None
         self.model_name = model_name
         self.model = SentenceTransformer(model_name_or_path=model_name)
@@ -46,8 +50,8 @@ class SentenceTransformerEvaluator(Evaluator):
             """
             return [t[1][0] for t in inp_collection]
 
-        sentences_from_model = extract_strings(model_output)
-        sentences_from_reference = extract_strings(references)
+        self.sentences_from_model = extract_strings(model_output)
+        self.sentences_from_reference = extract_strings(references)
 
         model_sentence_embeddings = self.model.encode(sentences=sentences_from_model, convert_to_tensor=True)
         reference_sentence_embeddings = self.model.encode(sentences=sentences_from_reference, convert_to_tensor=True)
@@ -71,7 +75,12 @@ class SentenceTransformerEvaluator(Evaluator):
         :return: None
         """
 
-        similiarities_diag = torch.diag(self.similiarities)
+        similiarities_diag = torch.diag(self.similiarities).numpy()
+        pd.DataFrame({
+            "model_out": self.sentences_from_model,
+            "reference": self.sentences_from_reference,
+            "similiarities": similiarities_diag
+        }).to_csv(path_or_buf=path, index=False)
 
 
 
