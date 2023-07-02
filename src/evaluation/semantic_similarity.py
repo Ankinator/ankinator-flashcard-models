@@ -30,8 +30,8 @@ class SentenceTransformerEvaluator(Evaluator):
         self.sentences_from_model = extract_strings(model_output)
         self.sentences_from_reference = extract_strings(references)
 
-        model_sentence_embeddings = self.model.encode(sentences=sentences_from_model, convert_to_tensor=True)
-        reference_sentence_embeddings = self.model.encode(sentences=sentences_from_reference, convert_to_tensor=True)
+        model_sentence_embeddings = self.model.encode(sentences=self.sentences_from_model, convert_to_tensor=True)
+        reference_sentence_embeddings = self.model.encode(sentences=self.sentences_from_reference, convert_to_tensor=True)
 
         self.similiarities = util.cos_sim(model_sentence_embeddings, reference_sentence_embeddings)
 
@@ -39,9 +39,9 @@ class SentenceTransformerEvaluator(Evaluator):
             self.save_similarities_to_file()
 
         return {
-            "avg_cos_sim": torch.diag(self.similiarities).mean(),
-            "max_cos_sim": torch.diag(self.similiarities).max(),
-            "min_cos_sim": torch.diag(self.similiarities).min()
+            "avg_cos_sim": torch.diag(self.similiarities).mean().item(),
+            "max_cos_sim": torch.diag(self.similiarities).max().item(),
+            "min_cos_sim": torch.diag(self.similiarities).min().item()
         }
 
     def save_similarities_to_file(self, path='out/eval/cosine_sim.csv'):
