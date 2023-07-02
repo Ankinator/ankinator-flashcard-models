@@ -1,9 +1,7 @@
 from typing import List, Tuple, Dict
-
 from sentence_transformers import SentenceTransformer, util
-
 from src.evaluation.evaluator import Evaluator
-import numpy as np
+import torch
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
@@ -29,10 +27,15 @@ for i in range(len(sentences1)):
 
 
 class SentenceTransformerEvaluator(Evaluator):
+    """
+    Evaluator to compute cosine similarities with sentence transformers
+    """
 
-    def __init__(self, model_name='all-MiniLM-L6-v2'):
+    def __init__(self, model_name='all-MiniLM-L6-v2', save_to_file=True):
+        self.similiarities = None
         self.model_name = model_name
         self.model = SentenceTransformer(model_name_or_path=model_name)
+        self.save_to_file = save_to_file
 
     def evaluate(self, model_output: List[Tuple[int, List[str]]], references: List[Tuple[int, List[str]]]) -> Dict[
         str, float]:
@@ -49,7 +52,29 @@ class SentenceTransformerEvaluator(Evaluator):
         model_sentence_embeddings = self.model.encode(sentences=sentences_from_model, convert_to_tensor=True)
         reference_sentence_embeddings = self.model.encode(sentences=sentences_from_reference, convert_to_tensor=True)
 
-        similiarities =
+        self.similiarities = util.cos_sim(model_sentence_embeddings, reference_sentence_embeddings)
+
+        if self.save_to_file:
+            self.save_similarities_to_file()
+
+        return {
+            "avg_cos_sim": torch.diag(self.similiarities).mean(),
+            "max_cos_sim": torch.diag(self.similiarities).max(),
+            "min_cos_sim": torch.diag(self.similiarities).min()
+            }
+
+    def save_similarities_to_file(self, path='out/eval/cosine_sim.csv'):
+        """
+        Saves the similarity values on the main diagonal of the similiarities tensor to a .csv file along with its
+        text references
+        :param path: path to the output file
+        :return: None
+        """
+
+        similiarities_diag = torch.diag(self.similiarities)
+
+
+
 
 
 
