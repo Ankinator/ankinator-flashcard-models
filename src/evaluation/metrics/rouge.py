@@ -23,10 +23,10 @@ class RougeScoreEvaluator(Evaluator):
         self.sentences_from_reference = extract_strings(inp_collection=references)
 
         self.scores = self.rouge_score(self.sentences_from_model, self.sentences_from_reference)
-        return self.scores
+        return {key: t.item() for key, t in self.scores.items()}
 
     def save_scores_to_file(self, path):
-        pass
+
 
     def get_dataframe(self) -> pd.DataFrame:
         pass
