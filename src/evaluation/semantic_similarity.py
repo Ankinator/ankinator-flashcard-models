@@ -4,6 +4,7 @@ import pandas as pd
 from sentence_transformers import SentenceTransformer, util
 from src.evaluation.evaluator import Evaluator
 import torch
+import os
 
 
 class SentenceTransformerEvaluator(Evaluator):
@@ -51,6 +52,9 @@ class SentenceTransformerEvaluator(Evaluator):
         :param path: path to the output file
         :return: None
         """
+
+        if not os.path.exists(path):
+            os.makedirs(os.path.split(path)[0], exist_ok=True)
 
         similiarities_diag = torch.diag(self.similiarities).numpy()
         pd.DataFrame({

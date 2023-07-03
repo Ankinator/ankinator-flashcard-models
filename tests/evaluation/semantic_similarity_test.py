@@ -1,10 +1,13 @@
+import os.path
 import unittest
 from src.evaluation.semantic_similarity import SentenceTransformerEvaluator
+import pandas as pd
 
 
 class TestSemanticSim(unittest.TestCase):
 
-    def test_semantic_smiliraty_calculation(self):
+    @staticmethod
+    def _build_synthetic_model_outputs():
         model_outs = [
             (1, ["What is the capital of France?"]),
             (2, ["How do plants obtain energy?"]),
@@ -19,9 +22,26 @@ class TestSemanticSim(unittest.TestCase):
             (4, ["Can you list the signs of COVID-19?"]),
             (5, ["What are the benefits of incorporating exercise into a daily routine?"])
         ]
+        return model_outs, refences
+
+    def test_semantic_smiliarity_calculation(self):
+        model_outs, references = self._build_synthetic_model_outputs()
 
         sentence_transformer_evaluator = SentenceTransformerEvaluator(save_to_file=False)
         self.assertDictEqual(
             {'avg_cos_sim': 0.8464279174804688, 'max_cos_sim': 0.9416357278823853, 'min_cos_sim': 0.702666699886322},
-            sentence_transformer_evaluator(model_output=model_outs, references=refences)
+            sentence_transformer_evaluator(model_output=model_outs, references=references)
         )
+
+    def test_write_to_file(self):
+        path = "out/eval/cosine_sim.csv"
+        model_outs, references = self._build_synthetic_model_outputs()
+
+        sentence_transformer_evaluator = SentenceTransformerEvaluator(save_to_file=True)
+        sentence_transformer_evaluator(model_output=model_outs, references=references)
+
+        self.assertTrue(os.path.exists(path))
+        file_contents_df = pd.read_csv(path)
+        self.assertListEqual(list1=file_contents_df.columns.to_list(), list2=["model_out", "reference", "similiarities"])
+
+
