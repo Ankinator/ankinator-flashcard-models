@@ -37,7 +37,7 @@ class SentenceTransformerEvaluator(Evaluator):
         self.similiarities = util.cos_sim(model_sentence_embeddings, reference_sentence_embeddings)
 
         if self.save_to_file:
-            self.save_similarities_to_file()
+            self.save_scores_to_file()
 
         return {
             "avg_cos_sim": torch.diag(self.similiarities).mean().item(),
@@ -45,7 +45,7 @@ class SentenceTransformerEvaluator(Evaluator):
             "min_cos_sim": torch.diag(self.similiarities).min().item()
         }
 
-    def save_similarities_to_file(self, path='out/eval/cosine_sim.csv'):
+    def save_scores_to_file(self, path='out/eval/cosine_sim.csv'):
         """
         Saves the similarity values on the main diagonal of the similiarities tensor to a .csv file along with its
         text references

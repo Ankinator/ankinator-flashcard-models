@@ -1,6 +1,8 @@
 from typing import List, Tuple, Dict
 from abc import ABC, abstractmethod
 
+import pandas as pd
+
 
 class Evaluator(ABC):
     """
@@ -22,5 +24,22 @@ class Evaluator(ABC):
                 List[str]: multiple generated questions if applicable
         :param references: References from the gold standard to compute metrics
         :return: A dictionary with metrics as keys and the matric values as values
+        """
+        pass
+
+    @abstractmethod
+    def save_scores_to_file(self, path):
+        """
+        Saves the results to a .csv file
+        :param path: Path to save file to
+        :return: None
+        """
+        pass
+
+    @abstractmethod
+    def get_dataframe(self) -> pd.DataFrame:
+        """
+        Returns a pandas Dataframe of the evaluation data
+        :return: pd.DataFrame
         """
         pass
