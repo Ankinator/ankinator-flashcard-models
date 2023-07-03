@@ -22,12 +22,10 @@ class SentenceTransformerEvaluator(Evaluator):
         self.model_name = model_name
         self.model = SentenceTransformer(model_name_or_path=model_name)
 
-
     def evaluate(self, model_output: List[Tuple[int, List[str]]], references: List[Tuple[int, List[str]]]) -> Dict[
         str, float]:
         self.sentences_from_model = extract_strings(model_output)
         self.sentences_from_reference = extract_strings(references)
-
 
         model_sentence_embeddings = self.model.encode(sentences=self.sentences_from_model, convert_to_tensor=True)
         reference_sentence_embeddings = self.model.encode(sentences=self.sentences_from_reference,

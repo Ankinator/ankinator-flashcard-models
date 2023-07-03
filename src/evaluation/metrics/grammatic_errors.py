@@ -1,3 +1,4 @@
+import os
 from typing import List, Tuple, Dict
 
 import pandas as pd
@@ -8,6 +9,7 @@ from itertools import chain
 
 from src.evaluation.metrics.evaluator import Evaluator
 from src.evaluation.util import extract_strings
+
 
 class LanguageToolEvaluator(Evaluator):
 
@@ -34,9 +36,15 @@ class LanguageToolEvaluator(Evaluator):
 
         return dict(self.error_statistics)
 
-
     def save_scores_to_file(self, path="out/eval/lt_errors.csv"):
-        pass
+        if not os.path.exists(path):
+            os.makedirs(os.path.split(path)[0], exist_ok=True)
+
+        self.get_dataframe().to_csv(path_or_buf=path)
 
     def get_dataframe(self) -> pd.DataFrame:
-        pass
+        d: Dict[Counter] = defaultdict(Counter)
+        for match in self.errors:
+            d[match.context].update([match.category])
+
+        return pd.DataFrame(d).transpose().fillna(0)
