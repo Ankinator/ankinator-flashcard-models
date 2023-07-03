@@ -7,6 +7,8 @@ import torch
 import os
 import matplotlib.pyplot as plt
 
+from src.evaluation.util import extract_strings
+
 
 class SentenceTransformerEvaluator(Evaluator):
     """
@@ -15,8 +17,8 @@ class SentenceTransformerEvaluator(Evaluator):
     """
 
     def __init__(self, model_name='all-MiniLM-L6-v2', save_to_file=True):
-        self.sentences_from_reference = None
-        self.sentences_from_model = None
+        self.sentences_from_reference: List[str] = []
+        self.sentences_from_model: List[str] = []
         self.similiarities = None
         self.model_name = model_name
         self.model = SentenceTransformer(model_name_or_path=model_name)
@@ -24,11 +26,6 @@ class SentenceTransformerEvaluator(Evaluator):
 
     def evaluate(self, model_output: List[Tuple[int, List[str]]], references: List[Tuple[int, List[str]]]) -> Dict[
         str, float]:
-        def extract_strings(inp_collection: List[Tuple[int, List[str]]]):
-            """
-                Select the first string from each tuple in the input collection, as evaluation example.
-            """
-            return [t[1][0] for t in inp_collection]
 
         self.sentences_from_model = extract_strings(model_output)
         self.sentences_from_reference = extract_strings(references)

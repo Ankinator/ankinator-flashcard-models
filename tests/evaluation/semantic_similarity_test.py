@@ -3,29 +3,13 @@ import unittest
 from src.evaluation.semantic_similarity import SentenceTransformerEvaluator
 import pandas as pd
 
+from tests.evaluation import build_synthetic_model_outputs
+
 
 class TestSemanticSim(unittest.TestCase):
 
-    @staticmethod
-    def _build_synthetic_model_outputs():
-        model_outs = [
-            (1, ["What is the capital of France?"]),
-            (2, ["How do plants obtain energy?"]),
-            (3, ["Are dogs considered mammals?"]),
-            (4, ["What are the symptoms of COVID-19?"]),
-            (5, ["Why is exercise important for a healthy lifestyle?"])
-        ]
-        refences = [
-            (1, ["Which city is the capital of France?"]),
-            (2, ["What is the source of energy for plants?"]),
-            (3, ["Do cats fall under the category of mammals?"]),
-            (4, ["Can you list the signs of COVID-19?"]),
-            (5, ["What are the benefits of incorporating exercise into a daily routine?"])
-        ]
-        return model_outs, refences
-
     def test_semantic_smiliarity_calculation(self):
-        model_outs, references = self._build_synthetic_model_outputs()
+        model_outs, references = build_synthetic_model_outputs()
 
         sentence_transformer_evaluator = SentenceTransformerEvaluator(save_to_file=False)
         self.assertDictEqual(
@@ -35,7 +19,7 @@ class TestSemanticSim(unittest.TestCase):
 
     def test_write_to_file(self):
         path = "out/eval/cosine_sim.csv"
-        model_outs, references = self._build_synthetic_model_outputs()
+        model_outs, references = build_synthetic_model_outputs()
 
         sentence_transformer_evaluator = SentenceTransformerEvaluator(save_to_file=True)
         sentence_transformer_evaluator(model_output=model_outs, references=references)
@@ -47,7 +31,7 @@ class TestSemanticSim(unittest.TestCase):
 
     def test_plot(self):
         path = "out/eval/sim.png"
-        model_outs, references = self._build_synthetic_model_outputs()
+        model_outs, references = build_synthetic_model_outputs()
 
         sentence_transformer_evaluator = SentenceTransformerEvaluator(save_to_file=False)
         sentence_transformer_evaluator(model_output=model_outs, references=references)
