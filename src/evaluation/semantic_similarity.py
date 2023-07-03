@@ -9,7 +9,8 @@ import os
 
 class SentenceTransformerEvaluator(Evaluator):
     """
-    Evaluator to compute cosine similarities with sentence transformers
+    Evaluator to compute cosine similarities with sentence transformers,
+    all values are accessible from within the object
     """
 
     def __init__(self, model_name='all-MiniLM-L6-v2', save_to_file=True):
