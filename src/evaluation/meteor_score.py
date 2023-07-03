@@ -1,6 +1,7 @@
 from typing import List, Tuple, Dict
 
 from nltk.translate import meteor_score
+from nltk.tokenize import word_tokenize
 
 from src.evaluation.evaluator import Evaluator
 from src.evaluation.util import extract_strings, add_dimension_for_processing
@@ -20,4 +21,6 @@ class MeteorEvaluator(Evaluator):
         self.sentences_from_model = extract_strings(model_output)
         self.sentences_from_reference = extract_strings(references)
 
-        self.sentences_from_model = add_dimension_for_processing(inp_collection=self.sentences_from_model)
+        sentences_from_model_tokenized =
+        sentences_from_reference_tokenized =
+

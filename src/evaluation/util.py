@@ -1,6 +1,7 @@
 from typing import List, Tuple
 
 import numpy as np
+from nltk import word_tokenize
 
 
 def extract_strings(inp_collection: List[Tuple[int, List[str]]]) -> List[str]:
@@ -9,6 +10,12 @@ def extract_strings(inp_collection: List[Tuple[int, List[str]]]) -> List[str]:
     """
     return [t[1][0] for t in inp_collection]
 
+
+def tokenize_list(list: List[str]) -> List[List[str]]:
+    """
+        Tokenizes a list of strings using nltks tokenize function
+    """
+    return [word_tokenize(txt) for txt in list]
 
 def add_dimension_for_processing(inp_collection: List[str]) -> List[List[str]]:
     """

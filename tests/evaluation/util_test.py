@@ -1,7 +1,7 @@
 import unittest
 
 from tests.evaluation import build_synthetic_model_outputs
-from src.evaluation.util import extract_strings, add_dimension_for_processing
+from src.evaluation.util import extract_strings, add_dimension_for_processing, tokenize_list
 
 
 class TestUtils(unittest.TestCase):
@@ -32,4 +32,18 @@ class TestUtils(unittest.TestCase):
         self.assertListEqual(
             ref,
             add_dimension_for_processing(inp_collection=inputs)
+        )
+
+    def test_tokenize(self):
+        ref = [
+            ["Why", "is", "exercise", "important", "for", "a", "healthy", "lifestyle", "?"],
+            ["How", "do", "plants", "obtain", "energy", "?"]
+        ]
+        inputs = [
+            "Why is exercise important for a healthy lifestyle?",
+            "How do plants obtain energy?"
+        ]
+        self.assertListEqual(
+            ref,
+            tokenize_list(inputs)
         )
