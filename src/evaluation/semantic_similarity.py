@@ -5,6 +5,7 @@ from sentence_transformers import SentenceTransformer, util
 from src.evaluation.evaluator import Evaluator
 import torch
 import os
+import matplotlib.pyplot as plt
 
 
 class SentenceTransformerEvaluator(Evaluator):
@@ -33,7 +34,8 @@ class SentenceTransformerEvaluator(Evaluator):
         self.sentences_from_reference = extract_strings(references)
 
         model_sentence_embeddings = self.model.encode(sentences=self.sentences_from_model, convert_to_tensor=True)
-        reference_sentence_embeddings = self.model.encode(sentences=self.sentences_from_reference, convert_to_tensor=True)
+        reference_sentence_embeddings = self.model.encode(sentences=self.sentences_from_reference,
+                                                          convert_to_tensor=True)
 
         self.similiarities = util.cos_sim(model_sentence_embeddings, reference_sentence_embeddings)
 
@@ -57,9 +59,17 @@ class SentenceTransformerEvaluator(Evaluator):
         if not os.path.exists(path):
             os.makedirs(os.path.split(path)[0], exist_ok=True)
 
+        self.get_dataframe().to_csv(path_or_buf=path, index=False)
+
+    def get_dataframe(self) -> pd.DataFrame:
         similiarities_diag = torch.diag(self.similiarities).numpy()
-        pd.DataFrame({
+        return pd.DataFrame({
             "model_out": self.sentences_from_model,
             "reference": self.sentences_from_reference,
             "similiarities": similiarities_diag
-        }).to_csv(path_or_buf=path, index=False)
+        })
+
+    def plot(self, path="out/eval/sim.png"):
+        plt.boxplot(self.get_dataframe()["similiarities"])
+        plt.title("Semantic Similiarity measured by Cosine Sim")
+        plt.savefig(path)
