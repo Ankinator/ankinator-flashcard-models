@@ -1,6 +1,6 @@
 import os.path
 import unittest
-from src.evaluation.semantic_similarity import SentenceTransformerEvaluator
+from src.evaluation.metrics.semantic_similarity import SentenceTransformerEvaluator
 import pandas as pd
 
 from tests.evaluation import build_synthetic_model_outputs

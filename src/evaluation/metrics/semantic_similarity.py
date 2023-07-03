@@ -2,7 +2,7 @@ from typing import List, Tuple, Dict
 
 import pandas as pd
 from sentence_transformers import SentenceTransformer, util
-from src.evaluation.evaluator import Evaluator
+from src.evaluation.metrics.evaluator import Evaluator
 import torch
 import os
 import matplotlib.pyplot as plt

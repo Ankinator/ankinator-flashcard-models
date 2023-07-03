@@ -4,7 +4,7 @@ import unittest
 import pandas as pd
 
 from tests.evaluation import build_synthetic_model_outputs
-from src.evaluation.meteor_score import MeteorEvaluator
+from src.evaluation.metrics.meteor_score import MeteorEvaluator
 
 
 class TestMeteor(unittest.TestCase):

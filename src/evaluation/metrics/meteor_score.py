@@ -4,9 +4,8 @@ from typing import List, Tuple, Dict
 import numpy as np
 import pandas as pd
 from nltk.translate import meteor_score
-from nltk.tokenize import word_tokenize
 
-from src.evaluation.evaluator import Evaluator
+from src.evaluation.metrics.evaluator import Evaluator
 from src.evaluation.util import extract_strings, tokenize_list
 
 
