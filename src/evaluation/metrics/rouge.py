@@ -23,12 +23,20 @@ class RougeScoreEvaluator(Evaluator):
         self.sentences_from_reference = extract_strings(inp_collection=references)
 
         self.scores = self.rouge_score(self.sentences_from_model, self.sentences_from_reference)
+
+        if self.save_to_file:
+            self.save_scores_to_file()
+
         return {key: t.item() for key, t in self.scores.items()}
 
-    def save_scores_to_file(self, path):
+    def save_scores_to_file(self, path="out/eval/rouge_scores.csv"):
+        if not os.path.exists(path):
+            os.makedirs(os.path.split(path)[0], exist_ok=True)
 
+        self.get_dataframe().to_csv(path_or_buf=path, index=False)
 
     def get_dataframe(self) -> pd.DataFrame:
-        pass
-
-
+        return pd.DataFrame({
+            "rouge_keys": self.scores.keys(),
+            "scores": [v.item() for v in self.scores.values()]
+        })

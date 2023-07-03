@@ -1,4 +1,7 @@
+import os
 import unittest
+
+import pandas as pd
 
 from tests.evaluation import build_synthetic_model_outputs
 from src.evaluation.metrics.rouge import RougeScoreEvaluator
@@ -19,3 +22,15 @@ class TestRouge(unittest.TestCase):
              'rougeLsum_precision': 0.42095237970352173, 'rougeLsum_recall': 0.3292207717895508},
             rouge_eval(model_output=model_outs, references=references)
         )
+
+    def test_write_to_file(self):
+        path = "out/eval/rouge_scores.csv"
+        model_outs, references = build_synthetic_model_outputs()
+
+        meteor_evaluator = RougeScoreEvaluator(save_to_file=True)
+        meteor_evaluator(model_output=model_outs, references=references)
+
+        self.assertTrue(os.path.exists(path))
+        file_contents_df = pd.read_csv(path)
+        self.assertListEqual(list1=file_contents_df.columns.to_list(),
+                             list2=["rouge_keys", "scores"])
