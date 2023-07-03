@@ -9,6 +9,11 @@ class Evaluator(ABC):
     Abstract class to implement different evaluators
     """
 
+    def __init__(self, save_to_file=True):
+        self.sentences_from_reference: List[str] = []
+        self.sentences_from_model: List[str] = []
+        self.save_to_file = save_to_file
+
     def __call__(self, model_output: List[Tuple[int, List[str]]], references: List[Tuple[int, List[str]]]) -> Dict[
         str, float]:
         return self.evaluate(model_output=model_output, references=references)

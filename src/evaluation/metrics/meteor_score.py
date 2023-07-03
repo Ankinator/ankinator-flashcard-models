@@ -12,8 +12,7 @@ from src.evaluation.util import extract_strings, tokenize_list
 class MeteorEvaluator(Evaluator):
 
     def __init__(self, save_to_file=True):
-        self.sentences_from_reference: List[str] = []
-        self.sentences_from_model: List[str] = []
+        super().__init__(save_to_file=save_to_file)
         self.scores: List[float] = []
         self.save_to_file = save_to_file
 

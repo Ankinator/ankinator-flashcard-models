@@ -17,12 +17,11 @@ class SentenceTransformerEvaluator(Evaluator):
     """
 
     def __init__(self, model_name='all-MiniLM-L6-v2', save_to_file=True):
-        self.sentences_from_reference: List[str] = []
-        self.sentences_from_model: List[str] = []
+        super().__init__(save_to_file=save_to_file)
         self.similiarities = None
         self.model_name = model_name
         self.model = SentenceTransformer(model_name_or_path=model_name)
-        self.save_to_file = save_to_file
+
 
     def evaluate(self, model_output: List[Tuple[int, List[str]]], references: List[Tuple[int, List[str]]]) -> Dict[
         str, float]:
