@@ -1,4 +1,7 @@
+import os
 import unittest
+
+import pandas as pd
 
 from tests.evaluation import build_synthetic_model_outputs
 from src.evaluation.metrics.traditional_scores import PRFScoreEvaluator
@@ -15,4 +18,15 @@ class TestTraditionalScores(unittest.TestCase):
             prf_score_evaluator(model_output=model_outs, references=references)
         )
 
+    def test_write_to_file(self):
+        path = "out/eval/traditional_scores.csv"
+        model_outs, references = build_synthetic_model_outputs()
+
+        prf_score_evaluator = PRFScoreEvaluator(save_to_file=True)
+        prf_score_evaluator(model_output=model_outs, references=references)
+
+        self.assertTrue(os.path.exists(path))
+        file_contents_df = pd.read_csv(path)
+        self.assertListEqual(list1=file_contents_df.columns.to_list(),
+                             list2=["model_out", "reference", "p", "r", "f1"])
 

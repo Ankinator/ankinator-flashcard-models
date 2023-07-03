@@ -1,3 +1,4 @@
+import os
 import string
 from typing import List, Tuple, Dict, Set
 
@@ -33,9 +34,12 @@ class PRFScoreEvaluator(Evaluator):
         normalized_from_model = self._normalize_and_convert_to_set(self.sentences_from_model)
         normalized_from_reference = self._normalize_and_convert_to_set(self.sentences_from_reference)
 
-        self.precision_scores = [precision(reference=r, test=m) for r, m in zip(normalized_from_reference, normalized_from_model)]
-        self.recall_scores = [recall(reference=r, test=m) for r, m in zip(normalized_from_reference, normalized_from_model)]
-        self.f_measure_scores = [f_measure(reference=r, test=m) for r, m in zip(normalized_from_reference, normalized_from_model)]
+        self.precision_scores = [precision(reference=r, test=m) for r, m in
+                                 zip(normalized_from_reference, normalized_from_model)]
+        self.recall_scores = [recall(reference=r, test=m) for r, m in
+                              zip(normalized_from_reference, normalized_from_model)]
+        self.f_measure_scores = [f_measure(reference=r, test=m) for r, m in
+                                 zip(normalized_from_reference, normalized_from_model)]
 
         if self.save_to_file:
             self.save_scores_to_file()
@@ -62,13 +66,22 @@ class PRFScoreEvaluator(Evaluator):
         """
         tokenized = [word_tokenize(text.lower()) for text in inp_collection]
         tokenized_without_stopwords = [[t for t in tokens if t not in self.stopwords] for tokens in tokenized]
-        without_punctuations = [[t for t in tokens if t not in string.punctuation] for tokens in tokenized_without_stopwords]
+        without_punctuations = [[t for t in tokens if t not in string.punctuation] for tokens in
+                                tokenized_without_stopwords]
         stemmed = [[self.stemmer.stem(t) for t in tokens] for tokens in without_punctuations]
         return [set(tokens) for tokens in stemmed]
 
-
     def get_dataframe(self) -> pd.DataFrame:
-        pass
+        return pd.DataFrame({
+            "model_out": self.sentences_from_model,
+            "reference": self.sentences_from_reference,
+            "p": self.precision_scores,
+            "r": self.recall_scores,
+            "f1": self.f_measure_scores
+        })
 
-    def save_scores_to_file(self, path):
-        pass
+    def save_scores_to_file(self, path="out/eval/traditional_scores.csv"):
+        if not os.path.exists(path):
+            os.makedirs(os.path.split(path)[0], exist_ok=True)
+
+        self.get_dataframe().to_csv(path_or_buf=path, index=False)
