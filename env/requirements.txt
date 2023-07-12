@@ -11,3 +11,4 @@ swifter
 language_tool_python
 nltk
 torchmetrics
+matplotlib
