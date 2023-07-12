@@ -97,19 +97,20 @@ class PDFSlideGenerator():
         to_be_dropped.rename(columns={0: "Question", 1: "Answer"}, inplace=True)
         to_be_dropped.to_csv(os.path.join(output_dir, "dropped.csv"))
         df.drop(to_be_dropped.index, inplace=True)
+        df.to_csv(os.path.join(output_dir, "data.csv"))
 
         for i, template_path in tqdm(enumerate(self.templates)):
-            template: jinja2.Template = self.latex_jinja_env.get_template(template_path)
-            latex_render: str = template.render(data=df)
-            render_path: str = os.path.join(self.template_folder, template_path.replace("main.tex", f"render_{i}.tex"))
-            with open(render_path, 'w') as f:
-                f.write(latex_render)
-            os.system(
-                f'cd {render_path.replace(f"render_{i}.tex", "")} && pdflatex -file-line-error'
-                + f' -interaction=nonstopmode -synctex=1 -output-format=pdf'
-                + f' -output-directory="{os.path.join(os.getcwd(), output_dir)}"'
-                + f' render_{i}.tex'
-            )
+           template: jinja2.Template = self.latex_jinja_env.get_template(template_path)
+           latex_render: str = template.render(data=df)
+           render_path: str = os.path.join(self.template_folder, template_path.replace("main.tex", f"render_{i}.tex"))
+           with open(render_path, 'w') as f:
+               f.write(latex_render)
+           os.system(
+               f'cd {render_path.replace(f"render_{i}.tex", "")} && pdflatex -file-line-error'
+               + f' -interaction=nonstopmode -synctex=1 -output-format=pdf'
+               + f' -output-directory="{os.path.join(os.getcwd(), output_dir)}"'
+               + f' render_{i}.tex'
+           )
 
 
 if __name__ == '__main__':
