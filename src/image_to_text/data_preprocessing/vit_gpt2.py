@@ -102,3 +102,20 @@ class VitGPT2Dataset(ABC):
             remove_columns=dataset['train'].column_names
         )
 
+
+class VitGPT2GoldStandard(VitGPT2Dataset):
+
+    def __init__(self, slide_path: str, dataset_path='datasets/gold_standard/', max_target_length=128):
+        super().__init__(slide_path, dataset_path, max_target_length)
+
+    def build_metadata_csv(self, split_path: str, split_page_numbers: List[int]) -> pd.DataFrame:
+        df = pd.read_csv("datasets/gold_standard/Goldstandard.csv")
+        df.drop(columns=["PDF-Name", "Marked for processing", "Includes Image Data", "Comment"], inplace=True)
+        df.dropna(inplace=True)
+
+        df["Page Number"] = df["Page Number"].astype(int)
+        df["file_name"] = df["Page Number"].apply(lambda nr: f"slide_{int(nr)}.png")
+        df = df[df["Page Number"].isin(split_page_numbers)]
+        df.to_csv(path.join(split_path, "metadata.csv"), index=False)
+        return df
+
