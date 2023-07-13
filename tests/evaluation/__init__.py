@@ -1,3 +1,6 @@
+import nltk
+nltk.download('punkt')
+nltk.download('wordnet')
 
 def build_synthetic_model_outputs():
     model_outs = [
