@@ -1,0 +1,57 @@
+model_out,reference,p,r,f1
+What is the purpose of a firewall?,What aims Security for?,0.0,0.0,0.0
+What are the characteristics of a system?,What does a attacker model specify?,0.0,0.0,0.0
+What are some considerations that should be considered when evaluating a product?,Why don't always assume the most powerful attacker?,0.0,0.0,0.0
+What are the disadvantages of stealing data?,What attack goals can be considered in general?,0.0,0.0,0.0
+What is a security expert?,What is a hacker?,0.0,0.0,0.0
+What is hacking?,What is a black hat hacker?,0.0,0.0,0.0
+What is a hacker?,What is a white hat hacker?,1.0,0.3333333333333333,0.5
+What is the mix of hacker and hacker?,What is a grey hat hacker?,0.5,0.3333333333333333,0.4
+What are the challenges of defining security goals?,Introduction on Security Goals,0.5,0.6666666666666666,0.5714285714285714
+What are the characteristics of a Privacy Statement?,What security goals are considered in the lecture?,0.0,0.0,0.0
+What are the four core values of a business?,What does the CIA triad stand for?,0.0,0.0,0.0
+What must be done to protect sensitive information?,What is the definition of Confidentiality?,0.0,0.0,0.0
+What should be done to ensure the accuracy of data?,What is the definition of Integrity?,0.0,0.0,0.0
+What are the requirements of a user-friendly environment?,What is the definition of Availability?,0.0,0.0,0.0
+What is the purpose of a user identity statement?,What is the definition of Authenticity?,0.0,0.0,0.0
+What is the difference between receiving and sending a transaction?,What is the definition of Non-Repudiation?,0.0,0.0,0.0
+What are the principles of personal information management?,What is the definition of Privacy?,0.0,0.0,0.0
+What is the most common form of eavesdropping?,What is an example for an attack and a security solution for Confidentiality?,0.0,0.0,0.0
+What are the most common methods of tampering?,What is an example for an attack and a security solution for Integrity?,0.0,0.0,0.0
+What is the most common type of attack that can occur in a network?,What is an example for an attack and a security solution for Availability?,0.2,0.2,0.2
+What is the most common type of attack?,What is an example for an attack and a security solution for Authenticity?,0.3333333333333333,0.2,0.25
+What are digital signatures?,What is a helpful security mechanism for Non-Repudiation?,0.0,0.0,0.0
+What is a possible countermeasure to reidentification?,What is an example for an attack and a security solution for Privacy?,0.0,0.0,0.0
+What is symmetric encryption?,What is the standard measure to prevent eavesdropping?,0.0,0.0,0.0
+What is a symmetric key encryption scheme?,Of what is a symmetric encryption scheme composed?,0.75,0.75,0.75
+What is Advanced Encryption Standard?,What does AES stand for?,0.0,0.0,0.0
+What are the 256 bit (AES-256 bit) encryptions?,What key sizes are available for AES?,0.0,0.0,0.0
+What protocol is used for secure Internet communication?,Where is AES used for example?,0.2,0.3333333333333333,0.25
+What are the key aggreement protocols?,What approaches are available for key agreement?,0.3333333333333333,0.25,0.2857142857142857
+What is a digital signature scheme?,Of what are digital signature schemes composed of?,1.0,0.75,0.8571428571428572
+What is the disadvantage of plain RSA signature?,What is the problem with RSA signature scheme and how is it handled?,0.5,0.4,0.4444444444444444
+What is a Message Authentication Code?,What does MAC stand for?,0.0,0.0,0.0
+What is a hash function?,How are hash functions formally defined?,1.0,0.5,0.6666666666666666
+What are the disadvantages of preimage resistance?,What are the 3 security requirements for hash functions?,0.0,0.0,0.0
+What could an attacker do with a hash function?,Why do we need Message Autentication Codes?,0.0,0.0,0.0
+What is a secret key digital signature?,What are Message Authentication Codes?,0.0,0.0,0.0
+What is a hash function?,What is HMAC and where is it used?,0.0,0.0,0.0
+What is the ________ prefix?,How does HMAC work?,0.0,0.0,0.0
+What is a top-down approach?,What does security engineering do?,0.0,0.0,0.0
+What is Authentication Control?,How is Access Control defined?,0.5,0.3333333333333333,0.4
+What are the two main approaches to determining access rights?,What challenges must be solved when implementing Access Control?,0.16666666666666666,0.16666666666666666,0.16666666666666666
+What are the advantages of a resource owner?,"
+
+
+
+What is a Discretionary Access Control (DAC) and what advantages/disadvantages does it have?
+
+
+",0.0,0.0,0.0
+What are the disadvantages of DAC?,What is a Mandatory Access Control (MAC) and what advantages/disadvantages does it have?,0.0,0.0,0.0
+What are the types of objects that can be used to access data?,Terminology in the context of Access Control,0.2,0.25,0.2222222222222222
+What are the definitions of __?,Formalism regarding Access rights,0.0,0.0,0.0
+What is the most basic and oldest security model?,What is a Access Matrix?,0.0,0.0,0.0
+What is ___?,How is the formal definiton of an Access Matrix?,0.0,0.0,0.0
+What is an Access Matrix?,What practical challenge is faced using an Access Matrix?,1.0,0.3333333333333333,0.5
+What are the disadvantages of a default access control matrix?,How do Access Control Lists (ACL) work and what are advantages/disadvantages?,0.4,0.3333333333333333,0.36363636363636365
