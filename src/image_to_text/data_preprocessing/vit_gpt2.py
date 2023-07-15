@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 from typing import List, Tuple
 
 from pypdfium2 import PdfDocument
-from src.image_to_text.data_preprocessing.util import extract_text
+from src.datageneration.extractor import extract_text
 from tqdm import tqdm
 import pandas as pd
 from bs4 import BeautifulSoup
