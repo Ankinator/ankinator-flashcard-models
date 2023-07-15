@@ -3,6 +3,7 @@ from tempfile import SpooledTemporaryFile
 from PIL.Image import Image
 from pypdfium2 import PdfDocument, PdfPage
 import pytesseract
+from tqdm import tqdm
 
 
 def plain_pdf_extraction(pdf_document: PdfDocument) -> [(int, str)]:
@@ -22,6 +23,18 @@ def extract_text(pdf_file: SpooledTemporaryFile, language: str = "eng") \
         page_image = pdf_page_to_image(pdf_document.get_page(page_index))
         ocr_text = ocr_extraction(page_image, language=language)
         extracted_content.append((page_index, page_text, ocr_text, page_image))
+    return extracted_content
+
+
+def extract_text_without_image(pdf_file: SpooledTemporaryFile, language: str = "eng") \
+        -> List[Tuple[int, str, str]]:
+    pdf_document = PdfDocument(pdf_file)
+    extracted_pages = plain_pdf_extraction(pdf_document)
+    extracted_content: List[Tuple[int, str, str]] = []
+    for page_index, page_text in tqdm(extracted_pages):
+        page_image = pdf_page_to_image(pdf_document.get_page(page_index))
+        ocr_text = ocr_extraction(page_image, language=language)
+        extracted_content.append((page_index, page_text, ocr_text))
     return extracted_content
 
 
