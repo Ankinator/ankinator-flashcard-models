@@ -2,6 +2,7 @@ from typing import List, Tuple
 from tempfile import SpooledTemporaryFile
 from PIL.Image import Image
 from pypdfium2 import PdfDocument, PdfPage
+import pytesseract
 
 
 def plain_pdf_extraction(pdf_document: PdfDocument) -> [(int, str)]:
@@ -18,10 +19,15 @@ def extract_text(pdf_file: SpooledTemporaryFile, language: str = "eng") \
     extracted_pages = plain_pdf_extraction(pdf_document)
     extracted_content: List[Tuple[int, str, str, Image]] = []
     for page_index, page_text in extracted_pages:
-        plain_extraction_text_length = len(page_text.split(" "))
         page_image = pdf_page_to_image(pdf_document.get_page(page_index))
-        extracted_content.append((page_index, page_text, "", page_image))
+        ocr_text = ocr_extraction(page_image, language=language)
+        extracted_content.append((page_index, page_text, ocr_text, page_image))
     return extracted_content
+
+
+def ocr_extraction(page_image: Image, language: str = "eng") -> str:
+    text = pytesseract.image_to_string(page_image, lang=language)
+    return text
 
 
 def pdf_page_to_image(page: PdfPage) -> Image:
