@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
-from typing import List, Tuple
+from typing import List, Tuple, Union
 
+from PyPDF2 import PdfReader, PdfWriter
 from pypdfium2 import PdfDocument
 from src.image_to_text.data_preprocessing.util import extract_text
 from tqdm import tqdm
@@ -15,7 +16,7 @@ from os import makedirs, path
 
 class VitGPT2Dataset(ABC):
 
-    def __init__(self, slide_path: str, dataset_path='/datasets/', max_target_length=128):
+    def __init__(self, slide_path: Union[str, list[str]], dataset_path='/datasets/', max_target_length=128):
         self.extracted_test = None
         self.extracted_val = None
         self.extracted_train = None
@@ -25,7 +26,7 @@ class VitGPT2Dataset(ABC):
         self.val_metadata = None
         self.max_target_length = max_target_length
         self.dataset_path = dataset_path
-        self.pdf = PdfDocument(slide_path)
+        self.pdf = self._load_pdf(slide_path=slide_path)
         self.train_path = path.join(dataset_path, "train")
         self.test_path = path.join(dataset_path, "test")
         self.val_path = path.join(dataset_path, "val")
@@ -40,6 +41,26 @@ class VitGPT2Dataset(ABC):
         :return: None
         """
         raise NotImplementedError
+
+    def _load_pdf(self, slide_path: Union[str, List[str]]) -> PdfDocument:
+
+        if type(slide_path) == list:
+            # Create a PdfWriter object to store the merged PDF
+            pdf_writer = PdfWriter()
+
+            # Iterate through the PDF files and add them to the PdfWriter
+            for pdf_file in slide_path:
+                with open(pdf_file, 'rb') as file:
+                    pdf_reader = PdfReader(file)
+                    for page in pdf_reader.pages:
+                        pdf_writer.add_page(page)
+
+            # Save the merged PDF to a new file
+            slide_path = path.join(self.dataset_path, 'merged_output.pdf')
+            with open(slide_path, 'wb') as output_file:
+                pdf_writer.write(output_file)
+
+        return PdfDocument(slide_path)
 
     @staticmethod
     def _save_files_to_dir(dir_path: str, extracted_content: List[Tuple[int, str, str, Image]]):
