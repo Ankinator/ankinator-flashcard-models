@@ -117,9 +117,9 @@ class VitGPT2Dataset(ABC):
                        "tokenizer": tokenizer},
             remove_columns=dataset['train'].column_names
         )
-        self.train_metadata = pd.read_csv(self.train_path)
-        self.test_metadata = pd.read_csv(self.test_path)
-        self.val_metadata = pd.read_csv(self.val_path)
+        self.train_metadata = pd.read_csv(path.join(self.train_path, "metadata.csv"))
+        self.test_metadata = pd.read_csv(path.join(self.test_path, "metadata.csv"))
+        self.val_metadata = pd.read_csv(path.join(self.val_path, "metadata.csv"))
 
 
 
