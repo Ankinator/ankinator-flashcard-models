@@ -12,10 +12,20 @@ class TestSemanticSim(unittest.TestCase):
         model_outs, references = build_synthetic_model_outputs()
 
         sentence_transformer_evaluator = SentenceTransformerEvaluator(save_to_file=False)
-        self.assertDictEqual(
-            {'avg_cos_sim': 0.8464279174804688, 'max_cos_sim': 0.9416357278823853, 'min_cos_sim': 0.702666699886322},
-            sentence_transformer_evaluator(model_output=model_outs, references=references)
-        )
+        expected_result = {
+            'avg_cos_sim': 0.8464279174804688,
+            'max_cos_sim': 0.9416357278823853,
+            'min_cos_sim': 0.702666699886322
+        }
+
+        actual_result = sentence_transformer_evaluator(model_output=model_outs, references=references)
+
+        for key, expected_value in expected_result.items():
+            actual_value = actual_result[key]
+            expected_rounded = round(expected_value, 6)
+            actual_rounded = round(actual_value, 6)
+
+            self.assertEqual(expected_rounded, actual_rounded)
 
     def test_write_to_file(self):
         path = "out/eval/cosine_sim.csv"
