@@ -44,7 +44,7 @@ class VitGPT2Dataset(ABC):
 
     def _load_pdf(self, slide_path: Union[str, List[str]]) -> PdfDocument:
 
-        if type(slide_path) == list:
+        if isinstance(slide_path, list):
             # Create a PdfWriter object to store the merged PDF
             pdf_writer = PdfWriter()
 
@@ -143,7 +143,6 @@ class VitGPT2Dataset(ABC):
         self.val_metadata = pd.read_csv(path.join(self.val_path, "metadata.csv"))
 
 
-
 class VitGPT2GoldStandard(VitGPT2Dataset):
 
     def __init__(self, slide_path: str, dataset_path='datasets/gold_standard/', max_target_length=128):
@@ -160,3 +159,38 @@ class VitGPT2GoldStandard(VitGPT2Dataset):
         df.to_csv(path.join(split_path, "metadata.csv"), index=False)
         return df
 
+
+class VitGPT2Synthetic(VitGPT2Dataset):
+
+    def __init__(self, slide_path: Union[str, List[str]], dataset_path='datasets/synthetic_slides/',
+                 max_target_length=128):
+        super().__init__(slide_path, dataset_path, max_target_length)
+
+    def build_metadata_csv(self, split_path: str, split_page_numbers: List[int]):
+        df = pd.read_csv("datasets/synthetic_slides/data.csv")
+
+        # duplicate entrys
+        concat_list = [df for _ in range(len(self.pdf) // len(df))]
+        df = pd.concat(concat_list).reset_index(drop=True)
+
+        # filter to include only the pages in the split
+        df = df.loc[split_page_numbers]
+
+        df["Page Number"] = df.index
+
+        # extract questions from nflds
+        df["Question"] = df["nflds"].swifter.apply(
+            lambda x: x.split("',")[0].strip("[").strip("'") if "'," in x else x.split('",')[0].strip("[").strip('"'))
+
+        # remove html tags
+        df["Question"] = df["Question"].swifter.apply(lambda x: BeautifulSoup(x, features="lxml").text)
+
+        # replace empty question with NAN
+        df.replace('', pd.NA, inplace=True)
+
+        df["file_name"] = [f"slide_{i}.png" for i in df.index]
+        df.drop(columns=["nid", "nflds", "answer", "images"], inplace=True)
+        df.dropna(inplace=True)
+
+        df.to_csv(path.join(split_path, "metadata.csv"), index=False)
+        return df
