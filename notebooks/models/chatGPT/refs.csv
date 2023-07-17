@@ -1,0 +1,92 @@
+,Question
+0,What are Advantages and Disadvantages of Cookies?
+1,How is Access Control defined?
+2,What is XSS?
+3,What are the Abilities of JavaScript?
+4,What Spoofing Technique do exist?
+5,How do attackers evade signature-based scanners?
+6,What steps does the TLS protocol comprise?
+7,How do rainbow tables work?
+8,How is the Procedure of Proof of Work in Bitcoin?
+9,How does the RSA Signature Scheme work?
+10,How is the Write Rule formally defined (Chinese Wall Model)?
+11,What is the block reward for successful mining?
+12,How does the TCP/IP model look graphically?
+13,What is the workflow of cookie creation/exchange?
+14,What is the shortcoming of k-anonymity and how does ℓ-Diversity and 𝒕-Closeness address it?
+15,How can Role-Based-Access-Control be graphically represented?
+16,What is the basic principle of Cache (storage)?
+17,What are the relevant development languages for web applications?
+18,What is EAP?
+19,What enhances guessing attacks on passwords exist?
+20,What is 2-Factor-Authentication?
+21,What is the attack strategy of attackers?
+22,How does Anti-Virus-Software work?
+23,What goal has stage 1: preperation and what are possible tools?
+24,What is the solution for determining the authenticity of a Bitcoin address? What is the relationship between the Bitcoin address and the public key?
+25,What are private networks (PN)?
+26,What is the advantage/disadvantage of human generated passwords?
+27,What are the exemplary steps of Non-Perturbative Masking through generalization?
+28,What is the definition of Confidentiality and what is a example attack and security solution for it?
+29,What is the block reward?
+30,How is Bitcoin structured?
+31,What is a click fraud attack?
+32,What is the goal of targeted avdertisement?
+33,What is Tailgaiting?
+34,What is the Online Model?
+35,What are the three main methods used for Authentication and what are examples and problems of each method?
+36,What are Transactions?
+37,What critical functions must a VPN provide?
+38,What is Phishing?
+39,How do passwords work?
+40,What is CRC?
+41,What are common password guidelines?
+42,How can social engineering attacks happen when companies collect user data?
+43,What does Identification mean?
+44,What is Session Hijacking and what are countermeasures? 
+45,What does Access Control/Authorization mean?
+46,How is the formal definition of the Read Rule (Chines Wall Model)?
+47,What is Multitasking and how does it work?
+48,How can Bitcoin Addresses of Darknet Vendors be inferred?
+49,What is Counter Mode?
+50,What is Bitcoin and what is its goal and advantage?
+51,What are the 3 security requirements for hash functions?
+52,How do DDOS attacks work?
+53,What is transperancy in relation to GDPR?
+54,What is the Heartbleed Bug?
+55,How does Shared Key Authentication work?
+56,What is the definition of Availability and what is a example attack and security solution for it?
+57,What is Mining?
+58,What is the common cryptographic Scenario?
+59,What are the exemplary steps of Perturbative Masking through adding noise?
+60,What are Common Approaches/Protocols?
+61,What does the Simple Model describe?
+62,"What does AES stand for, what key sizes are available and where is it used for example?"
+63,What is TKIP?
+64,What is TLS and how it the connection to http?
+65,What is the formal definition of RBAC?
+66,What are examples for Physical Payment Systems? What are advantages and disadvantages?
+67,What is Unauthorized Access?
+68,What is HTTP?
+69,How is a Virus defined?
+70,What is an example for a Prime and Probe Attack?
+71,How can bitcoin network check Authenticity of Transaction?
+72,What is the worfklow of a public encryption scheme?
+73,What is an example for a Heap Overflow Attack?
+74,What is an examples of a CSRF Attack?
+75,How to protect against ransomware type 1 attack: encryption of data?
+76,What is a Mandatory Access Control (MAC) and what advantages/disadvantages does it have?
+77,How are packets created in the AH Protocol in Transport Mode?
+78,What are possible approaches to define Anonymity?
+79,What are the stages of an Social Engineering Attack?
+80,What is the concept of Critical Data?
+81,What is the Heartbeat extension for TLS?
+82,How to send messages in Tor?
+83,What is the workflow for a key agreement protocol?
+84,How is the formal definiton of an Access Matrix?
+85,What is the Synthetic Data approach? What are types of synthetic data?
+86,What is the intuition of Differential Privacy?
+87,What are the two most relevant reference models and what concept do they use?
+88,How do Passphrases work and what is the advantage?
+89,What advantages does RBAC have (in contrast to a tradition Access Matrix)?
+90,What is E-Mail Spoofing?
