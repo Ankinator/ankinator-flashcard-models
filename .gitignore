@@ -9,6 +9,7 @@ datasets/Excel/*.xlsx
 */*.DS_Store
 *.DS_Store
 datasets/extractor_classifier/*
+notebooks/models/extractor_classifier/model_results/*
 
 out
 # Byte-compiled / optimized / DLL files
