@@ -1,0 +1,47 @@
+model_out,reference,similiarities
+what is phishing?,what is phishing?,0.99999994
+what is a session hijacking attack?,what is session hijacking and what are countermeasures? ,0.88295305
+what is type 3 locker ransomware?,what is the third type of ransomware - locker ransomware?,0.90219617
+what are the basics of smtp?,what is smtp?,0.80713665
+what is a specific detection check?,"what is ""specific detection""?",0.7889286
+what are key servers?,what are key servers?,1.0
+what is the illegitimate information flow rule?,how can a illegitimate information flow happen when only applying the read rule (chinese wall model)?,0.72201025
+what is csrf?,what is csrf?,1.0000001
+what is the definition of a virtual private network?,how is a vpn defined?,0.54155266
+what are examples for an attacker?,what are examples for an attacker?,1.0000001
+what is the process of deactivating botnet nodes?,how to deactivate a botnet's nodes?,0.8741845
+what is enc?,how does rsa work?,0.12296328
+what is the regulation of gdpr?,what are potential financial penalties for violators of the gdpr?,0.7130805
+what is the technique of e-mail?,what spoofing technique do exist?,0.3342418
+what is cipher block chaining?,what is cbc-mac?,0.31258315
+what is the problem with the rsa signature scheme?,what is the problem with rsa signature scheme and how is it handled?,0.9399022
+what is the proper handling and processing of personal information?,what is the definition of privacy and what is a example attack and security solution for it?,0.31538486
+what is the principle of cache?,what is the basic principle of cache (storage)?,0.93205154
+what is content filtering?,what are content filters and how do they work?,0.91278535
+what is tor?,what is tor?,1.0
+what are third party cookies?,what are the main privacy problems of cookies?,0.59492505
+what is spear phishing?,what is spear phishing?,1.0
+what is an example for social engineering?,what is an examples of a csrf attack?,0.43330488
+what are side effects of integer under overflow?,what is integer under-/overflow? what are famous examples?,0.74371195
+what is the definition of a public key encryption scheme?,how is the definition of the public key encryption scheme?,0.97811115
+what is an example for a cont attack?,what is an examples of a csrf attack?,0.51878864
+what is a botnet?,what is a botnet?,1.0000001
+what is dns tunneling?,what is dns tunneling?,1.0000002
+what are types of data releases?,what are types of data releases?,1.0
+what are the security goals of wep?,what is wep?,0.68483806
+what are the risks of data collection?,what are the risks of companies collecting user data?,0.7961888
+what are spam relay botnets?,what is a spam relay attack?,0.8585013
+what is the example for the diffie hellman protocol?,how does the diffie-hellmann protocol work?,0.7932235
+what is the definition of entropy?,how is entropy defined?,0.9425233
+what are the problems of salt?,why is the concept of salt needed and how does it work?,0.68533397
+what is the right to access collected personal data?,what is access to collected personal data in relation to gdpr?,0.7723442
+what is the type 2 trojan threat of destruction?,what is the second type of ransomware - trojan threat of destruction?,0.7146634
+what are full nodes?,what are full nodes?,1.0
+what is inferring bitcoin addresses of darknet vendors?,how can bitcoin addresses of darknet vendors be inferred?,0.961044
+what is the definition of malware?,how is malware defined?,0.92184323
+what are examples of extremely dumb attacks?,why can attacker be successfull with dumb mails?,0.45297465
+what is the consequence of third party cookies?,what is the problem of third-party cookies?,0.9012445
+what is an example for anonymity?,can you ensure anonymity by removing identifier attributes? give examples,0.6305123
+what are examples of discrimination?,how can discrimination happen when companies collect user data?,0.51991737
+what is the idea of rainbow tables?,how do rainbow tables work?,0.8842414
+what are countermeasures against viruses?,what are countermeasures to prevent a infection with malware?,0.79646957
