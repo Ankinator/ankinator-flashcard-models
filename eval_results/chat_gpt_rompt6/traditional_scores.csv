@@ -1,0 +1,145 @@
+model_out,reference,p,r,f1
+What are the advantages and disadvantages of cookies?,What are Advantages and Disadvantages of Cookies?,1.0,1.0,1.0
+What is access control and on what levels can it exist?,How is Access Control defined?,0.5,0.6666666666666666,0.5714285714285714
+What is XSS and what does it allow an attacker to do?,What is XSS?,0.3333333333333333,1.0,0.5
+What are the abilities provided by the API in client-side programming?,What are the Abilities of JavaScript?,0.2,0.5,0.2857142857142857
+What is the technique that allows one to spoof the sender's address in e-mail communication?,What Spoofing Technique do exist?,0.2222222222222222,0.6666666666666666,0.3333333333333333
+What are some techniques used by viruses to evade signature-based virus scanners?,How do attackers evade signature-based scanners?,0.42857142857142855,0.75,0.5454545454545454
+"TLS Protocol, question: What are the steps involved in establishing encrypted communication using the TLS protocol?",What steps does the TLS protocol comprise?,0.3333333333333333,0.75,0.46153846153846156
+What is the idea behind Rainbow Tables?,How do rainbow tables work?,0.5,0.6666666666666666,0.5714285714285714
+What is the procedure for the Proof of Work algorithm?,How is the Procedure of Proof of Work in Bitcoin?,0.75,0.75,0.75
+What is the workflow of an RSA Signature Scheme?,How does the RSA Signature Scheme work?,0.75,0.75,0.75
+question: Under what conditions may a subject write to an object at a certain point in time?,How is the Write Rule formally defined (Chinese Wall Model)?,0.1111111111111111,0.14285714285714285,0.125
+What is the block reward for successful mining in Bitcoin and how does it change over time?,What is the block reward for successful mining?,0.5714285714285714,1.0,0.7272727272727273
+"TCP/IP Model
+Selected Topics in IT-Security
+Prof. Dr. Frederik Armknecht - Chair of Computer Science IV 
+6
+Application Layer
+Transport Layer
+Internet Layer
+Network Access Layer
+Application Layer
+Transport Layer
+Internet Layer
+Network Access Layer
+Media for data transfer
+Source Destination, question: What are the layers of the TCP/IP model?",How does the TCP/IP model look graphically?,0.07692307692307693,0.5,0.13333333333333333
+What is the workflow of cookies in a client-server communication?,What is the workflow of cookie creation/exchange?,0.5,0.6666666666666666,0.5714285714285714
+What are the concepts of ℓ-Diversity and -Closeness in data anonymization?,What is the shortcoming of k-anonymity and how does ℓ-Diversity and 𝒕-Closeness address it?,0.2,0.2,0.2
+What is the graphical representation of Role-based Access Control (RBAC)?,How can Role-Based-Access-Control be graphically represented?,0.16666666666666666,0.3333333333333333,0.2222222222222222
+What is the purpose of cache in a computer system?,What is the basic principle of Cache (storage)?,0.25,0.25,0.25
+What are the relevant languages for web applications?,What are the relevant development languages for web applications?,1.0,0.8,0.8888888888888888
+What is the Extensible Authentication Protocol (EAP) and how does it support multiple authentication mechanisms?,What is EAP?,0.14285714285714285,1.0,0.25
+What are the approaches used in enhanced guessing attacks?,What enhances guessing attacks on passwords exist?,0.6,0.6,0.6
+What is the purpose of 2-Factor Authentication and provide examples of its implementation?,What is 2-Factor-Authentication?,0.0,0.0,0.0
+What is the attack strategy for sending out millions of emails in IT security?,What is the attack strategy of attackers?,0.3333333333333333,1.0,0.5
+What are the characteristics and algorithms involved in an anti-virus software?,How does Anti-Virus-Software work?,0.0,0.0,0.0
+What are the possible tools for gathering information about victims in the preparation stage of an attack?,What goal has stage 1: preperation and what are possible tools?,0.375,0.5,0.4285714285714286
+What links the verification key to a Bitcoin address?,What is the solution for determining the authenticity of a Bitcoin address? What is the relationship between the Bitcoin address and the public key?,0.6,0.375,0.46153846153846156
+What are some examples of private networks?,What are private networks (PN)?,0.6666666666666666,0.6666666666666666,0.6666666666666666
+What are the 2021 most common passwords and their respective number of uses?,What is the advantage/disadvantage of human generated passwords?,0.16666666666666666,0.25,0.2
+What is an example of non-perturbative masking for generalization?,What are the exemplary steps of Non-Perturbative Masking through generalization?,0.75,0.6,0.6666666666666666
+What is an example of a security solution for protecting sensitive information from eavesdropping attacks?,What is the definition of Confidentiality and what is a example attack and security solution for it?,0.5,0.6666666666666666,0.5714285714285714
+What is the purpose of the coin base transaction in the Proof of Work mining process?,What is the block reward?,0.0,0.0,0.0
+What is the structure of Bitcoins and how does it build on a peer-to-peer network?,How is Bitcoin structured?,0.4,1.0,0.5714285714285714
+What is click fraud and who are the victims of it?,What is a click fraud attack?,0.6666666666666666,0.6666666666666666,0.6666666666666666
+What is the goal of targeted advertising on Facebook?,What is the goal of targeted avdertisement?,0.5,0.6666666666666666,0.5714285714285714
+What is tailgating in the context of IT security?,What is Tailgaiting?,0.0,0.0,0.0
+What is the workflow of the data holder and analyst in the online model?,What is the Online Model?,0.3333333333333333,1.0,0.5
+What are the different methods of authentication based on?,What are the three main methods used for Authentication and what are examples and problems of each method?,0.5,0.2857142857142857,0.36363636363636365
+What is a transaction in the context of Bitcoin?,What are Transactions?,0.3333333333333333,1.0,0.5
+What are the four critical functions that a VPN needs to provide?,What critical functions must a VPN provide?,0.6666666666666666,0.8,0.7272727272727273
+What is the concept of phishing?,What is Phishing?,0.5,1.0,0.6666666666666666
+What is the usage of passwords in authentication?,How do passwords work?,0.3333333333333333,0.5,0.4
+What is the purpose of CRC (Cyclic Redundancy Check)?,What is CRC?,0.2,1.0,0.3333333333333333
+What are the common password guidelines?,What are common password guidelines?,1.0,1.0,1.0
+What are social engineering attacks and how do they rely on exploiting the human trust factor?,How can social engineering attacks happen when companies collect user data?,0.375,0.375,0.375
+What is identification and how is it usually accompanied?,What does Identification mean?,0.3333333333333333,0.5,0.4
+What are the threat and countermeasure for Session Hijacking?,What is Session Hijacking and what are countermeasures? ,0.75,1.0,0.8571428571428572
+What does access control/authorization refer to?,What does Access Control/Authorization mean?,0.6666666666666666,0.6666666666666666,0.6666666666666666
+What are the conditions that allow a subject to read an object in the given formal definition?,How is the formal definition of the Read Rule (Chines Wall Model)?,0.375,0.42857142857142855,0.4
+What is the purpose of multitasking in an operating system?,What is Multitasking and how does it work?,0.25,0.5,0.3333333333333333
+What can be inferred about Bitcoin addresses of darknet vendors by exploiting metadata leaked by reviews and structural information of the market?,How can Bitcoin Addresses of Darknet Vendors be inferred?,0.4166666666666667,1.0,0.5882352941176471
+What is the purpose of Counter Mode in encryption?,What is Counter Mode?,0.5,1.0,0.6666666666666666
+What are the main goals and advantages of Bitcoin?,What is Bitcoin and what is its goal and advantage?,0.75,1.0,0.8571428571428572
+What are the security requirements for a hash function?,What are the 3 security requirements for hash functions?,1.0,0.8,0.8888888888888888
+What is a Distributed Denial of Service (DDOS) attack?,How do DDOS attacks work?,0.4,0.6666666666666666,0.5
+What should be explained in clear and plain language regarding data collection and processing?,What is transperancy in relation to GDPR?,0.0,0.0,0.0
+What was the problem with the heartbeat extension that led to the Heartbleed bug?,What is the Heartbleed Bug?,0.3333333333333333,1.0,0.5
+"Shared Key Authentication - Workflow
+Selected Topics in IT-Security
+Prof. Dr. Frederik Armknecht - Chair of Computer Science IV 
+5
+Authentication Request
+Challenge
+• Choose Challenge
+(IV,Ciphertext)
+• Choose IV
+• Create keystream
+from key and IV
+• Encrypt challenge
+by XORing with 
+keystream
+• Compute keystream from 
+key and IV
+• Decrypt ciphertext
+• Check if decryption equals 
+challenge
+Accept/Reject
+Device Access Point, question: What are the steps involved in the shared key authentication workflow?",How does Shared Key Authentication work?,0.08571428571428572,0.75,0.15384615384615385
+question: What is an example of a security solution for ensuring availability of data/services to authorized users?,What is the definition of Availability and what is a example attack and security solution for it?,0.4444444444444444,0.6666666666666666,0.5333333333333333
+What is the process of adding blocks to the blockchain and how is it executed by miners?,What is Mining?,0.0,0.0,0.0
+"Common Cryptographic Scenario
+Selected Topics in IT-Security
+Prof. Dr. Frederik Armknecht - Chair of Computer Science IV 
+3
+Alice Bob Unprotected Communication Channel
+Eve
+Eavesdropping
+(belauschen)
+
+Question: What is the common cryptographic scenario involving Alice, Bob, and Eve?",What is the common cryptographic Scenario?,0.12,1.0,0.21428571428571427
+What is an example of perturbative masking and how is noise added to the data?,What are the exemplary steps of Perturbative Masking through adding noise?,0.6666666666666666,0.6666666666666666,0.6666666666666666
+What are some common approaches/protocols used in IT-Security?,What are Common Approaches/Protocols?,0.5,1.0,0.6666666666666666
+What are the components of the simple model in IT-Security?,What does the Simple Model describe?,0.5,0.6666666666666666,0.5714285714285714
+What are the protocols that use the Advanced Encryption Standard (AES)?,"What does AES stand for, what key sizes are available and where is it used for example?",0.3333333333333333,0.2857142857142857,0.3076923076923077
+What are the components of TKIP?,What is TKIP?,0.5,1.0,0.6666666666666666
+question: What is the relationship between HTTP and TLS in terms of providing a secure Internet connection?,What is TLS and how it the connection to http?,0.3333333333333333,1.0,0.5
+What is the role-based access model given by?,What is the formal definition of RBAC?,0.0,0.0,0.0
+What are the advantages and disadvantages of physical payment systems?,What are examples for Physical Payment Systems? What are advantages and disadvantages?,1.0,0.8333333333333334,0.9090909090909091
+"What are some examples of utilities that can be used to find the ID of a ""hidden"" network?",What is Unauthorized Access?,0.0,0.0,0.0
+"HTTP (Hypertext Transfer Protocol) is a ""normal"" protocol for enabling Internet connection, but it provides no security of the data. Who can listen and change the data if they have access to it?",What is HTTP?,0.0625,1.0,0.11764705882352941
+What are the different types of viruses based on the objects they infect?,How is a Virus defined?,0.0,0.0,0.0
+What is the impact of the Meltdown attack on the cache?,What is an example for a Prime and Probe Attack?,0.25,0.25,0.25
+question: Why is it necessary to check the authenticity of a transaction in the Bitcoin network?,How can bitcoin network check Authenticity of Transaction?,0.7142857142857143,1.0,0.8333333333333334
+What is the workflow of the public key encryption scheme?,What is the worfklow of a public encryption scheme?,0.6,0.75,0.6666666666666666
+What is the considered program for replacing a password?,What is an example for a Heap Overflow Attack?,0.0,0.0,0.0
+What is the risk associated with the CSRF attack described in the given content?,What is an examples of a CSRF Attack?,0.2857142857142857,0.6666666666666666,0.4
+What are the recommended actions if you are a victim of data encryption?,How to protect against ransomware type 1 attack: encryption of data?,0.4,0.2857142857142857,0.3333333333333333
+What are the advantages and disadvantages of Mandatory Access Control (MAC)?,What is a Mandatory Access Control (MAC) and what advantages/disadvantages does it have?,0.6666666666666666,0.8,0.7272727272727273
+What is the purpose of the Authentication Header (AH) Protocol in transport mode?,How are packets created in the AH Protocol in Transport Mode?,0.5714285714285714,0.6666666666666666,0.6153846153846154
+What is the challenge in defining anonymity and can it cover aspects like quasi-identifier and data taken from different sources?,What are possible approaches to define Anonymity?,0.18181818181818182,0.5,0.26666666666666666
+What are the stages of an attack according to the given content?,What are the stages of an Social Engineering Attack?,0.4,0.5,0.4444444444444444
+What are examples of critical data that should be protected against attacks?,What is the concept of Critical Data?,0.4,0.6666666666666666,0.5
+What is the related example of the Heartbleed Bug?,What is the Heartbeat extension for TLS?,0.0,0.0,0.0
+"Selected Topics in IT-Security
+Prof. Dr. Frederik Armknecht - Chair of Computer Science IV 
+10
+ଵ, ଶ, ଷ
+1
+ଵ
+2
+ଶ
+3
+ଷ
+
+Question: How many layers are used to encrypt each message in the given content?",How to send messages in Tor?,0.038461538461538464,0.3333333333333333,0.06896551724137931
+"Key Agreement Protocol, question: What is the content of the flashcard?",What is the workflow for a key agreement protocol?,0.5,0.75,0.6000000000000001
+What is the formal definition of an access matrix?,How is the formal definiton of an Access Matrix?,0.75,0.75,0.75
+What are the three steps involved in generating synthetic data?,What is the Synthetic Data approach? What are types of synthetic data?,0.3333333333333333,0.5,0.4
+What is the intuition behind differential privacy?,What is the intuition of Differential Privacy?,0.75,1.0,0.8571428571428572
+What are the two most relevant models for computer networks and what is the focus of this lecture?,What are the two most relevant reference models and what concept do they use?,0.42857142857142855,0.5,0.46153846153846145
+"Passphrases, question: What is a good method for creating a passphrase?",How do Passphrases work and what is the advantage?,0.2,0.3333333333333333,0.25
+What are the advantages of Role-Based Access Control (RBAC)?,What advantages does RBAC have (in contrast to a tradition Access Matrix)?,0.6,0.5,0.5454545454545454
+What is e-mail spoofing and what are its motivations and applications?,What is E-Mail Spoofing?,0.5,1.0,0.6666666666666666
