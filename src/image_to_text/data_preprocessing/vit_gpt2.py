@@ -78,7 +78,7 @@ class VitGPT2Dataset(ABC):
         questions = samples["Question"]
 
         return {
-            "labels": tokenizer(questions, padding="max_length", max_length=max_target_length).input_ids,
+            "labels": tokenizer(questions, padding="max_length", max_length=max_target_length, truncation=True, return_tensors="pt").input_ids,
             "pixel_values": feature_extractor(images=images, return_tensors="np").pixel_values
         }
 
