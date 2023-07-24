@@ -114,6 +114,9 @@ class VitGPT2Dataset(ABC):
         self._save_files_to_dir(dir_path=self.test_path, extracted_content=self.extracted_test)
         self._save_files_to_dir(dir_path=self.val_path, extracted_content=self.extracted_val)
 
+        self._load_convert_transformers_dataset(feature_extractor=feature_extractor, tokenizer=tokenizer)
+
+    def _load_convert_transformers_dataset(self, feature_extractor, tokenizer):
         dataset = load_dataset("imagefolder", data_dir=self.dataset_path)
         self.dataset = dataset.map(
             function=self.preprocess,
@@ -122,6 +125,7 @@ class VitGPT2Dataset(ABC):
                        "tokenizer": tokenizer},
             remove_columns=dataset['train'].column_names
         )
+        self.dataset.set_format(type='torch')
 
     def load_prebuild_dataset(self, feature_extractor, tokenizer):
         """
@@ -129,15 +133,7 @@ class VitGPT2Dataset(ABC):
         Extraction is not run again on the pdf slides, thus the extracted_ attributes remain None.
         :return:
         """
-
-        dataset = load_dataset("imagefolder", data_dir=self.dataset_path)
-        self.dataset = dataset.map(
-            function=self.preprocess,
-            batched=True,
-            fn_kwargs={"max_target_length": self.max_target_length, "feature_extractor": feature_extractor,
-                       "tokenizer": tokenizer},
-            remove_columns=dataset['train'].column_names
-        )
+        self._load_convert_transformers_dataset(feature_extractor=feature_extractor, tokenizer=tokenizer)
         self.train_metadata = pd.read_csv(path.join(self.train_path, "metadata.csv"))
         self.test_metadata = pd.read_csv(path.join(self.test_path, "metadata.csv"))
         self.val_metadata = pd.read_csv(path.join(self.val_path, "metadata.csv"))
