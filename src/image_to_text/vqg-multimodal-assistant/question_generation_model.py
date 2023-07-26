@@ -159,7 +159,7 @@ class QuestionGenerationModel:
         inputs2 = Input(shape=(self.datasets.max_question_len,))
         se1 = Embedding(self.vocab_size, self.embedding_dim, mask_zero=True)(inputs2)
         se2 = Dropout(self.dropout)(se1)
-        question_seq_model = LSTM(self.hidden_units)(se2)
+        question_seq_model = LSTM(self.hidden_units)(se2)  # Only returns the last hidden state
         # question_seq_model = Bidirectional(LSTM(self.hidden_units))(se2)
         # question_seq_model = layers.Dense(self.hidden_units, activation='relu')(question_seq_model)
         # se4 = Dropout(self.dropout)(se3)
@@ -168,7 +168,7 @@ class QuestionGenerationModel:
         inputs3 = Input(shape=(self.datasets.max_keyword_len,))
         k1 = Embedding(self.vocab_size, self.embedding_dim, mask_zero=True)(inputs3)
         k2 = Dropout(self.dropout)(k1)
-        keyword_seq_model = LSTM(self.hidden_units)(k2)
+        keyword_seq_model = LSTM(self.hidden_units)(k2)  # Only returns the last hidden state
 
         # decoder (feed forward) model
         decoder1 = Add()([fe2, question_seq_model, keyword_seq_model])
