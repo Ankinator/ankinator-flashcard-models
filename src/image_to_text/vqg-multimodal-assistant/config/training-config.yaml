@@ -35,7 +35,7 @@ parameters:
     name: 'apple'
     # Used to limit image count for which features are extracted. Use small number for debugging purposes.
     # Once the code is running end to end, make this value large ~3000
-    max_train_size: 1
+    max_train_size: 3000
     # To use apple data
     train_file: "data/apple/apple_train_all_keyword.csv"
     validation_file: "data/apple/apple_dev_all_keyword.csv"

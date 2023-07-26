@@ -32,7 +32,8 @@ import tensorflow
 
 from tensorflow.keras import layers
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint, LambdaCallback
-from tensorflow.keras.optimizers import Adam, RMSprop, SGD
+from tensorflow.keras.optimizers.legacy import Adam
+from tensorflow.keras.optimizers import RMSprop, SGD
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.utils import to_categorical
 
@@ -300,7 +301,7 @@ class QuestionGenerationModel:
         """
 
         if 'glove' in self.datasets.embedding_file:
-            max_seq_len = model.inputs[1].shape[1].value
+            max_seq_len = model.inputs[1].shape[1]
         elif 'elmo' in self.datasets.embedding_file:
             max_seq_len = self.datasets.max_question_len
             image_input = np.repeat(image_input, axis=0, repeats=2)
@@ -340,6 +341,7 @@ class QuestionGenerationModel:
             yhat_max = np.argmax(yhat)
             prob += yhat[yhat_max]
             word = self.datasets.idx_to_word[yhat_max]
+            self.logger.info("best word: %s" % word)
             in_text += ' ' + word
             if word == '<END>':
                 break

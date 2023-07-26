@@ -12,7 +12,7 @@ from datasets import Datasets
 from question_generation_model import QuestionGenerationModel
 
 from commons_pkg.commons_utils import load_config
-from evaluation_pkg.evaluate import run_evaluation
+# from evaluation_pkg.evaluate import run_evaluation
 from pprint import pprint
 import argparse
 import csv
@@ -30,6 +30,8 @@ os.environ['TFHUB_CACHE_DIR'] = os.path.join(os.getcwd(), 'misc')
 from bert_layer import create_tokenizer_from_hub_module, initialize_vars
 sys.path.append("/")
 sys.path.append("../../../../")
+
+sess = None
 
 
 def parse_arguments():
@@ -264,36 +266,39 @@ if __name__ == "__main__":
             for id, test_image_url in datasets.test_image_id_url_dict.items():
                 i = i + 1
 
-                try:
-                    if user_input == 'YES':
-                        test_image_url = input("Provide the url of the image: ")
-                        # test_image_url =
+                # try:
+                if user_input == 'YES':
+                    test_image_url = input("Provide the url of the image: ")
+                    # test_image_url =
                         # 'https://vision.ece.vt.edu/data/mscoco/images/train2014/./COCO_train2014_000000314392.jpg'
-                        output_questions = question_generator.test_model(test_image_url, new_model,
+                    output_questions = question_generator.test_model(test_image_url, new_model,
                                                                          decoder_algorithm, beam_size)
+                else:
+                    logger.info('\n\n\nImage url: %s' % test_image_url)
+                    if id in datasets.test_image_id_keyword_dict:
+                        keyword = datasets.test_image_id_keyword_dict[id]
                     else:
-                        logger.info('\n\n\nImage url: %s' % test_image_url)
-                        if id in datasets.test_image_id_keyword_dict:
-                            keyword = datasets.test_image_id_keyword_dict[id]
-                        else:
-                            keyword = None
-                        output_questions = question_generator.test_model(test_image_url, new_model,
-                                                                         decoder_algorithm, beam_size, keyword)
-                        file_writer.writerow([i, test_image_url, '---'.join(output_questions)])
+                        keyword = None
+                    logger.info("Generating Question --- ")
+                    output_questions = question_generator.test_model(test_image_url, new_model,
+                                                                     decoder_algorithm, beam_size, keyword)
+                    logger.info("Writing to file writer --- ")
+                    file_writer.writerow([i, test_image_url, '---'.join(output_questions)])
 
-                        gt_questions = datasets.test_image_id_questions_dict[id]
-                        ground_truth = []
-                        for question in gt_questions:
-                            gt = question.split()[1:-1]
-                            gt = ' '.join(gt)
-                            if gt in ['None', 'none']:
-                                continue
-                            ground_truth.append(gt)
-                        logger.info('GT  ---->%s' % ground_truth)
-                        gt_file_writer.writerow([i, '---'.join(ground_truth)])
-                except:
-                    logger.error('%s has inference issues. Most likely doesnt exist' % test_image_url)
-                    continue
+                    logger.info("Loading Ground Truth --- ")
+                    gt_questions = datasets.test_image_id_questions_dict[id]
+                    ground_truth = []
+                    for question in gt_questions:
+                        gt = question.split()[1:-1]
+                        gt = ' '.join(gt)
+                        if gt in ['None', 'none']:
+                            continue
+                        ground_truth.append(gt)
+                    logger.info('GT  ---->%s' % ground_truth)
+                    gt_file_writer.writerow([i, '---'.join(ground_truth)])
+                # except:
+                #     logger.error('%s has inference issues. Most likely doesnt exist' % test_image_url)
+                #     continue
 
                 # Generative strength:
                 # No of unique questions averaged over number of images
@@ -318,7 +323,7 @@ if __name__ == "__main__":
     prediction_file_path = "{}/result_{}_test_all.csv".format(args.model_dir, dataset)
     ground_truth_file_path = "{}/gt_{}_test_all.csv".format(args.model_dir, dataset)
     logger.info("Running evaluation script on prediction %s and gt %s file" % (prediction_file_path, ground_truth_file_path))
-    run_evaluation(prediction_file_path, ground_truth_file_path)
+    # run_evaluation(prediction_file_path, ground_truth_file_path)
 
 
 
