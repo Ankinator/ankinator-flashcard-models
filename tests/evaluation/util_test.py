@@ -11,11 +11,11 @@ class TestUtils(unittest.TestCase):
         strings = extract_strings(model_outs)
         self.assertListEqual(
             [
-                "What is the capital of France?",
-                "How do plants obtain energy?",
-                "Are dogs considered mammals?",
-                "What are the symptoms of COVID-19?",
-                "Why is exercise important for a healthy lifestyle?"
+                ["What is the capital of France?"],
+                ["How do plants obtain energy?"],
+                ["Are dogs considered mammals?"],
+                ["What are the symptoms of COVID-19?"],
+                ["Why is exercise important for a healthy lifestyle?"]
             ], strings
         )
 

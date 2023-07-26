@@ -22,13 +22,13 @@ class MeteorEvaluator(Evaluator):
         self.sentences_from_model = extract_strings(model_output)
         self.sentences_from_reference = extract_strings(references)
 
-        sentences_from_model_tokenized = tokenize_list(self.sentences_from_model)
-        sentences_from_reference_tokenized = tokenize_list(self.sentences_from_reference)
+        sentences_from_model_tokenized = tokenize_list([l[0] for l in self.sentences_from_model])
+        sentences_from_reference_tokenized = [tokenize_list(refs) for refs in self.sentences_from_reference]
 
         for i in range(len(sentences_from_model_tokenized)):
             self.scores.append(
-                meteor_score.single_meteor_score(
-                    reference=sentences_from_reference_tokenized[i],
+                meteor_score.meteor_score(
+                    references=sentences_from_reference_tokenized[i],
                     hypothesis=sentences_from_model_tokenized[i]
                 )
             )
@@ -48,7 +48,7 @@ class MeteorEvaluator(Evaluator):
         return pd.DataFrame({
             "model_out": self.sentences_from_model,
             "reference": self.sentences_from_reference,
-            "sem_meteor": self.scores
+            "max_sem_meteor": self.scores
         })
 
     def save_scores_to_file(self, path="out/eval/sem_meteor.csv"):
@@ -57,5 +57,3 @@ class MeteorEvaluator(Evaluator):
             os.makedirs(os.path.split(path)[0], exist_ok=True)
 
         self.get_dataframe().to_csv(path_or_buf=path, index=False)
-
-
