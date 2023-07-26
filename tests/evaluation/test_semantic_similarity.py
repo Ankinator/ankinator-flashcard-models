@@ -37,7 +37,7 @@ class TestSemanticSim(unittest.TestCase):
         self.assertTrue(os.path.exists(path))
         file_contents_df = pd.read_csv(path)
         self.assertListEqual(list1=file_contents_df.columns.to_list(),
-                             list2=["model_out", "reference", "similiarities"])
+                             list2=["model_out", "reference", "max_similarity"])
 
     def test_plot(self):
         path = "out/eval/sim.png"
