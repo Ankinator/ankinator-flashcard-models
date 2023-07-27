@@ -141,3 +141,4 @@ dmypy.json
 /datasets/gold_standard/
 /src/image_to_text/vqg-multimodal-assistant/model/
 /datasets/apple-vqg/
+/datasets/master/
