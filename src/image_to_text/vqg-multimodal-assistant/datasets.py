@@ -273,8 +273,9 @@ class Datasets:
         :param image_url: Image URL
         :return: Extracted features after running through an image encoding algorithm
         """
-        response = requests.get(image_url, verify=False)
-        image_content = Image.open(BytesIO(response.content))
+        # response = requests.get(image_url, verify=False)
+        # image_content = Image.open(BytesIO(response.content))
+        image_content = Image.open(image_url)
         image_content = image_content.resize((224, 224))
 
         try:
