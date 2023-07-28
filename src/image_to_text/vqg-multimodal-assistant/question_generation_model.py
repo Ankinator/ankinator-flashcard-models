@@ -837,8 +837,9 @@ class QuestionGenerationModel:
         :return:
         """
 
-        response = requests.get(test_image_url)
-        test_image_content = Image.open(BytesIO(response.content))
+        # response = requests.get(test_image_url)
+        # test_image_content = Image.open(BytesIO(response.content))
+        test_image_content = Image.open(test_image_url)
         test_image_content = test_image_content.resize((224, 224))
         self.logger.debug('Extracting image feature')
         try:
