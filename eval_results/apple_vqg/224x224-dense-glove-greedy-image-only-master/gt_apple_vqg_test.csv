@@ -1,0 +1,459 @@
+image_id,questions
+1,how can words be counted with mapreduce
+2,describe the rdd workflow---how does the rdd workflow look like
+3,what are key aspects and differences of the kindergarten report card and the performance appraisal
+4,what are the communication costs for semi join filtering
+5,what is a merkle tree---why is the merkle tree used in distributed systems
+6,what is the large margin principle---what is the goal behind large margin principle
+7,what are the three main challenges of the bitcoin network
+8,explain pointwise learning to rank---what are the issues with pointwise learning to rank
+9,which differences exist between genders men and women in leadership effectiveness
+10,what are examples of notable xss attacks
+11,how is the inverse document frequency computed
+12,what are the big data viewpoints
+13,how can bitcoin network check authenticity of transaction
+14,why should specifications be augmented with tests
+15,explain empirical risk minimisation
+16,how is the log likelihood defined for discriminative models
+17,can you explain the language bowl metaphor---explain the language bowl metaphor
+18,which are the key differences of cops versus teams
+19,how is the difficulty of the goals related to performance
+20,describe erdo ̋s–re ́nyi model
+21,what are the assumptions of k means clustering
+22,what is the idea of joins with filtering
+23,what intradiagram consistency rules exist
+24,what is an example for an sql injection attack
+25,how to construct a bayesian networks by building a diagnostic model
+26,what are the research questions used by becerrafernandez sabherwal 2001
+27,why should posting sites be sorted
+28,what is the idea of smoothing in sequential processes
+29,which are relevant factors for explaining the leadership gap
+30,what is an example for a heap overflow attack
+31,what security is achieved with vpn
+32,what is the maximum number of links a network can have---what makes a graph complete
+33,what is the property rule
+34,how can leaders increase followers motivation according to house and mitchel---how does pathgoal leadership realize it
+35,what is the definition of authenticity and what is a example attack and security solution for it
+36,which steps are necessary to answer a boolean query with the help of the incidence matrix
+37,how can mapreduce be used for iterative computations
+38,what are the different measures to calculate importance of nodes
+39,what characteristics does kane alavis 2007 design approach focus on
+40,why should knowledge be stored---what are the risks to knowledge retention
+41,what are the factors influencing the components of the skills model
+42,what are random variables---define a random variable
+43,how is the quality of documents determined
+44,what is a access matrix
+45,how does type 1 of ransomware encryption of data work
+46,give an example of how range partitioning is used to create fragments for a table
+47,what is knowledge management from a knowledge work perspective according to lebovitz et al 2022---what is the role of information technology for knowledge work according to lebovitz et al 2022---what changes with ai according to lebovitz et al 2022
+48,how does a simple cost model for allocation look like
+49,how can an example for ontology look like in the financial services industry
+50,which views of a data cube can be used for different organizational roles
+51,how is a distributed computation performed with aggregate functions
+52,what is the definition of a dms and what are the key functionalities in both the narrower and broader sense
+53,what is the idea of approximate cosine similarity
+54,are there differences between genders in leadership effectiveness
+55,which three components are implemented by each information retrieval system
+56,how it the procedure of a vpn
+57,what are the relevant development languages for web applications
+58,what is the dirichlet distribution---explain the dirichlet distribution
+59,what is the role of a component realization
+60,explain logistic regression
+61,what are strengths and criticisms of the skills approach---how can the skills approach be applied in practice
+62,how can histograms be used to select a partitioning vector
+63,how to protect against ransomware type 1 attack encryption of data
+64,how does a setup with eventual consistency look like
+65,what is a data warehouse dw---what is business intelligence bi
+66,what is a stationary policy---what is an optimal policy
+67,what is a set of random variables in probabilistic retrieval---how is the relevance judgment defined
+68,what is an example for an sql injection attack
+69,what are the main differences between declarative and procedural knowledge
+70,when does the exchange phase become difficult
+71,how do motivational and individual factors influence the volume of contributions
+72,what are the layers of the tcpip model
+73,what is markov chain monte carlo
+74,what are ko et als definitions for the three communication factors and the four motivational factors
+75,what are index terms---how are index terms structured
+76,what does the feature map of polynomial kernel contain
+77,what is a problem of the rainbow table approach and how is it solved
+78,which impact has km on the employees
+79,what is a policy
+80,what does a physical dataflow look like---what are the steps in a physical dataflow
+81,what does a query tree with derived horizontal fragmentation and empty join elimination look like
+82,what is counter mode
+83,how are vector clocks compared---when is one vector clock before the other
+84,how is the result obtained in spark
+85,what is dns hijacking
+86,how is the attacker model and what are possible attacks on hashed passwords on a server
+87,what are support vector machines
+88,define the theory of rational decisions---when is an agent rational
+89,how can different indexing strategies be combined
+90,how does latent semantic analysis use svd
+91,when are two random variables independent
+92,differentiate between walk chain trail and path---what is a cycle and closed loop
+93,what is an example for a heap overflow attack
+94,what does the term bug mean---why should the term bug be avoided
+95,what is an examples of a csrf attack
+96,how would an offline attack on stored hashed values of passwords on a server look like
+97,what are gaussian mixture models---how can gmm be viewed as soft clustering variant of k means
+98,what are possible goals of xss
+99,explain supervised and unsupervised machine learning---which two types of machine learning exist
+100,define acyclic network
+101,what extent of skills of the threeskill approach do you need for the various management levels top middle supervisory
+102,what is the collection frequency
+103,how is the complete cost function to find an allocation schema defined---why is the total cost function overly simplified
+104,define kcore centrality
+105,define adjacency matrix
+106,what is a click fraud attack
+107,what is the sum rule
+108,what characteristics do hansen et al 1999 focus on
+109,how is the situational approach described---what is the leadership style and how is it related to the situational approach---what are the different leadership styles of the slii approach and how are they expressed by the leader
+110,what are header fields of an email
+111,what is conjugate prior
+112,which main questions are investigated by sturm et al 2022
+113,describe leskovec and horvitz study
+114,describe gaussian distribution
+115,define diameter---write expressions for average distance
+116,what are the four phases of knowledge transfer and what are their key tasks
+117,does the gender of the leader affect their leadership style
+118,describe k means clustering
+119,what is the intuition of differential privacy
+120,why do we introduce a discount factor---how is utility defined with a discount factor
+121,describe sparsity via l0 regularization
+122,what is crc
+123,why does transactive memory not work in large groups---how to solve this problem
+124,what does the internal dataflow representation of a spark program look like
+125,how can a vpn be realized
+126,what is the focus of wasko farajs 2005 studies
+127,how to use the flatmap function
+128,describe multivariate gaussian distribution
+129,what are the eight main functionalities of text mining discussed in the lecture
+130,what are the problems of knowledge internalization
+131,what is session hijacking and what are countermeasures
+132,what is an examples of a csrf attack
+133,how does rsa work
+134,do the appropriation factors for bac require media synchronicity
+135,explain the spark runtime architecture---what is the structure of spark architecture
+136,how is the icv calculated in the ah protocol in transport mode
+137,why is the transfer of implicit knowledge becoming more difficult with an increasing degree of diffusion
+138,what is an examples of a csrf attack
+139,what is the terminology to represent preferences
+140,how are input and output defined for parallel joins
+141,how are infeasible test requirements handled in logic coverage criteria
+142,how can spark be understood as a dataflow engine
+143,what are the steps of the rocchio algorithm---explain the rocchio algorithm
+144,when is the merge of posting lists performed fastest
+145,what are drawbacks of access matrixes
+146,compare erdo ̋s–re ́nyi model and configuration model
+147,what are primitive data values what is the relationship to integer underoverflow attacks
+148,explain empirical risk minimization
+149,why arent self loops and multi edges a problem in random matching
+150,how does shared key authentication work
+151,why is big data difficult to handle
+152,how does the expectancy theory vie theory vroom 1964 describe the creation of motivation and what is the motivational potential
+153,how are word counts computed in the mapreduce reduce phase
+154,what is the eu cookie directive
+155,how are tests and test paths denoted and what does syntacticsemantic reach mean---what is syntacticsemantic reach---how are tests and test paths denoted
+156,what is multitasking and how does it work
+157,what are race condition attacks
+158,why can mapreduce be interpreted as a dataflow---how is mapreduce generalized by dataflow engines
+159,do you know some hadoop related projects
+160,describe second order taylor polynomial multivariate case
+161,what are alternative ways of weighting to rank documents
+162,what are constraints among characteristics and how are they handled
+163,describe the methodology of gradient descent
+164,how do conveyance and convergence differ
+165,describe sparsity via l1 regularization
+166,what are famous examples for gdpr fines
+167,describe the relationship between svd and linear regression
+168,what is the concept of critical data
+169,what are the two modes of ipsec
+170,what does the eckart young theorem say
+171,what are the challenges in defining a learning algorithm
+172,which categories of contingency factors exist
+173,what is the parameter 𝜖 and the composition theorem
+174,what is the idea of latent and semantic information retrieval
+175,according to the matrix of pathgoal theory what leadership behaviors need to be applied in different settings depending on group members and task characteristics
+176,what is shared key authentication
+177,explain the generative process of a language model---how does the generative process of a language model work
+178,how is relevance usually expressed in information retrieval models
+179,when is a map and when is a reduce program used
+180,what is the definition of verification and validation and how do they differ---what are the two principle objectives of vv
+181,how is base choice coverage defined
+182,how to use sgd for logistic regression
+183,how is correctness ensured in horizontal fragmentation
+184,how is the ambiguity in acc handled
+185,what is the simplest way to compute a thesaurus---what is the cooccurrence thesaurus---how is the cooccurrence thesaurus constructed
+186,what are the key aspects of cops maturity phase engaged in terms of people behavior process support and enabling technology
+187,how exactly can integrity be attacked when crc is used wep
+188,what is http
+189,how do code injection attacks work
+190,describe newtons method multivariate case
+191,how is the formal definition of bnf
+192,can you give an example for the binary independence model with relevance judgements
+193,what goal has stage3 exploitation and what are possible tools
+194,what are the goals for distributed transactions
+195,what is the bayes rule
+196,how can a tls connection be checked
+197,what is the cyber ba and which technology is used
+198,which leader behaviors are described by the pathgoal theory and how
+199,how are word counts computed in the mapreduce reduce phase
+200,explain the lloyds algorithm for k means
+201,what are the main differences between explicit and tacit knowledge
+202,what are simple paths and prime paths
+203,why do we need information value theory
+204,what is pretexting
+205,how does the categorization functionality in text mining work and what are the key elements involved in the process
+206,how is range partitioning used to distribute data
+207,what are four fundamental subspaces---how to obtain bases for subspaces from svd
+208,how are convolutional neural networks trained
+209,how to compute the robustness of protocols for replication transparency
+210,what are countermeasures against csrf attacks
+211,what is a processing attack
+212,how is fragmentation transparency defined
+213,how are matrix decompositions approximated
+214,what is a custom partitioner---what is a custom key comparator
+215,what are general advices regarding potentially harmful emails
+216,which motivation theories exist and how are they categorized
+217,which components are generally contained in a process model of a text mining application
+218,what can perceptron learn
+219,how does parallel range partitioning sort work
+220,why do we need secure passwords and what are the challenges
+221,what are the problems of knowledge integration
+222,what is the probability that the generated model will have m links
+223,what is the tcpip model
+224,what are alternatives for key servers
+225,how is bayes rule defined
+226,what is the basic email architecture
+227,what is the relation between entropy and security
+228,which method did lebovitz et al 2022 use
+229,why do we need models---what can the models be used for
+230,define the scope of a leaf node n---define the scope of an inner node n---define the scope of s
+231,describe map with gaussian prior
+232,what are possible approaches to define anonymity
+233,what is an example for a prime and probe attack
+234,what is the relationship between bernoulli model and odds
+235,what are known knowledge management problems and what knowledge management processes handle them
+236,how can rolebasedaccesscontrol be graphically represented
+237,when are networks said to show the small world property
+238,how is externally regulated behavior defined and how is it related to intrinsically motivated behavior---what is internalization
+239,what are the components of cluster analysis
+240,how does svd allow visualization of data
+241,what is probabilistic pca
+242,what is integer underoverflow what are famous examples
+243,how must the merging of posting lists be adapted to support phrase queries
+244,what are the resulting design recommendations of kane alavi
+245,how to define “network of practice”---what is the definition of “electronic network of practice”---how are “electronic network of practice” and communities of practice related
+246,on what basis do hansen et al choose codification or personalization as the design approach---what is the difference between cost leadership and quality leadership
+247,what is knowledge management from an organizational learning perspective according to sturm et al 2022---what is the role of information technology according to sturm et al 2022---what changes with ai according to sturm et al 2022
+248,how can open system authentication be attacked
+249,why are not all biwords always indexed---how are biwords expanded so that they only represent meaningful concepts
+250,how to deal with lost messages
+251,what are disclosure risks
+252,what are the key differences between leadership and management
+253,describe the terminology of the em algorithm
+254,what are the possible states of an agent in the two phase commit protocol
+255,how does pseudocode for rainbow tables look like
+256,what is the workflow for mac
+257,what is the porter algorithm---how does the porter algorithm work
+258,how can multiple factors be considered for ranking documents
+259,how does a sql statement that required decomposition look like
+260,what is the synthetic data approach what are types of synthetic data
+261,what is quid pro quo
+262,what are the exemplary steps of nonperturbative masking through generalization
+263,reflect on the findings of leskovec and horvitz study
+264,why is pooling required---how are documents annotated in pooling
+265,what is tor
+266,what is the problem of dominating mining pools
+267,how are communities of practice cops defined
+268,how can relevance feedback be incorporated into estimations of probabilities for probabilistic retrieval
+269,how to apply those studies in a case study
+270,when was mapreduce released
+271,what are the limits and benefits of the seci model
+272,how does a chain of trust work
+273,which assumptions hold in a markov decision process
+274,how do passwords work
+275,which metric is usually optimized by information retrieval systems
+276,when is the time for merging linear
+277,how to perform read and write operations in quorum consensus
+278,how does setting a specific hard goal differ from a do best goal in relation to the performance
+279,how is clause coverage defined
+280,what are strengths and criticisms of the al approach
+281,comment on the why only for directed networks eigenvalue centrality is useful
+282,what are the two problems of term frequency
+283,explain the cbow model---how is the cbow model used to compute word embeddings
+284,how are cluster sizes modeled in kmeans and gmms
+285,what are mixture models---give the interpretation of mixture models
+286,what is the common cryptographic scenario
+287,how does the partitioning of the input domain into blocks work
+288,how is the workflow of crc
+289,what are joint distributions
+290,how are svd and pca related
+291,what are constituent attributes of electronic cops and what are qualifying elements
+292,what are the components of the knowledge spiral
+293,explain the example for the binary independence model with available relevance judgements
+294,describe the methodology of eigenvector centrality
+295,what are the problems with the rules of the porter algorithm
+296,what is utility theory used for
+297,why is the size of positional indices problematic
+298,how is each choice coverage defined
+299,which results did becerrafernandez sabherwal 2001 find regarding the influence of the four processes on km effectiveness and employee satisfaction research question 1
+300,what is unsupervised learning and what is the goal
+301,how are tasks processed using the cache
+302,how to create a total order for a table with mapreduce
+303,how are the results from the spark program distributed across the nodes
+304,how does the research model of ko et al 2005 look like---what influence do the factors have on each other and on the transfer of knowledge
+305,what are the four information retrieval paradigms
+306,what are strengths and criticisms of the pathgoal theory---how can the pathgoal theory be applied in practice
+307,why is local serializability not enough for a distributed commit
+308,how to decide whether to expect success using odds
+309,what does a query tree with derived horizontal fragmentation and union pull up look like
+310,what is the definition of the factors idealized influence and inspirational motivation of the tl model
+311,what are message authentication codes
+312,what is the principle of dombased xss
+313,what are mail fetching protocols
+314,what does the notation for fragments look like
+315,how are general inactive clause coverage and restricted inactive clause coverage defined---how do gicc and ricc differ
+316,explain the twogenerals problem
+317,what are advantages and criticism of the belllapadula model
+318,how can we assess the agents degree of believe---how can betting games be used to assess agents
+319,what is the setup of the centralized two phase commit protocol
+320,what are the properties of estimators
+321,what does the mapreduce execution workflow look like
+322,where is big data successful used
+323,what are the problems with pc and cc
+324,how are graphs used in testing and how are test requirements test criterion and satisfaction defined---how are graphs used in testing---how are test requirements test criterion and satisfaction defined
+325,why is it possible to use grammar coverage criteria
+326,which steps are involved in pooling
+327,what is guaranteed if an agent is in the ready state---when does the coordinator decide on a commit
+328,what is a discretionary access control dac and what advantagesdisadvantages does it have
+329,which research approach do kane alavi use and which important contingency factors and moderators which they consider
+330,how is a botnet coordinated
+331,how does locality sensitive hashing work
+332,what is the goal of privilege escalation attacks and how do they work
+333,which keys are reallocated when a node joins
+334,what to look for in networks to know if small world property is present
+335,differentiate in inference and decision
+336,which three basic architectures exist for parallel dbms
+337,describe the methodology of eigenvector centrality
+338,how does memory organization work in a multitasking system why do you need it
+339,why are there so many different types of nosql databases
+340,what do two vector clocks look like where there is no conflict
+341,which strategies exist to avoid deadlocks
+342,explain the single pass clustering algorithm---how is the number of clusters determined in the single pass clustering algorithm
+343,what is the common vulnerabilities and exposures cve and what is the definition for vulnerabilities and exposures
+344,what are strengths and criticisms of the servant leadership approach
+345,how are input and output for the parallel sort defined
+346,how would an online attack on stored hashed values of passwords on a server look like and what are countermeasures
+347,how is elasticity used to measure the extensibility
+348,what is the framing effect---what is the anchoring effect
+349,what are the key factors to consider regarding the use of knowledge management systems kms---how can the use of kms be conceptualized and what is the key question when it comes to knowledge sharing
+350,which three definitions exist for the authentic leadership approach
+351,how can multidimensional data be stored---how can different views of the data be analyzed
+352,how efficient is the antientropy protocol
+353,what are word embeddings---explain word embeddings---what is the difference between sparse and dense term representations
+354,how does information spread with the rumor spreading protocol and pull communication
+355,how can words be counted with mapreduce
+356,how are documents word embeddings obtained using the cbow model
+357,what are the drawbacks of automated thesaurus generation
+358,what does a structured text representation look like
+359,what are the implications of the work of van der broek et al 2022
+360,what does the no free lunch theorem trying to say
+361,how are language models used for information retrieval
+362,what is domain keys identified mail dkim
+363,what are the moderators of the goal performance relationship
+364,what are the implications of the work of lebovitz et al 2022
+365,how is the relevance score computed if no relevance judgements are available
+366,how does lmx theory describe leaders relationship to work units---what is the origin of lmx theory
+367,what are countermeasures against unauthorized access
+368,which special case is covered by the markov decision process
+369,how is the bayes rule defined---what is the bayes rule
+370,define average degree
+371,differentiate between parametric and nonparametric models
+372,what is expansion---how does expansion work---what are the advantages and disadvantages of expansion
+373,in conclusion which design approaches should you use for which contingency factors
+374,what is the cosine similarity
+375,what technology does kane alavi believe should be used for exploitation or exploration
+376,when do weights remain bounded---why data scale matters
+377,describe the general pdbms architecture---what are the central parts of the general pdbms architecture
+378,how can evidence be combined
+379,write the expressions for expected number of selfloops
+380,what are distributive aggregate functions
+381,what advantages does rbac have in contrast to a tradition access matrix
+382,what are auxiliary specification artifacts
+383,what makes naive bayes a family of classifiers
+384,how is the normalized discounted cumulative gain defined---how is the ideal discounted cumulative gain defined---how does the normalized discounted cumulative gain change if the number of relevant documents changes
+385,what is the generic smtp protocol flow
+386,how does routing with finger tables work---what is the advantage of routing with finger tables
+387,how to identify which nodes are important
+388,what characteristics does dennis vesseys design approach focus on
+389,what language models are available to model the probability of word sequences in a language
+390,define page rank centrality in detail
+391,what are the three components of kobra and what is the vision and obstacles for each
+392,what is the definition of personal data
+393,describe support vector classification
+394,what does the workflow of rc4 look like
+395,which gender stereotypes exist
+396,what are the advantages and disadvantages of the basic approach to achieve replication consistency
+397,explain structural properties
+398,what is machine learning
+399,what are examples for notable csrf attacks
+400,why is the document frequency used---what is the idea behind the global document frequency
+401,how does the sender policy framework work
+402,into which groups are the knowledge goals of km cycle divided
+403,what are the four characteristics of network science
+404,what are the six global leadership behaviors of globe
+405,what are the benefits of mapreduce
+406,what is an rdd action---how can sparks reduce action be used
+407,what are stragglers---why are stragglers a problem
+408,what is a testers job---how are test requirements and test criteria defined
+409,why is it difficult to select a good partitioning vector
+410,what is hadoop
+411,what makes network science quantitative and empirical
+412,how is a virus defined
+413,how does preclustering work to speed up the ranking of documents
+414,what is a evil twin attack
+415,what are the two scenarios that can occur when we want to rank documents
+416,what are the decomposition steps
+417,how is replication transparency defined---what does it mean that a database is mutually consistent
+418,how did the and and or operators affect a boolean query
+419,which extensions exist for mapreduce
+420,how can an agent act and perceive its environment
+421,what are the main security problems of cookies
+422,how is a probabilistic retrieval system defined by robertson
+423,what tradeoffs must be made with the rocchio algorithm
+424,what enhances guessing attacks on passwords exist
+425,how does the algorithm to evaluate decision networks work
+426,what is the basic idea of direct sampling methods
+427,in what relation are task difficulty and effort---what is the relationship between goal difficulty and performance
+428,describe multivariate gaussian distribution
+429,what are the limitations of erdo ̋s–re ́nyi model---what is the model useful for
+430,how does dms support filling through archiving
+431,what is the concept of scamming
+432,how did garud kumaraswamy implement a qualitative incentive system
+433,what is the difference between knowledge augmentation and knowledge substitution
+434,in which ways do goals affect performance
+435,how does information spread with the rumor spreading protocol and push communication
+436,how to filter log files with spark
+437,what form does the intermediate step have
+438,what is assumed when using partitions
+439,what are determining predicates
+440,what would be a practical example of the five elements of knowledge transfer with personal and impersonal transfer
+441,why is data locality important
+442,what is selfdetermination theory sdt and what motivational distinction is it based on
+443,what does encapsulation describe
+444,how does the reduceside join work---explain the reduceside join
+445,how is the workflow of a hash function
+446,how is ba related to the knowledge spiral
+447,how does reduction for vertical fragmentation work
+448,what is stemming---how does stemming work
+449,explain a vector clock example
+450,what are the two approaches used in configuration model
+451,explain empirical risk minimisation
+452,what are the most important points to know about spark
+453,how is a worm defined
+454,which transformations exist in spark
+455,what is the internal structure of the formula of pbjm
+456,what are the two approaches to input domain modeling
+457,how does the ranking work when relevance judgements are known
+458,what are the three main methods used for authentication and what are examples and problems of each method
