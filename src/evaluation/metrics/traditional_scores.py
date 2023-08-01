@@ -34,11 +34,11 @@ class PRFScoreEvaluator(Evaluator):
         normalized_from_model = self._normalize_and_convert_to_set(self.sentences_from_model)
         normalized_from_reference = self._normalize_and_convert_to_set(self.sentences_from_reference)
 
-        self.precision_scores = [precision(reference=r, test=m) for r, m in
+        self.precision_scores = [precision(reference=r, test=m) if precision(reference=r, test=m) is not None else 0 for r, m in
                                  zip(normalized_from_reference, normalized_from_model)]
         self.recall_scores = [recall(reference=r, test=m) for r, m in
                               zip(normalized_from_reference, normalized_from_model)]
-        self.f_measure_scores = [f_measure(reference=r, test=m) for r, m in
+        self.f_measure_scores = [f_measure(reference=r, test=m) if f_measure(reference=r, test=m) is not None else 0 for r, m in
                                  zip(normalized_from_reference, normalized_from_model)]
 
         if self.save_to_file:
