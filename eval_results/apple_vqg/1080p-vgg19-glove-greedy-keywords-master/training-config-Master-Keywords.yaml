@@ -32,24 +32,24 @@ parameters:
   is_training: 'YES'
   logging_level: 'i'
   datasets:
-    name: 'apple'
+    name: 'master'
     # Used to limit image count for which features are extracted. Use small number for debugging purposes.
     # Once the code is running end to end, make this value large ~3000
     max_train_size: 10000
     # To use apple data
-    train_file: "data/apple/apple_train_all_keyword.csv"
-    validation_file: "data/apple/apple_dev_all_keyword.csv"
-    test_file: "data/apple/apple_test_all_keyword.csv"
-    embedding_file: "data/glove_words.txt"
+    train_file: "datasets/master/apple_vqg_train.csv"
+    validation_file: "datasets/master/apple_vqg_val.csv"
+    test_file: "datasets/master/apple_vqg_test.csv"
+    embedding_file: "src/apple_vqg/data/glove_words.txt"
 #    embedding_file: "bert"
-    keyword: 'NO'
+    keyword: 'YES'
 
   model_parameters:
     image_encoder:
-        algorithm: 'DenseNet'
-        image_width: 224
-        image_height: 224
-        image_embedding_dim: 94080
+        algorithm: 'VGG19'
+        image_width: 1920
+        image_height: 1080
+        image_embedding_dim: 1013760
 
     text_encoder:
         algorithm: 'LSTM'
