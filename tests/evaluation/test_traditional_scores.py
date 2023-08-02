@@ -29,4 +29,3 @@ class TestTraditionalScores(unittest.TestCase):
         file_contents_df = pd.read_csv(path)
         self.assertListEqual(list1=file_contents_df.columns.to_list(),
                              list2=["model_out", "reference", "max_p", "max_r", "max_f1"])
-

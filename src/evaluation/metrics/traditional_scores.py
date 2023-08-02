@@ -37,20 +37,20 @@ class PRFScoreEvaluator(Evaluator):
 
             self.precision_scores.append(
                 max(
-                    [precision(reference=r, test=m) for r, m in
+                    [precision(reference=r, test=m) if precision(reference=r, test=m) is not None else 0 for r, m in
                      zip(normalized_from_reference, normalized_from_model)
                      ]
                 )
             )
             self.recall_scores.append(
                 max(
-                    [recall(reference=r, test=m) for r, m in
+                    [recall(reference=r, test=m) if recall(reference=r, test=m) is not None else 0 for r, m in
                      zip(normalized_from_reference, normalized_from_model)]
                 )
             )
             self.f_measure_scores.append(
                 max(
-                    [f_measure(reference=r, test=m) for r, m in
+                    [f_measure(reference=r, test=m) if f_measure(reference=r, test=m) is not None else 0 for r, m in
                      zip(normalized_from_reference, normalized_from_model)]
                 )
             )
