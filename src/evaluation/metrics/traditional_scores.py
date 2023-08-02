@@ -31,15 +31,29 @@ class PRFScoreEvaluator(Evaluator):
         self.sentences_from_model = extract_strings(model_output)
         self.sentences_from_reference = extract_strings(references)
 
-        normalized_from_model = self._normalize_and_convert_to_set(self.sentences_from_model)
-        normalized_from_reference = self._normalize_and_convert_to_set(self.sentences_from_reference)
+        for model_out, refs in zip(self.sentences_from_model, self.sentences_from_reference):
+            normalized_from_model = self._normalize_and_convert_to_set(model_out)
+            normalized_from_reference = self._normalize_and_convert_to_set(refs)
 
-        self.precision_scores = [precision(reference=r, test=m) if precision(reference=r, test=m) is not None else 0 for r, m in
-                                 zip(normalized_from_reference, normalized_from_model)]
-        self.recall_scores = [recall(reference=r, test=m) for r, m in
-                              zip(normalized_from_reference, normalized_from_model)]
-        self.f_measure_scores = [f_measure(reference=r, test=m) if f_measure(reference=r, test=m) is not None else 0 for r, m in
-                                 zip(normalized_from_reference, normalized_from_model)]
+            self.precision_scores.append(
+                max(
+                    [precision(reference=r, test=m) if precision(reference=r, test=m) is not None else 0 for r, m in
+                     zip(normalized_from_reference, normalized_from_model)
+                     ]
+                )
+            )
+            self.recall_scores.append(
+                max(
+                    [recall(reference=r, test=m) if recall(reference=r, test=m) is not None else 0 for r, m in
+                     zip(normalized_from_reference, normalized_from_model)]
+                )
+            )
+            self.f_measure_scores.append(
+                max(
+                    [f_measure(reference=r, test=m) if f_measure(reference=r, test=m) is not None else 0 for r, m in
+                     zip(normalized_from_reference, normalized_from_model)]
+                )
+            )
 
         if self.save_to_file:
             self.save_scores_to_file()
@@ -75,9 +89,9 @@ class PRFScoreEvaluator(Evaluator):
         return pd.DataFrame({
             "model_out": self.sentences_from_model,
             "reference": self.sentences_from_reference,
-            "p": self.precision_scores,
-            "r": self.recall_scores,
-            "f1": self.f_measure_scores
+            "max_p": self.precision_scores,
+            "max_r": self.recall_scores,
+            "max_f1": self.f_measure_scores
         })
 
     def save_scores_to_file(self, path="out/eval/traditional_scores.csv"):
