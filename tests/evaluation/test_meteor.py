@@ -28,4 +28,4 @@ class TestMeteor(unittest.TestCase):
         self.assertTrue(os.path.exists(path))
         file_contents_df = pd.read_csv(path)
         self.assertListEqual(list1=file_contents_df.columns.to_list(),
-                             list2=["model_out", "reference", "sem_meteor"])
+                             list2=["model_out", "reference", "max_sem_meteor"])
