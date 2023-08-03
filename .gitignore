@@ -139,3 +139,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 /datasets/gold_standard/
+/src/image_to_text/vqg-multimodal-assistant/model/
+/datasets/apple-vqg/
+/datasets/master/

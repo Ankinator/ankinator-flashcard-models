@@ -6,7 +6,7 @@ from pypdfium2 import PdfDocument, PdfPage
 
 def plain_pdf_extraction(pdf_document: PdfDocument) -> [(int, str)]:
     pages = []
-    for page_index, page_content in enumerate(pdf_document, 0):
+    for page_index, page_content in enumerate(pdf_document, 1):
         page_text: str = page_content.get_textpage().get_text_range()
         pages.append((page_index, page_text))
     return pages
@@ -19,7 +19,7 @@ def extract_text(pdf_file: SpooledTemporaryFile, language: str = "eng") \
     extracted_content: List[Tuple[int, str, str, Image]] = []
     for page_index, page_text in extracted_pages:
         plain_extraction_text_length = len(page_text.split(" "))
-        page_image = pdf_page_to_image(pdf_document.get_page(page_index))
+        page_image = pdf_page_to_image(pdf_document.get_page(page_index - 1))
         extracted_content.append((page_index, page_text, "", page_image))
     return extracted_content
 
