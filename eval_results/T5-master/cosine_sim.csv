@@ -1,0 +1,268 @@
+model_out,reference,max_similarity
+['what are the primary specification models of the software engineering group?'],"['what are the primary specification models?', 'what are the structural, functional and behavioral models?', '']",0.78110486
+['how is the cost of writing and updating all replicas calculated?'],"['how is the cost function for write operations defined?', '', '']",0.5202012
+['how does the query optimization process work?'],"['what does the query optimization process look like?', '', '']",0.94196975
+['what are the key ideas behind consistent hashing?'],"['what is consistent hashing?', 'how does consistent hashing work?', 'what are the key ideas of consistent hashing?']",0.98175657
+['what is the idea of normalized cumulative gain?'],"['how is the discounted cumulative gain defined?', 'how is the normalized cumulative gain related to the cumulative gain?', '']",0.9192858
+['what is the basic approach to the rawa protocol?'],"['how to achieve replication transparency?', 'explain the rawa protocol', '']",0.93241554
+['what are the applications of video classification and activity localization?'],"['what are applications of sum-product networks?', '', '']",0.3152429
+['what is logistic regression?'],"['how is the logistic regression model trained?', '', '']",0.69508165
+['what is baiting?'],"['what is baiting?', '', '']",1.0
+['what are some hadoop related projects?'],"['do you know some hadoop related projects?', '', '']",0.9733995
+['what are the drawbacks of access matrix?'],"['what are drawbacks of access matrixes?', '', '']",0.98868746
+['what is heuristic behavior?'],"['what is heuristic behavior?', '', '']",1.0
+['what is csrf?'],"['what is csrf?', '', '']",1.0000001
+['what is the workflow for public key encryption?'],"['what is the workflow of a public encryption scheme?', '', '']",0.8475541
+['what is a parallel nested loop join?'],"['what are the advantages of the parallel nested loop join?', '', '']",0.8727093
+['what is indirect relevance feedback?'],"['what is interaction data?', 'how can interaction data be used for information retrieval?', 'what is the assumption of indirect relevance feedback?']",0.94801354
+['what are primitive data types in java?'],"['what are primitive data values? what is the relationship to integer under-/overflow attacks?', '', '']",0.60271585
+['how is hybrid fragmentation represented by a tree reconstruction?'],"['what is hybrid fragmentation?', '', '']",0.73478556
+['what is the best approach to identifying fake websites?'],"['how to best identify fake websites?', '', '']",0.96949804
+['what is an example for a cont attack?'],"['what is an examples of a csrf attack?', '', '']",0.5187887
+['what is the formalism of point in time?'],"['what formalism do exist regarding access rights?', '', '']",0.17198363
+['what are the two types of linkages in groups and out groups?'],"['what are the two types of linkages described by lmx?', '', '']",0.59248996
+['what is the mean of multivariate gaussian distribution?'],"['describe multivariate gaussian distribution.', '', '']",0.8120842
+['what are the problems with the bm11 model?'],"['how is the bm25 model defined?', 'explain the bm25 model', 'what are the problem of the bm11 model?']",0.9631781
+['what is the design approach of kane and alavi?'],"['what are team rooms /collaboration platforms?', '', '']",0.1928997
+['what is the co-occurrence thesaurus?'],"['what is the simplest way to compute a thesaurus?', 'what is the co-occurrence thesaurus?', 'how is the co-occurrence thesaurus constructed?']",1.0000001
+['what is an inverted index?'],"['what is an inverted index?', 'how is an inverted index constructed?', '']",1.0000001
+['how is pre clustering used to retrieve documents?'],"['can you explain the steps needed to speed up the ranking by pre-clustering?', '', '']",0.6165589
+['what is the simplest single pass clustering algorithm?'],"['explain the single pass clustering algorithm', 'how is the number of clusters determined in the single pass clustering algorithm?', '']",0.81880724
+['what is the cap theorem?'],"['explain the cap theorem', 'why is the cap theorem important for nosql databases?', '']",0.9362787
+['why is machine learning difficult to come up with?'],"['why is machine learning used for information retrieval?', 'what are examples where machine learning is useful?', '']",0.62699085
+['what is the value of perfect information?'],"['what is the value of perfect information?', 'how is the value of perfect information defined?', 'what are the components of the value of perfect information?']",1.0000001
+['what are examples for making compromises?'],"['what are the potential compromises that must be made according to the cap theorem?', '', '']",0.42960116
+['what is the tcp ip model?'],"['how does the tcp/ip model look graphically?', '', '']",0.76344216
+['what are the operations of factors?'],"['how can i factorize p(b | j,m)?', '', '']",0.38284463
+['what is inference using full joint distributions?'],"['define conditional probabilities using a normalization constant.', 'how is conditional probability defined using a normalization constant?', '']",0.37355685
+['what is inference using full joint distributions?'],"['define conditional probabilities using a normalization constant.', 'how is conditional probability defined using a normalization constant?', '']",0.37355685
+['what is the assumption of probabilistic relevance ranking?'],"['how is the relevance of a document determined given the query?', '', '']",0.59166014
+['what are the requirements for each ci?'],"['how is inactive clause coverage defined?', '', '']",0.19470368
+['what is the purpose of the same origin policy?'],"['what is the same-origin policy?', '', '']",0.8865662
+['what is the hybrid approach of van der broek et al. (2022)?'],"['what are the key findings of van der broek et al. (2022)?', '', '']",0.7610539
+['what is the example for derived fragmentation?'],"['what does a query tree with derived horizontal fragmentation and union pull up look like?', '', '']",0.5320885
+['what are the two contradictory requirements for the small world phenomenon?'],"['what are the two contradictory requirements of small world phenomenon?', '', '']",0.9889809
+['what is an example for log mining?'],"['how to filter log files with spark?', '', '']",0.38147137
+['what is the historical view on gender and leadership?'],"['what are problems regarding women and leadership?', 'which primary research questions currently exist?', '']",0.72059005
+['what are strengths and criticisms of the servant leadership approach?'],"['what are strengths and criticisms of the\nservant leadership approach?', '', '']",1.0000001
+['what is the em for gmms?'],"['what does the m step do in the em algorithm for gmms?', '', '']",0.750905
+['what is the problem with the rocchio algorithm?'],"['how is the rocchio algorithm formally defined?', '', '']",0.82308316
+['what are the central questions of merge with skip pointers?'],"['what are the tradeoffs when merging with skip pointers?', '', '']",0.7790378
+['what are the two communities of practice for software development at spotify?'],"['how is software development coordinated at spotify?', '', '']",0.8082061
+['what is role-based access control (rbac)?'],"['what is the idea of rbac?', '', '']",0.6936698
+['how are personal goals and self-efficacy mediators of external incentives?'],"['how do personal goals act as mediators of \nexternal incentives?', '', '']",0.8797693
+['what is mapreduce?'],"['what are the mapreduce goals?', '', '']",0.7347879
+['what is the process of knowledge creation through the knowledge spiral?'],"['how does the process of knowledge creation look like according to the knowledge spiral?', 'what are the four steps, the start and endpoint and the different levels of knowledge creation?', '']",0.9559461
+['what are the factors of kms use?'],"['what are the four factors of kms use?', 'how are they defined?', 'how is the use of kms measured?']",0.9676885
+['what is wep?'],"['how does wep aim to provide integrity?', '', '']",0.7483977
+['what are word embeddings?'],"['what are word embeddings?', 'explain word embeddings', 'what is the difference between sparse and dense term representations?']",1.0
+['what are word embeddings?'],"['what are word embeddings?', 'explain word embeddings', 'what is the difference between sparse and dense term representations?']",1.0
+['what is a transaction?'],"['what are transactions?', '', '']",0.91782695
+['how does dave solve the conflicting clocks?'],"['how to solve conflicting vector clocks?', '', '']",0.55802083
+['what are the characteristics of becerra fernandez & sabherwal (2001)?'],"['which task characteristics do becerra-fernandez & sabherwal (2001) mention?', '', '']",0.71776766
+['what are the components of the tpc top configuration?'],"['how does a server configuration for top parallel database systems look like?', '', '']",0.46651512
+['what is the big five and how does it affect leadership effectiveness?'],"['how are the big five personality factors related to leadership emergence and effectiveness?', '', '']",0.7845509
+['what is a bayesian network?'],"['define a bayesian network', 'what does a bayesian network encode?', '']",0.9503622
+['what are general advices for e-mail security?'],"['what are general advices regarding potentially harmful e-mails?', '', '']",0.75769114
+['what is the authentication header (ah) protocol?'],"['how are packets created in the ah protocol in tunnel mode?', '', '']",0.5279559
+['why is stochastic comparison per epoch?'],"['compare gd and sgd', '', '']",0.3468231
+['what is the geometric interpretation of svd?'],"['explain geometric interpretation of svd.', '', '']",0.9730351
+['what is the core abstraction of resilient distributed data?'],"['what are resilient distributed datasets?', 'which operations ca be performed on an rdd?', '']",0.8079033
+['what is the naive bayes assumption?'],"['explain naive bayes', 'what is the naive bayes assumption?', '']",1.0
+['what are the calculations of entropy?'],"['how to calculate the average time effort for a given password length and entropy?', '', '']",0.4987371
+['what are the characteristics of a program?'],"['how does identifying characteristics work and what needs to be considered?', '', '']",0.44328287
+['how is a continuous bag of words (cbow) defined?'],"['how is the context computed?', 'how is the dense context obtained?', '']",0.355301
+['what is the tls protocol?'],"['what steps does the tls protocol comprise?', '', '']",0.8653625
+['what is the goal of determining predicates?'],"['what are determining predicates?', '', '']",0.92691225
+['what is excursion free?'],"['what are excursions?', 'what are detours and side trips and how do they differ?', '']",0.77793443
+['what is necessary to check the authenticity of a transaction?'],"['how can bitcoin network check authenticity of transaction?', '', '']",0.8486288
+['what are the two approaches to input domain modeling?'],"['what are the two approaches to input domain modeling?', '', '']",1.0
+['what is sinkholing?'],"['how to shutdown the c&c node of a botnet?', '', '']",0.08354057
+['how are degree distributions generated with the er and ws network models?'],"['differentiate between the degree distributions of er and ws models versus real networks.', '', '']",0.8649992
+['what is the introduction to the meta memory directory?'],"['which are the four categories of meta knowledge in the meta memory directory?', '', '']",0.72642034
+['what are javascript abilities?'],"['what are the abilities of javascript?', '', '']",0.9811063
+['what is multitasking?'],"['what is multitasking and how does it work?', '', '']",0.9618635
+['how does learnspn work?'],"['explain learnspn.', '', '']",0.9118444
+"['what are empirical risk minimization, regularized risk minimisation, mle, and map?']","['what is common between empirical risk minimization, regularized risk minimization, mle and map.', 'a fully bayesian approach weights every hypothesis by?', '']",0.960984
+['what is the research model of kane and alavi?'],"[""how does kane & alavi's research model look like?"", '', '']",0.914235
+['how to find the optimal clusters?'],"['explain the k-means algorithm', 'how are the clusters identified in k-means?', 'how to find optimal clusters with k-means?']",0.8618636
+['what is the bayes estimator?'],"['what is a bayes estimator', '', '']",0.9088472
+['what is the em algorithm?'],"['what does the em algorithm do?', 'when is the em algorithm useful?', 'what is the key idea behind em algorithm?']",0.9697603
+['what are the three types of ml algorithms?'],"['what does the process of supervised learning look like, especially in terms of data and input?', '', '']",0.39694676
+['how does the pull function work?'],"['how does information spread with the rumor spreading protocol and pull communication?', '', '']",0.30725315
+"['what are the criticisms of the low level, restricted programming model?']","['what are the disadvantages of mapreduce?', '', '']",0.27135265
+['what is the partitioning vector obtained from histogram?'],"['how can histograms be used to select a partitioning vector?', '', '']",0.8852011
+['what is kullback leibler divergence?'],"['explain kullback-leibler divergence', '', '']",0.9291321
+['what is the difference between inflectional and derivational normalization?'],"['how does inflectional normalization work?', 'how does derivational normalization work?', '']",0.7829882
+['what is restricted active clause coverage (racc)?'],"['how is restricted active clause coverage (racc) defined?', '', '']",0.9839378
+['what is the basic principle of phishing?'],"['what is the basic principle of csrf?', '', '']",0.5063211
+['what are examples for critical data?'],"['what is the concept of critical data?', '', '']",0.84121966
+['what are hardware vulnerabilities?'],"['what are hardware vulnerabilities?', '', '']",1.0
+['what are examples for knowledge representation?'],"['for which use cases are graph databases used?', '', '']",0.34402448
+['what is fragmentation and what is allocation?'],"['what does data placement mean?', 'what does fragmentation mean?', 'what does allocation mean?']",0.8248396
+['what is the distributed commit problem?'],"['what is a distributed commit?', '', '']",0.86859155
+['what are kobra models?'],"['why should kobra models be precisely defined?', '', '']",0.8069466
+"[""what are granovetter's two perspectives on the nature of links?""]","[""what are granovetter's two perspectives on nature of links?"", '', '']",0.9952676
+['what is van der broek et al. (2022) case setting?'],"[""how did van der broek change multico's hiring process?"", '', '']",0.5416786
+['what is continuous gradient descent?'],"['describe the methodology of continuous gradient descent.', '', '']",0.87230265
+['what is authentication?'],"['what does authentication mean?', '', '']",0.9653363
+['what is the process of marginalization?'],"['what is a marginal probability?', 'how are marginal probabilities computed?', '']",0.59913206
+['what are strengths and criticisms of the skills approach?'],"['what are strengths and criticisms of the\nskills approach?', 'how can the skills approach be applied in practice?', '']",1.0
+['what is the formal definition of access matrix?'],"['how is the formal definition of an access matrix?', '', '']",0.9868244
+['what are the two simple coverage criteria for mutation operator coverage?'],"['how are mutation operator coverage (moc) and mutation production coverage (mpc) defined?', '', '']",0.7122613
+['what are vector clocks?'],"['how are vector clocks used in nosql databases?', '', '']",0.7675774
+['what is the problem with large clusters?'],"['when do we talk about large clusters?', '', '']",0.8147291
+['what is the impact of km on organizational performance?'],"['which direct and indirect impacts has km on the organizational performance?', '', '']",0.9102658
+['what is the risk of keystream reuse?'],"['what is the risk regarding keystream reuse?', '', '']",0.99504364
+['what are inspector and changer operations?'],"['what are inspector and changer operations and how do they differ?', 'what is the difference between inspector and changer operations?', '']",0.9757414
+['what is a dms?'],"['what is the definition of a dms and what are the key functionalities in both the narrower and broader sense?', '', '']",0.87503505
+['what are the 36 phases of cops maturity?'],"['what are the key aspects of cops maturity phase adaptive in terms of people behavior, process support and enabling technology?', '', '']",0.8176205
+['what is general active clause coverage?'],"['how is general active clause coverage (gacc) defined?', '', '']",0.83533025
+['what is the communication structure of c2pl?'],"['how does communication work in the centralized two phase locking protocol?', '', '']",0.39692858
+['what are vector clocks?'],"['why are vector clocks used?', '', '']",0.8904221
+['what are the characteristics of network science?'],"['what makes network science computational?', '', '']",0.75848186
+['what is the problem with memorization of passwords?'],"['what is the problem of password fatigue?', '', '']",0.6146234
+['what is the need for tractable inference?'],"['explain the need for tractable inference.', '', '']",0.9604552
+['what is parameter estimation?'],"['what is parameter estimation?', '', '']",1.0
+['what is dkim?'],"['what is domain keys identified mail (dkim)?', '', '']",0.6889956
+['what is complexity?'],"['define the word complex.', 'what is complexity', '']",0.970577
+['how to count words in mapreduce?'],"['what does the input for a word count with mapreduce look like?', '', '']",0.8767633
+['what is the structure of bitcoin?'],"['how is bitcoin structured?', '', '']",0.8253635
+['what is an example for weather data input temperature for each day?'],"['how can an example for the usage of a combiner look like?', '', '']",0.13986993
+['what are the five major leadership styles of the managerial grid model?'],"['what are the five major leadership styles of the managerial grid model and how are they related to concern for people and concern for results?', '', '']",0.95447963
+['how is the jaccard coefficient used as a scoring function?'],"['can you explain the naive approach to ranked retrieval?', 'what are the disadvantages of using the jaccard coefficient as a scoring function?', '']",0.8699242
+['what are the steps to prevent deadlock management?'],"['what is deadlock prevention?', 'why is deadlock prevention important?', '']",0.80042595
+['what is the discriminative variant of mms?'],"['talk about the parameterization of mixture models.', 'what is mixture of experts?', '']",0.28000078
+['what is the discriminative variant of mms?'],"['talk about the parameterization of mixture models.', 'what is mixture of experts?', '']",0.28000078
+['what is the ah protocol?'],"['what components does a ah header contain?', '', '']",0.5055147
+['what is natural join?'],"['how does the natural join work?', '', '']",0.8860354
+['what are possible alternatives to proof of work?'],"['what is an alternative for proof of work?', '', '']",0.9755991
+['what is the difference between logical and physical dataflow?'],"['how are logical and physical dataflows related?', 'why are dataflows executed on a cluster?', '']",0.94181675
+['what is the impact of km on processes?'],"['what are positive results of km for the different impact dimensions?', '', '']",0.54457057
+['what are transformations?'],"['which transformations exist in spark?', '', '']",0.5623808
+"[""what is the difference between lavrenko's relevance model and the rocchio algorithm?""]","[""what are the difference between lavrenko's relevance model and the rocchio algorithm?"", '', '']",0.9997946
+['what are the differences between mapreduce and parallel dbms?'],"['what are the differences between a parallel dbms and mapreduce?', '', '']",0.99489546
+['what is the goal of a key agreement?'],"['what is the goal of a key agreement protocol and what approaches do exist?', '', '']",0.8627712
+['what is information retrieval?'],"['how is information retrieval defined?', 'what are the elements of an information retrieval process?', 'what is information retrieval?']",1.0
+['what is the read rule?'],"['how is the formal definition of the read rule (chines wall model)?', '', '']",0.6951346
+['what is the generative view of lda?'],"['explain the generative process of latent dirichlet allocation', 'from which distributions are parameters drawn in latent dirichlet allocation?', '']",0.5310148
+['how to increase recall of an ir system?'],"['why can recall matter more than precision?', 'how can the recall of an information retrieval system be increased?', '']",0.62140214
+['how can relevance feedback be incorporated into probabilistic retrieval?'],"['how can relevance feedback be incorporated into estimations of probabilities for probabilistic retrieval?', '', '']",0.93490183
+['what are the test coverage criteria?'],"['how is the definition of test requirements and test criteria?', '', '']",0.70952165
+['what is jelinek mercer smoothing?'],"['can you summarize jelinek-mercer smoothing?', 'how does  jelinek-mercer smoothing work?', '']",0.9166671
+['what is the purpose of a what-if model?'],"['what are the possible applications of good algorithms?', '', '']",0.30687016
+['how is likelihood defined?'],"['what is the intuition behind likelihood?', '', '']",0.7587969
+['what are decision networks?'],"['which nodes can be included in a decision network?', '', '']",0.7351557
+['what are the functions of text mining?'],"['how can information extraction be described?', 'what would be an example?', '']",0.46450776
+['what is the relevance model?'],"[""explain lavrenko's relevance model?"", ""can you explain lavrenko's relevance model?"", ""what do input and output look like for lavrenko's relevance model?""]",0.7563345
+['what is the operation specification of the software engineering group?'],"['what fields does a operation specification template contain and what do the terms mean?', '', '']",0.65703267
+['what are the layers of the tcp ip model?'],"['what are the layers of the tcp/ip model?', '', '']",0.98388755
+['what is the idea of merge with skip pointers?'],"['merge with skip pointers ', '', '']",0.8812605
+['what are big data architectures?'],"['which aspects distinguish big data systems?', '', '']",0.7027606
+['what is a disconnected graph?'],"['define connected graph.', 'what is a bridge?', '']",0.8175037
+['what is the interpretation of ko et al. (2005)?'],"['according to ko et al. what influence does intrinsic motivation have on knowledge transfer and what implications did he derive from this?', '', '']",0.3767225
+['how is the time of the process defined?'],"['explain a vector clock example', '', '']",0.4085276
+['what are the five major leadership styles of the managerial grid model?'],"['what are the five major leadership styles of the managerial grid model and how are they related to concern for people and concern for results?', '', '']",0.95447963
+['what is open system authentication?'],"['how can open system authentication be attacked?', '', '']",0.78699934
+['what are differentially private algorithms?'],"['how to make algorithms differentially private?', '', '']",0.85690427
+['what is ccm counter mode?'],"['what is ccm?', '', '']",0.7362688
+"[""what are the basic ideas of kane alavi's research approach?""]","['which research approach do kane & alavi use and which important contingency factors and moderators which they consider', '', '']",0.72905385
+['how is software testability defined and how is it related to software controllability?'],"['how easy is it to write effective tests for a software component?', 'what do you know about software testability?', '']",0.77181023
+['what is a test case?'],"['how does it mean if a string is ""in the grammar""?', '', '']",0.167817
+['what is the optimization problem?'],"['what is the optimization problem when searching for the best placement?', 'why is the optimization problem very hard to solve?', '']",0.8717684
+['what is the generic bi architecture?'],"['what are the main components of a bi architecture?', '', '']",0.7689656
+['what is mapreduce?'],"['what are the mapreduce framework steps?', '', '']",0.8166734
+['what are common methods of query expansion?'],"['what are common methods for query expansion?', 'explain the controlled vocabulary query expansion', 'explain the manual thesaurus query expansion']",0.99395096
+['what is the beta binomial model?'],"['describe the beta binomial model.', '', '']",0.95643985
+['what are the big five personality factors according to mccrae and costa?'],"['how are the big five personality factors defined?', '', '']",0.7348001
+['what are the differences between numeric and dense text representations?'],"['how is text represented to perform text classification?', '', '']",0.48754814
+['what is sturm et al. (2022) method?'],"['what are the parameter-value combinations sturm et al. used for the model?', '', '']",0.4716258
+['what is the kobra-based test design method?'],"['what steps does the kobra test design entail?', '', '']",0.88581604
+['what are the three prominent smoothing schemes?'],"['what is the zero frequency problem?', 'how can the zero frequency problem be solved?', '']",0.13009843
+['what is the key to all together now?'],"['what does the complete workflow look like when running a mapreduce job with yarn and hdfs?', '', '']",0.17135794
+['what is the bayes rule?'],"['can the log odds also be used to rank a document?', '', '']",0.18713957
+"['what are transformational, transactional and laissez-faire leadership styles?']","['how are the correlations between gender and effective leadership regarding the transformational, transactional and laissez-faire leadership styles?', '', '']",0.83593243
+['what is the difference between the individual learning rate and the moderator learning rate?'],"['which moderation effect has the learning rate?', '', '']",0.74100673
+['what are the steps of decision theory?'],"['explain decision theory.', '', '']",0.80602515
+['how does the simple model work?'],"['what does the simple model describe?', '', '']",0.9053062
+['what is the basic idea of hansen et al. (1999)?'],"['what is the basic idea of hansen et al.?', 'between which organizational strategies and design approaches do hansen et al. distinguish?', '']",0.9350575
+['what are the components of the temporal key integrity protocol?'],"['what is tkip?', '', '']",0.25233096
+['how is the svd algorithm implemented?'],"['how to compute svd?', 'what is the time complexity for computation of svd?', '']",0.8239312
+['what is the ba as a foundation of the knowledge spiral?'],"['what are the different types of ""ba"" and how do they relate to the knowledge spiral?', '', '']",0.8206997
+['what is an example for pull?'],"['how does information spread with the rumor spreading protocol and pull communication?', '', '']",0.27558875
+['how are cluster sizes defined in k-means?'],"['how are cluster sizes modeled in k-means and gmms?', '', '']",0.80004346
+['what are the two types of methods for tokenization?'],"['what are the two types of tokenisation?', 'why is tokenisation not always easy?', '']",0.9238779
+['what are the two types of methods for tokenization?'],"['what are the two types of tokenisation?', 'why is tokenisation not always easy?', '']",0.9238779
+['what are knowledge management systems?'],"['what is the definition of knowledge management systems?', '', '']",0.91943264
+['how are compromises made in scale out architectures?'],"['which features are favored by nosql databases?', 'which features are favored by traditional rdbms?', '']",0.17217682
+['what are examples for a hacker?'],"['what are examples for an attacker?', '', '']",0.63400817
+['what are the roots of the skills approach to leadership?'],"['what are leadership skills and how is the skills approach described?', '', '']",0.85755277
+['what is the communication structure of d2pl?'],"['how does communication work in the distributed two phase locking protocol?', '', '']",0.430155
+['what is intra operator parallelism?'],"['how does intra-operator parallelism work?', '', '']",0.9380376
+['what is needed to speed up retrieval with vsm ranking?'],"['how can the costs of ranking be reduced? ', '', '']",0.5038427
+['what is cosine similarity?'],"['what is the cosine similarity?', '', '']",0.98425233
+['what is the simple approach to cache organization?'],"['how is cache (storage) organized? (simple approach)', '', '']",0.83514386
+['how is the query likelihood model used for ranking documents?'],"['explain the query likelihood example', '', '']",0.73763025
+['what is the prize of a life?'],"['what is a micromort?', '', '']",0.22081658
+['what is sso?'],"['what is single sign-on?', '', '']",0.28441465
+['what is the goal of the ah protocol?'],"['what is the authentication header (ah) protocol?', '', '']",0.68635595
+['what are the issues with relevance feedback?'],"['what are the two issues with relevance feedback?', '', '']",0.9680914
+['what is the singular value decomposition?'],"['what are the matrices of the singular value decomposition? ', 'explain the singular value decomposition', '']",0.9476755
+['how many messages do we need?'],"['how does the two-generals problem start?', '', '']",0.12602276
+['what is the bell-lapadula model?'],"['what is the *-property rule?', '', '']",0.10875933
+['what is reusing computation?'],"[""how to use spark's cache?"", '', '']",0.19284636
+['what is the difference between worm and virus?'],"['how is a worm defined?', '', '']",0.69706273
+['what are the steps in selecting the appropriate technology for kms?'],"['according to dennis & vessey, how does one choose the appropriate technology?', 'what are the key differentiators for this decision?', '']",0.4815371
+['what is an example for pulling up a graph?'],"['what does a pull up of unions look like?', '', '']",0.35651225
+['what is an automated decision?'],"['what do businesses need to do when there are automated decisions in place?', '', '']",0.71923363
+['what are the kobra specifications?'],"['how is the kobra test design structured?', '', '']",0.6492007
+['what is the most common algorithm for english stemming rule based algorithm?'],"['what is the porter algorithm? ', 'how does the porter algorithm work? ', '']",0.2763672
+['what are the data flow test criteria?'],"['what are the data flow test criteria and how are they defined?', '', '']",0.9720733
+['what is the effect of inverse document frequency?'],"['how is the inverse document frequency computed?', '', '']",0.8876012
+['how is the click position bias defined?'],"['what is the click position bias?', 'why is the click position bias a problem?', '']",0.9424658
+['how can the learner control the experience?'],"['what types of feedback can be received while training experience?', 'can a learner have control over training experience?', 'define the credit assignment problem']",0.78127706
+['what is the tiered index?'],"['what is a tiered index?', 'how to look-up documents with a tiered index?', '']",0.9641125
+['what is the degree of a bridge in an absolute sense?'],"['what is the degree of bridge in an absolute sense?', '', '']",0.9955286
+['what are the advantages and disadvantages of centralized 2pl?'],"['explain the centralized two phase locking', 'how does centralized two phase locking work?', 'what are the advantages and disadvantages of centralized two phase locking?']",0.6641406
+"['what is the distinction between knowledge, information and data?']","['what is the difference between knowledge, information and data?', 'what are some examples?', '']",0.98354197
+['what are the security requirements for collision resistance?'],"['what are the 3 security requirements for hash functions?', '', '']",0.5457125
+['what are conditional independencies?'],"['how is conditional independence defined?', 'what is conditional independence?', '']",0.7547538
+['what is the example for replacing a password content of the heap?'],"['what is an example for a heap overflow attack?', '', '']",0.5137928
+['what is encapsulating security?'],"['how do transport and tunnel mode differ in the esp protocol?', '', '']",0.24056955
+['how does distributed computation work?'],"['how is a distributed computation performed with aggregate functions?', '', '']",0.76809466
+['what is leadership emergence and how does it work?'],"['what are the key aspects or differences of leadership emergence and effectiveness?', 'what individual differences have been associated with both phenomena?', '']",0.8217054
+['what is the theoretical idea of preference elicitation?'],"['explain how to determine the utility of an outcome s.', 'how can the utility of an outcome s be determined?', '']",0.44475985
+['what is knowledge management?'],"['what is the definition of knowledge management?', '', '']",0.92994785
+['what is the difference between agent function and agent program?'],"['what is an agent function?', 'what is an agent program?', 'define an agent function and an agent program.']",0.8732324
+['what is the learning theory?'],"['what is learning theory?', 'what is version space?', '']",0.972957
+['what are the advantages of independence assertions?'],"['when are two random variables independent?', '', '']",0.44438994
+['what are ipsec modes?'],"['what are the two modes of ipsec?', '', '']",0.91971266
+['what are country clusters according to the globe?'],"['how does globe cluster the different countries?', '', '']",0.86670554
+['what is softmax regression?'],"['explain softmax regression.', '', '']",0.91853833
+['what is the sender policy framework?'],"['how does the sender policy framework work?', '', '']",0.9431934
+['what is a sum product network?'],"['explain sum-product networks.', '', '']",0.83623564
+['what are static and dynamic inspections?'],"['what is static and what is dynamic v&v?', 'how does static v&v differentiate from dynamic v&v?', '']",0.62055224
+['what is the merkle tree?'],"['what is a merkle tree?', 'why is the merkle tree used in distributed systems?', '']",0.9817549
+['what is social engineering?'],"['what is social engineering?', '', '']",1.0
+['how to work with rdds?'],"['describe the rdd workflow', 'how does the rdd workflow look like?', '']",0.76415175
+['what is the problem with guttman kaiser criterion and captured energy?'],"['how does the guttman-kaiser method work?', 'how is captured energy used to select size of k?', 'what are the problems of using these methods?']",0.5848989
+['how is the read cost calculated?'],"['how is the cost function for read operations defined?', '', '']",0.8371509
+['what are the goals of dms?'],"['how does dms support output, especially for retrieval?', 'what is the goal conflict when retrieving documents?', '']",0.5321922
+['what are the conclusions of garud & kumaraswamy?'],"['in conclusion, what are the determinants of quality from the three different studies (garud & kumaraswamy, ko et al. (2005), wasko & faraj (2005)) and is their impact positive or negative?', '', '']",0.56272686
+['what is coercion?'],"['what is the definition of coercion in context of leadership and what does it involve?', 'what are examples of coercive leaders?', '']",0.84038246
+['what are the two principal objectives of verification and validation?'],"['what is the definition of verification and validation and what are the objectives?', 'what are the objectives of verification and validation?', '']",0.9495078
+['what is filtering correction?'],"['explain the correction of filtering hmms', '', '']",0.6709741
+['how does the trait approach work?'],"['how does the trait approach \nwork and how can it be applied?', '', '']",0.97538567
+['what are the development levels of followers in the slii model?'],"['which stages of follower development describes the slii model?', '', '']",0.86092675
+['what is the problem with the transaction history?'],"['what is the problem addressed by the transaction history, how is it solved and when are transactions accepted?', '', '']",0.8107025
+['what is the gradient for functions with multiple inputs?'],"['how is the gradient of a function defined?', '', '']",0.73699313
+['what are common vulnerabilities and exposures?'],"['what is the common vulnerabilities and exposures (cve)? and what is the definition for vulnerabilities and exposures?', '', '']",0.816256
+['what is the relevance feedback algorithm?'],"['can you explain the relevance feedback algorithm?', 'explain the relevance feedback algorithm', 'what are the steps of the relevance feedback algorithm?']",0.9766376
+['what are types of knowledge conversion combination (explicit to explicit)?'],"['what is combination and how does it work?', '', '']",0.41211095
+['what is gender and the evaluation of leaders?'],"['how does the gender of the leader affect the evaluation of the leader?', '', '']",0.89507294
+['what is a passphrase?'],"['how do passphrases work and what is the advantage?', '', '']",0.85908484
+['what are marycalls and johncalls?'],"['how to construct a bayesian networks by building a diagnostic model?', '', '']",0.12921466
+['what is the data continuum according to rozado et al. (2014)?'],"['what is the difference between structured, semi-structured and unstructured data?', '', '']",0.43161407
+['what are the conditions of quorum consensus?'],"['how to perform read and write operations in quorum consensus?', '', '']",0.68004394
+['what is the data continuum and how does it work?'],"['what does the data continuum represent?', '', '']",0.9264553
+['how is mapreduce used to run basic sql queries?'],"['how can mapreduce be used to run simple sql queries?', '', '']",0.910825
