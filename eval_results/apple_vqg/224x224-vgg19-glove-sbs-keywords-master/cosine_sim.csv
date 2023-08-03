@@ -1,0 +1,459 @@
+model_out,reference,similiarities
+what is,how can words be counted with mapreduce,0.06740676
+what is,describe the rdd workflow,0.18380441
+what is,what are key aspects and differences of the kindergarten report card and the performance appraisal,0.0679401
+what is,what are the communication costs for semi join filtering,-0.014244826
+what is,what is a merkle tree,0.13031308
+what is,what is the large margin principle,0.14680494
+what what what,what are the three main challenges of the bitcoin network,0.17350554
+what is,explain pointwise learning to rank,0.19865529
+what is,which differences exist between genders men and women in leadership effectiveness,0.008407738
+what is,what are examples of notable xss attacks,0.10470461
+what is,how is the inverse document frequency computed,0.07751918
+what is,what are the big data viewpoints,0.23286016
+what is,how can bitcoin network check authenticity of transaction,0.11165723
+what is,why should specifications be augmented with tests,0.062826864
+what is,explain empirical risk minimisation,0.14386095
+what is,how is the log likelihood defined for discriminative models,0.16697924
+what is,can you explain the language bowl metaphor,0.2514832
+what is,which are the key differences of cops versus teams,0.044017926
+what is,how is the difficulty of the goals related to performance,0.15297405
+what is,describe erdo ̋s–re ́nyi model,0.07400569
+what is the the,what are the assumptions of k means clustering,0.10189777
+what is,what is the idea of joins with filtering,0.16569598
+what is,what intradiagram consistency rules exist,-0.07871003
+what is,what is an example for an sql injection attack,0.14936538
+what is,how to construct a bayesian networks by building a diagnostic model,0.12368406
+what is,what are the research questions used by becerrafernandez sabherwal 2001,0.15797396
+what is,why should posting sites be sorted,0.058493875
+what is,what is the idea of smoothing in sequential processes,0.13095301
+what is,which are relevant factors for explaining the leadership gap,0.006687586
+what is,what is an example for a heap overflow attack,0.12433783
+what what,what security is achieved with vpn,0.12659696
+what is,what is the maximum number of links a network can have,-0.011166725
+what is,what is the property rule,0.14376153
+what is,how can leaders increase followers motivation according to house and mitchel,0.070711896
+what is,what is the definition of authenticity and what is a example attack and security solution for it,0.24533579
+what is,which steps are necessary to answer a boolean query with the help of the incidence matrix,0.024504276
+what is,how can mapreduce be used for iterative computations,0.13774602
+what is,what are the different measures to calculate importance of nodes,0.06224999
+what is,what characteristics does kane alavis 2007 design approach focus on,0.10544871
+what is,why should knowledge be stored,0.17780143
+what is,what are the factors influencing the components of the skills model,0.05773009
+what is,what are random variables,0.28996134
+what is,how is the quality of documents determined,0.14408103
+what what what,what is a access matrix,0.095888555
+what is,how does type 1 of ransomware encryption of data work,0.07242696
+what is,give an example of how range partitioning is used to create fragments for a table,0.036621843
+what is,what is knowledge management from a knowledge work perspective according to lebovitz et al 2022,0.24033011
+what is,how does a simple cost model for allocation look like,0.119763315
+what is,how can an example for ontology look like in the financial services industry,0.18814418
+what is,which views of a data cube can be used for different organizational roles,0.105775595
+what is,how is a distributed computation performed with aggregate functions,0.21609418
+what is,what is the definition of a dms and what are the key functionalities in both the narrower and broader sense,0.24329412
+what is,what is the idea of approximate cosine similarity,0.032011613
+what is,are there differences between genders in leadership effectiveness,-0.00042629408
+what is,which three components are implemented by each information retrieval system,0.15361404
+what is,how it the procedure of a vpn,0.15205891
+what what what,what are the relevant development languages for web applications,0.055654198
+what is,what is the dirichlet distribution,0.12232392
+what is,what is the role of a component realization,0.16088662
+what is,explain logistic regression,0.3284037
+what is,what are strengths and criticisms of the skills approach,0.13046198
+what is,how can histograms be used to select a partitioning vector,0.07671815
+what is,how to protect against ransomware type 1 attack encryption of data,0.05175536
+what is,how does a setup with eventual consistency look like,0.08157215
+what is,what is a data warehouse dw,0.16278306
+what is,what is a stationary policy,0.14002213
+what is,what is a set of random variables in probabilistic retrieval,0.21333645
+what is,what is an example for an sql injection attack,0.14936538
+what is,what are the main differences between declarative and procedural knowledge,0.10221531
+what is,when does the exchange phase become difficult,-0.053159732
+what is,how do motivational and individual factors influence the volume of contributions,0.04364811
+what is,what are the layers of the tcpip model,0.07143383
+what is,what is markov chain monte carlo,0.23496178
+what is,what are ko et als definitions for the three communication factors and the four motivational factors,0.19167817
+what is,what are index terms,0.18248159
+what is,what does the feature map of polynomial kernel contain,0.06641463
+what is,what is a problem of the rainbow table approach and how is it solved,0.11955959
+what is,which impact has km on the employees,0.06974547
+how is,what is a policy,0.083968185
+what is,what does a physical dataflow look like,0.14496967
+what is,what does a query tree with derived horizontal fragmentation and empty join elimination look like,0.082777515
+what is,what is counter mode,0.21755484
+what is,how are vector clocks compared,0.027498238
+how is,how is the result obtained in spark,0.09471124
+what is,what is dns hijacking,0.19011982
+what is,how is the attacker model and what are possible attacks on hashed passwords on a server,0.16918434
+what is,what are support vector machines,0.20615923
+what is,define the theory of rational decisions,0.24114539
+what is,how can different indexing strategies be combined,0.06276755
+what is,how does latent semantic analysis use svd,0.14268877
+what is,when are two random variables independent,-0.0066724657
+what is,differentiate between walk chain trail and path,-0.011874695
+what is,what is an example for a heap overflow attack,0.12433783
+what is,what does the term bug mean,0.16564776
+what is,what is an examples of a csrf attack,0.17097089
+what is,how would an offline attack on stored hashed values of passwords on a server look like,0.079613216
+what is,what are gaussian mixture models,0.17815225
+what is,what are possible goals of xss,0.19657679
+what is,explain supervised and unsupervised machine learning,0.3265329
+what is,define acyclic network,0.21850733
+what is,what extent of skills of the threeskill approach do you need for the various management levels top middle supervisory,-0.009340132
+what is,what is the collection frequency,0.08134583
+what is,how is the complete cost function to find an allocation schema defined,0.10173905
+what is,define kcore centrality,0.18775278
+what is,define adjacency matrix,0.20400356
+what is,what is a click fraud attack,0.21584949
+what is,what is the sum rule,0.09193573
+what is,what characteristics do hansen et al 1999 focus on,0.17608693
+what is,how is the situational approach described,0.27272522
+what is,what are header fields of an email,0.15597396
+what is,what is conjugate prior,0.16499525
+what is,which main questions are investigated by sturm et al 2022,0.11661801
+what is,describe leskovec and horvitz study,0.15723538
+what is,describe gaussian distribution,0.2322858
+what is,define diameter,0.27254468
+what is,what are the four phases of knowledge transfer and what are their key tasks,0.15775454
+what is,does the gender of the leader affect their leadership style,-0.058117107
+what is,describe k means clustering,0.23155083
+what what,what is the intuition of differential privacy,0.11603315
+what is,why do we introduce a discount factor,0.09917067
+what is,describe sparsity via l0 regularization,0.12565632
+what is is,what is crc,0.11241347
+what is,why does transactive memory not work in large groups,0.042158317
+what is,what does the internal dataflow representation of a spark program look like,0.11522303
+what is,how can a vpn be realized,0.16440465
+what is,what is the focus of wasko farajs 2005 studies,0.17851199
+what is,how to use the flatmap function,0.08053075
+what is,describe multivariate gaussian distribution,0.1882271
+what is,what are the eight main functionalities of text mining discussed in the lecture,0.23012392
+what is,what are the problems of knowledge internalization,0.1676955
+what is,what is session hijacking and what are countermeasures,0.13154098
+what is,what is an examples of a csrf attack,0.17097089
+what is,how does rsa work,0.20260884
+what is,do the appropriation factors for bac require media synchronicity,-0.00151038
+what is,explain the spark runtime architecture,0.24939238
+what is,how is the icv calculated in the ah protocol in transport mode,0.02449584
+what is,why is the transfer of implicit knowledge becoming more difficult with an increasing degree of diffusion,0.053918988
+what is,what is an examples of a csrf attack,0.17097089
+what is,what is the terminology to represent preferences,0.19776449
+what is,how are input and output defined for parallel joins,0.1703006
+what is,how are infeasible test requirements handled in logic coverage criteria,-0.0331658
+what is,how can spark be understood as a dataflow engine,0.20204693
+what is,what are the steps of the rocchio algorithm,0.1104002
+what is,when is the merge of posting lists performed fastest,0.0006719051
+what is,what are drawbacks of access matrixes,0.013417834
+what is,compare erdo ̋s–re ́nyi model and configuration model,-0.009440466
+what is,what are primitive data values what is the relationship to integer underoverflow attacks,0.12385188
+what is,explain empirical risk minimization,0.15712193
+what is,why arent self loops and multi edges a problem in random matching,-0.003721948
+what is,how does shared key authentication work,0.10085113
+what is,why is big data difficult to handle,0.15192111
+what is,how does the expectancy theory vie theory vroom 1964 describe the creation of motivation and what is the motivational potential,0.11544963
+what is,how are word counts computed in the mapreduce reduce phase,0.05318484
+what is,what is the eu cookie directive,0.088950664
+what is,how are tests and test paths denoted and what does syntacticsemantic reach mean,0.1348825
+what is,what is multitasking and how does it work,0.25194907
+what is,what are race condition attacks,0.16962108
+what is,why can mapreduce be interpreted as a dataflow,0.15042563
+what is,do you know some hadoop related projects,0.12295285
+what is,describe second order taylor polynomial multivariate case,0.08955524
+what is,what are alternative ways of weighting to rank documents,0.061913982
+what is,what are constraints among characteristics and how are they handled,0.12025312
+what is,describe the methodology of gradient descent,0.2637989
+what is,how do conveyance and convergence differ,0.09324515
+what is,describe sparsity via l1 regularization,0.11043604
+what is,what are famous examples for gdpr fines,0.027028147
+what is,describe the relationship between svd and linear regression,0.14001432
+what is,what is the concept of critical data,0.1604368
+what what what,what are the two modes of ipsec,0.016145201
+what is,what does the eckart young theorem say,0.06492454
+what is,what are the challenges in defining a learning algorithm,0.27940062
+what is,which categories of contingency factors exist,0.06972875
+what is,what is the parameter 𝜖 and the composition theorem,0.13180639
+what is,what is the idea of latent and semantic information retrieval,0.18350221
+what is,according to the matrix of pathgoal theory what leadership behaviors need to be applied in different settings depending on group members and task characteristics,0.027654184
+what is,what is shared key authentication,0.16096787
+what is,explain the generative process of a language model,0.23582552
+what is,how is relevance usually expressed in information retrieval models,0.11489497
+what is,when is a map and when is a reduce program used,0.12820865
+what is,what is the definition of verification and validation and how do they differ,0.18713814
+what is,how is base choice coverage defined,0.09007298
+what is,how to use sgd for logistic regression,-0.024082001
+what is,how is correctness ensured in horizontal fragmentation,0.04321555
+what is,how is the ambiguity in acc handled,0.033669297
+what is,what is the simplest way to compute a thesaurus,0.09245802
+what is,what are the key aspects of cops maturity phase engaged in terms of people behavior process support and enabling technology,0.07970432
+what is,how exactly can integrity be attacked when crc is used wep,0.071792535
+what is,what is http,0.33430913
+what is,how do code injection attacks work,0.12733857
+what is,describe newtons method multivariate case,0.11958281
+what is,how is the formal definition of bnf,0.18040441
+what is,can you give an example for the binary independence model with relevance judgements,0.1315429
+what is,what goal has stage3 exploitation and what are possible tools,0.17498612
+what is,what are the goals for distributed transactions,0.2319061
+what is,what is the bayes rule,0.061229795
+what is,how can a tls connection be checked,-0.02374389
+what is,what is the cyber ba and which technology is used,0.12323514
+what is,which leader behaviors are described by the pathgoal theory and how,0.11645094
+what is,how are word counts computed in the mapreduce reduce phase,0.05318484
+what is,explain the lloyds algorithm for k means,0.13256688
+what is,what are the main differences between explicit and tacit knowledge,0.10946605
+what is,what are simple paths and prime paths,0.115853466
+what is,why do we need information value theory,0.16064532
+what is,what is pretexting,0.2088195
+what is,how does the categorization functionality in text mining work and what are the key elements involved in the process,0.20861731
+what is,how is range partitioning used to distribute data,0.068131775
+what is,what are four fundamental subspaces,0.075900674
+what is,how are convolutional neural networks trained,0.15987828
+what is,how to compute the robustness of protocols for replication transparency,0.059146494
+what is,what are countermeasures against csrf attacks,0.13602003
+what what what,what is a processing attack,0.18633324
+what is,how is fragmentation transparency defined,0.1634538
+what is,how are matrix decompositions approximated,0.07160209
+what is,what is a custom partitioner,0.25017905
+what is,what are general advices regarding potentially harmful emails,0.065880045
+what is,which motivation theories exist and how are they categorized,0.13583186
+what is,which components are generally contained in a process model of a text mining application,0.18268009
+what is,what can perceptron learn,0.055992052
+what is,how does parallel range partitioning sort work,0.038918015
+what is,why do we need secure passwords and what are the challenges,0.11736334
+what is,what are the problems of knowledge integration,0.18456723
+what is,what is the probability that the generated model will have m links,0.014685553
+what is,what is the tcpip model,0.15503675
+what is,what are alternatives for key servers,0.092634566
+what is,how is bayes rule defined,0.17454901
+what is,what is the basic email architecture,0.21004406
+what is,what is the relation between entropy and security,0.110314906
+what is,which method did lebovitz et al 2022 use,0.041358735
+what is,why do we need models,0.15522294
+what is,define the scope of a leaf node n,0.07637304
+what is,describe map with gaussian prior,0.14228772
+what is,what are possible approaches to define anonymity,0.1741202
+what is,what is an example for a prime and probe attack,0.026824202
+what is,what is the relationship between bernoulli model and odds,0.04793744
+what is,what are known knowledge management problems and what knowledge management processes handle them,0.11985833
+what is,how can rolebasedaccesscontrol be graphically represented,0.059724662
+what is,when are networks said to show the small world property,0.14567642
+what is,how is externally regulated behavior defined and how is it related to intrinsically motivated behavior,0.16375002
+what is,what are the components of cluster analysis,0.2154884
+what is,how does svd allow visualization of data,0.15925787
+what is,what is probabilistic pca,0.23284765
+what is,what is integer underoverflow what are famous examples,0.16565448
+what is,how must the merging of posting lists be adapted to support phrase queries,0.037516076
+what is,what are the resulting design recommendations of kane alavi,0.03207465
+what is,how to define “network of practice”,0.23631816
+what is,on what basis do hansen et al choose codification or personalization as the design approach,0.1343315
+what is,what is knowledge management from an organizational learning perspective according to sturm et al 2022,0.23314847
+what is,how can open system authentication be attacked,0.12381322
+what is,why are not all biwords always indexed,-0.043848515
+what is,how to deal with lost messages,0.023231363
+what is,what are disclosure risks,0.0830205
+what is,what are the key differences between leadership and management,0.072500505
+what is,describe the terminology of the em algorithm,0.2658051
+what is,what are the possible states of an agent in the two phase commit protocol,0.044570114
+what is,how does pseudocode for rainbow tables look like,0.079435915
+what is,what is the workflow for mac,0.13171285
+what is,what is the porter algorithm,0.16890633
+what is,how can multiple factors be considered for ranking documents,0.079137206
+what is,how does a sql statement that required decomposition look like,0.14165495
+what is,what is the synthetic data approach what are types of synthetic data,0.11345456
+what is,what is quid pro quo,0.1833411
+what is,what are the exemplary steps of nonperturbative masking through generalization,0.11064017
+what is,reflect on the findings of leskovec and horvitz study,0.025074752
+what is,why is pooling required,0.09658424
+what is,what is tor,0.32974848
+what is,what is the problem of dominating mining pools,0.08621626
+what is,how are communities of practice cops defined,0.17360432
+what is,how can relevance feedback be incorporated into estimations of probabilities for probabilistic retrieval,0.08312594
+what is,how to apply those studies in a case study,0.010820932
+what is,when was mapreduce released,0.023192756
+what is,what are the limits and benefits of the seci model,0.04476104
+what is,how does a chain of trust work,0.15499698
+how is the the,which assumptions hold in a markov decision process,0.10424685
+what is,how do passwords work,0.16695933
+what is,which metric is usually optimized by information retrieval systems,0.18697548
+what is,when is the time for merging linear,-0.059768524
+what is,how to perform read and write operations in quorum consensus,0.013762913
+what is,how does setting a specific hard goal differ from a do best goal in relation to the performance,0.07184157
+what is,how is clause coverage defined,0.15744215
+what is,what are strengths and criticisms of the al approach,0.11887013
+what is,comment on the why only for directed networks eigenvalue centrality is useful,0.07111975
+what is,what are the two problems of term frequency,-0.0012731042
+what is,explain the cbow model,0.12780458
+what is,how are cluster sizes modeled in kmeans and gmms,0.044289343
+what is,what are mixture models,0.16914752
+what is,what is the common cryptographic scenario,0.09754058
+what is,how does the partitioning of the input domain into blocks work,0.16751586
+what is,how is the workflow of crc,0.090130754
+what is,what are joint distributions,0.17729035
+what is,how are svd and pca related,0.099782445
+what is,what are constituent attributes of electronic cops and what are qualifying elements,0.13561836
+what is,what are the components of the knowledge spiral,0.1349026
+what is,explain the example for the binary independence model with available relevance judgements,0.19485204
+what is,describe the methodology of eigenvector centrality,0.17988998
+what is,what are the problems with the rules of the porter algorithm,0.056015786
+what is,what is utility theory used for,0.1674909
+what is,why is the size of positional indices problematic,0.010746117
+what is,how is each choice coverage defined,0.11988646
+what is,which results did becerrafernandez sabherwal 2001 find regarding the influence of the four processes on km effectiveness and employee satisfaction research question 1,0.04544313
+what is,what is unsupervised learning and what is the goal,0.29553813
+what is,how are tasks processed using the cache,0.1441061
+what is,how to create a total order for a table with mapreduce,0.0019328902
+what is,how are the results from the spark program distributed across the nodes,0.0713953
+what is,how does the research model of ko et al 2005 look like,0.1459015
+what is,what are the four information retrieval paradigms,0.22042371
+what is,what are strengths and criticisms of the pathgoal theory,0.124006204
+what is,why is local serializability not enough for a distributed commit,0.038855147
+what is,how to decide whether to expect success using odds,-0.031441007
+what is is,what does a query tree with derived horizontal fragmentation and union pull up look like,0.06304114
+what is,what is the definition of the factors idealized influence and inspirational motivation of the tl model,0.130059
+what is,what are message authentication codes,0.098618805
+what what what what what what what what what what what what what what what what what what what what what what what what what what what what what what what what what,what is the principle of dombased xss,0.028374312
+what is,what are mail fetching protocols,0.19483961
+what is,what does the notation for fragments look like,0.13315473
+what is,how are general inactive clause coverage and restricted inactive clause coverage defined,0.124207705
+what is,explain the twogenerals problem,0.15118556
+what is,what are advantages and criticism of the belllapadula model,0.03779414
+what is,how can we assess the agents degree of believe,0.1485722
+what is,what is the setup of the centralized two phase commit protocol,0.053974934
+what is,what are the properties of estimators,0.10910394
+what is,what does the mapreduce execution workflow look like,0.084476665
+what is,where is big data successful used,0.13748628
+what is,what are the problems with pc and cc,0.059769627
+what is,how are graphs used in testing and how are test requirements test criterion and satisfaction defined,0.089523345
+what is,why is it possible to use grammar coverage criteria,0.028839242
+what is,which steps are involved in pooling,0.0808857
+what is,what is guaranteed if an agent is in the ready state,-0.008050597
+what is,what is a discretionary access control dac and what advantagesdisadvantages does it have,0.14390618
+what is,which research approach do kane alavi use and which important contingency factors and moderators which they consider,0.122312464
+what is,how is a botnet coordinated,0.1877213
+what is,how does locality sensitive hashing work,0.08548536
+what is,what is the goal of privilege escalation attacks and how do they work,0.20107502
+what is,which keys are reallocated when a node joins,-0.030831452
+what is,what to look for in networks to know if small world property is present,0.079326175
+what is,differentiate in inference and decision,0.14368202
+what is,which three basic architectures exist for parallel dbms,0.13433574
+what is,describe the methodology of eigenvector centrality,0.17988998
+what what,how does memory organization work in a multitasking system why do you need it,0.011739511
+what is,why are there so many different types of nosql databases,0.10734099
+what is,what do two vector clocks look like where there is no conflict,-0.0121117225
+what is,which strategies exist to avoid deadlocks,0.029324172
+what is,explain the single pass clustering algorithm,0.26253256
+what is,what is the common vulnerabilities and exposures cve and what is the definition for vulnerabilities and exposures,0.1292047
+what is,what are strengths and criticisms of the servant leadership approach,0.051001795
+what is,how are input and output for the parallel sort defined,0.12933308
+what is,how would an online attack on stored hashed values of passwords on a server look like and what are countermeasures,0.1317592
+what is,how is elasticity used to measure the extensibility,0.152697
+what is,what is the framing effect,0.11227659
+what is,what are the key factors to consider regarding the use of knowledge management systems kms,0.10520907
+what is,which three definitions exist for the authentic leadership approach,0.1294281
+what is,how can multidimensional data be stored,0.18342747
+what is,how efficient is the antientropy protocol,0.092897974
+what is,what are word embeddings,0.14584148
+what is,how does information spread with the rumor spreading protocol and pull communication,0.07254507
+what is,how can words be counted with mapreduce,0.06740676
+what is,how are documents word embeddings obtained using the cbow model,0.05956519
+what is,what are the drawbacks of automated thesaurus generation,-0.00875619
+what is,what does a structured text representation look like,0.18274981
+what is,what are the implications of the work of van der broek et al 2022,0.11321159
+what is,what does the no free lunch theorem trying to say,0.12883693
+what is,how are language models used for information retrieval,0.15255944
+what is,what is domain keys identified mail dkim,0.14381574
+what is,what are the moderators of the goal performance relationship,0.115149915
+what is,what are the implications of the work of lebovitz et al 2022,0.10963177
+what is,how is the relevance score computed if no relevance judgements are available,0.08246508
+what is,how does lmx theory describe leaders relationship to work units,0.07917654
+what is,what are countermeasures against unauthorized access,0.12886147
+what is,which special case is covered by the markov decision process,0.15522614
+what is,how is the bayes rule defined,0.165485
+what is,define average degree,0.20926668
+what is,differentiate between parametric and nonparametric models,0.012354737
+what is,what is expansion,0.21377105
+what is,in conclusion which design approaches should you use for which contingency factors,0.03652059
+what is,what is the cosine similarity,0.03903637
+what is,what technology does kane alavi believe should be used for exploitation or exploration,0.101363234
+what is,when do weights remain bounded,0.03521714
+what is,describe the general pdbms architecture,0.21109451
+what is,how can evidence be combined,0.10757085
+what is,write the expressions for expected number of selfloops,0.03827703
+what is,what are distributive aggregate functions,0.19490996
+what is,what advantages does rbac have in contrast to a tradition access matrix,0.10881925
+what is,what are auxiliary specification artifacts,0.15832084
+what is,what makes naive bayes a family of classifiers,0.18789625
+what is,how is the normalized discounted cumulative gain defined,0.12026349
+what is,what is the generic smtp protocol flow,0.15188639
+what is,how does routing with finger tables work,0.07908432
+what is,how to identify which nodes are important,0.10099723
+what is,what characteristics does dennis vesseys design approach focus on,0.124347754
+what is,what language models are available to model the probability of word sequences in a language,0.094956726
+what is,define page rank centrality in detail,0.0818893
+what is,what are the three components of kobra and what is the vision and obstacles for each,0.11577998
+what is,what is the definition of personal data,0.23684642
+what is,describe support vector classification,0.24702138
+what is,what does the workflow of rc4 look like,0.070970215
+what is,which gender stereotypes exist,0.113033965
+what is,what are the advantages and disadvantages of the basic approach to achieve replication consistency,0.06637189
+what is,explain structural properties,0.25151345
+what is,what is machine learning,0.3993299
+what is,what are examples for notable csrf attacks,0.13435452
+what is,why is the document frequency used,0.12007529
+what is,how does the sender policy framework work,0.13016345
+what is,into which groups are the knowledge goals of km cycle divided,0.12110974
+what is,what are the four characteristics of network science,0.17487682
+what is,what are the six global leadership behaviors of globe,0.107132204
+what is,what are the benefits of mapreduce,0.11311836
+what is,what is an rdd action,0.13675931
+what is,what are stragglers,0.19835989
+what is,what is a testers job,0.20290466
+what is,why is it difficult to select a good partitioning vector,0.055563204
+what is,what is hadoop,0.24286032
+what is,what makes network science quantitative and empirical,0.1597764
+what is,how is a virus defined,0.2571391
+what is,how does preclustering work to speed up the ranking of documents,0.12160035
+what is,what is a evil twin attack,0.11342416
+what is,what are the two scenarios that can occur when we want to rank documents,0.0792004
+what is,what are the decomposition steps,0.05928486
+what is,how is replication transparency defined,0.12209992
+what is,how did the and and or operators affect a boolean query,0.02778526
+what is,which extensions exist for mapreduce,0.070608914
+is is,how can an agent act and perceive its environment,0.111463554
+what is,what are the main security problems of cookies,0.071062036
+what is,how is a probabilistic retrieval system defined by robertson,0.24338554
+what is,what tradeoffs must be made with the rocchio algorithm,0.0496935
+what is,what enhances guessing attacks on passwords exist,0.09732988
+what is,how does the algorithm to evaluate decision networks work,0.16721062
+what is,what is the basic idea of direct sampling methods,0.118262164
+what is,in what relation are task difficulty and effort,0.111159705
+what is,describe multivariate gaussian distribution,0.1882271
+what is,what are the limitations of erdo ̋s–re ́nyi model,-0.046567053
+what is,how does dms support filling through archiving,0.05753879
+what is,what is the concept of scamming,0.23736964
+what is,how did garud kumaraswamy implement a qualitative incentive system,0.18738663
+what is,what is the difference between knowledge augmentation and knowledge substitution,0.10117389
+what is,in which ways do goals affect performance,0.0745839
+what is,how does information spread with the rumor spreading protocol and push communication,0.080067955
+what is,how to filter log files with spark,-0.017094148
+what is,what form does the intermediate step have,0.07333746
+what is,what is assumed when using partitions,0.09745066
+what is,what are determining predicates,0.15605372
+what is,what would be a practical example of the five elements of knowledge transfer with personal and impersonal transfer,0.13096783
+what is,why is data locality important,0.13083202
+what is,what is selfdetermination theory sdt and what motivational distinction is it based on,0.17556562
+what is,what does encapsulation describe,0.23080501
+what is,how does the reduceside join work,0.12385328
+what is,how is the workflow of a hash function,0.13792616
+what is,how is ba related to the knowledge spiral,0.12141506
+what is,how does reduction for vertical fragmentation work,0.067773156
+what is,what is stemming,0.29562986
+what is,explain a vector clock example,0.20416982
+what is,what are the two approaches used in configuration model,0.082348466
+what is,explain empirical risk minimisation,0.14386095
+what is,what are the most important points to know about spark,0.06290468
+what is,how is a worm defined,0.22932959
+what is,which transformations exist in spark,0.028816937
+what is,what is the internal structure of the formula of pbjm,0.073315755
+what is,what are the two approaches to input domain modeling,0.09974593
+what is,how does the ranking work when relevance judgements are known,0.13294108
+what is,what are the three main methods used for authentication and what are examples and problems of each method,0.11600175

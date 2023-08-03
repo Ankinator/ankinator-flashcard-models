@@ -1,0 +1,47 @@
+model_out,reference,p,r,f1
+what is phishing?,what is phishing?,1.0,1.0,1.0
+what is a session hijacking attack?,what is session hijacking and what are countermeasures? ,0.6666666666666666,0.6666666666666666,0.6666666666666666
+what is type 3 locker ransomware?,what is the third type of ransomware - locker ransomware?,0.75,0.75,0.75
+what are the basics of smtp?,what is smtp?,0.5,1.0,0.6666666666666666
+what is a specific detection check?,"what is ""specific detection""?",0.6666666666666666,0.5,0.5714285714285714
+what are key servers?,what are key servers?,1.0,1.0,1.0
+what is the illegitimate information flow rule?,how can a illegitimate information flow happen when only applying the read rule (chinese wall model)?,1.0,0.4,0.5714285714285714
+what is csrf?,what is csrf?,1.0,1.0,1.0
+what is the definition of a virtual private network?,how is a vpn defined?,0.0,0.0,0.0
+what are examples for an attacker?,what are examples for an attacker?,1.0,1.0,1.0
+what is the process of deactivating botnet nodes?,how to deactivate a botnet's nodes?,0.75,0.75,0.75
+what is enc?,how does rsa work?,0.0,0.0,0.0
+what is the regulation of gdpr?,what are potential financial penalties for violators of the gdpr?,0.5,0.2,0.2857142857142857
+what is the technique of e-mail?,what spoofing technique do exist?,0.5,0.3333333333333333,0.4
+what is cipher block chaining?,what is cbc-mac?,0.0,0.0,0.0
+what is the problem with the rsa signature scheme?,what is the problem with rsa signature scheme and how is it handled?,1.0,0.8,0.8888888888888888
+what is the proper handling and processing of personal information?,what is the definition of privacy and what is a example attack and security solution for it?,0.0,0.0,0.0
+what is the principle of cache?,what is the basic principle of cache (storage)?,1.0,0.5,0.6666666666666666
+what is content filtering?,what are content filters and how do they work?,1.0,0.6666666666666666,0.8
+what is tor?,what is tor?,1.0,1.0,1.0
+what are third party cookies?,what are the main privacy problems of cookies?,0.3333333333333333,0.25,0.2857142857142857
+what is spear phishing?,what is spear phishing?,1.0,1.0,1.0
+what is an example for social engineering?,what is an examples of a csrf attack?,0.3333333333333333,0.3333333333333333,0.3333333333333333
+what are side effects of integer under overflow?,what is integer under-/overflow? what are famous examples?,0.25,0.25,0.25
+what is the definition of a public key encryption scheme?,how is the definition of the public key encryption scheme?,1.0,1.0,1.0
+what is an example for a cont attack?,what is an examples of a csrf attack?,0.6666666666666666,0.6666666666666666,0.6666666666666666
+what is a botnet?,what is a botnet?,1.0,1.0,1.0
+what is dns tunneling?,what is dns tunneling?,1.0,1.0,1.0
+what are types of data releases?,what are types of data releases?,1.0,1.0,1.0
+what are the security goals of wep?,what is wep?,0.3333333333333333,1.0,0.5
+what are the risks of data collection?,what are the risks of companies collecting user data?,1.0,0.6,0.7499999999999999
+what are spam relay botnets?,what is a spam relay attack?,0.6666666666666666,0.6666666666666666,0.6666666666666666
+what is the example for the diffie hellman protocol?,how does the diffie-hellmann protocol work?,0.25,0.3333333333333333,0.2857142857142857
+what is the definition of entropy?,how is entropy defined?,0.5,0.5,0.5
+what are the problems of salt?,why is the concept of salt needed and how does it work?,0.5,0.25,0.3333333333333333
+what is the right to access collected personal data?,what is access to collected personal data in relation to gdpr?,0.8,0.6666666666666666,0.7272727272727273
+what is the type 2 trojan threat of destruction?,what is the second type of ransomware - trojan threat of destruction?,0.8,0.6666666666666666,0.7272727272727273
+what are full nodes?,what are full nodes?,1.0,1.0,1.0
+what is inferring bitcoin addresses of darknet vendors?,how can bitcoin addresses of darknet vendors be inferred?,1.0,1.0,1.0
+what is the definition of malware?,how is malware defined?,0.5,0.5,0.5
+what are examples of extremely dumb attacks?,why can attacker be successfull with dumb mails?,0.5,0.5,0.5
+what is the consequence of third party cookies?,what is the problem of third-party cookies?,0.25,0.3333333333333333,0.2857142857142857
+what is an example for anonymity?,can you ensure anonymity by removing identifier attributes? give examples,1.0,0.2857142857142857,0.4444444444444444
+what are examples of discrimination?,how can discrimination happen when companies collect user data?,0.5,0.16666666666666666,0.25
+what is the idea of rainbow tables?,how do rainbow tables work?,0.6666666666666666,0.6666666666666666,0.6666666666666666
+what are countermeasures against viruses?,what are countermeasures to prevent a infection with malware?,0.5,0.25,0.3333333333333333
