@@ -1,0 +1,465 @@
+model_out,reference,similiarities
+What are the advantages and disadvantages of MapReduce?,What are the goals of verification and validation?,0.1977478
+What are the advantages of the MapReduce algorithm?,What is static and what is dynamic V&V?,0.1045761
+What are the advantages and disadvantages of MapReduce?,What is the systematic view-based approach?,0.102433234
+What are the advantages of the MapReduce algorithm?,What are the basic structures for defining test criteria?,0.12705769
+What are the advantages and disadvantages of MapReduce?,How are Graphs used in testing?,0.22566576
+What is the definition of the RDBMS?,How are test paths defined?,0.12253809
+What are the advantages of the MapReduce algorithm?,"Why is EC defined with ""length up to 1""?",0.06115319
+What are the advantages of the MapReduce algorithm?,What is an infeasible test requirement and should it be handled?,0.07240417
+What are the advantages and disadvantages of MapReduce?,How are du pairs and du paths defined and what is meant by def-clear?,0.07780243
+What are the advantages of the RDBMS model?,Where can predicates occur?,0.033551015
+What are the disadvantages of the MapReduce algorithm?,How is predicate coverage defined?,0.100619756
+What are the advantages and disadvantages of MapReduce?,What are the problems with PC and CC?,0.21582016
+What are the disadvantages of the MapReduce algorithm?,How is Inactive Clause Coverage defined?,0.065173596
+What is the difference between the two types of information retrieval?,How can all logic coverage criteria be graphically summarized?,0.1423204
+What are the disadvantages of the MapReduce algorithm?,How are partitions chosen?,0.17077929
+What are the disadvantages of the MapReduce algorithm?,How is Base Choice Coverage defined?,0.11484497
+What is the relationship between the number of steps taken and the number of steps,"How does it mean if a string is ""in the grammar""?",-0.020274114
+What is the relationship between the number of entries in a file and the number,How are recognizer and generator defined?,0.22836226
+What is the relationship between the number of entries in a file and the number,From what can mutant strings be derived?,0.053928047
+What are the disadvantages of the MapReduce algorithm?,What is the mutation score?,0.15716735
+What are the disadvantages of the MapReduce algorithm?,Should more than one operator be applied at the same time?,0.12419615
+What are the disadvantages of the MapReduce algorithm?,What are the three components of KobrA and what is the vision and obstacles for each?,0.13873515
+What are the disadvantages of the MapReduce algorithm?,Why should KobrA models be precisely defined?,0.09116121
+What is the difference between a symmetric key encryption scheme and a symmetric,What are the criteria based on structures?,0.045532875
+What are the disadvantages of the MapReduce algorithm?,What are knowledge-driven changes of the work environments from the perspective of individuals?,0.09179506
+What is the relationship between the number of steps taken and the number of steps,How can knowledge be created (KM cycle)?,0.23591062
+What is the relationship between the number of steps taken and the number of steps,What are functions of the knowledge storage step of the KM cycle?,0.33377314
+What are the advantages and disadvantages of MapReduce?,Which impact has KM on the employees?,0.2612793
+What are the advantages and disadvantages of the MapReduce approach?,What are positive results of KM for the different impact dimensions?,0.11831624
+What is the relationship between the number of steps taken and the length of the,What are some examples of technology supporting the four knowledge processes?,0.19824198
+What are the advantages and disadvantages of MapReduce?,Which are the factors of KM use and how do they influence the use of the KMS?,0.31789538
+What are the advantages and disadvantages of the MapReduce approach?,What are some examples?,0.13079543
+What are the disadvantages of the MapReduce algorithm?,"Is there a hierarchical relationship among knowledge, data and information?",0.10320483
+What are the disadvantages of the MapReduce algorithm?,Which are the two types of knowledge?,0.08155723
+What are the steps of the design process?,How can the goal be approached?,0.37051734
+What are the advantages and disadvantages of MapReduce?,What aspects should relevant theoretical approaches of organizational learning include?,0.16762923
+What are the advantages and disadvantages of MapReduce?,What two types of learning processes can be distinguished according to their purpose?,0.18218964
+What are the advantages of the MapReduce algorithm?,What are the four types of knowledge conversion?,0.16816682
+What are the advantages and disadvantages of MapReduce?,What is socialization and how does it work?,0.17018938
+What are the advantages of the P-value model?,How can successful knowledge creation be achieved according to the knowledge spiral?,0.19640304
+What are the advantages and disadvantages of MapReduce?,What is the origination Ba and which technology is used?,0.16104841
+What are the advantages and disadvantages of MapReduce?,What is the interacting Ba and which technology is used?,0.22814754
+What are the advantages of the RDBMS model?,What is the exercising Ba and which technology is used?,0.1849975
+What are the advantages of the RDBMS model?,What are the channels for knowledge transfer and what are the supporting measures/technologies based on the degree of formality and socialization?,0.26078898
+What is the relationship between the number of steps taken and the number of steps,"What is a prominent example of a 
+Community of Practice?",0.050658114
+What is the relationship between the number of steps taken and the number of steps,What are the phases of maturity of CoPs?,0.24302508
+What are the advantages and disadvantages of MapReduce?,How to distinguish the maturity phases of CoPs?,0.0036320165
+What are the disadvantages of the MapReduce algorithm?,Which different groups of members exist in CoPs?,0.0050470904
+What are the advantages of the MapReduce algorithm?,What is the Media Synchronicity Theory (MST)?,0.15862077
+What are the advantages of the RDBMS model?,Which two fundamental processes are involved in communication?,0.21283948
+What are the advantages of the MapReduce algorithm?,What is the degree of the appropriation factors for BAC?,0.057297304
+What are the advantages and disadvantages of MapReduce?,What would be an example?,0.121246494
+What is the relationship between the number of steps taken and the number of steps,What is meta memory?,0.039184798
+What are the advantages and disadvantages of MapReduce?,How to solve this problem?,-0.038722415
+What are the advantages of the RDBMS model?,How does DMS support filling through management?,0.2408965
+What are the advantages of the RDBMS model?,Which components are generally contained in a process model of a text mining application?,0.32388455
+What are the disadvantages of the MapReduce algorithm?,Which applications can be used for it?,0.29191
+What are the advantages of the RDBMS model?,"How is data stored in a DW characterized, particularly concerning its orientation, time horizon, and persistence?",0.24295844
+What are the advantages of the MapReduce algorithm?,What are some of the key steps taken to achieve the integration?,0.18007334
+What are the disadvantages of the MapReduce algorithm?,How can different views of the data be analyzed?,0.2501401
+What is the relationship between the number of steps taken and the number of steps,How does the data mining process differ from OLAP?,0.20288306
+What is the relationship between the number of entries in a file-system and,How do neural networks work and what are the main characteristics that make them useful for classification?,0.10276514
+What is the relationship between the number of steps taken and the number of steps,Which examples for regression and classification do you know?,0.089137316
+What is the relationship between the number of steps taken and the number of steps,What is unsupervised learning and what is the goal?,0.08530259
+What are the advantages of the RDBMS model?,Which key findings did Sturm discover with the baseline model?,0.23997903
+What is the definition of a hash table?,Which key findings did Sturm discover by including ML agents?,0.03498429
+What are the advantages of the RDBMS model?,Which method did Lebovitz et al. (2022) use?,0.16351011
+What are the disadvantages of the RDBMS?,What are the implications of the work of Van der Broek et al. (2022)?,0.19994795
+What are the advantages and disadvantages of MapReduce?,Which key insights were gained in the lecture about the use of machine learning in KM?,0.24978703
+What are the advantages and disadvantages of MapReduce?,Which key differences exist between content-oriented and process-oriented?,0.14807203
+What are the advantages and disadvantages of MapReduce?,What characteristics does Dennis & Vessey's design approach focus on?,0.13924588
+What is the relationship between the number of steps taken and the number of steps,"What are the main differences of knowledge hierarchies, markets and communities in terms of their fundamental conception and knowledge management processes according to Dennis & Vessey (2005)?",0.15151903
+What is the relationship between the number of steps taken and the number of steps,"What are the main differences of knowledge hierarchies, markets and communities in terms of knowledge reuse goal, life span and the resulting knowledge according to Dennis & Vessey (2005)?",0.1579931
+What are the advantages and disadvantages of MapReduce?,"According to Hansen et al., which technology should be used for personalization and why?",0.30646026
+What are the advantages and disadvantages of MapReduce?,Which research questions did Kane & Alavi consider?,0.107669495
+What are the advantages and disadvantages of MapReduce?,What are the three tools used by Kane & Alavi for KM?,0.17488018
+What is the relationship between the number of steps taken and the number of steps,How do Kane & Alavi's results look like?,0.08050853
+What are the advantages and disadvantages of MapReduce?,Which moderation effect has the learning rate?,0.1264721
+What is the relationship between the number of steps taken and the number of steps,Which moderation effect have environmental turbulences?,0.10006667
+What are the advantages and disadvantages of MapReduce?,What are the resulting design recommendations of Kane & Alavi?,0.103942186
+What are the advantages and disadvantages of MapReduce?,What are Ko et al's definitions for the three communication factors and the four motivational factors?,0.16011047
+What are the advantages of the RDBMS model?,According to Ko et al. what influence does intrinsic motivation have on knowledge transfer and what implications did he derive from this?,0.2562787
+What are the disadvantages of the MapReduce algorithm?,Which motivating and individual factors are being examined with regard to their influence on knowledge contribution by Wasko & Faraj?,0.12378843
+What are the advantages and disadvantages of MapReduce?,Explain the Concept of Rationality in the context of an Agent and its environment.,0.10308564
+What is the relationship between the number of steps taken and the number of steps,How can betting games be used to assess agents?,0.11473364
+What are the disadvantages of the MapReduce algorithm?,Define the theory of rational decisions.,0.074914366
+What are the advantages and disadvantages of MapReduce?,How are probabilities defined?,0.018340245
+What are the disadvantages of the MapReduce algorithm?,Which properties does an event space satisfy?,0.035588466
+What are the disadvantages of the MapReduce algorithm?,What are propositions?,0.033154037
+What are the disadvantages of the MapReduce algorithm?,Why are we interested in conditional probabilities?,0.13463876
+What are the advantages and disadvantages of MapReduce?,What is a marginal probability?,0.07479141
+What are the disadvantages of the MapReduce algorithm?,Define conditional probabilities using a normalization constant.,-0.0731728
+What are the disadvantages of the MapReduce algorithm?,What is diagnostic reasoning?,0.08443327
+What are the advantages and disadvantages of MapReduce?,What does the setup of a Markov Decision Process include?,0.097925186
+What are the disadvantages of the MapReduce algorithm?,How is a Markov Decision Process defined?,0.07762428
+What is the relationship between the number of steps taken and the number of steps,"How can I factorize P(B | j,m)?",0.09520619
+What are the disadvantages of the MapReduce algorithm?,"What is the exact Inference by Variable Elimination Factorisation of P(B|j,m)?",0.046047814
+What is the relationship between the number of frames allocated and the number of frames,What is the basic idea of direct sampling methods?,0.09600725
+What is the relationship between the number of steps taken and the length of the,Define a Hidden Markov Model.,0.14373088
+What is the relationship between the number of entries in a file and the number,Explain the Inference in HMMs.,0.23156852
+What is the definition of the SVD?,Name different kinds of inferences.,0.10886032
+What are the advantages and disadvantages of MapReduce?,Explain Sum-Product Networks.,0.13167122
+What are the advantages and disadvantages of MapReduce?,What is a probabilistic model?,0.114002876
+What is the relationship between the number of steps taken by an algorithm and the,Explain Decision Theory.,0.30019805
+What is the relationship between the number of steps taken by an agent and the,What is strict Dominance?,0.07056407
+What are the advantages of the MapReduce algorithm?,Name the differences between the preferences of an Agent and Humans with regards to money.,0.15361336
+What is the relationship between the number of steps taken by an agent and the,What is information retrieval?,0.10447572
+What are the advantages of the MapReduce algorithm?,Which aspects are not taken into account in the text representation?,0.15080762
+What are the disadvantages of the MapReduce algorithm?,What steps does text preprocessing normally consist of? ,0.061882272
+What are the advantages and disadvantages of MapReduce?,Why is tokenisation not always easy?,0.21513504
+What are the disadvantages of the MapReduce algorithm?,How does normalization work?,0.17064106
+What is the relationship between the number of steps taken and the number of steps,How does inflectional normalization work?,0.0828789
+What are the advantages of the RDBMS model?,How does expansion work?,0.08556026
+What are the disadvantages of the MapReduce algorithm?,Why are stop words removed?,0.05964737
+What is the relationship between the number of steps taken and the number of steps,How are queries represented in boolean retrieval?,0.11680591
+What are the advantages and disadvantages of MapReduce?,What is needed to use inverted indices?,0.05029631
+What are the advantages and disadvantages of MapReduce?,How does the algorithm for merging with skip pointers work?,0.11289154
+What are the disadvantages of the MapReduce algorithm?,How do biword indices work? ,0.1692467
+What are the advantages and disadvantages of MapReduce?,How does the proximity merge algorithm work?,0.15889066
+What are the disadvantages of the MapReduce algorithm?,For which use cases is boolean retrieval suitable and for which not? ,0.31152096
+What are the advantages and disadvantages of MapReduce?,How did the AND and OR operators affect a boolean query?,0.12717074
+What are the advantages of the MapReduce algorithm?,What does ranked retrieval mean?,0.3274756
+What are the disadvantages of the MapReduce algorithm?,What is the core or the idea of any ranked retrieval model?,0.3502552
+What are the advantages of the MapReduce model?,What are the two problems of term frequency?,0.20846112
+What are the advantages and disadvantages of MapReduce?,What is the idea behind the global document frequency? ,0.25804877
+What are the advantages and disadvantages of MapReduce?,How is the inverse document frequency defined?,0.061089985
+What are the advantages and disadvantages of MapReduce?,How does locality sensitive hashing work?,0.26356226
+What are the disadvantages of the MapReduce algorithm?,What is a tiered index?,0.2118001
+What are the disadvantages of the MapReduce algorithm?,How can phrase queries be considered in the vector space model?,0.14436853
+What are the disadvantages of the MapReduce algorithm?,How can multiple factors be considered for ranking documents?,0.16927382
+What are the disadvantages of the MapReduce algorithm?,How does ranked retrieval work?,0.30975014
+What are the advantages and disadvantages of the MapReduce approach?,What are the odds of an event?,-0.02373837
+What are the disadvantages of the MapReduce algorithm?,What are the two scenarios that can occur when we want to rank documents?,0.2593861
+What are the advantages and disadvantages of MapReduce?,How does the ranking work when relevance judgements are known?,0.10861871
+What are the advantages and disadvantages of MapReduce?,How is the relevance score computed if relevance judgements are available?,0.10746473
+What is the relationship between the number of steps taken and the number of steps,Explain the example for the binary independence model,0.12350845
+What are the advantages and disadvantages of MapReduce?,How are probabilities for terms estimated using language models?,-0.013455121
+What is the definition of a hash table?,Explain an example of the use of a language model for information retrieval,0.22389212
+What are the advantages of the MapReduce algorithm?,How is the feedback set defined?,0.033463776
+What are the disadvantages of the MapReduce algorithm?,Explain query expansion,0.16194616
+What are the disadvantages of the MapReduce algorithm?,Describe the algorithm for thesaurus-based query expansion,0.08844705
+What is the relationship between the number of entries in a file and the number,How does automated thesaurus generation work?,0.12396704
+What are the advantages and disadvantages of MapReduce?,How does the Rocchio algorithm work?,0.084446356
+What are the advantages and disadvantages of MapReduce?,How is a document represented in singular value decomposition?,0.096906595
+What is the relationship between the number of entries in a file and the number,How are dense vectors for the query computed?,0.19770943
+What are the advantages and disadvantages of MapReduce?,What is the shortcoming of latent semantic indexing?,0.19116181
+What are the disadvantages of the MapReduce algorithm?,Which parameters are sampled in the generative process?,0.03754605
+What are the disadvantages of the MapReduce algorithm?,What is the difference between sparse and dense term representations?,0.18035766
+What are the advantages of the MapReduce model?,What is the benefit of word embeddings?,0.3551885
+What are the advantages and disadvantages of MapReduce?,How is the cbow model used to compute word embeddings?,0.06847057
+What are the advantages and disadvantages of MapReduce?,Which types of classifiers exist in information retrieval?,0.18080375
+What are the advantages of the MapReduce algorithm?,How does the cluster information retrieval model work?,0.35554993
+What is the definition of the RDBMS?,Explain the k-means algorithm,0.12300953
+What is the definition of the RDBMS?,What are the issues with the list-wise learning to rank approach?,0.085785106
+What are the disadvantages of the MapReduce algorithm?,How is a test set collection created in information retrieval?,0.16325574
+What are the advantages of the MapReduce model?,"How are precision, recall and f-measure computed in information retrieval systems?",0.24424943
+What are the disadvantages of the MapReduce algorithm?,How is big data often perceived?,0.38035512
+What are the advantages and disadvantages of MapReduce?,What is the big data story?,0.3926705
+What are the disadvantages of the MapReduce algorithm?,Where is big data successful used?,0.4254192
+What are the advantages and disadvantages of MapReduce?,Explain the 3 big data V's,0.43479884
+What are the advantages and disadvantages of MapReduce?,What are the differences between traditional data and big data?,0.4055516
+What are the advantages and disadvantages of MapReduce?,Which aspects distinguish big data systems?,0.47393778
+What are the main differences between MapReduce and MapReduce?,What are the different types of real time database management systems?,0.40619522
+What are the advantages and disadvantages of MapReduce?,How can words be counted with MapReduce?,0.52039254
+What are the advantages and disadvantages of MapReduce?,How are key-values stored with a NoSQL database?,0.24757482
+What are the disadvantages of the MapReduce algorithm?,How is correctness ensured in horizontal fragmentation?,0.17619705
+What are the advantages and disadvantages of MapReduce?,How is a table range partitioned with an SQL statement?,0.16233045
+What are the advantages and disadvantages of MapReduce?,Describe the process to automatically generate fragments,0.0635763
+What are the advantages and disadvantages of the MapReduce approach?,How are partitions from multiple tables constructed?,0.17100757
+What are the advantages and disadvantages of MapReduce?,What is hybrid fragmentation?,0.25910103
+What are the advantages and disadvantages of MapReduce?,What are typical problems in finding a suitable allocation scheme?,0.21184152
+What is the relationship between the number of steps taken and the number of steps,What are the transparency layers?,0.029103037
+What are the advantages of the MapReduce algorithm?,How does a SQL statement that required decomposition look like?,0.21405593
+What is the definition of the RDBMS protocol?,What does a query tree with derived horizontal fragmentation and empty join elimination look like?,0.17543583
+What are the disadvantages of the MapReduce algorithm?,What is the role of the data processor?,0.41109908
+What are the disadvantages of the MapReduce algorithm?,How are input and output for the parallel sort defined?,0.20175712
+What is the relationship between the number of steps taken and the number of steps,Why is it difficult to select a good partitioning vector?,0.046559643
+What are the advantages of the MapReduce algorithm?,What are the advantages of the parallel nested loop join?,0.44808456
+What are the disadvantages of the MapReduce algorithm?,What is important to know when using parallel hash joins?,0.43236136
+What are the advantages of the RDBMS model?,How does projection with duplicate elimination work?,0.083742365
+What is the relationship between the number of steps taken to reach the goal and,Explain how aggregations works by using an example,0.23753786
+What are the advantages and disadvantages of the MapReduce approach?,How does aggregation with pre-aggregation work?,0.28897068
+What are the advantages and disadvantages of the SVD?,What are the MapReduce framework steps?,0.22047922
+What are the advantages and disadvantages of the MapReduce approach?,How can MepReduce be used to count words?,0.12693833
+What are the advantages and disadvantages of MapReduce?,How are the Map and Shuffle phase defined?,0.19819859
+What are the advantages and disadvantages of the MapReduce approach?,How is word counting implemented with pseudocode?,0.07602827
+What are the advantages and disadvantages of MapReduce?,What are examples for MapReduce jobs?,0.7012562
+What are the advantages and disadvantages of the RDBMS?,Do you know some hadoop related projects?,0.2953902
+What are the advantages and disadvantages of the MapReduce approach?,What are the three key ides of MapReduce runtime?,0.6809674
+What are the advantages and disadvantages of the SVD?,What does a typical MapReduce cluster configuration look like?,0.12860547
+What are the advantages and disadvantages of the MapReduce algorithm?,Why are blocks used in HDFS?,0.32190403
+What are the advantages and disadvantages of the RDBMS?,What does the MapReduce execution workflow look like?,0.16042796
+What are the advantages and disadvantages of the MapReduce approach?,Why is data locality important?,0.4740908
+What are the advantages and disadvantages of the MapReduce approach?,How is a YARN application executed?,0.26306924
+What are the advantages and disadvantages of the MapReduce algorithm?,When is the aggregate function efficient?,0.3195449
+What are the advantages and disadvantages of the MapReduce approach?,How is a small and efficient aggregate function defined?,0.24442905
+What are the advantages and disadvantages of the MapReduce approach?,What are algebraic aggregate functions?,0.1777587
+What are the advantages and disadvantages of the MapReduce approach?,What does the input for a word count with MapReduce look like?,0.45221114
+What are the advantages and disadvantages of the MapReduce approach?,Why is a combiner not always useful?,0.30430168
+What are the advantages and disadvantages of MapReduce?,With regard to which aspects does hadoop offer flexibility?,0.64933985
+What are the advantages and disadvantages of the MapReduce approach?,How can MapReduce be improved with higher level languages?,0.6786922
+What are the advantages and disadvantages of MapReduce?,How can MapReduce be improves with dataflow engines?,0.7010311
+What are the advantages and disadvantages of the MapReduce approach?,What are the key features of Apache spark?,0.48161498
+What are the advantages and disadvantages of MapReduce?,How to read a file with spark?,0.14357215
+What are the advantages and disadvantages of the MapReduce approach?,How can spark's reduce action be used?,0.29932186
+What are the advantages and disadvantages of the MapReduce approach?,How to use the flatMap function?,0.16981831
+What are the advantages and disadvantages of the MapReduce approach?,How to use the groupByKey function?,0.0308491
+What are the advantages and disadvantages of MapReduce?,Which actions exist in spark?,0.2694447
+What are the main differences between MapReduce and MapReduce?,How can spark be understood as a dataflow engine?,0.3520803
+What are the advantages and disadvantages of the MapReduce approach?,What does the internal dataflow representation of a spark program look like?,0.32501876
+What are the advantages and disadvantages of the SVD?,What is an execution plan?,0.13813567
+What are the advantages and disadvantages of MapReduce?,Explain the RDD interface components,0.24161333
+What is the definition of the RDBMS protocol and how does it work,How does spark perform operations in parallel?,0.2260594
+What are the advantages and disadvantages of MapReduce?,Which commands is required to use spark's cache?,0.24495164
+What are the advantages and disadvantages of the MapReduce approach?,How to read log files with spark?,0.15771464
+What are the advantages and disadvantages of the MapReduce approach?,How to filter log files with spark?,0.16948693
+What are the advantages and disadvantages of MapReduce?,How to extract error messages with spark?,0.1143738
+What are the advantages and disadvantages of the SVS?,What are the key issues when performing transactions in a parallel setup?,0.21962556
+What are the advantages and disadvantages of k-means clustering?,What are the goals for distributed transactions?,0.29424885
+What is the relationship between the number of steps taken and the number of steps,How does the two-generals problem start?,0.16911219
+What is the relationship between the degree of similarity and the degree of similarity of,How to acknowledge an attack?,0.002106607
+What are the advantages and disadvantages of MapReduce?,What is the principle of the two-phase commit protocol?,0.15740754
+What are the advantages of the RDBMS model?,What are the possible states of the coordinator in the two phase commit protocol?,0.02523147
+What are the advantages and disadvantages of MapReduce?,How to recover when a coordinator has crashed?,-0.0071932394
+What are the advantages and disadvantages of the PESTLE model?,Which strategies exist to avoid deadlocks?,0.12609395
+What is the relationship between the number of steps taken and the number of steps,What are the advantages and disadvantages of the basic approach to achieve replication consistency?,0.14961274
+What are the advantages and disadvantages of MapReduce?,Why is the ROWA protocol better than the RAWA protocol?,0.27246028
+What are the advantages and disadvantages of MapReduce?,What is the quorum consensus?,0.20143032
+What is the definition of the RDBMS?,What are the advantages and disadvantages of quorum consensus?,0.21521407
+What are the advantages and disadvantages of the MapReduce approach?,How to use Redis as a key-value store?,0.23144627
+What is the relationship between the number of steps taken and the number of steps,What is Hbase?,0.010376392
+What is the relationship between the length of a logistic regression and the coefficient,Why is the CAP theorem important for NoSQL databases?,0.008073691
+What is the relationship between the number of steps taken and the number of steps,Why is there always a trade-off in the CAP theorem?,-0.04459376
+What is the relationship between the degree of similarity and the degree of similarity of,What are the differences between ACID and BASE?,0.2064034
+What is the relationship between the number of steps taken and the number of steps,How to detect write conflicts?,-0.04365413
+What is the relationship between the number of steps taken and the length of the,How does hash-based data placement work?,0.09158258
+What is the relationship between the number of frames and the number of frames per,How are nodes hashed onto the ring?,0.03799051
+What is the relationship between the number of steps taken and the number of steps,Which keys are reallocated when a node joins?,0.06257907
+What are the advantages and disadvantages of MapReduce?,Which keys are reallocated if when a node leaves?,0.076786414
+What are the advantages and disadvantages of MapReduce?,How does routing with finger tables work?,0.13673696
+What are the advantages and disadvantages of MapReduce?,How does the routing path look like if routing with finger tables is used?,0.13669544
+What is the relationship between the number of steps taken and the number of steps,What are the pros and cons of routing with global information?,0.09735878
+What is the relationship between the number of steps taken and the number of steps,Why is synchronization required if eventual consistency is used?,0.1008323
+What is the relationship between the number of steps taken and the number of steps,Which type of nodes are distinguished in epidemic protocols?,0.058876283
+What is the relationship between the number of steps taken and the number of steps,How efficient is the anti-entropy protocol?,0.015041421
+What is the relationship between the number of steps taken and the number of steps,How would you define Leadership and what are the key aspects?,0.21076918
+What are the advantages and disadvantages of MapReduce?,How has the definition of Leadership evolved from 1900 to the 21st Century?,0.04955919
+What are the advantages of the SVD?,What are the differing viewpoints regarding the relationship between leadership and morality?,0.14299741
+What is the relationship between the number of steps taken and the number of steps,What are the key differences between leadership and management?,0.23519462
+What are the advantages and disadvantages of the MapReduce approach?,What are key aspects and differences of the kindergarten report card and the performance appraisal?,0.1598407
+What is the relationship between the degree of similarity and the degree of similarity of,What is the correlation between the big five personality factors and leadership?,0.1724908
+What is the relationship between the number of steps taken and the number of steps,What are the factors influencing the components of the skills model?,0.2650945
+What is the relationship between the number of steps taken and the number of steps,How is the behavioral approach described in terms of its perspective and what is its historical background?,0.3326184
+What is the relationship between the number of steps taken and the number of steps,What are the different groups of the Managerial Grid model and how are they related to concern for people and concern for results?,0.2238206
+What are the advantages and disadvantages of MapReduce?,What are the five major leadership styles of the Managerial Grid model and how are they related to concern for people and concern for results?,0.22631538
+What is the relationship between the number of steps taken and the number of steps,What are the five major leadership styles of the Managerial Grid model and how are they related to concern for people and concern for results?,0.23871094
+What is the relationship between the number of steps taken and the number of steps,Which are the three situational factors of Fiedler’s Contingency Model?,0.24833679
+What are the advantages of the MapReduce algorithm?,"What are the consequences of mismatch between
+leader and situation?",0.1284785
+What is the difference between a symmetric hash table and a symmetric hash,"What are strengths and criticisms of the
+situational approach?",-0.01944749
+What is the relationship between the degree of similarity and the degree of similarity of,"According to the matrix of path-goal theory, what leadership behaviors need to be applied in different settings depending on group members and task characteristics?",0.057132136
+What are the advantages and disadvantages of MapReduce?,How does path-goal theory work?,0.07346912
+What is the relationship between the number of steps taken and the number of steps,What is the LMX Theory?,0.16861969
+What is the relationship between the number of frames and the number of frames in,What are the two types of linkages described by LMX?,0.19832525
+What is the relationship between the number of steps taken and the number of steps,What is the relationship between goal difficulty and performance?,0.32134327
+What are the advantages and disadvantages of MapReduce?,In which ways do goals affect performance?,0.20404728
+What is the relationship between the number of steps taken and the number of steps,"How do personal goals act as mediators of 
+external incentives?",0.11777873
+What is the relationship between the number of entries in a file and the number,What is self-regulation and the high-performance cycle?,0.12168239
+What are the advantages and disadvantages of the MapReduce approach?,What are the limitations of SDT?,0.14858773
+What are the advantages and disadvantages of MapReduce?,"How does the Transformational Leadership Model, as proposed by Bass in 1985, build upon the work of Burns and House and what are the key aspects that distinguish it from previous models?",0.09569129
+What is the relationship between the number of steps taken and the number of steps,What is the definition of the factors Idealized Influence and Inspirational Motivation of the TL Model?,0.25119728
+What are the advantages and disadvantages of MapReduce?,"What is the validity of transformational leadership and transactional leadership regarding follower oriented criteria, performance and effectiveness?",0.18744344
+What is the relationship between the number of steps taken and the number of steps,Which three definitions exist for the authentic leadership approach?,0.23991942
+What are the main differences between MapReduce and MapReduce?,Which levels and stages of moral development exist according to Kohlberg?,-0.0023749648
+What is the relationship between the number of steps taken and the number of steps,"How are the correlations between destructive versus constructive leadership and leadership outcomes like satisfaction with leader, job satisfaction, turnover rate and individual performance?",0.24762225
+What is the relationship between the number of steps taken and the length of the,Which primary research questions currently exist?,-0.011780253
+What are the three types of data structures?,How does the gender of the leader affect the evaluation of the leader?,0.04518668
+What are the disadvantages of the MapReduce algorithm?,What is the GLOBE study and how does it extend Hofstede's work?,0.1737771
+What is the definition of the SVD?,How does GLOBE cluster the different countries?,0.087223835
+What is the relationship between the degree of similarity and the degree of similarity of,what are candidate functions are also called?,0.11353067
+What is the difference between a random number generator and a random number generator?,What are different applications of unsupervised learning?,0.1139514
+What is the relationship between the number of frames and the number of frames in,Define curse of dimensionality.,0.16610464
+What is the difference between a symmetric and a symmetric encryption scheme?,What is overfitting?,0.06347003
+What are the advantages and disadvantages of MapReduce?,How to partition available data?,0.2027291
+What are the advantages and disadvantages of MapReduce?,summarize generative models.,0.056813918
+What are the main differences between MapReduce and MapReduce?,Explain the 2 different interpretations of probability.,0.19137433
+What are the advantages and disadvantages of the MapReduce approach?,What are the properties of estimators?,0.16812372
+What are the advantages and disadvantages of the MapReduce approach?,What is posterior?,0.06259742
+What are the advantages and disadvantages of the MapReduce approach?,What is Maximum a posteriori estimation?,0.011282193
+What are the advantages and disadvantages of the MapReduce approach?,What is a bayes estimator,0.09831691
+What are the main differences between MapReduce and MapReduce?,Describe the beta distribution.,0.09124129
+What are the advantages and disadvantages of the PESTLE model?,List the properties of beta distribution.,0.20298728
+What are the disadvantages of the SVD?,Describe the categorical distribution.,0.090111054
+What are the disadvantages of the MapReduce algorithm?,Describe the multinomial distribution.,0.03283868
+What are the advantages and disadvantages of MapReduce?,How to obtain the MLE for Naive Bayes for categorical data?,-0.024779724
+What are the disadvantages of the MapReduce algorithm?,What are the observations of predictions with naive bayes using MLE?,0.060693692
+What are the advantages and disadvantages of the SVD?,What is the range of the logit function?,0.052118875
+What is the relationship between the number of steps taken and the number of steps,What is the geometric interpretation of inner product?,0.08301565
+What is the relationship between the number of steps taken and the number of steps,Comment on logistic regression,0.08613147
+What is the relationship between the number of steps taken and the number of steps,What is equivalent of maximizing log-likelihood?,0.08353007
+What are the advantages and disadvantages of MapReduce?,Explain Kullback-Leibler divergence,0.064547405
+What are the main differences between MapReduce and MapReduce?,Describe the methodology of gradient descent.,0.14733526
+What are the advantages of the MapReduce algorithm?,How is the gradient of a function defined?,0.11543918
+What are the advantages and disadvantages of MapReduce?,How to use SGD for logistic regression?,0.08649453
+What are the advantages and disadvantages of the MapReduce approach?,Compare GD and SGD,0.18915023
+What is the difference between a symmetric and a symmetric encryption scheme?,What are the practical considerations while doing GD/SGD?,0.08410229
+What is the relationship between the number of steps taken and the number of steps,What does the Taylor's theorem say?,0.12844749
+What are the advantages of the MapReduce algorithm?,What does the second order Taylor polynomial signify?,0.0627899
+What are the advantages of the MapReduce algorithm?,What are potential problems with MLE for logistic regression?,0.123526305
+What is the relationship between the number of steps taken and the number of steps,Explain what do unstable weights mean,0.08985013
+What are the disadvantages of the MapReduce algorithm?,Describe relation between MAP with gaussian priors and regularized risk minimization with l2 regularization.,0.2167773
+What are the disadvantages of the MapReduce algorithm?,Explain SoftMax regression.,0.11525892
+What are the disadvantages of the MapReduce algorithm?,How are matrix decompositions approximated?,0.1924812
+What are the disadvantages of the MapReduce algorithm?,Explain geometric interpretation of SVD.,0.05767241
+What are the advantages of the RDBMS model?,Describe the relationship between SVD and linear regression?,0.18338901
+What are the main differences between MapReduce and MapReduce?,What is a scree plot?,0.151447
+What is the definition of a MapReduce algorithm?,What is the reasoning behind normalizing data?,0.2502253
+What is the relationship between the number of steps taken and the number of steps,What are latent variable models?,0.12374081
+What is the relationship between the number of steps taken and the number of steps,Describe latent linear models.,0.13468121
+What is the relationship between the number of frames and the number of frames in,What is factor analysis?,0.305113
+What is the relationship between the number of entries in a file and the number,What does unidentifiability mean with respect to factor analysis?,0.09765029
+What is the relationship between the number of steps taken and the length of the,Why are missing data mechanisms needed?,0.097987294
+What is the difference between a random number generator and a random number generator?,Describe the M step of the EM algorithm?,0.17441458
+What is the relationship between the number of steps taken by an agent and the,What are the assumptions of K means clustering?,0.12049364
+What are the advantages and disadvantages of the PESTLE model?,How can GMM be viewed as soft clustering variant of K means,0.10281898
+What are the advantages and disadvantages of the MapReduce approach?,How are shape of clusters determined in both K-means and GMMs?,0.08761816
+What are the advantages and disadvantages of MapReduce?,What does the M step do in the EM algorithm for GMMs?,0.060467783
+What are the advantages and disadvantages of MapReduce?,Explain the lloyd's algorithm for K means.,0.06967992
+What are the advantages and disadvantages of the RDBMS?,Describe isotropic gaussian kernel.,-0.032988843
+What are the advantages and disadvantages of the MapReduce approach?,List and briefly describe some other kernels.,0.106192775
+What are the advantages and disadvantages of MapReduce?,Describe vector machines.,0.11328064
+What are the advantages and disadvantages of the MapReduce approach?,What is kernelized ridge regression?,0.14784417
+What are the advantages and disadvantages of MapReduce?,What does sparsity mean?,0.16128767
+What are the advantages and disadvantages of the MapReduce approach?,Why use l1 regularization to achieve sparsity?,0.22583961
+What are the advantages of the MapReduce model?,What are support vector machines?,0.18004006
+What are the advantages and disadvantages of the MapReduce approach?,Describe support vector regression.,0.073063016
+What are the advantages of the MapReduce model?,Give differences between SVM's and L1VM's.,0.21637689
+What are the advantages and disadvantages of the MapReduce approach?,What are networks?,0.2226102
+What are the advantages and disadvantages of MapReduce?,What are the two main components of networks?,0.309741
+What is the difference between the two types of information retrieval?,What makes network science quantitative and empirical?,0.22865626
+What are the advantages and disadvantages of the MapReduce approach?,List components of a complex system.,0.07497178
+What are the advantages and disadvantages of MapReduce?,Differentiate between network and graphs.,0.15679501
+What are the advantages and disadvantages of MapReduce?,What is a lattice network?,0.18616413
+What are the advantages and disadvantages of MapReduce?,Write the most observed property of real networks.,0.13788429
+What are the advantages of the MapReduce model?,Describe the small world problem.,0.20099476
+What are the advantages and disadvantages of MapReduce?,Give the expression for betweenness centrality.,0.17809464
+What are the advantages of the MapReduce algorithm?,Describe the idea behind random walk betweenness.,0.17699686
+What are the advantages and disadvantages of MapReduce?,Describe the methodology of eigenvector centrality,0.22716707
+What are the advantages and disadvantages of MapReduce?,Describe additional techniques used for katy centrality.,0.2605957
+What are the advantages and disadvantages of MapReduce?,What are granovetter's two perspectives on nature of links?,0.20539379
+What are the advantages and disadvantages of MapReduce?,What can be said about all bridges?,0.14097396
+What are the advantages of the MapReduce algorithm?,What can the models be used for?,0.23562086
+What are the advantages and disadvantages of MapReduce?,What can the models be used for?,0.26305598
+What are the advantages and disadvantages of MapReduce?,Describe Erdo ̋s–Re ́nyi Model.,0.006291992
+What are the advantages and disadvantages of the MapReduce approach?,What is the probability that the generated model will have m links?,-0.030353671
+What are the advantages and disadvantages of MapReduce?,write the takeaways of the two simple models.,0.09746051
+What are the advantages and disadvantages of the MapReduce approach?,What are the two approaches used in configuration model?,0.24338263
+What are the advantages and disadvantages of MapReduce?,What is the probability that an edge between i and j exists?,-0.047284707
+What are the advantages and disadvantages of MapReduce?,How is random matching faster?,0.21630582
+What are the advantages and disadvantages of MapReduce?,write the expression for probability of a multi edge,-0.052561387
+What are the advantages and disadvantages of MapReduce?,Write the expressions for expected number of self-loops,-0.08677963
+What are the advantages of the MapReduce model?,When does the configuration model have a giant component?,0.19424336
+What are the advantages and disadvantages of MapReduce?,Compare Erdo ̋s–Re ́nyi Model and configuration model.,0.11034247
+What are the advantages of the MapReduce model?,What does the Simple Model describe?,0.2759779
+What are the advantages and disadvantages of the MapReduce approach?,What attack goals can be considered in general?,0.09738888
+What are the advantages and disadvantages of MapReduce?,Introduction on Security Goals,0.13153808
+What are the advantages of the MapReduce model?,What does the CIA triad stand for?,0.0660815
+What are the advantages of the MapReduce model?,What is the definition of Confidentiality and what is a example attack and security solution for it?,0.1484066
+What are the advantages and disadvantages of MapReduce?,What is the definition of Availability and what is a example attack and security solution for it?,0.33573455
+What are the advantages and disadvantages of MapReduce?,What is the workflow for a key agreement protocol?,0.13648218
+What are the advantages and disadvantages of MapReduce?,What is the workflow of a public encryption scheme?,0.15395877
+What are the advantages and disadvantages of the MapReduce approach?,How is the workflow of a hash function?,0.19227874
+What is the relationship between the number of steps taken and the number of steps,What is the Terminology in the context of Access Control?,0.07739687
+What are the advantages and disadvantages of MapReduce?,What Formalism do exist regarding Access rights?,0.10882382
+What are the advantages and disadvantages of MapReduce?,What are drawbacks of Access Matrixes?,0.32028198
+What is the definition of the RDBMS model?,What is the Simple Security Rule?,0.11657468
+What are the advantages of the MapReduce approach?,How are Conflict of Interest Classes defined for Objects?,0.044799197
+What are the advantages of the RDBMS model?,How can the Read Rule be intuitively be defined?,0.18018538
+What are the advantages and disadvantages of the MapReduce approach?,What is the relation between entropy and security?,0.074703544
+What are the advantages of the MapReduce algorithm?,How to calculate the average time effort for a given password length and entropy?,-0.037907947
+What are the advantages and disadvantages of MapReduce?,How is the attacker model and what are possible attacks on hashed passwords on a server?,0.12001315
+What is the relationship between the degree of independence and the degree of independence of,What is a problem of the rainbow table approach and how is it solved?,0.040037904
+What are the advantages and disadvantages of MapReduce?,Why is the concept of pepper needed and how does it work?,0.11178592
+What are the main differences between MapReduce and MapReduce?,What is also a countermeasures besides pepper and salt?,0.11810519
+What are the advantages and disadvantages of MapReduce?,What is Single Sign-On?,0.088253014
+What are the advantages and disadvantages of MapReduce?,What is Shoulder Surfing?,0.061152056
+What are the advantages of the MapReduce model?,What is the Relevance of Social Engineering?,0.22632411
+What are the advantages and disadvantages of the MapReduce approach?,How to best identify fake websites?,0.0431832
+What are the advantages and disadvantages of the MapReduce approach?,Why can attacker be successful with dumb mails?,0.14560984
+What are the advantages and disadvantages of MapReduce?,What is a reference model?,0.058544956
+What are the advantages and disadvantages of MapReduce?,How is a Layered Network Reference Model structured?,0.08640808
+What are the advantages and disadvantages of MapReduce?,What are Header Fields of an Email?,0.0927634
+What are the advantages of the MapReduce approach?,What is E-Mail Spoofing?,0.10411973
+What are the advantages and disadvantages of MapReduce?,What are Common Approaches/Protocols?,0.2567373
+What are the advantages and disadvantages of the MapReduce approach?,What is PGP?,0.10245536
+What are the advantages and disadvantages of the MapReduce approach?,What is GPG?,0.07977483
+What are the advantages of the MapReduce model?,What are problems of Key Servers?,0.25101906
+What are the advantages and disadvantages of MapReduce?,What are alternatives for Key Servers?,0.32422403
+What are the advantages and disadvantages of MapReduce?,What is S/MIME?,0.10446082
+What are the advantages and disadvantages of the MapReduce approach?,What is Domain Keys Identified Mail (DKIM)?,0.121983215
+What are the advantages and disadvantages of MapReduce?,What is the Common Vulnerabilities and Exposures (CVE)? And what is the definition for Vulnerabilities and Exposures?,0.15133293
+What are the advantages of the MapReduce model?,What is the Critical Section? And which problem occurs?,0.06324084
+What are the advantages and disadvantages of the MapReduce approach?,What are Primitive Data Values? What is the relationship to Integer Under-/Overflow Attacks?,0.09726121
+What is the relationship between the number of steps taken and the number of steps,What is the Buffer Overflow?,0.032150224
+What are the advantages of the P-value model?,What is an example for a Heap Overflow Attack?,0.068361595
+What are the advantages and disadvantages of MapReduce?,What is an example for a Heap Overflow Attack?,0.12911287
+What are the advantages and disadvantages of MapReduce?,What is an example for a Prime and Probe Attack?,0.10374713
+What are the advantages and disadvantages of MapReduce?,How is the Infection phase of the malware lifecycle defined?,0.036201507
+What are the advantages and disadvantages of MapReduce?,What are countermeasures to prevent a infection with Malware?,0.24552926
+What are the advantages and disadvantages of the MapReduce approach?,Why is Malware Analysis necessary and how does it work?,0.2281819
+What are the advantages and disadvantages of MapReduce?,How does type 1 of ransomware: Encryption of Data work?,0.108855255
+What are the advantages and disadvantages of MapReduce?,What is the most common botnet C&C structure and how does it work?,0.20074841
+What is the difference between the two approaches?,What is a spam relay attack?,0.13144477
+What is the relationship between the number of steps taken by an agent and the,What is a Large-Scale Information Harvesting attack?,0.17536569
+What are the advantages and disadvantages of the PESTLE model?,How to deactivate a botnet's nodes?,0.053134054
+What are the advantages of the MapReduce approach?,What is Dynamic DNS?,0.25114456
+What are the advantages and disadvantages of MapReduce?,What is Unauthorized Access?,0.085897245
+What are the advantages and disadvantages of the MapReduce approach?,What is Sniffing?,0.104432106
+What are the advantages and disadvantages of MapReduce?,What is WEP?,0.046006244
+What are the advantages and disadvantages of the MapReduce approach?,How does Shared Key Authentication work?,0.13666141
+What are the advantages and disadvantages of the MapReduce approach?,What is the structure of RC4?,0.08212556
+What is the relationship between the number of steps taken and the number of steps,What is the problem regarding the IV size?,0.050135005
+What are the advantages and disadvantages of MapReduce?,Why is RC4 insecure?,0.16349003
+What are the advantages and disadvantages of MapReduce?,What does WPA try to fix and how did it evolve?,0.09544638
+What are the advantages and disadvantages of the MapReduce approach?,What is TKIP?,0.10920979
+What are the advantages and disadvantages of MapReduce?,What is CBC-MAC?,0.106876574
+What are the advantages and disadvantages of MapReduce?,What is TLS and how it the connection to http?,0.10719396
+What are the advantages and disadvantages of the MapReduce approach?,How are packets created in the AH Protocol in Transport Mode?,0.027429897
+What are the advantages and disadvantages of MapReduce?,How is the ICV calculated in the AH Protocol in Tunnel Mode?,-0.08346719
+What are the main differences between MapReduce and MapReduce?,How are packets created in the AH Protocol in Tunnel Mode?,-0.021574222
+What are the advantages and disadvantages of MapReduce?,What is ESP?,0.10533115
+What are the advantages and disadvantages of MapReduce?,How do transport and tunnel mode differ in the ESP protocol?,0.0681736
+What are the advantages and disadvantages of MapReduce?,What critical functions must a VPN provide?,0.18451872
+What are the advantages and disadvantages of the MapReduce approach?,How it the procedure of a VPN?,0.10752161
+What are the advantages and disadvantages of MapReduce?,What security is achieved with VPN?,0.20433585
+What is the difference between the two types of information retrieval?,What is step three in Tor?,0.074585505
+What are the advantages and disadvantages of the MapReduce algorithm?,What is a DNS Amplification Attack?,0.17571148
+What are the advantages and disadvantages of the MapReduce approach?,What is DNS Hijacking?,0.1852946
+What are the advantages and disadvantages of the MapReduce approach?,How does HTTP work?,0.1479728
+What are the advantages and disadvantages of the MapReduce approach?,What are the main Security Problems of Cookies?,0.16242209
+What are the advantages and disadvantages of the MapReduce algorithm?,What is the problem of third-party cookies?,0.080344275
+What are the advantages and disadvantages of MapReduce?,What is the EU Cookie Directive?,0.01883712
+What are the advantages and disadvantages of MapReduce?,What are the Abilities of JavaScript?,0.16981024
+What are the advantages and disadvantages of the MapReduce approach?,What are possible goals of XSS?,0.10765299
+What are the advantages and disadvantages of MapReduce?,What is the principle of Reflected XSS?,0.039939098
+What are the advantages and disadvantages of MapReduce?,What are the goals of CSRF Attacks?,0.21973124
+What are the advantages and disadvantages of MapReduce?,What are Prerequisites for CSRF Attacks?,0.14513046
+What are the advantages and disadvantages of the MapReduce approach?,What is an examples of a CSRF Attack?,0.09075574
+What are the main differences between MapReduce and MapReduce?,What are the Parties of the Bitcoin Network?,0.16839805
+What are the advantages and disadvantages of MapReduce?,What are Full Nodes?,0.19114906
+What are the advantages and disadvantages of the RDBMS?,How to connect blocks?,0.023906037
+What are the advantages and disadvantages of MapReduce?,On what is Bitcoin's proof of work based on?,0.1806238
+What are the advantages and disadvantages of MapReduce?,What is the difficulty target?,0.15133752
+What are the advantages and disadvantages of the MapReduce approach?,What is an alternative for Proof of Work?,0.14796335
+What are the disadvantages of the MapReduce algorithm?,How can Bitcoin Addresses of Darknet Vendors be inferred?,0.15776034
+What are the advantages and disadvantages of the MapReduce approach?,How can social engineering attacks happen when companies collect user data?,0.1674503
+What are the advantages and disadvantages of the RDBMS?,How can account impersonation/take-over attacks happen when companies collect user data?,0.19826698
+What are the advantages and disadvantages of the MapReduce approach?,What is the Synthetic Data approach? What are types of synthetic data?,0.24431197
+What are the advantages of the RDBMS model?,What is Masking? How is it done?,0.03293354
+What are the advantages and disadvantages of MapReduce?,What are the exemplary steps of Non-Perturbative Masking through generalization?,0.10491961
+What is the relationship between the number of steps taken and the length of the,How to make Algorithms Differentially Private?,-0.07467881
