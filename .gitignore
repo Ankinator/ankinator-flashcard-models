@@ -4,11 +4,14 @@
 # ingores all anki files
 datasets/anki_data/*.colpkg
 datasets/anki_data/*.apkg
+datasets/anki_data/pdf_files
+datasets/anki_data/Ankinator_Master_Labeling.csv
 datasets/*.csv
 datasets/Excel/*.xlsx
 */*.DS_Store
 *.DS_Store
 datasets/extractor_classifier/*
+notebooks/models/extractor_classifier/model_results/*
 
 out
 # Byte-compiled / optimized / DLL files
