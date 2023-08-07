@@ -1,0 +1,14 @@
+tensorflow-hub
+tensorflow
+keras
+h5py
+bert-tensorflow
+requests
+pandas
+nltk
+tqdm
+scikit-image
+scikit-learn
+scipy
+requests
+pandas

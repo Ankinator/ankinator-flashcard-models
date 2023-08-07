@@ -16,7 +16,6 @@ class TestLanguageTool(unittest.TestCase):
             {'GRAMMAR': 1, 'MISC': 1},
             language_tool_eval(model_output=model_out, references=model_out)
         )
-        print(language_tool_eval.get_dataframe())
 
     def test_write_to_file(self):
         path = "out/eval/lt_errors.csv"

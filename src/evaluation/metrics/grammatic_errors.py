@@ -22,7 +22,7 @@ class LanguageToolEvaluator(Evaluator):
     def evaluate(self, model_output: List[Tuple[int, List[str]]], references: List[Tuple[int, List[str]]]) -> Dict[
         str, float]:
 
-        self.sentences_from_model = extract_strings(model_output)
+        self.sentences_from_model = [l[0] for l in extract_strings(model_output)]
         self.sentences_from_reference = extract_strings(references)
 
         lt_matches = [self.lang_tool.check(t) for t in self.sentences_from_model]

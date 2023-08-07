@@ -1,8 +1,9 @@
 from abc import ABC, abstractmethod
-from typing import List, Tuple
+from typing import List, Tuple, Union
 
+from PyPDF2 import PdfReader, PdfWriter
 from pypdfium2 import PdfDocument
-from src.datageneration.extractor import extract_text
+from src.image_to_text.data_preprocessing.util import extract_text
 from tqdm import tqdm
 import pandas as pd
 from bs4 import BeautifulSoup
@@ -15,7 +16,7 @@ from os import makedirs, path
 
 class VitGPT2Dataset(ABC):
 
-    def __init__(self, slide_path: str, dataset_path='/datasets/', max_target_length=128):
+    def __init__(self, slide_path: Union[str, list[str]], dataset_path='/datasets/', max_target_length=128):
         self.extracted_test = None
         self.extracted_val = None
         self.extracted_train = None
@@ -25,7 +26,7 @@ class VitGPT2Dataset(ABC):
         self.val_metadata = None
         self.max_target_length = max_target_length
         self.dataset_path = dataset_path
-        self.pdf = PdfDocument(slide_path)
+        self.pdf = self._load_pdf(slide_path=slide_path)
         self.train_path = path.join(dataset_path, "train")
         self.test_path = path.join(dataset_path, "test")
         self.val_path = path.join(dataset_path, "val")
@@ -40,6 +41,26 @@ class VitGPT2Dataset(ABC):
         :return: None
         """
         raise NotImplementedError
+
+    def _load_pdf(self, slide_path: Union[str, List[str]]) -> PdfDocument:
+
+        if isinstance(slide_path, list):
+            # Create a PdfWriter object to store the merged PDF
+            pdf_writer = PdfWriter()
+
+            # Iterate through the PDF files and add them to the PdfWriter
+            for pdf_file in slide_path:
+                with open(pdf_file, 'rb') as file:
+                    pdf_reader = PdfReader(file)
+                    for page in pdf_reader.pages:
+                        pdf_writer.add_page(page)
+
+            # Save the merged PDF to a new file
+            slide_path = path.join(self.dataset_path, 'merged_output.pdf')
+            with open(slide_path, 'wb') as output_file:
+                pdf_writer.write(output_file)
+
+        return PdfDocument(slide_path)
 
     @staticmethod
     def _save_files_to_dir(dir_path: str, extracted_content: List[Tuple[int, str, str, Image]]):
@@ -57,7 +78,7 @@ class VitGPT2Dataset(ABC):
         questions = samples["Question"]
 
         return {
-            "labels": tokenizer(questions, padding="max_length", max_length=max_target_length).input_ids,
+            "labels": tokenizer(questions, padding="max_length", max_length=max_target_length, truncation=True, return_tensors="pt").input_ids,
             "pixel_values": feature_extractor(images=images, return_tensors="np").pixel_values
         }
 
@@ -93,6 +114,9 @@ class VitGPT2Dataset(ABC):
         self._save_files_to_dir(dir_path=self.test_path, extracted_content=self.extracted_test)
         self._save_files_to_dir(dir_path=self.val_path, extracted_content=self.extracted_val)
 
+        self._load_convert_transformers_dataset(feature_extractor=feature_extractor, tokenizer=tokenizer)
+
+    def _load_convert_transformers_dataset(self, feature_extractor, tokenizer):
         dataset = load_dataset("imagefolder", data_dir=self.dataset_path)
         self.dataset = dataset.map(
             function=self.preprocess,
@@ -101,6 +125,37 @@ class VitGPT2Dataset(ABC):
                        "tokenizer": tokenizer},
             remove_columns=dataset['train'].column_names
         )
+        self.dataset.set_format(type='torch')
+
+    def load_prebuild_dataset(self, feature_extractor, tokenizer):
+        """
+        Load a previously build dataset.
+        Extraction is not run again on the pdf slides, thus the extracted_ attributes remain None.
+        :return:
+        """
+        self._load_convert_transformers_dataset(feature_extractor=feature_extractor, tokenizer=tokenizer)
+        self.train_metadata = pd.read_csv(path.join(self.train_path, "metadata.csv"))
+        self.test_metadata = pd.read_csv(path.join(self.test_path, "metadata.csv"))
+        self.val_metadata = pd.read_csv(path.join(self.val_path, "metadata.csv"))
+
+    def load_prebuild_dataset(self, feature_extractor, tokenizer):
+        """
+        Load a previously build dataset.
+        Extraction is not run again on the pdf slides, thus the extracted_ attributes remain None.
+        :return:
+        """
+
+        dataset = load_dataset("imagefolder", data_dir=self.dataset_path)
+        self.dataset = dataset.map(
+            function=self.preprocess,
+            batched=True,
+            fn_kwargs={"max_target_length": self.max_target_length, "feature_extractor": feature_extractor,
+                       "tokenizer": tokenizer},
+            remove_columns=dataset['train'].column_names
+        )
+        self.train_metadata = pd.read_csv(path.join(self.train_path, "metadata.csv"))
+        self.test_metadata = pd.read_csv(path.join(self.test_path, "metadata.csv"))
+        self.val_metadata = pd.read_csv(path.join(self.val_path, "metadata.csv"))
 
 
 class VitGPT2GoldStandard(VitGPT2Dataset):
@@ -119,3 +174,38 @@ class VitGPT2GoldStandard(VitGPT2Dataset):
         df.to_csv(path.join(split_path, "metadata.csv"), index=False)
         return df
 
+
+class VitGPT2Synthetic(VitGPT2Dataset):
+
+    def __init__(self, slide_path: Union[str, List[str]], dataset_path='datasets/synthetic_slides/',
+                 max_target_length=128):
+        super().__init__(slide_path, dataset_path, max_target_length)
+
+    def build_metadata_csv(self, split_path: str, split_page_numbers: List[int]):
+        df = pd.read_csv("datasets/synthetic_slides/data.csv")
+
+        # duplicate entrys
+        concat_list = [df for _ in range(len(self.pdf) // len(df))]
+        df = pd.concat(concat_list).reset_index(drop=True)
+
+        # filter to include only the pages in the split
+        df = df.loc[split_page_numbers]
+
+        df["Page Number"] = df.index
+
+        # extract questions from nflds
+        df["Question"] = df["nflds"].swifter.apply(
+            lambda x: x.split("',")[0].strip("[").strip("'") if "'," in x else x.split('",')[0].strip("[").strip('"'))
+
+        # remove html tags
+        df["Question"] = df["Question"].swifter.apply(lambda x: BeautifulSoup(x, features="lxml").text)
+
+        # replace empty question with NAN
+        df.replace('', pd.NA, inplace=True)
+
+        df["file_name"] = [f"slide_{i}.png" for i in df.index]
+        df.drop(columns=["nid", "nflds", "answer", "images"], inplace=True)
+        df.dropna(inplace=True)
+
+        df.to_csv(path.join(split_path, "metadata.csv"), index=False)
+        return df
