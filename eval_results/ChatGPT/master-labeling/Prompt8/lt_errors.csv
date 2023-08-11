@@ -1,0 +1,113 @@
+,PUNCTUATION,TYPOS,GRAMMAR,MISC,CASING,COLLOCATIONS
+...hat is a multidimensional data structure and what is an example of it in the given c...,1.0,0.0,0.0,0.0,0.0,0.0
+...mpirical risk minimization with log loss and how is it related to MLE?,1.0,0.0,0.0,0.0,0.0,0.0
+...e importance of integrity in IT-Security and how does WEP aim to provide security in...,1.0,0.0,0.0,0.0,0.0,0.0
+"...Pretexting, question: What is pretexting and can you provide an example?",1.0,0.0,0.0,0.0,0.0,0.0
+What are viruses and how are they classified based on the ob...,1.0,0.0,0.0,0.0,0.0,0.0
+What are the basics of machine learning and what are the differences between superv...,1.0,0.0,0.0,0.0,0.0,0.0
+What is a worm and how does it differ from a virus?,1.0,0.0,0.0,0.0,0.0,0.0
+...definition of the Dirichlet distribution and how is it used to parametrize the multi...,1.0,0.0,0.0,0.0,0.0,0.0
+...ion: What are structured representations and why have they not been shown beneficial...,1.0,0.0,0.0,0.0,0.0,0.0
+... context of the multinomial distribution and how can we estimate the parameter θ fro...,1.0,0.0,0.0,0.0,0.0,0.0
+What is the small-world phenomenon and what are the characteristics of network...,1.0,0.0,0.0,0.0,0.0,0.0
+...oncept of quorum consensus voting scheme and what are the conditions for it?,1.0,0.0,0.0,0.0,0.0,0.0
+...antic retrieval in Information Retrieval and how do they represent texts?,1.0,0.0,0.0,0.0,0.0,0.0
+"...Ba"" in the context of knowledge creation and why is it considered a foundation of th...",1.0,0.0,0.0,0.0,0.0,0.0
+...ehind global frequency in term weighting and how does it affect the weight of rare t...,1.0,0.0,0.0,0.0,0.0,0.0
+...ion: What are social engineering attacks and how do they rely on exploiting the huma...,1.0,0.0,0.0,0.0,0.0,0.0
+... check the authenticity of a transaction and what is the standard cryptographic solu...,1.0,0.0,0.0,0.0,0.0,0.0
+...hat is the concept of Pair-Wise Coverage and how is the number of tests determined?,1.0,0.0,0.0,0.0,0.0,0.0
+...at are the two types of document quality and how do they differ from each other?,1.0,0.0,0.0,0.0,0.0,0.0
+...nalization according to Wiig's extension and what do they represent?,1.0,0.0,0.0,0.0,0.0,0.0
+...the application mentioned in the content and how does the user change their email ad...,1.0,0.0,0.0,0.0,0.0,0.0
+What is a reduce-side join and how does it work?,1.0,0.0,0.0,0.0,0.0,0.0
+...are the different authentication methods and what are the problems associated with e...,1.0,0.0,0.0,0.0,0.0,0.0
+... is the discussion about Newton's method and what are some of its limitations?,1.0,0.0,0.0,0.0,0.0,0.0
+...hat is the problem with the 2PC protocol and why is it considered a blocking protoco...,1.0,0.0,0.0,0.0,0.0,0.0
+What is Euclidean distance and how does it measure the distance betwee...,1.0,0.0,0.0,0.0,0.0,0.0
+...is the problem with the current solution and how can it be solved?,1.0,0.0,0.0,0.0,0.0,0.0
+What is the formula for Katz Centrality and how does it differ from Eigenvector Cen...,1.0,0.0,0.0,0.0,0.0,0.0
+...uestion: What is the Beta-binomial model and why is it important to study?,1.0,0.0,0.0,0.0,0.0,0.0
+"...yes' rule, question: What is Bayes' rule and what is its significance in Bayesian in...",1.0,0.0,0.0,0.0,0.0,0.0
+...with a hypothesis in supervised learning and how is it calculated?,1.0,0.0,0.0,0.0,0.0,0.0
+"...ines, question: What is the kernel trick and how does it relate to support vector ma...",1.0,0.0,0.0,0.0,0.0,0.0
+What is encapsulation and how is it used in transferring data bet...,1.0,0.0,0.0,0.0,0.0,0.0
+"...sed XSS, question: What is DOM-based XSS and how does it occur?",1.0,0.0,0.0,0.0,0.0,0.0
+...estion: What is a Gaussian mixture model and how does it differ from a Gaussian dist...,1.0,0.0,0.0,0.0,0.0,0.0
+...ise ranking approach in learning to rank and what are the advantages and issues asso...,1.0,0.0,0.0,0.0,0.0,0.0
+What is the attacker model and what are the types of attacks in IT-Sec...,1.0,0.0,0.0,0.0,0.0,0.0
+...t is another approach of interest called and what is the probability it is looking f...,1.0,0.0,0.0,0.0,0.0,0.0
+... What is the process of gradient descent and how does it approximate CGD?,1.0,0.0,0.0,0.0,0.0,0.0
+"PageRank centrality, question: How is PageRank centrality d...",0.0,1.0,0.0,0.0,0.0,0.0
+...tion: How is PageRank centrality defined and how is it different from Katz centralit...,1.0,0.0,0.0,0.0,0.0,0.0
+... is an example of a SQL Injection Attack and what is the result of the attack in thi...,1.0,0.0,0.0,0.0,0.0,0.0
+... of leadership discussed in this content and what are their characteristics?,1.0,0.0,0.0,0.0,0.0,0.0
+...ion: What is the Boolean retrieval model and how are queries formulated in this mode...,1.0,0.0,0.0,0.0,0.0,0.0
+...the concept of Shared Key Authentication and how does it work?,1.0,0.0,0.0,0.0,0.0,0.0
+...the Adjacency Matrix in a binary network and how is it defined?,1.0,0.0,0.0,0.0,0.0,0.0
+...re the main approaches in classification and what is the difference between inferenc...,1.0,0.0,0.0,0.0,0.0,0.0
+What is an acyclic network and how can it be represented in a graph?,1.0,0.0,0.0,0.0,0.0,0.0
+...t is the objective of K-means clustering and how is it achieved?,1.0,0.0,0.0,0.0,0.0,0.0
+... two main options for avoiding infection and what are some precautions to take?,1.0,0.0,0.0,0.0,0.0,0.0
+...r the multivariate Gaussian distribution and what are the values of the mean and cov...,1.0,0.0,0.0,0.0,0.0,0.0
+...uestion: What are the two modes of IPsec and how do they differ in terms of handling...,1.0,0.0,0.0,0.0,0.0,0.0
+...the Continuous Bag-of-Words (CBOW) model and what are the parameters involved in the...,1.0,0.0,0.0,0.0,0.0,0.0
+...efinition of Verification and Validation and what are the objectives?,1.0,0.0,0.0,0.0,0.0,0.0
+What is cluster analysis in data mining and what are the goals of clustering?,1.0,0.0,0.0,0.0,0.0,0.0
+...egorical features using one-hot encoding and how does it work?,1.0,0.0,0.0,0.0,0.0,0.0
+What are epidemic protocols and how do they work?,1.0,0.0,0.0,0.0,0.0,0.0
+What is the purpose of HMAC and where is it commonly used?,1.0,0.0,0.0,0.0,0.0,0.0
+"Bitcoin, question: Who invented Bitcoin and what was its primary goal?",1.0,0.0,0.0,0.0,0.0,0.0
+...hat are distributive aggregate functions and what are some examples of them?,1.0,0.0,0.0,0.0,0.0,0.0
+... the definition of extensibility metrics and what is an example of an extensibility ...,1.0,0.0,0.0,0.0,0.0,0.0
+What is multitasking and how does the operating system simulate ...,1.0,0.0,0.0,0.0,0.0,0.0
+...oes an attacker aim to replace a message and what is the result of the decryption pr...,1.0,0.0,0.0,0.0,0.0,0.0
+...plest criterion for Each Choice coverage and how is it satisfied?,1.0,0.0,0.0,0.0,0.0,0.0
+... the target function in machine learning and what is its purpose?,1.0,0.0,0.0,0.0,0.0,0.0
+"...tion,"" what is the skill model discussed and what is its focus?",1.0,0.0,0.0,0.0,0.0,0.0
+...at is the conflict in the given scenario and why is it not considered a conflict?,1.0,0.0,0.0,0.0,0.0,0.0
+...abilistic retrieval models aim to answer and how is it formalized?,1.0,0.0,0.0,0.0,0.0,0.0
+"...hm, question: What is Porter's algorithm and how does it work?",1.0,0.0,0.0,0.0,0.0,0.0
+... are the four layers of the TCP/IP Model and what is the main function of each layer...,1.0,0.0,0.0,0.0,0.0,0.0
+What are conjugate priors and what are their advantages?,1.0,0.0,0.0,0.0,0.0,0.0
+"...ls, question: What are generative models and how can they be used to generate data?",1.0,0.0,0.0,0.0,0.0,0.0
+...e generative models and how can they be used to generate data?,0.0,0.0,1.0,0.0,0.0,0.0
+...ion: What is Fiedler's contingency model and how does it determine effective leaders...,1.0,0.0,0.0,0.0,0.0,0.0
+"CRC, question: What is CRC and how can one compute the change in the C...",1.0,0.0,0.0,0.0,0.0,0.0
+...ts of the Expectancy theory / VIE theory and how do they contribute to motivation?,1.0,0.0,0.0,0.0,0.0,0.0
+...uestion: What is the EU Cookie Directive and what is the policy change it introduced...,1.0,0.0,0.0,0.0,0.0,0.0
+... are the two types of learning processes and what are their purposes?,1.0,0.0,0.0,0.0,0.0,0.0
+"Round robin, question: What is the purpose of round...",0.0,0.0,0.0,1.0,0.0,0.0
+"...robin, question: What is the purpose of round robin in data management?",0.0,0.0,0.0,1.0,0.0,0.0
+What is Big Data and what are some viewpoints on it?,1.0,0.0,0.0,0.0,0.0,0.0
+...e definition of conditional independence and why are conditional independencies more...,1.0,0.0,0.0,0.0,0.0,0.0
+... the process of pre-clustering documents and how are leaders selected?,1.0,0.0,0.0,0.0,0.0,0.0
+What is the standard for WLAN and what is its usual structure?,1.0,0.0,0.0,0.0,0.0,0.0
+What is the degree distribution and how is it represented?,1.0,0.0,0.0,0.0,0.0,0.0
+What is the MapReduce programming model and what are the phases involved in it?,1.0,0.0,0.0,0.0,0.0,0.0
+...n: What is the distributional hypothesis and how is it used in automated thesaurus g...,1.0,0.0,0.0,0.0,0.0,0.0
+What is session hijacking and what are the countermeasures to prevent...,1.0,0.0,0.0,0.0,0.0,0.0
+What are test coverage criteria and what are test requirements and test cri...,1.0,0.0,0.0,0.0,0.0,0.0
+What are grammar coverage criteria and how does software engineering make use ...,1.0,0.0,0.0,0.0,0.0,0.0
+...cur when computing with numerical values and what can be the consequences if no prec...,1.0,0.0,0.0,0.0,0.0,0.0
+... What is the goal of the Meltdown Attack and how does it exploit modern CPUs?,1.0,0.0,0.0,0.0,0.0,0.0
+... is the problem described in the content and what are the rules for solving it?,1.0,0.0,0.0,0.0,0.0,0.0
+What is Bayes' Rule and how does it update probabilities?,1.0,0.0,0.0,0.0,0.0,0.0
+...e process of continuous gradient descent and what is its goal?,1.0,0.0,0.0,0.0,0.0,0.0
+What is fragmentation transparency and how does it hide fragmentation and allo...,1.0,0.0,0.0,0.0,0.0,0.0
+... heuristic for placing skips in an index and what are its limitations?,1.0,0.0,0.0,0.0,0.0,0.0
+"Formalization of the prob. ranking principle, question: What sets of rando...",0.0,0.0,0.0,0.0,1.0,0.0
+"...), question: What is the purpose of DKIM and how are verification keys associated wi...",1.0,0.0,0.0,0.0,0.0,0.0
+...ion of independence for random variables and how can it be generalized to sets of ra...,1.0,0.0,0.0,0.0,0.0,0.0
+...approach for using partitions in testing and what are some example characteristics t...,1.0,0.0,0.0,0.0,0.0,0.0
+...What is a joint probability distribution and how is it determined in a probability m...,1.0,0.0,0.0,0.0,0.0,0.0
+...tion: What is the purpose of Dynamic DNS and how does it differ from regular DNS?,1.0,0.0,0.0,0.0,0.0,0.0
+...is the goal of parallel/distributed sort and what are the possible inputs and output...,1.0,0.0,0.0,0.0,0.0,0.0
+... is the foundation of any data exchange in the Internet?,0.0,0.0,0.0,0.0,0.0,1.0
+...he popular method for K-means clustering and what are the steps involved in Lloyd's ...,1.0,0.0,0.0,0.0,0.0,0.0
+...are the two main mail fetching protocols and what are their differences in functiona...,1.0,0.0,0.0,0.0,0.0,0.0
+What is a stationary policy and what is an optimal policy in the contex...,1.0,0.0,0.0,0.0,0.0,0.0
+...e of a node in a decision support system and how is it determined for leaf and inner...,1.0,0.0,0.0,0.0,0.0,0.0
+...concept of externally regulated behavior and how does it relate to the controlled-to...,1.0,0.0,0.0,0.0,0.0,0.0
+...s the definition of Base Choice Coverage and how is the number of tests calculated?,1.0,0.0,0.0,0.0,0.0,0.0
+What is click fraud and how does it impact online advertisers?,1.0,0.0,0.0,0.0,0.0,0.0
