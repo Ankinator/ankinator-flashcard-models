@@ -1,459 +1,459 @@
-model_out,reference,sem_meteor
-how is the the,how can words be counted with mapreduce,0.14925373134328357
-how is the the,describe the rdd workflow,0.125
-how is the the,what are key aspects and differences of the kindergarten report card and the performance appraisal,0.07194244604316546
-how is the the,what are the communication costs for semi join filtering,0.11764705882352941
-how is the the,what is a merkle tree,0.10204081632653061
-how is the the,what is the large margin principle,0.17241379310344826
-how is the the,what are the three main challenges of the bitcoin network,0.10638297872340426
-how is the the,explain pointwise learning to rank,0.0
-how is the the,which differences exist between genders men and women in leadership effectiveness,0.04854368932038835
-how is the the,what are examples of notable xss attacks,0.0
-how is the the,how is the inverse document frequency computed,0.3814262023217247
-how is the the,what are the big data viewpoints,0.08620689655172413
-how is the the,how can bitcoin network check authenticity of transaction,0.06578947368421052
-how is the the,why should specifications be augmented with tests,0.07462686567164178
-how is the the,explain empirical risk minimisation,0.0
-how is the the,how is the log likelihood defined for discriminative models,0.3006535947712418
-how is the the,can you explain the language bowl metaphor,0.07462686567164178
-how is the the,which are the key differences of cops versus teams,0.058823529411764705
-how is the the,how is the difficulty of the goals related to performance,0.39893617021276595
-how is the the,describe erdo ̋s–re ́nyi model,0.0
-how is the the,what are the assumptions of k means clustering,0.06578947368421052
-how is the the,what is the idea of joins with filtering,0.13157894736842105
-how is the the,what intradiagram consistency rules exist,0.10204081632653061
-how is the the,what is an example for an sql injection attack,0.058823529411764705
-how is the the,how to construct a bayesian networks by building a diagnostic model,0.04854368932038835
-how is the the,what are the research questions used by becerrafernandez sabherwal 2001,0.05319148936170213
-how is the the,why should posting sites be sorted,0.08620689655172413
-how is the the,what is the idea of smoothing in sequential processes,0.11764705882352941
-how is the the,which are relevant factors for explaining the leadership gap,0.058823529411764705
-how is the the,what is an example for a heap overflow attack,0.058823529411764705
-how is the the,what security is achieved with vpn,0.08620689655172413
-how is the the,what is the maximum number of links a network can have,0.0970873786407767
-how is the the,what is the property rule,0.20408163265306123
-how is the the,how can leaders increase followers motivation according to house and mitchel,0.0970873786407767
-how is the the,what is the definition of authenticity and what is a example attack and security solution for it,0.06369426751592357
-how is the the,which steps are necessary to answer a boolean query with the help of the incidence matrix,0.06756756756756756
-how is the the,how can mapreduce be used for iterative computations,0.13157894736842105
-how is the the,what are the different measures to calculate importance of nodes,0.05319148936170213
-how is the the,what characteristics does kane alavis 2007 design approach focus on,0.0
-how is the the,why should knowledge be stored,0.10204081632653061
-how is the the,what are the factors influencing the components of the skills model,0.0970873786407767
-how is the the,what are random variables,0.0
-how is the the,how is the quality of documents determined,0.3814262023217247
-how is the the,what is a access matrix,0.10204081632653061
-how is the the,how does type 1 of ransomware encryption of data work,0.05319148936170213
-how is the the,give an example of how range partitioning is used to create fragments for a table,0.07194244604316546
-how is the the,what is knowledge management from a knowledge work perspective according to lebovitz et al 2022,0.03597122302158273
-how is the the,how does a simple cost model for allocation look like,0.10638297872340426
-how is the the,how can an example for ontology look like in the financial services industry,0.08264462809917356
-how is the the,which views of a data cube can be used for different organizational roles,0.04132231404958678
-how is the the,how is a distributed computation performed with aggregate functions,0.22058823529411764
-how is the the,what is the definition of a dms and what are the key functionalities in both the narrower and broader sense,0.08152173913043477
-how is the the,what is the idea of approximate cosine similarity,0.13157894736842105
-how is the the,are there differences between genders in leadership effectiveness,0.0
-how is the the,which three components are implemented by each information retrieval system,0.0
-how is the the,how it the procedure of a vpn,0.14925373134328357
-how is the the,what are the relevant development languages for web applications,0.058823529411764705
-how is the the,what is the dirichlet distribution,0.20408163265306123
-how is the the,what is the role of a component realization,0.13157894736842105
-how is the the,explain logistic regression,0.0
-how is the the,what are strengths and criticisms of the skills approach,0.058823529411764705
-how is the the,how can histograms be used to select a partitioning vector,0.10638297872340426
-how is the the,how to protect against ransomware type 1 attack encryption of data,0.04854368932038835
-how is the the,how does a setup with eventual consistency look like,0.058823529411764705
-how is the the,what is a data warehouse dw,0.08620689655172413
-how is the the,what is a stationary policy,0.10204081632653061
-how is the the,what is a set of random variables in probabilistic retrieval,0.05319148936170213
-how is the the,what is an example for an sql injection attack,0.058823529411764705
-how is the the,what are the main differences between declarative and procedural knowledge,0.05319148936170213
-how is the the,when does the exchange phase become difficult,0.07462686567164178
-how is the the,how do motivational and individual factors influence the volume of contributions,0.0970873786407767
-how is the the,what are the layers of the tcpip model,0.13157894736842105
-how is the the,what is markov chain monte carlo,0.08620689655172413
-how is the the,what are ko et als definitions for the three communication factors and the four motivational factors,0.06756756756756756
-how is the the,what are index terms,0.0
-how is the the,what does the feature map of polynomial kernel contain,0.058823529411764705
-how is the the,what is a problem of the rainbow table approach and how is it solved,0.19658119658119655
-how is the the,which impact has km on the employees,0.07462686567164178
-how is the the,what is a policy,0.125
-how is the the,what does a physical dataflow look like,0.0
-how is the the,what does a query tree with derived horizontal fragmentation and empty join elimination look like,0.0
-how is the the,what is counter mode,0.125
-how is the the,how are vector clocks compared,0.10204081632653061
-how is the the,how is the result obtained in spark,0.3814262023217247
-how is the the,what is dns hijacking,0.125
-how is the the,how is the attacker model and what are possible attacks on hashed passwords on a server,0.17267267267267267
-how is the the,what are support vector machines,0.0
-how is the the,define the theory of rational decisions,0.08620689655172413
-how is the the,how can different indexing strategies be combined,0.14925373134328357
-how is the the,how does latent semantic analysis use svd,0.07462686567164178
-how is the the,when are two random variables independent,0.0
-how is the the,differentiate between walk chain trail and path,0.0
-how is the the,what is an example for a heap overflow attack,0.058823529411764705
-how is the the,what does the term bug mean,0.08620689655172413
-how is the the,what is an examples of a csrf attack,0.06578947368421052
-how is the the,how would an offline attack on stored hashed values of passwords on a server look like,0.03378378378378378
-how is the the,what are gaussian mixture models,0.0
-how is the the,what are possible goals of xss,0.0
-how is the the,explain supervised and unsupervised machine learning,0.0
-how is the the,define acyclic network,0.0
-how is the the,what extent of skills of the threeskill approach do you need for the various management levels top middle supervisory,0.05714285714285714
-how is the the,what is the collection frequency,0.20408163265306123
-how is the the,how is the complete cost function to find an allocation schema defined,0.22817460317460317
-how is the the,define kcore centrality,0.0
-how is the the,define adjacency matrix,0.0
-how is the the,what is a click fraud attack,0.08620689655172413
-how is the the,what is the sum rule,0.20408163265306123
-how is the the,what characteristics do hansen et al 1999 focus on,0.0
-how is the the,how is the situational approach described,0.4406130268199233
-how is the the,what are header fields of an email,0.0
-how is the the,what is conjugate prior,0.125
-how is the the,which main questions are investigated by sturm et al 2022,0.0
-how is the the,describe leskovec and horvitz study,0.0
-how is the the,describe gaussian distribution,0.0
-how is the the,define diameter,0.0
-how is the the,what are the four phases of knowledge transfer and what are their key tasks,0.03846153846153846
-how is the the,does the gender of the leader affect their leadership style,0.10638297872340426
-how is the the,describe k means clustering,0.0
-how is the the,what is the intuition of differential privacy,0.14925373134328357
-how is the the,why do we introduce a discount factor,0.0
-how is the the,describe sparsity via l0 regularization,0.0
-how is the the,what is crc,0.16129032258064518
-how is the the,why does transactive memory not work in large groups,0.0
-how is the the,what does the internal dataflow representation of a spark program look like,0.08928571428571427
-how is the the,how can a vpn be realized,0.17241379310344826
-how is the the,what is the focus of wasko farajs 2005 studies,0.11764705882352941
-how is the the,how to use the flatmap function,0.17241379310344826
-how is the the,describe multivariate gaussian distribution,0.0
-how is the the,what are the eight main functionalities of text mining discussed in the lecture,0.08264462809917356
-how is the the,what are the problems of knowledge internalization,0.07462686567164178
-how is the the,what is session hijacking and what are countermeasures,0.06578947368421052
-how is the the,what is an examples of a csrf attack,0.06578947368421052
-how is the the,how does rsa work,0.125
-how is the the,do the appropriation factors for bac require media synchronicity,0.058823529411764705
-how is the the,explain the spark runtime architecture,0.10204081632653061
-how is the the,how is the icv calculated in the ah protocol in transport mode,0.33482142857142855
-how is the the,why is the transfer of implicit knowledge becoming more difficult with an increasing degree of diffusion,0.06756756756756756
-how is the the,what is an examples of a csrf attack,0.06578947368421052
-how is the the,what is the terminology to represent preferences,0.14925373134328357
-how is the the,how are input and output defined for parallel joins,0.058823529411764705
-how is the the,how are infeasible test requirements handled in logic coverage criteria,0.05319148936170213
-how is the the,how can spark be understood as a dataflow engine,0.11764705882352941
-how is the the,what are the steps of the rocchio algorithm,0.13157894736842105
-how is the the,when is the merge of posting lists performed fastest,0.11764705882352941
-how is the the,what are drawbacks of access matrixes,0.0
-how is the the,compare erdo ̋s–re ́nyi model and configuration model,0.0
-how is the the,what are primitive data values what is the relationship to integer underoverflow attacks,0.08264462809917356
-how is the the,explain empirical risk minimization,0.0
-how is the the,why arent self loops and multi edges a problem in random matching,0.0
-how is the the,how does shared key authentication work,0.08620689655172413
-how is the the,why is big data difficult to handle,0.07462686567164178
-how is the the,how does the expectancy theory vie theory vroom 1964 describe the creation of motivation and what is the motivational potential,0.10869565217391304
-how is the the,how are word counts computed in the mapreduce reduce phase,0.10638297872340426
-how is the the,what is the eu cookie directive,0.17241379310344826
-how is the the,how are tests and test paths denoted and what does syntacticsemantic reach mean,0.04132231404958678
-how is the the,what is multitasking and how does it work,0.13157894736842105
-how is the the,what are race condition attacks,0.0
-how is the the,why can mapreduce be interpreted as a dataflow,0.06578947368421052
-how is the the,do you know some hadoop related projects,0.0
-how is the the,describe second order taylor polynomial multivariate case,0.0
-how is the the,what are alternative ways of weighting to rank documents,0.0
-how is the the,what are constraints among characteristics and how are they handled,0.05319148936170213
-how is the the,describe the methodology of gradient descent,0.08620689655172413
-how is the the,how do conveyance and convergence differ,0.08620689655172413
-how is the the,describe sparsity via l1 regularization,0.0
-how is the the,what are famous examples for gdpr fines,0.0
-how is the the,describe the relationship between svd and linear regression,0.06578947368421052
-how is the the,what is the concept of critical data,0.14925373134328357
-how is the the,what are the two modes of ipsec,0.07462686567164178
-how is the the,what does the eckart young theorem say,0.07462686567164178
-how is the the,what are the challenges in defining a learning algorithm,0.058823529411764705
-how is the the,which categories of contingency factors exist,0.08620689655172413
-how is the the,what is the parameter 𝜖 and the composition theorem,0.3006535947712418
-how is the the,what is the idea of latent and semantic information retrieval,0.10638297872340426
-how is the the,according to the matrix of pathgoal theory what leadership behaviors need to be applied in different settings depending on group members and task characteristics,0.04545454545454545
-how is the the,what is shared key authentication,0.10204081632653061
-how is the the,explain the generative process of a language model,0.06578947368421052
-how is the the,how is relevance usually expressed in information retrieval models,0.22058823529411764
-how is the the,when is a map and when is a reduce program used,0.04854368932038835
-how is the the,what is the definition of verification and validation and how do they differ,0.12396694214876032
-how is the the,how is base choice coverage defined,0.32327586206896547
-how is the the,how to use sgd for logistic regression,0.07462686567164178
-how is the the,how is correctness ensured in horizontal fragmentation,0.2798507462686567
-how is the the,how is the ambiguity in acc handled,0.3814262023217247
-how is the the,what is the simplest way to compute a thesaurus,0.11764705882352941
-how is the the,what are the key aspects of cops maturity phase engaged in terms of people behavior process support and enabling technology,0.02717391304347826
-how is the the,how exactly can integrity be attacked when crc is used wep,0.0970873786407767
-how is the the,what is http,0.16129032258064518
-how is the the,how do code injection attacks work,0.08620689655172413
-how is the the,describe newtons method multivariate case,0.0
-how is the the,how is the formal definition of bnf,0.3814262023217247
-how is the the,can you give an example for the binary independence model with relevance judgements,0.04132231404958678
-how is the the,what goal has stage3 exploitation and what are possible tools,0.0
-how is the the,what are the goals for distributed transactions,0.07462686567164178
-how is the the,what is the bayes rule,0.20408163265306123
-how is the the,how can a tls connection be checked,0.14925373134328357
-how is the the,what is the cyber ba and which technology is used,0.10638297872340426
-how is the the,which leader behaviors are described by the pathgoal theory and how,0.0970873786407767
-how is the the,how are word counts computed in the mapreduce reduce phase,0.10638297872340426
-how is the the,explain the lloyds algorithm for k means,0.07462686567164178
-how is the the,what are the main differences between explicit and tacit knowledge,0.05319148936170213
-how is the the,what are simple paths and prime paths,0.0
-how is the the,why do we need information value theory,0.0
-how is the the,what is pretexting,0.16129032258064518
-how is the the,how does the categorization functionality in text mining work and what are the key elements involved in the process,0.0857142857142857
-how is the the,how is range partitioning used to distribute data,0.24671052631578946
-how is the the,what are four fundamental subspaces,0.0
-how is the the,how are convolutional neural networks trained,0.08620689655172413
-how is the the,how to compute the robustness of protocols for replication transparency,0.10638297872340426
-how is the the,what are countermeasures against csrf attacks,0.0
-how is the the,what is a processing attack,0.10204081632653061
-how is the the,how is fragmentation transparency defined,0.38265306122448983
-how is the the,how are matrix decompositions approximated,0.10204081632653061
-how is the the,what is a custom partitioner,0.10204081632653061
-how is the the,what are general advices regarding potentially harmful emails,0.0
-how is the the,which motivation theories exist and how are they categorized,0.11764705882352941
-how is the the,which components are generally contained in a process model of a text mining application,0.0
-how is the the,what can perceptron learn,0.0
-how is the the,how does parallel range partitioning sort work,0.07462686567164178
-how is the the,why do we need secure passwords and what are the challenges,0.04854368932038835
-how is the the,what are the problems of knowledge integration,0.07462686567164178
-how is the the,what is the probability that the generated model will have m links,0.22817460317460317
-how is the the,what is the tcpip model,0.20408163265306123
-how is the the,what are alternatives for key servers,0.0
-how is the the,how is bayes rule defined,0.38265306122448983
-how is the the,what is the basic email architecture,0.17241379310344826
-how is the the,what is the relation between entropy and security,0.13157894736842105
-how is the the,which method did lebovitz et al 2022 use,0.0
-how is the the,why do we need models,0.0
-how is the the,define the scope of a leaf node n,0.06578947368421052
-how is the the,describe map with gaussian prior,0.0
-how is the the,what are possible approaches to define anonymity,0.0
-how is the the,what is an example for a prime and probe attack,0.05319148936170213
-how is the the,what is the relationship between bernoulli model and odds,0.11764705882352941
-how is the the,what are known knowledge management problems and what knowledge management processes handle them,0.0
-how is the the,how can rolebasedaccesscontrol be graphically represented,0.17241379310344826
-how is the the,when are networks said to show the small world property,0.05319148936170213
-how is the the,how is externally regulated behavior defined and how is it related to intrinsically motivated behavior,0.13489208633093525
-how is the the,what are the components of cluster analysis,0.07462686567164178
-how is the the,how does svd allow visualization of data,0.07462686567164178
-how is the the,what is probabilistic pca,0.125
-how is the the,what is integer underoverflow what are famous examples,0.06578947368421052
-how is the the,how must the merging of posting lists be adapted to support phrase queries,0.12396694214876032
-how is the the,what are the resulting design recommendations of kane alavi,0.058823529411764705
-how is the the,how to define “network of practice”,0.06578947368421052
-how is the the,on what basis do hansen et al choose codification or personalization as the design approach,0.03597122302158273
-how is the the,what is knowledge management from an organizational learning perspective according to sturm et al 2022,0.03597122302158273
-how is the the,how can open system authentication be attacked,0.14925373134328357
-how is the the,why are not all biwords always indexed,0.0
-how is the the,how to deal with lost messages,0.08620689655172413
-how is the the,what are disclosure risks,0.0
-how is the the,what are the key differences between leadership and management,0.058823529411764705
-how is the the,describe the terminology of the em algorithm,0.14925373134328357
-how is the the,what are the possible states of an agent in the two phase commit protocol,0.07692307692307691
-how is the the,how does pseudocode for rainbow tables look like,0.06578947368421052
-how is the the,what is the workflow for mac,0.17241379310344826
-how is the the,what is the porter algorithm,0.20408163265306123
-how is the the,how can multiple factors be considered for ranking documents,0.11764705882352941
-how is the the,how does a sql statement that required decomposition look like,0.05319148936170213
-how is the the,what is the synthetic data approach what are types of synthetic data,0.08928571428571427
-how is the the,what is quid pro quo,0.10204081632653061
-how is the the,what are the exemplary steps of nonperturbative masking through generalization,0.05319148936170213
-how is the the,reflect on the findings of leskovec and horvitz study,0.058823529411764705
-how is the the,why is pooling required,0.125
-how is the the,what is tor,0.16129032258064518
-how is the the,what is the problem of dominating mining pools,0.13157894736842105
-how is the the,how are communities of practice cops defined,0.07462686567164178
-how is the the,how can relevance feedback be incorporated into estimations of probabilities for probabilistic retrieval,0.08264462809917356
-how is the the,how to apply those studies in a case study,0.058823529411764705
-how is the the,when was mapreduce released,0.0
-how is the the,what are the limits and benefits of the seci model,0.10638297872340426
-how is the the,how does a chain of trust work,0.07462686567164178
-how is the the,which assumptions hold in a markov decision process,0.0
-how is the the,how do passwords work,0.125
-how is the the,which metric is usually optimized by information retrieval systems,0.058823529411764705
-how is the the,when is the time for merging linear,0.14925373134328357
-how is the the,how to perform read and write operations in quorum consensus,0.05319148936170213
-how is the the,how does setting a specific hard goal differ from a do best goal in relation to the performance,0.06024096385542168
-how is the the,how is clause coverage defined,0.38265306122448983
-how is the the,what are strengths and criticisms of the al approach,0.058823529411764705
-how is the the,comment on the why only for directed networks eigenvalue centrality is useful,0.08928571428571427
-how is the the,what are the two problems of term frequency,0.06578947368421052
-how is the the,explain the cbow model,0.125
-how is the the,how are cluster sizes modeled in kmeans and gmms,0.058823529411764705
-how is the the,what are mixture models,0.0
-how is the the,what is the common cryptographic scenario,0.17241379310344826
-how is the the,how does the partitioning of the input domain into blocks work,0.14563106796116504
-how is the the,how is the workflow of crc,0.4406130268199233
-how is the the,what are joint distributions,0.0
-how is the the,how are svd and pca related,0.08620689655172413
-how is the the,what are constituent attributes of electronic cops and what are qualifying elements,0.0
-how is the the,what are the components of the knowledge spiral,0.13157894736842105
-how is the the,explain the example for the binary independence model with available relevance judgements,0.08928571428571427
-how is the the,describe the methodology of eigenvector centrality,0.08620689655172413
-how is the the,what are the problems with the rules of the porter algorithm,0.0970873786407767
-how is the the,what is utility theory used for,0.08620689655172413
-how is the the,why is the size of positional indices problematic,0.13157894736842105
-how is the the,how is each choice coverage defined,0.32327586206896547
-how is the the,which results did becerrafernandez sabherwal 2001 find regarding the influence of the four processes on km effectiveness and employee satisfaction research question 1,0.04739336492890995
-how is the the,what is unsupervised learning and what is the goal,0.11764705882352941
-how is the the,how are tasks processed using the cache,0.14925373134328357
-how is the the,how to create a total order for a table with mapreduce,0.04854368932038835
-how is the the,how are the results from the spark program distributed across the nodes,0.13392857142857142
-how is the the,how does the research model of ko et al 2005 look like,0.08928571428571427
-how is the the,what are the four information retrieval paradigms,0.07462686567164178
-how is the the,what are strengths and criticisms of the pathgoal theory,0.058823529411764705
-how is the the,why is local serializability not enough for a distributed commit,0.05319148936170213
-how is the the,how to decide whether to expect success using odds,0.058823529411764705
-how is the the,what does a query tree with derived horizontal fragmentation and union pull up look like,0.0
-how is the the,what is the definition of the factors idealized influence and inspirational motivation of the tl model,0.10135135135135134
-how is the the,what are message authentication codes,0.0
-how is the the,what is the principle of dombased xss,0.14925373134328357
-how is the the,what are mail fetching protocols,0.0
-how is the the,what does the notation for fragments look like,0.06578947368421052
-how is the the,how are general inactive clause coverage and restricted inactive clause coverage defined,0.04464285714285714
-how is the the,explain the twogenerals problem,0.125
-how is the the,what are advantages and criticism of the belllapadula model,0.058823529411764705
-how is the the,how can we assess the agents degree of believe,0.11764705882352941
-how is the the,what is the setup of the centralized two phase commit protocol,0.24811218985976266
-how is the the,what are the properties of estimators,0.08620689655172413
-how is the the,what does the mapreduce execution workflow look like,0.06578947368421052
-how is the the,where is big data successful used,0.08620689655172413
-how is the the,what are the problems with pc and cc,0.06578947368421052
-how is the the,how are graphs used in testing and how are test requirements test criterion and satisfaction defined,0.03378378378378378
-how is the the,why is it possible to use grammar coverage criteria,0.058823529411764705
-how is the the,which steps are involved in pooling,0.0
-how is the the,what is guaranteed if an agent is in the ready state,0.0970873786407767
-how is the the,what is a discretionary access control dac and what advantagesdisadvantages does it have,0.04132231404958678
-how is the the,which research approach do kane alavi use and which important contingency factors and moderators which they consider,0.0
-how is the the,how is a botnet coordinated,0.38265306122448983
-how is the the,how does locality sensitive hashing work,0.08620689655172413
-how is the the,what is the goal of privilege escalation attacks and how do they work,0.12396694214876032
-how is the the,which keys are reallocated when a node joins,0.0
-how is the the,what to look for in networks to know if small world property is present,0.03846153846153846
-how is the the,differentiate in inference and decision,0.0
-how is the the,which three basic architectures exist for parallel dbms,0.06578947368421052
-how is the the,describe the methodology of eigenvector centrality,0.08620689655172413
-how is the the,how does memory organization work in a multitasking system why do you need it,0.03846153846153846
-how is the the,why are there so many different types of nosql databases,0.0
-how is the the,what do two vector clocks look like where there is no conflict,0.04464285714285714
-how is the the,which strategies exist to avoid deadlocks,0.08620689655172413
-how is the the,explain the single pass clustering algorithm,0.08620689655172413
-how is the the,what is the common vulnerabilities and exposures cve and what is the definition for vulnerabilities and exposures,0.09554140127388534
-how is the the,what are strengths and criticisms of the servant leadership approach,0.05319148936170213
-how is the the,how are input and output for the parallel sort defined,0.10638297872340426
-how is the the,how would an online attack on stored hashed values of passwords on a server look like and what are countermeasures,0.02717391304347826
-how is the the,how is elasticity used to measure the extensibility,0.3362573099415205
-how is the the,what is the framing effect,0.20408163265306123
-how is the the,what are the key factors to consider regarding the use of knowledge management systems kms,0.07194244604316546
-how is the the,which three definitions exist for the authentic leadership approach,0.11764705882352941
-how is the the,how can multidimensional data be stored,0.17241379310344826
-how is the the,how efficient is the antientropy protocol,0.2586206896551724
-how is the the,what are word embeddings,0.0
-how is the the,how does information spread with the rumor spreading protocol and pull communication,0.08928571428571427
-how is the the,how can words be counted with mapreduce,0.14925373134328357
-how is the the,how are documents word embeddings obtained using the cbow model,0.10638297872340426
-how is the the,what are the drawbacks of automated thesaurus generation,0.06578947368421052
-how is the the,what does a structured text representation look like,0.06578947368421052
-how is the the,what are the implications of the work of van der broek et al 2022,0.07692307692307691
-how is the the,what does the no free lunch theorem trying to say,0.05319148936170213
-how is the the,how are language models used for information retrieval,0.06578947368421052
-how is the the,what is domain keys identified mail dkim,0.07462686567164178
-how is the the,what are the moderators of the goal performance relationship,0.11764705882352941
-how is the the,what are the implications of the work of lebovitz et al 2022,0.08928571428571427
-how is the the,how is the relevance score computed if no relevance judgements are available,0.22817460317460317
-how is the the,how does lmx theory describe leaders relationship to work units,0.05319148936170213
-how is the the,what are countermeasures against unauthorized access,0.0
-how is the the,which special case is covered by the markov decision process,0.10638297872340426
-how is the the,how is the bayes rule defined,0.4406130268199233
-how is the the,define average degree,0.0
-how is the the,differentiate between parametric and nonparametric models,0.0
-how is the the,what is expansion,0.16129032258064518
-how is the the,in conclusion which design approaches should you use for which contingency factors,0.0
-how is the the,what is the cosine similarity,0.20408163265306123
-how is the the,what technology does kane alavi believe should be used for exploitation or exploration,0.04132231404958678
-how is the the,when do weights remain bounded,0.0
-how is the the,describe the general pdbms architecture,0.10204081632653061
-how is the the,how can evidence be combined,0.20408163265306123
-how is the the,write the expressions for expected number of selfloops,0.06578947368421052
-how is the the,what are distributive aggregate functions,0.0
-how is the the,what advantages does rbac have in contrast to a tradition access matrix,0.0
-how is the the,what are auxiliary specification artifacts,0.0
-how is the the,what makes naive bayes a family of classifiers,0.0
-how is the the,how is the normalized discounted cumulative gain defined,0.3362573099415205
-how is the the,what is the generic smtp protocol flow,0.14925373134328357
-how is the the,how does routing with finger tables work,0.07462686567164178
-how is the the,how to identify which nodes are important,0.07462686567164178
-how is the the,what characteristics does dennis vesseys design approach focus on,0.0
-how is the the,what language models are available to model the probability of word sequences in a language,0.03597122302158273
-how is the the,define page rank centrality in detail,0.0
-how is the the,what are the three components of kobra and what is the vision and obstacles for each,0.10135135135135134
-how is the the,what is the definition of personal data,0.14925373134328357
-how is the the,describe support vector classification,0.0
-how is the the,what does the workflow of rc4 look like,0.06578947368421052
-how is the the,which gender stereotypes exist,0.125
-how is the the,what are the advantages and disadvantages of the basic approach to achieve replication consistency,0.07692307692307691
-how is the the,explain structural properties,0.0
-how is the the,what is machine learning,0.125
-how is the the,what are examples for notable csrf attacks,0.0
-how is the the,why is the document frequency used,0.17241379310344826
-how is the the,how does the sender policy framework work,0.14925373134328357
-how is the the,into which groups are the knowledge goals of km cycle divided,0.04854368932038835
-how is the the,what are the four characteristics of network science,0.06578947368421052
-how is the the,what are the six global leadership behaviors of globe,0.058823529411764705
-how is the the,what are the benefits of mapreduce,0.08620689655172413
-how is the the,what is an rdd action,0.10204081632653061
-how is the the,what are stragglers,0.0
-how is the the,what is a testers job,0.10204081632653061
-how is the the,why is it difficult to select a good partitioning vector,0.05319148936170213
-how is the the,what is hadoop,0.16129032258064518
-how is the the,what makes network science quantitative and empirical,0.0
-how is the the,how is a virus defined,0.38265306122448983
-how is the the,how does preclustering work to speed up the ranking of documents,0.0970873786407767
-how is the the,what is a evil twin attack,0.08620689655172413
-how is the the,what are the two scenarios that can occur when we want to rank documents,0.03846153846153846
-how is the the,what are the decomposition steps,0.10204081632653061
-how is the the,how is replication transparency defined,0.38265306122448983
-how is the the,how did the and and or operators affect a boolean query,0.0970873786407767
-how is the the,which extensions exist for mapreduce,0.10204081632653061
-how is the the,how can an agent act and perceive its environment,0.058823529411764705
-how is the the,what are the main security problems of cookies,0.06578947368421052
-how is the the,how is a probabilistic retrieval system defined by robertson,0.22058823529411764
-how is the the,what tradeoffs must be made with the rocchio algorithm,0.11764705882352941
-how is the the,what enhances guessing attacks on passwords exist,0.07462686567164178
-how is the the,how does the algorithm to evaluate decision networks work,0.11764705882352941
-how is the the,what is the basic idea of direct sampling methods,0.11764705882352941
-how is the the,in what relation are task difficulty and effort,0.0
-how is the the,describe multivariate gaussian distribution,0.0
-how is the the,what are the limitations of erdo ̋s–re ́nyi model,0.058823529411764705
-how is the the,how does dms support filling through archiving,0.07462686567164178
-how is the the,what is the concept of scamming,0.17241379310344826
-how is the the,how did garud kumaraswamy implement a qualitative incentive system,0.058823529411764705
-how is the the,what is the difference between knowledge augmentation and knowledge substitution,0.10638297872340426
-how is the the,in which ways do goals affect performance,0.0
-how is the the,how does information spread with the rumor spreading protocol and push communication,0.08928571428571427
-how is the the,how to filter log files with spark,0.07462686567164178
-how is the the,what form does the intermediate step have,0.07462686567164178
-how is the the,what is assumed when using partitions,0.08620689655172413
-how is the the,what are determining predicates,0.0
-how is the the,what would be a practical example of the five elements of knowledge transfer with personal and impersonal transfer,0.06024096385542168
-how is the the,why is data locality important,0.10204081632653061
-how is the the,what is selfdetermination theory sdt and what motivational distinction is it based on,0.04132231404958678
-how is the the,what does encapsulation describe,0.0
-how is the the,how does the reduceside join work,0.17241379310344826
-how is the the,how is the workflow of a hash function,0.3362573099415205
-how is the the,how is ba related to the knowledge spiral,0.3362573099415205
-how is the the,how does reduction for vertical fragmentation work,0.07462686567164178
-how is the the,what is stemming,0.16129032258064518
-how is the the,explain a vector clock example,0.0
-how is the the,what are the two approaches used in configuration model,0.058823529411764705
-how is the the,explain empirical risk minimisation,0.0
-how is the the,what are the most important points to know about spark,0.05319148936170213
-how is the the,how is a worm defined,0.38265306122448983
-how is the the,which transformations exist in spark,0.10204081632653061
-how is the the,what is the internal structure of the formula of pbjm,0.27186761229314416
-how is the the,what are the two approaches to input domain modeling,0.058823529411764705
-how is the the,how does the ranking work when relevance judgements are known,0.10638297872340426
-how is the the,what are the three main methods used for authentication and what are examples and problems of each method,0.03012048192771084
+model_out,reference,max_sem_meteor
+['how is the the'],['how can words be counted with mapreduce'],0.14925373134328357
+['how is the the'],"['describe the rdd workflow', 'how does the rdd workflow look like']",0.14925373134328357
+['how is the the'],['what are key aspects and differences of the kindergarten report card and the performance appraisal'],0.07194244604316546
+['how is the the'],['what are the communication costs for semi join filtering'],0.11764705882352941
+['how is the the'],"['what is a merkle tree', 'why is the merkle tree used in distributed systems']",0.11764705882352941
+['how is the the'],"['what is the large margin principle', 'what is the goal behind large margin principle']",0.17241379310344826
+['how is the the'],['what are the three main challenges of the bitcoin network'],0.10638297872340426
+['how is the the'],"['explain pointwise learning to rank', 'what are the issues with pointwise learning to rank']",0.058823529411764705
+['how is the the'],['which differences exist between genders men and women in leadership effectiveness'],0.04854368932038835
+['how is the the'],['what are examples of notable xss attacks'],0.0
+['how is the the'],['how is the inverse document frequency computed'],0.3814262023217247
+['how is the the'],['what are the big data viewpoints'],0.08620689655172413
+['how is the the'],['how can bitcoin network check authenticity of transaction'],0.06578947368421052
+['how is the the'],['why should specifications be augmented with tests'],0.07462686567164178
+['how is the the'],['explain empirical risk minimisation'],0.0
+['how is the the'],['how is the log likelihood defined for discriminative models'],0.3006535947712418
+['how is the the'],"['can you explain the language bowl metaphor', 'explain the language bowl metaphor']",0.10204081632653061
+['how is the the'],['which are the key differences of cops versus teams'],0.058823529411764705
+['how is the the'],['how is the difficulty of the goals related to performance'],0.39893617021276595
+['how is the the'],['describe erdo ̋s–re ́nyi model'],0.0
+['how is the the'],['what are the assumptions of k means clustering'],0.06578947368421052
+['how is the the'],['what is the idea of joins with filtering'],0.13157894736842105
+['how is the the'],['what intradiagram consistency rules exist'],0.10204081632653061
+['how is the the'],['what is an example for an sql injection attack'],0.058823529411764705
+['how is the the'],['how to construct a bayesian networks by building a diagnostic model'],0.04854368932038835
+['how is the the'],['what are the research questions used by becerrafernandez sabherwal 2001'],0.05319148936170213
+['how is the the'],['why should posting sites be sorted'],0.08620689655172413
+['how is the the'],['what is the idea of smoothing in sequential processes'],0.11764705882352941
+['how is the the'],['which are relevant factors for explaining the leadership gap'],0.058823529411764705
+['how is the the'],['what is an example for a heap overflow attack'],0.058823529411764705
+['how is the the'],['what security is achieved with vpn'],0.08620689655172413
+['how is the the'],"['what is the maximum number of links a network can have', 'what makes a graph complete']",0.0970873786407767
+['how is the the'],['what is the property rule'],0.20408163265306123
+['how is the the'],"['how can leaders increase followers motivation according to house and mitchel', 'how does pathgoal leadership realize it']",0.0970873786407767
+['how is the the'],['what is the definition of authenticity and what is a example attack and security solution for it'],0.06369426751592357
+['how is the the'],['which steps are necessary to answer a boolean query with the help of the incidence matrix'],0.06756756756756756
+['how is the the'],['how can mapreduce be used for iterative computations'],0.13157894736842105
+['how is the the'],['what are the different measures to calculate importance of nodes'],0.05319148936170213
+['how is the the'],['what characteristics does kane alavis 2007 design approach focus on'],0.0
+['how is the the'],"['why should knowledge be stored', 'what are the risks to knowledge retention']",0.10204081632653061
+['how is the the'],['what are the factors influencing the components of the skills model'],0.0970873786407767
+['how is the the'],"['what are random variables', 'define a random variable']",0.0
+['how is the the'],['how is the quality of documents determined'],0.3814262023217247
+['how is the the'],['what is a access matrix'],0.10204081632653061
+['how is the the'],['how does type 1 of ransomware encryption of data work'],0.05319148936170213
+['how is the the'],['give an example of how range partitioning is used to create fragments for a table'],0.07194244604316546
+['how is the the'],"['what is knowledge management from a knowledge work perspective according to lebovitz et al 2022', 'what is the role of information technology for knowledge work according to lebovitz et al 2022', 'what changes with ai according to lebovitz et al 2022']",0.06756756756756756
+['how is the the'],['how does a simple cost model for allocation look like'],0.10638297872340426
+['how is the the'],['how can an example for ontology look like in the financial services industry'],0.08264462809917356
+['how is the the'],['which views of a data cube can be used for different organizational roles'],0.04132231404958678
+['how is the the'],['how is a distributed computation performed with aggregate functions'],0.22058823529411764
+['how is the the'],['what is the definition of a dms and what are the key functionalities in both the narrower and broader sense'],0.08152173913043477
+['how is the the'],['what is the idea of approximate cosine similarity'],0.13157894736842105
+['how is the the'],['are there differences between genders in leadership effectiveness'],0.0
+['how is the the'],['which three components are implemented by each information retrieval system'],0.0
+['how is the the'],['how it the procedure of a vpn'],0.14925373134328357
+['how is the the'],['what are the relevant development languages for web applications'],0.058823529411764705
+['how is the the'],"['what is the dirichlet distribution', 'explain the dirichlet distribution']",0.20408163265306123
+['how is the the'],['what is the role of a component realization'],0.13157894736842105
+['how is the the'],['explain logistic regression'],0.0
+['how is the the'],"['what are strengths and criticisms of the skills approach', 'how can the skills approach be applied in practice']",0.1764705882352941
+['how is the the'],['how can histograms be used to select a partitioning vector'],0.10638297872340426
+['how is the the'],['how to protect against ransomware type 1 attack encryption of data'],0.04854368932038835
+['how is the the'],['how does a setup with eventual consistency look like'],0.058823529411764705
+['how is the the'],"['what is a data warehouse dw', 'what is business intelligence bi']",0.10204081632653061
+['how is the the'],"['what is a stationary policy', 'what is an optimal policy']",0.10204081632653061
+['how is the the'],"['what is a set of random variables in probabilistic retrieval', 'how is the relevance judgment defined']",0.4406130268199233
+['how is the the'],['what is an example for an sql injection attack'],0.058823529411764705
+['how is the the'],['what are the main differences between declarative and procedural knowledge'],0.05319148936170213
+['how is the the'],['when does the exchange phase become difficult'],0.07462686567164178
+['how is the the'],['how do motivational and individual factors influence the volume of contributions'],0.0970873786407767
+['how is the the'],['what are the layers of the tcpip model'],0.13157894736842105
+['how is the the'],['what is markov chain monte carlo'],0.08620689655172413
+['how is the the'],['what are ko et als definitions for the three communication factors and the four motivational factors'],0.06756756756756756
+['how is the the'],"['what are index terms', 'how are index terms structured']",0.10204081632653061
+['how is the the'],['what does the feature map of polynomial kernel contain'],0.058823529411764705
+['how is the the'],['what is a problem of the rainbow table approach and how is it solved'],0.19658119658119655
+['how is the the'],['which impact has km on the employees'],0.07462686567164178
+['how is the the'],['what is a policy'],0.125
+['how is the the'],"['what does a physical dataflow look like', 'what are the steps in a physical dataflow']",0.06578947368421052
+['how is the the'],['what does a query tree with derived horizontal fragmentation and empty join elimination look like'],0.0
+['how is the the'],['what is counter mode'],0.125
+['how is the the'],"['how are vector clocks compared', 'when is one vector clock before the other']",0.13157894736842105
+['how is the the'],['how is the result obtained in spark'],0.3814262023217247
+['how is the the'],['what is dns hijacking'],0.125
+['how is the the'],['how is the attacker model and what are possible attacks on hashed passwords on a server'],0.17267267267267267
+['how is the the'],['what are support vector machines'],0.0
+['how is the the'],"['define the theory of rational decisions', 'when is an agent rational']",0.10204081632653061
+['how is the the'],['how can different indexing strategies be combined'],0.14925373134328357
+['how is the the'],['how does latent semantic analysis use svd'],0.07462686567164178
+['how is the the'],['when are two random variables independent'],0.0
+['how is the the'],"['differentiate between walk chain trail and path', 'what is a cycle and closed loop']",0.07462686567164178
+['how is the the'],['what is an example for a heap overflow attack'],0.058823529411764705
+['how is the the'],"['what does the term bug mean', 'why should the term bug be avoided']",0.14925373134328357
+['how is the the'],['what is an examples of a csrf attack'],0.06578947368421052
+['how is the the'],['how would an offline attack on stored hashed values of passwords on a server look like'],0.03378378378378378
+['how is the the'],"['what are gaussian mixture models', 'how can gmm be viewed as soft clustering variant of k means']",0.08928571428571427
+['how is the the'],['what are possible goals of xss'],0.0
+['how is the the'],"['explain supervised and unsupervised machine learning', 'which two types of machine learning exist']",0.07462686567164178
+['how is the the'],['define acyclic network'],0.0
+['how is the the'],['what extent of skills of the threeskill approach do you need for the various management levels top middle supervisory'],0.05714285714285714
+['how is the the'],['what is the collection frequency'],0.20408163265306123
+['how is the the'],"['how is the complete cost function to find an allocation schema defined', 'why is the total cost function overly simplified']",0.22817460317460317
+['how is the the'],['define kcore centrality'],0.0
+['how is the the'],['define adjacency matrix'],0.0
+['how is the the'],['what is a click fraud attack'],0.08620689655172413
+['how is the the'],['what is the sum rule'],0.20408163265306123
+['how is the the'],['what characteristics do hansen et al 1999 focus on'],0.0
+['how is the the'],"['how is the situational approach described', 'what is the leadership style and how is it related to the situational approach', 'what are the different leadership styles of the slii approach and how are they expressed by the leader']",0.4406130268199233
+['how is the the'],['what are header fields of an email'],0.0
+['how is the the'],['what is conjugate prior'],0.125
+['how is the the'],['which main questions are investigated by sturm et al 2022'],0.0
+['how is the the'],['describe leskovec and horvitz study'],0.0
+['how is the the'],['describe gaussian distribution'],0.0
+['how is the the'],"['define diameter', 'write expressions for average distance']",0.0
+['how is the the'],['what are the four phases of knowledge transfer and what are their key tasks'],0.03846153846153846
+['how is the the'],['does the gender of the leader affect their leadership style'],0.10638297872340426
+['how is the the'],['describe k means clustering'],0.0
+['how is the the'],['what is the intuition of differential privacy'],0.14925373134328357
+['how is the the'],"['why do we introduce a discount factor', 'how is utility defined with a discount factor']",0.24671052631578946
+['how is the the'],['describe sparsity via l0 regularization'],0.0
+['how is the the'],['what is crc'],0.16129032258064518
+['how is the the'],"['why does transactive memory not work in large groups', 'how to solve this problem']",0.10204081632653061
+['how is the the'],['what does the internal dataflow representation of a spark program look like'],0.08928571428571427
+['how is the the'],['how can a vpn be realized'],0.17241379310344826
+['how is the the'],['what is the focus of wasko farajs 2005 studies'],0.11764705882352941
+['how is the the'],['how to use the flatmap function'],0.17241379310344826
+['how is the the'],['describe multivariate gaussian distribution'],0.0
+['how is the the'],['what are the eight main functionalities of text mining discussed in the lecture'],0.08264462809917356
+['how is the the'],['what are the problems of knowledge internalization'],0.07462686567164178
+['how is the the'],['what is session hijacking and what are countermeasures'],0.06578947368421052
+['how is the the'],['what is an examples of a csrf attack'],0.06578947368421052
+['how is the the'],['how does rsa work'],0.125
+['how is the the'],['do the appropriation factors for bac require media synchronicity'],0.058823529411764705
+['how is the the'],"['explain the spark runtime architecture', 'what is the structure of spark architecture']",0.14925373134328357
+['how is the the'],['how is the icv calculated in the ah protocol in transport mode'],0.33482142857142855
+['how is the the'],['why is the transfer of implicit knowledge becoming more difficult with an increasing degree of diffusion'],0.06756756756756756
+['how is the the'],['what is an examples of a csrf attack'],0.06578947368421052
+['how is the the'],['what is the terminology to represent preferences'],0.14925373134328357
+['how is the the'],['how are input and output defined for parallel joins'],0.058823529411764705
+['how is the the'],['how are infeasible test requirements handled in logic coverage criteria'],0.05319148936170213
+['how is the the'],['how can spark be understood as a dataflow engine'],0.11764705882352941
+['how is the the'],"['what are the steps of the rocchio algorithm', 'explain the rocchio algorithm']",0.13157894736842105
+['how is the the'],['when is the merge of posting lists performed fastest'],0.11764705882352941
+['how is the the'],['what are drawbacks of access matrixes'],0.0
+['how is the the'],['compare erdo ̋s–re ́nyi model and configuration model'],0.0
+['how is the the'],['what are primitive data values what is the relationship to integer underoverflow attacks'],0.08264462809917356
+['how is the the'],['explain empirical risk minimization'],0.0
+['how is the the'],['why arent self loops and multi edges a problem in random matching'],0.0
+['how is the the'],['how does shared key authentication work'],0.08620689655172413
+['how is the the'],['why is big data difficult to handle'],0.07462686567164178
+['how is the the'],['how does the expectancy theory vie theory vroom 1964 describe the creation of motivation and what is the motivational potential'],0.10869565217391304
+['how is the the'],['how are word counts computed in the mapreduce reduce phase'],0.10638297872340426
+['how is the the'],['what is the eu cookie directive'],0.17241379310344826
+['how is the the'],"['how are tests and test paths denoted and what does syntacticsemantic reach mean', 'what is syntacticsemantic reach', 'how are tests and test paths denoted']",0.125
+['how is the the'],['what is multitasking and how does it work'],0.13157894736842105
+['how is the the'],['what are race condition attacks'],0.0
+['how is the the'],"['why can mapreduce be interpreted as a dataflow', 'how is mapreduce generalized by dataflow engines']",0.2798507462686567
+['how is the the'],['do you know some hadoop related projects'],0.0
+['how is the the'],['describe second order taylor polynomial multivariate case'],0.0
+['how is the the'],['what are alternative ways of weighting to rank documents'],0.0
+['how is the the'],['what are constraints among characteristics and how are they handled'],0.05319148936170213
+['how is the the'],['describe the methodology of gradient descent'],0.08620689655172413
+['how is the the'],['how do conveyance and convergence differ'],0.08620689655172413
+['how is the the'],['describe sparsity via l1 regularization'],0.0
+['how is the the'],['what are famous examples for gdpr fines'],0.0
+['how is the the'],['describe the relationship between svd and linear regression'],0.06578947368421052
+['how is the the'],['what is the concept of critical data'],0.14925373134328357
+['how is the the'],['what are the two modes of ipsec'],0.07462686567164178
+['how is the the'],['what does the eckart young theorem say'],0.07462686567164178
+['how is the the'],['what are the challenges in defining a learning algorithm'],0.058823529411764705
+['how is the the'],['which categories of contingency factors exist'],0.08620689655172413
+['how is the the'],['what is the parameter 𝜖 and the composition theorem'],0.3006535947712418
+['how is the the'],['what is the idea of latent and semantic information retrieval'],0.10638297872340426
+['how is the the'],['according to the matrix of pathgoal theory what leadership behaviors need to be applied in different settings depending on group members and task characteristics'],0.04545454545454545
+['how is the the'],['what is shared key authentication'],0.10204081632653061
+['how is the the'],"['explain the generative process of a language model', 'how does the generative process of a language model work']",0.10638297872340426
+['how is the the'],['how is relevance usually expressed in information retrieval models'],0.22058823529411764
+['how is the the'],['when is a map and when is a reduce program used'],0.04854368932038835
+['how is the the'],"['what is the definition of verification and validation and how do they differ', 'what are the two principle objectives of vv']",0.12396694214876032
+['how is the the'],['how is base choice coverage defined'],0.32327586206896547
+['how is the the'],['how to use sgd for logistic regression'],0.07462686567164178
+['how is the the'],['how is correctness ensured in horizontal fragmentation'],0.2798507462686567
+['how is the the'],['how is the ambiguity in acc handled'],0.3814262023217247
+['how is the the'],"['what is the simplest way to compute a thesaurus', 'what is the cooccurrence thesaurus', 'how is the cooccurrence thesaurus constructed']",0.4406130268199233
+['how is the the'],['what are the key aspects of cops maturity phase engaged in terms of people behavior process support and enabling technology'],0.02717391304347826
+['how is the the'],['how exactly can integrity be attacked when crc is used wep'],0.0970873786407767
+['how is the the'],['what is http'],0.16129032258064518
+['how is the the'],['how do code injection attacks work'],0.08620689655172413
+['how is the the'],['describe newtons method multivariate case'],0.0
+['how is the the'],['how is the formal definition of bnf'],0.3814262023217247
+['how is the the'],['can you give an example for the binary independence model with relevance judgements'],0.04132231404958678
+['how is the the'],['what goal has stage3 exploitation and what are possible tools'],0.0
+['how is the the'],['what are the goals for distributed transactions'],0.07462686567164178
+['how is the the'],['what is the bayes rule'],0.20408163265306123
+['how is the the'],['how can a tls connection be checked'],0.14925373134328357
+['how is the the'],['what is the cyber ba and which technology is used'],0.10638297872340426
+['how is the the'],['which leader behaviors are described by the pathgoal theory and how'],0.0970873786407767
+['how is the the'],['how are word counts computed in the mapreduce reduce phase'],0.10638297872340426
+['how is the the'],['explain the lloyds algorithm for k means'],0.07462686567164178
+['how is the the'],['what are the main differences between explicit and tacit knowledge'],0.05319148936170213
+['how is the the'],['what are simple paths and prime paths'],0.0
+['how is the the'],['why do we need information value theory'],0.0
+['how is the the'],['what is pretexting'],0.16129032258064518
+['how is the the'],['how does the categorization functionality in text mining work and what are the key elements involved in the process'],0.0857142857142857
+['how is the the'],['how is range partitioning used to distribute data'],0.24671052631578946
+['how is the the'],"['what are four fundamental subspaces', 'how to obtain bases for subspaces from svd']",0.06578947368421052
+['how is the the'],['how are convolutional neural networks trained'],0.08620689655172413
+['how is the the'],['how to compute the robustness of protocols for replication transparency'],0.10638297872340426
+['how is the the'],['what are countermeasures against csrf attacks'],0.0
+['how is the the'],['what is a processing attack'],0.10204081632653061
+['how is the the'],['how is fragmentation transparency defined'],0.38265306122448983
+['how is the the'],['how are matrix decompositions approximated'],0.10204081632653061
+['how is the the'],"['what is a custom partitioner', 'what is a custom key comparator']",0.10204081632653061
+['how is the the'],['what are general advices regarding potentially harmful emails'],0.0
+['how is the the'],['which motivation theories exist and how are they categorized'],0.11764705882352941
+['how is the the'],['which components are generally contained in a process model of a text mining application'],0.0
+['how is the the'],['what can perceptron learn'],0.0
+['how is the the'],['how does parallel range partitioning sort work'],0.07462686567164178
+['how is the the'],['why do we need secure passwords and what are the challenges'],0.04854368932038835
+['how is the the'],['what are the problems of knowledge integration'],0.07462686567164178
+['how is the the'],['what is the probability that the generated model will have m links'],0.22817460317460317
+['how is the the'],['what is the tcpip model'],0.20408163265306123
+['how is the the'],['what are alternatives for key servers'],0.0
+['how is the the'],['how is bayes rule defined'],0.38265306122448983
+['how is the the'],['what is the basic email architecture'],0.17241379310344826
+['how is the the'],['what is the relation between entropy and security'],0.13157894736842105
+['how is the the'],['which method did lebovitz et al 2022 use'],0.0
+['how is the the'],"['why do we need models', 'what can the models be used for']",0.14925373134328357
+['how is the the'],"['define the scope of a leaf node n', 'define the scope of an inner node n', 'define the scope of s']",0.10204081632653061
+['how is the the'],['describe map with gaussian prior'],0.0
+['how is the the'],['what are possible approaches to define anonymity'],0.0
+['how is the the'],['what is an example for a prime and probe attack'],0.05319148936170213
+['how is the the'],['what is the relationship between bernoulli model and odds'],0.11764705882352941
+['how is the the'],['what are known knowledge management problems and what knowledge management processes handle them'],0.0
+['how is the the'],['how can rolebasedaccesscontrol be graphically represented'],0.17241379310344826
+['how is the the'],['when are networks said to show the small world property'],0.05319148936170213
+['how is the the'],"['how is externally regulated behavior defined and how is it related to intrinsically motivated behavior', 'what is internalization']",0.16129032258064518
+['how is the the'],['what are the components of cluster analysis'],0.07462686567164178
+['how is the the'],['how does svd allow visualization of data'],0.07462686567164178
+['how is the the'],['what is probabilistic pca'],0.125
+['how is the the'],['what is integer underoverflow what are famous examples'],0.06578947368421052
+['how is the the'],['how must the merging of posting lists be adapted to support phrase queries'],0.12396694214876032
+['how is the the'],['what are the resulting design recommendations of kane alavi'],0.058823529411764705
+['how is the the'],"['how to define “network of practice”', 'what is the definition of “electronic network of practice”', 'how are “electronic network of practice” and communities of practice related']",0.0970873786407767
+['how is the the'],"['on what basis do hansen et al choose codification or personalization as the design approach', 'what is the difference between cost leadership and quality leadership']",0.10638297872340426
+['how is the the'],"['what is knowledge management from an organizational learning perspective according to sturm et al 2022', 'what is the role of information technology according to sturm et al 2022', 'what changes with ai according to sturm et al 2022']",0.08264462809917356
+['how is the the'],['how can open system authentication be attacked'],0.14925373134328357
+['how is the the'],"['why are not all biwords always indexed', 'how are biwords expanded so that they only represent meaningful concepts']",0.04854368932038835
+['how is the the'],['how to deal with lost messages'],0.08620689655172413
+['how is the the'],['what are disclosure risks'],0.0
+['how is the the'],['what are the key differences between leadership and management'],0.058823529411764705
+['how is the the'],['describe the terminology of the em algorithm'],0.14925373134328357
+['how is the the'],['what are the possible states of an agent in the two phase commit protocol'],0.07692307692307691
+['how is the the'],['how does pseudocode for rainbow tables look like'],0.06578947368421052
+['how is the the'],['what is the workflow for mac'],0.17241379310344826
+['how is the the'],"['what is the porter algorithm', 'how does the porter algorithm work']",0.20408163265306123
+['how is the the'],['how can multiple factors be considered for ranking documents'],0.11764705882352941
+['how is the the'],['how does a sql statement that required decomposition look like'],0.05319148936170213
+['how is the the'],['what is the synthetic data approach what are types of synthetic data'],0.08928571428571427
+['how is the the'],['what is quid pro quo'],0.10204081632653061
+['how is the the'],['what are the exemplary steps of nonperturbative masking through generalization'],0.05319148936170213
+['how is the the'],['reflect on the findings of leskovec and horvitz study'],0.058823529411764705
+['how is the the'],"['why is pooling required', 'how are documents annotated in pooling']",0.125
+['how is the the'],['what is tor'],0.16129032258064518
+['how is the the'],['what is the problem of dominating mining pools'],0.13157894736842105
+['how is the the'],['how are communities of practice cops defined'],0.07462686567164178
+['how is the the'],['how can relevance feedback be incorporated into estimations of probabilities for probabilistic retrieval'],0.08264462809917356
+['how is the the'],['how to apply those studies in a case study'],0.058823529411764705
+['how is the the'],['when was mapreduce released'],0.0
+['how is the the'],['what are the limits and benefits of the seci model'],0.10638297872340426
+['how is the the'],['how does a chain of trust work'],0.07462686567164178
+['how is the the'],['which assumptions hold in a markov decision process'],0.0
+['how is the the'],['how do passwords work'],0.125
+['how is the the'],['which metric is usually optimized by information retrieval systems'],0.058823529411764705
+['how is the the'],['when is the time for merging linear'],0.14925373134328357
+['how is the the'],['how to perform read and write operations in quorum consensus'],0.05319148936170213
+['how is the the'],['how does setting a specific hard goal differ from a do best goal in relation to the performance'],0.06024096385542168
+['how is the the'],['how is clause coverage defined'],0.38265306122448983
+['how is the the'],['what are strengths and criticisms of the al approach'],0.058823529411764705
+['how is the the'],['comment on the why only for directed networks eigenvalue centrality is useful'],0.08928571428571427
+['how is the the'],['what are the two problems of term frequency'],0.06578947368421052
+['how is the the'],"['explain the cbow model', 'how is the cbow model used to compute word embeddings']",0.27186761229314416
+['how is the the'],['how are cluster sizes modeled in kmeans and gmms'],0.058823529411764705
+['how is the the'],"['what are mixture models', 'give the interpretation of mixture models']",0.08620689655172413
+['how is the the'],['what is the common cryptographic scenario'],0.17241379310344826
+['how is the the'],['how does the partitioning of the input domain into blocks work'],0.14563106796116504
+['how is the the'],['how is the workflow of crc'],0.4406130268199233
+['how is the the'],['what are joint distributions'],0.0
+['how is the the'],['how are svd and pca related'],0.08620689655172413
+['how is the the'],['what are constituent attributes of electronic cops and what are qualifying elements'],0.0
+['how is the the'],['what are the components of the knowledge spiral'],0.13157894736842105
+['how is the the'],['explain the example for the binary independence model with available relevance judgements'],0.08928571428571427
+['how is the the'],['describe the methodology of eigenvector centrality'],0.08620689655172413
+['how is the the'],['what are the problems with the rules of the porter algorithm'],0.0970873786407767
+['how is the the'],['what is utility theory used for'],0.08620689655172413
+['how is the the'],['why is the size of positional indices problematic'],0.13157894736842105
+['how is the the'],['how is each choice coverage defined'],0.32327586206896547
+['how is the the'],['which results did becerrafernandez sabherwal 2001 find regarding the influence of the four processes on km effectiveness and employee satisfaction research question 1'],0.04739336492890995
+['how is the the'],['what is unsupervised learning and what is the goal'],0.11764705882352941
+['how is the the'],['how are tasks processed using the cache'],0.14925373134328357
+['how is the the'],['how to create a total order for a table with mapreduce'],0.04854368932038835
+['how is the the'],['how are the results from the spark program distributed across the nodes'],0.13392857142857142
+['how is the the'],"['how does the research model of ko et al 2005 look like', 'what influence do the factors have on each other and on the transfer of knowledge']",0.08928571428571427
+['how is the the'],['what are the four information retrieval paradigms'],0.07462686567164178
+['how is the the'],"['what are strengths and criticisms of the pathgoal theory', 'how can the pathgoal theory be applied in practice']",0.1764705882352941
+['how is the the'],['why is local serializability not enough for a distributed commit'],0.05319148936170213
+['how is the the'],['how to decide whether to expect success using odds'],0.058823529411764705
+['how is the the'],['what does a query tree with derived horizontal fragmentation and union pull up look like'],0.0
+['how is the the'],['what is the definition of the factors idealized influence and inspirational motivation of the tl model'],0.10135135135135134
+['how is the the'],['what are message authentication codes'],0.0
+['how is the the'],['what is the principle of dombased xss'],0.14925373134328357
+['how is the the'],['what are mail fetching protocols'],0.0
+['how is the the'],['what does the notation for fragments look like'],0.06578947368421052
+['how is the the'],"['how are general inactive clause coverage and restricted inactive clause coverage defined', 'how do gicc and ricc differ']",0.08620689655172413
+['how is the the'],['explain the twogenerals problem'],0.125
+['how is the the'],['what are advantages and criticism of the belllapadula model'],0.058823529411764705
+['how is the the'],"['how can we assess the agents degree of believe', 'how can betting games be used to assess agents']",0.11764705882352941
+['how is the the'],['what is the setup of the centralized two phase commit protocol'],0.24811218985976266
+['how is the the'],['what are the properties of estimators'],0.08620689655172413
+['how is the the'],['what does the mapreduce execution workflow look like'],0.06578947368421052
+['how is the the'],['where is big data successful used'],0.08620689655172413
+['how is the the'],['what are the problems with pc and cc'],0.06578947368421052
+['how is the the'],"['how are graphs used in testing and how are test requirements test criterion and satisfaction defined', 'how are graphs used in testing', 'how are test requirements test criterion and satisfaction defined']",0.08620689655172413
+['how is the the'],['why is it possible to use grammar coverage criteria'],0.058823529411764705
+['how is the the'],['which steps are involved in pooling'],0.0
+['how is the the'],"['what is guaranteed if an agent is in the ready state', 'when does the coordinator decide on a commit']",0.0970873786407767
+['how is the the'],['what is a discretionary access control dac and what advantagesdisadvantages does it have'],0.04132231404958678
+['how is the the'],['which research approach do kane alavi use and which important contingency factors and moderators which they consider'],0.0
+['how is the the'],['how is a botnet coordinated'],0.38265306122448983
+['how is the the'],['how does locality sensitive hashing work'],0.08620689655172413
+['how is the the'],['what is the goal of privilege escalation attacks and how do they work'],0.12396694214876032
+['how is the the'],['which keys are reallocated when a node joins'],0.0
+['how is the the'],['what to look for in networks to know if small world property is present'],0.03846153846153846
+['how is the the'],['differentiate in inference and decision'],0.0
+['how is the the'],['which three basic architectures exist for parallel dbms'],0.06578947368421052
+['how is the the'],['describe the methodology of eigenvector centrality'],0.08620689655172413
+['how is the the'],['how does memory organization work in a multitasking system why do you need it'],0.03846153846153846
+['how is the the'],['why are there so many different types of nosql databases'],0.0
+['how is the the'],['what do two vector clocks look like where there is no conflict'],0.04464285714285714
+['how is the the'],['which strategies exist to avoid deadlocks'],0.08620689655172413
+['how is the the'],"['explain the single pass clustering algorithm', 'how is the number of clusters determined in the single pass clustering algorithm']",0.30991735537190085
+['how is the the'],['what is the common vulnerabilities and exposures cve and what is the definition for vulnerabilities and exposures'],0.09554140127388534
+['how is the the'],['what are strengths and criticisms of the servant leadership approach'],0.05319148936170213
+['how is the the'],['how are input and output for the parallel sort defined'],0.10638297872340426
+['how is the the'],['how would an online attack on stored hashed values of passwords on a server look like and what are countermeasures'],0.02717391304347826
+['how is the the'],['how is elasticity used to measure the extensibility'],0.3362573099415205
+['how is the the'],"['what is the framing effect', 'what is the anchoring effect']",0.20408163265306123
+['how is the the'],"['what are the key factors to consider regarding the use of knowledge management systems kms', 'how can the use of kms be conceptualized and what is the key question when it comes to knowledge sharing']",0.10869565217391304
+['how is the the'],['which three definitions exist for the authentic leadership approach'],0.11764705882352941
+['how is the the'],"['how can multidimensional data be stored', 'how can different views of the data be analyzed']",0.1764705882352941
+['how is the the'],['how efficient is the antientropy protocol'],0.2586206896551724
+['how is the the'],"['what are word embeddings', 'explain word embeddings', 'what is the difference between sparse and dense term representations']",0.10638297872340426
+['how is the the'],['how does information spread with the rumor spreading protocol and pull communication'],0.08928571428571427
+['how is the the'],['how can words be counted with mapreduce'],0.14925373134328357
+['how is the the'],['how are documents word embeddings obtained using the cbow model'],0.10638297872340426
+['how is the the'],['what are the drawbacks of automated thesaurus generation'],0.06578947368421052
+['how is the the'],['what does a structured text representation look like'],0.06578947368421052
+['how is the the'],['what are the implications of the work of van der broek et al 2022'],0.07692307692307691
+['how is the the'],['what does the no free lunch theorem trying to say'],0.05319148936170213
+['how is the the'],['how are language models used for information retrieval'],0.06578947368421052
+['how is the the'],['what is domain keys identified mail dkim'],0.07462686567164178
+['how is the the'],['what are the moderators of the goal performance relationship'],0.11764705882352941
+['how is the the'],['what are the implications of the work of lebovitz et al 2022'],0.08928571428571427
+['how is the the'],['how is the relevance score computed if no relevance judgements are available'],0.22817460317460317
+['how is the the'],"['how does lmx theory describe leaders relationship to work units', 'what is the origin of lmx theory']",0.14925373134328357
+['how is the the'],['what are countermeasures against unauthorized access'],0.0
+['how is the the'],['which special case is covered by the markov decision process'],0.10638297872340426
+['how is the the'],"['how is the bayes rule defined', 'what is the bayes rule']",0.4406130268199233
+['how is the the'],['define average degree'],0.0
+['how is the the'],['differentiate between parametric and nonparametric models'],0.0
+['how is the the'],"['what is expansion', 'how does expansion work', 'what are the advantages and disadvantages of expansion']",0.16129032258064518
+['how is the the'],['in conclusion which design approaches should you use for which contingency factors'],0.0
+['how is the the'],['what is the cosine similarity'],0.20408163265306123
+['how is the the'],['what technology does kane alavi believe should be used for exploitation or exploration'],0.04132231404958678
+['how is the the'],"['when do weights remain bounded', 'why data scale matters']",0.0
+['how is the the'],"['describe the general pdbms architecture', 'what are the central parts of the general pdbms architecture']",0.10638297872340426
+['how is the the'],['how can evidence be combined'],0.20408163265306123
+['how is the the'],['write the expressions for expected number of selfloops'],0.06578947368421052
+['how is the the'],['what are distributive aggregate functions'],0.0
+['how is the the'],['what advantages does rbac have in contrast to a tradition access matrix'],0.0
+['how is the the'],['what are auxiliary specification artifacts'],0.0
+['how is the the'],['what makes naive bayes a family of classifiers'],0.0
+['how is the the'],"['how is the normalized discounted cumulative gain defined', 'how is the ideal discounted cumulative gain defined', 'how does the normalized discounted cumulative gain change if the number of relevant documents changes']",0.3362573099415205
+['how is the the'],['what is the generic smtp protocol flow'],0.14925373134328357
+['how is the the'],"['how does routing with finger tables work', 'what is the advantage of routing with finger tables']",0.11764705882352941
+['how is the the'],['how to identify which nodes are important'],0.07462686567164178
+['how is the the'],['what characteristics does dennis vesseys design approach focus on'],0.0
+['how is the the'],['what language models are available to model the probability of word sequences in a language'],0.03597122302158273
+['how is the the'],['define page rank centrality in detail'],0.0
+['how is the the'],['what are the three components of kobra and what is the vision and obstacles for each'],0.10135135135135134
+['how is the the'],['what is the definition of personal data'],0.14925373134328357
+['how is the the'],['describe support vector classification'],0.0
+['how is the the'],['what does the workflow of rc4 look like'],0.06578947368421052
+['how is the the'],['which gender stereotypes exist'],0.125
+['how is the the'],['what are the advantages and disadvantages of the basic approach to achieve replication consistency'],0.07692307692307691
+['how is the the'],['explain structural properties'],0.0
+['how is the the'],['what is machine learning'],0.125
+['how is the the'],['what are examples for notable csrf attacks'],0.0
+['how is the the'],"['why is the document frequency used', 'what is the idea behind the global document frequency']",0.3006535947712418
+['how is the the'],['how does the sender policy framework work'],0.14925373134328357
+['how is the the'],['into which groups are the knowledge goals of km cycle divided'],0.04854368932038835
+['how is the the'],['what are the four characteristics of network science'],0.06578947368421052
+['how is the the'],['what are the six global leadership behaviors of globe'],0.058823529411764705
+['how is the the'],['what are the benefits of mapreduce'],0.08620689655172413
+['how is the the'],"['what is an rdd action', 'how can sparks reduce action be used']",0.14925373134328357
+['how is the the'],"['what are stragglers', 'why are stragglers a problem']",0.0
+['how is the the'],"['what is a testers job', 'how are test requirements and test criteria defined']",0.10204081632653061
+['how is the the'],['why is it difficult to select a good partitioning vector'],0.05319148936170213
+['how is the the'],['what is hadoop'],0.16129032258064518
+['how is the the'],['what makes network science quantitative and empirical'],0.0
+['how is the the'],['how is a virus defined'],0.38265306122448983
+['how is the the'],['how does preclustering work to speed up the ranking of documents'],0.0970873786407767
+['how is the the'],['what is a evil twin attack'],0.08620689655172413
+['how is the the'],['what are the two scenarios that can occur when we want to rank documents'],0.03846153846153846
+['how is the the'],['what are the decomposition steps'],0.10204081632653061
+['how is the the'],"['how is replication transparency defined', 'what does it mean that a database is mutually consistent']",0.38265306122448983
+['how is the the'],['how did the and and or operators affect a boolean query'],0.0970873786407767
+['how is the the'],['which extensions exist for mapreduce'],0.10204081632653061
+['how is the the'],['how can an agent act and perceive its environment'],0.058823529411764705
+['how is the the'],['what are the main security problems of cookies'],0.06578947368421052
+['how is the the'],['how is a probabilistic retrieval system defined by robertson'],0.22058823529411764
+['how is the the'],['what tradeoffs must be made with the rocchio algorithm'],0.11764705882352941
+['how is the the'],['what enhances guessing attacks on passwords exist'],0.07462686567164178
+['how is the the'],['how does the algorithm to evaluate decision networks work'],0.11764705882352941
+['how is the the'],['what is the basic idea of direct sampling methods'],0.11764705882352941
+['how is the the'],"['in what relation are task difficulty and effort', 'what is the relationship between goal difficulty and performance']",0.11764705882352941
+['how is the the'],['describe multivariate gaussian distribution'],0.0
+['how is the the'],"['what are the limitations of erdo ̋s–re ́nyi model', 'what is the model useful for']",0.17241379310344826
+['how is the the'],['how does dms support filling through archiving'],0.07462686567164178
+['how is the the'],['what is the concept of scamming'],0.17241379310344826
+['how is the the'],['how did garud kumaraswamy implement a qualitative incentive system'],0.058823529411764705
+['how is the the'],['what is the difference between knowledge augmentation and knowledge substitution'],0.10638297872340426
+['how is the the'],['in which ways do goals affect performance'],0.0
+['how is the the'],['how does information spread with the rumor spreading protocol and push communication'],0.08928571428571427
+['how is the the'],['how to filter log files with spark'],0.07462686567164178
+['how is the the'],['what form does the intermediate step have'],0.07462686567164178
+['how is the the'],['what is assumed when using partitions'],0.08620689655172413
+['how is the the'],['what are determining predicates'],0.0
+['how is the the'],['what would be a practical example of the five elements of knowledge transfer with personal and impersonal transfer'],0.06024096385542168
+['how is the the'],['why is data locality important'],0.10204081632653061
+['how is the the'],['what is selfdetermination theory sdt and what motivational distinction is it based on'],0.04132231404958678
+['how is the the'],['what does encapsulation describe'],0.0
+['how is the the'],"['how does the reduceside join work', 'explain the reduceside join']",0.17241379310344826
+['how is the the'],['how is the workflow of a hash function'],0.3362573099415205
+['how is the the'],['how is ba related to the knowledge spiral'],0.3362573099415205
+['how is the the'],['how does reduction for vertical fragmentation work'],0.07462686567164178
+['how is the the'],"['what is stemming', 'how does stemming work']",0.16129032258064518
+['how is the the'],['explain a vector clock example'],0.0
+['how is the the'],['what are the two approaches used in configuration model'],0.058823529411764705
+['how is the the'],['explain empirical risk minimisation'],0.0
+['how is the the'],['what are the most important points to know about spark'],0.05319148936170213
+['how is the the'],['how is a worm defined'],0.38265306122448983
+['how is the the'],['which transformations exist in spark'],0.10204081632653061
+['how is the the'],['what is the internal structure of the formula of pbjm'],0.27186761229314416
+['how is the the'],['what are the two approaches to input domain modeling'],0.058823529411764705
+['how is the the'],['how does the ranking work when relevance judgements are known'],0.10638297872340426
+['how is the the'],['what are the three main methods used for authentication and what are examples and problems of each method'],0.03012048192771084
