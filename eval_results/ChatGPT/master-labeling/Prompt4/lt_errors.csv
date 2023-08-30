@@ -1,0 +1,85 @@
+,PUNCTUATION,COMPOUNDING,GRAMMAR,REDUNDANCY,MISC
+...mpirical risk minimization with log loss and how is it calculated?,1.0,0.0,0.0,0.0,0.0
+What is the framing effect and how does it influence decision-making?,1.0,0.0,0.0,0.0,0.0
+...uses in the context of computer security and how are they classified based on the ob...,1.0,0.0,0.0,0.0,0.0
+What is a worm and how does it differ from a virus?,1.0,0.0,0.0,0.0,0.0
+What is the Dirichlet distribution and how is it used to parametrize the multi...,1.0,0.0,0.0,0.0,0.0
+What is a race condition attack and how does it exploit the specific sequen...,1.0,0.0,0.0,0.0,0.0
+What is the multinomial distribution and how can we estimate the parameter θ fro...,1.0,0.0,0.0,0.0,0.0
+What is the small-world phenomenon and how is it defined in terms of network p...,1.0,0.0,0.0,0.0,0.0
+What is data placement in a PDBMS and why is it important?,1.0,0.0,0.0,0.0,0.0
+...the two interpretations of probabilities and how do they differ?,1.0,0.0,0.0,0.0,0.0
+...t is the concept of differential privacy and how does it ensure that an analyst cann...,1.0,0.0,0.0,0.0,0.0
+...t is an approximate matrix decomposition and why is it important?,1.0,0.0,0.0,0.0,0.0
+What is the common special case of decision making that involves repeatedly making decisio...,0.0,1.0,0.0,0.0,0.0
+What is a FilteredRDD and how does it correspond to the filter tr...,1.0,0.0,0.0,0.0,0.0
+What is classification and how is it a core application of artific...,1.0,0.0,0.0,0.0,0.0
+"...le of ""Ba"" in the knowledge spiral model and why is its design important for knowled...",1.0,0.0,0.0,0.0,0.0
+...ondition for a transaction to be trusted and how is it typically achieved in the Bit...,1.0,0.0,0.0,0.0,0.0
+What is a multidimensional data cube and how can it be used to analyze data?,1.0,0.0,0.0,0.0,0.0
+What is a reduce-side join and how does it work in Hadoop?,1.0,0.0,0.0,0.0,0.0
+What is the Euclidean distance and how does it measure the distance betwee...,1.0,0.0,0.0,0.0,0.0
+What is Katz Centrality and how does it differ from Eigenvector Cen...,1.0,0.0,0.0,0.0,0.0
+...ied upon in the exploitation stage of a cyber attack?,0.0,0.0,1.0,0.0,0.0
+What is the Beta-binomial model and how is it used to analyze coin flips?,1.0,0.0,0.0,0.0,0.0
+What is Bayes' rule and how is it derived from the product rule...,1.0,0.0,0.0,0.0,0.0
+...risk minimization in supervised learning and how is it related to the risk associate...,1.0,0.0,0.0,0.0,0.0
+What is encapsulation and how is it used in data transfer between...,1.0,0.0,0.0,0.0,0.0
+What is DOM-based XSS and how does it occur?,1.0,0.0,0.0,0.0,0.0
+What is an RDD and how can it be created in Spark?,1.0,0.0,0.0,0.0,0.0
+What is an access control list and how does it work as a countermeasure in...,1.0,0.0,0.0,0.0,0.0
+What is a data warehouse and what are its key characteristics?,1.0,0.0,0.0,0.0,0.0
+...des are assigned to locations on a ring in a random manner?,0.0,0.0,0.0,1.0,0.0
+What is the process of gradient descent and how does it find the minimum of a funct...,1.0,0.0,0.0,0.0,0.0
+What is an SQL Injection Attack and how can it be used to delete a table in...,1.0,0.0,0.0,0.0,0.0
+... of leadership discussed in this section and what are their key characteristics?,1.0,0.0,0.0,0.0,0.0
+What is an SQL Injection Attack and how does it work?,1.0,0.0,0.0,0.0,0.0
+What is latent semantic analysis and how does it use SVD in information retr...,1.0,0.0,0.0,0.0,0.0
+What are the two modes of IPsec and how do they differ in terms of header a...,1.0,0.0,0.0,0.0,0.0
+What are language models and what do they capture?,1.0,0.0,0.0,0.0,0.0
+What is one-hot encoding and how is it used for categorical features...,1.0,0.0,0.0,0.0,0.0
+What are epidemic protocols and how do they work in a peer-to-peer netw...,1.0,0.0,0.0,0.0,0.0
+What is HMAC and how is it used in TLS?,1.0,0.0,0.0,0.0,0.0
+...hat is a distributive aggregate function and what are its characteristics?,1.0,0.0,0.0,0.0,0.0
+What is multitasking and how does the operating system simulate ...,1.0,0.0,0.0,0.0,0.0
+What is the Each Choice (EC) criterion in software testi...,0.0,0.0,1.0,0.0,0.0
+... the target function in machine learning and what is its purpose?,1.0,0.0,0.0,0.0,0.0
+What is locality sensitive hashing and how does it relate to dimensionality re...,1.0,0.0,0.0,0.0,0.0
+What is Porter's algorithm and how does it work in English stemming?,1.0,0.0,0.0,0.0,0.0
+What are conjugate priors and why are they convenient to use in Bayes...,1.0,0.0,0.0,0.0,0.0
+What is Fiedler's contingency model and how does it explain effective leadershi...,1.0,0.0,0.0,0.0,0.0
+What is log mining and why is it important in the field of dat...,1.0,0.0,0.0,0.0,0.0
+What is log mining and why is it important in the field of com...,2.0,0.0,0.0,0.0,0.0
+What is an equi-width histogram and how is it used to partition data?,1.0,0.0,0.0,0.0,0.0
+...the key components of consistent hashing and what are the challenges associated with...,1.0,0.0,0.0,0.0,0.0
+...s the definition of the network diameter and how is it calculated?,1.0,0.0,0.0,0.0,0.0
+... characteristics and limitations of the round robin data distribution method?,0.0,0.0,0.0,0.0,1.0
+What is the Rocchio algorithm and how does it relate to relevance feedbac...,1.0,0.0,0.0,0.0,0.0
+"What is the concept of Big Data and why is it important from philosophical,...",1.0,0.0,0.0,0.0,0.0
+...t is the definition of joint probability and how is it calculated for two events A a...,1.0,0.0,0.0,0.0,0.0
+...he maximum a posteriori (MAP) estimation and how is it calculated?,1.0,0.0,0.0,0.0,0.0
+... the process of pre-clustering documents and how does it involve selecting leaders a...,1.0,0.0,0.0,0.0,0.0
+What is session hijacking and how can it be countered?,1.0,0.0,0.0,0.0,0.0
+...ons of machine learning in organizations and how does it affect the evaluation and a...,1.0,0.0,0.0,0.0,0.0
+What are networks and how do they provide a structural repres...,1.0,0.0,0.0,0.0,0.0
+What is the concept of data locality and how does it relate to reducing network ...,1.0,0.0,0.0,0.0,0.0
+What is the current usage of Hadoop and how has it evolved over time?,1.0,0.0,0.0,0.0,0.0
+What are some of the grammar coverage criteria used in softw...,0.0,0.0,0.0,1.0,0.0
+What is integer under-/overflow and why is it important to take precautions...,1.0,0.0,0.0,0.0,0.0
+What is the Meltdown Attack and how does it work?,1.0,0.0,0.0,0.0,0.0
+What is Bayes' Rule and how does it update probabilities based ...,1.0,0.0,0.0,0.0,0.0
+...e process of continuous gradient descent and how does it help find the minimum of a ...,1.0,0.0,0.0,0.0,0.0
+...What is the concept of laziness in Spark and how does it affect the computation of t...,1.0,0.0,0.0,0.0,0.0
+What is an action in Spark RDDs and what is its purpose?,1.0,0.0,0.0,0.0,0.0
+"...g skips in a term index, and when is it recommended to use it?",0.0,0.0,1.0,0.0,0.0
+... relevant languages for web applications and what are their main purposes?,1.0,0.0,0.0,0.0,0.0
+...What is a joint probability distribution and how is it defined?,1.0,0.0,0.0,0.0,0.0
+What are gradient-based methods and how do they differ in terms of the info...,1.0,0.0,0.0,0.0,0.0
+What is the Path-goal theory matrix and how does it relate to leadership?,1.0,0.0,0.0,0.0,0.0
+What is Dynamic DNS and how does it differ from regular DNS?,1.0,0.0,0.0,0.0,0.0
+...he popular method for K-means clustering and what are the steps involved in this alg...,1.0,0.0,0.0,0.0,0.0
+...ching protocols discussed in the content and how do they differ in terms of function...,1.0,0.0,0.0,0.0,0.0
+What is externally regulated behavior and how does it differ from intrinsically m...,1.0,0.0,0.0,0.0,0.0
+...dea behind approximate cosine similarity and how does it reduce the length of vector...,1.0,0.0,0.0,0.0,0.0
+... is Base Choice (BC) in software testing and how is it used to form base tests?,1.0,0.0,0.0,0.0,0.0
+What is click fraud and how does it impact online advertisers?,1.0,0.0,0.0,0.0,0.0

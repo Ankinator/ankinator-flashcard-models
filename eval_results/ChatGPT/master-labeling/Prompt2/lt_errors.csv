@@ -1,0 +1,105 @@
+,PUNCTUATION,REDUNDANCY,TYPOGRAPHY,GRAMMAR,MISC,COLLOCATIONS
+What is pretexting and how can attackers use it to deceive the...,1.0,0.0,0.0,0.0,0.0,0.0
+... with transactive memory in large groups and how can they be addressed?,1.0,0.0,0.0,0.0,0.0,0.0
+What is the Dirichlet distribution and how is it used to parametrize the multi...,1.0,0.0,0.0,0.0,0.0,0.0
+What is a race condition attack and how can an attacker exploit it to carry...,1.0,0.0,0.0,0.0,0.0,0.0
+What is the multinomial distribution and how can we estimate the parameter θ fro...,1.0,0.0,0.0,0.0,0.0,0.0
+...the two interpretations of probabilities and how do they differ?,1.0,0.0,0.0,0.0,0.0,0.0
+...s involved in parallel/distributed joins and what are the possible outputs?,1.0,0.0,0.0,0.0,0.0,0.0
+...t is an approximate matrix decomposition and why is it important?,1.0,0.0,0.0,0.0,0.0,0.0
+...or making decisions repeatedly over time and how is it represented in decision suppo...,1.0,0.0,0.0,0.0,0.0,0.0
+What is a FilteredRDD and how does it correspond to the filter tr...,1.0,0.0,0.0,0.0,0.0,0.0
+What is classification and how is it related to artificial intelli...,1.0,0.0,0.0,0.0,0.0,0.0
+What is the binary independence model and how is it applied in the given example?...,1.0,0.0,0.0,0.0,0.0,0.0
+...hat is the concept of the Leadership Gap and how does it impact organizations?,1.0,0.0,0.0,0.0,0.0,0.0
+"...le of ""Ba"" in the knowledge spiral model and why is its design important for knowled...",1.0,0.0,0.0,0.0,0.0,0.0
+...finition of the cosine similarity kernel and what is it commonly used for?,1.0,0.0,0.0,0.0,0.0,0.0
+What is a social engineering attack and how does it exploit the human trust fac...,1.0,0.0,0.0,0.0,0.0,0.0
+... stragglers in a task completion process and what is the additional cost associated ...,1.0,0.0,0.0,0.0,0.0,0.0
+What is a reduce-side join and how does it work in Hadoop?,1.0,0.0,0.0,0.0,0.0,0.0
+What is Newton's method and how does it differ from gradient descen...,1.0,0.0,0.0,0.0,0.0,0.0
+...the feature map of the polynomial kernel and how does it relate to the dimensionalit...,1.0,0.0,0.0,0.0,0.0,0.0
+What is Katz Centrality and how does it differ from Eigenvector Cen...,1.0,0.0,0.0,0.0,0.0,0.0
+What is Bayes' rule and how is it derived from the product rule...,1.0,0.0,0.0,0.0,0.0,0.0
+...l of theories of organizational learning and how do they approach the management of ...,1.0,0.0,0.0,0.0,0.0,0.0
+What is empirical risk minimization and how is it used in supervised learning?,1.0,0.0,0.0,0.0,0.0,0.0
+What is DOM-based XSS and how does it occur?,1.0,0.0,0.0,0.0,0.0,0.0
+...ise ranking approach in learning to rank and what are the advantages and issues asso...,1.0,0.0,0.0,0.0,0.0,0.0
+...s by which nodes are assigned to a ring in a random manner?,0.0,1.0,0.0,0.0,0.0,0.0
+What is the process of gradient descent and how does it approximate CGD?,1.0,0.0,0.0,0.0,0.0,0.0
+...retrieval model in information retrieval and how does it work?,1.0,0.0,0.0,0.0,0.0,0.0
+... `SELECT * FROM UserList WHERE UserList.Username = 'Bob' AND UserList.Password = '1234' ...,0.0,0.0,1.0,0.0,0.0,0.0
+... UserList.Username = 'Bob' AND UserList.Password = '1234' OR '1' = '1'` with the inputs ...,0.0,0.0,1.0,0.0,0.0,0.0
+...with the inputs `Bob` and `1234' OR '1'='1` in the context of SQL Injection Attac...,1.0,0.0,0.0,0.0,0.0,0.0
+What are the two modes of IPsec and how do they differ in terms of header a...,1.0,0.0,0.0,0.0,0.0,0.0
+...the Continuous Bag-of-Words (CBOW) model and how are they represented?,1.0,0.0,0.0,0.0,0.0,0.0
+What are language models and what do they capture?,1.0,0.0,0.0,0.0,0.0,0.0
+...nerabilities and Exposures (CVE) program and when was it launched?,1.0,0.0,0.0,0.0,0.0,0.0
+What are epidemic protocols and how do they work in a peer-to-peer netw...,1.0,0.0,0.0,0.0,0.0,0.0
+What is HMAC and how is it used in TLS?,1.0,0.0,0.0,0.0,0.0,0.0
+...hat are distributive aggregate functions and what are their characteristics?,1.0,0.0,0.0,0.0,0.0,0.0
+What is multitasking and how does the operating system simulate ...,1.0,0.0,0.0,0.0,0.0,0.0
+...he incidence matrix in Boolean retrieval and how can it be used to answer queries li...,1.0,0.0,0.0,0.0,0.0,0.0
+What is locality sensitive hashing and how does it relate to dimensionality re...,1.0,0.0,0.0,0.0,0.0,0.0
+...he aim of probabilistic retrieval models and how do they formalize the question of r...,1.0,0.0,0.0,0.0,0.0,0.0
+What is Porter's algorithm and how does it work in English stemming?,1.0,0.0,0.0,0.0,0.0,0.0
+What are some of the risks associated with knowledge retenti...,0.0,1.0,0.0,0.0,0.0,0.0
+What are conjugate priors and why are they convenient to use in Bayes...,1.0,0.0,0.0,0.0,0.0,0.0
+...of generative models in machine learning and how can they be used to generate data?,1.0,0.0,0.0,0.0,0.0,0.0
+...in machine learning and how can they be used to generate data?,0.0,0.0,0.0,1.0,0.0,0.0
+What is Fiedler's contingency model and how does it suggest that effective lead...,1.0,0.0,0.0,0.0,0.0,0.0
+...s the definition of the network diameter and how is it calculated?,1.0,0.0,0.0,0.0,0.0,0.0
+...vantages and disadvantages of using the round robin method for data distribution in a datab...,0.0,0.0,0.0,0.0,1.0,0.0
+...hallenges in generating secure passwords and how can we ensure that they are both se...,1.0,0.0,0.0,0.0,0.0,0.0
+... is the chain rule in probability theory and how does it allow us to write the joint...,1.0,0.0,0.0,0.0,0.0,0.0
+... the maximum a posteriori (MAP) estimate and how is it calculated in the context of ...,1.0,0.0,0.0,0.0,0.0,0.0
+...enting machine learning in organizations and how does it affect the role of human ex...,1.0,0.0,0.0,0.0,0.0,0.0
+What are networks and how do they provide a structural repres...,1.0,0.0,0.0,0.0,0.0,0.0
+What are some of the auxiliary specification artifacts in so...,0.0,1.0,0.0,0.0,0.0,0.0
+What is the current usage of Hadoop and how has it evolved from being just a Ma...,1.0,0.0,0.0,0.0,0.0,0.0
+...with numerical values and the result is outside of the range that can be expressed by the ...,0.0,1.0,0.0,0.0,0.0,0.0
+...at is the purpose of the Meltdown attack and how does it exploit modern CPUs?,1.0,0.0,0.0,0.0,0.0,0.0
+...ge presented by the two-generals problem and how do the red and blue armies attempt ...,1.0,0.0,0.0,0.0,0.0,0.0
+What is Bayes' Rule and how does it update probabilities based ...,1.0,0.0,0.0,0.0,0.0,0.0
+...e process of continuous gradient descent and how does it help in finding the minimum...,1.0,0.0,0.0,0.0,0.0,0.0
+"...k?  ``` sc.textFile(""hdfs://data.txt"") \ .flatMap(_.split("" "")).map((_, 1)) \ .red...",0.0,0.0,1.0,0.0,0.0,0.0
+"...) \ .flatMap(_.split("" "")).map((_, 1)) \ .reduceByKey(_ + _) ```  Please explain t...",0.0,0.0,1.0,0.0,0.0,0.0
+...he concept of fragmentation transparency and how does it affect queries placed again...,1.0,0.0,0.0,0.0,0.0,0.0
+... relevant languages for web applications and what are their respective purposes?,1.0,0.0,0.0,0.0,0.0,0.0
+What is the bias-variance decomposition and how does it relate to the tradeoff betw...,1.0,0.0,0.0,0.0,0.0,0.0
+...What is a joint probability distribution and how is it defined?,1.0,0.0,0.0,0.0,0.0,0.0
+... is the foundation of any data exchange in the Internet and which layer of the TCP/IP model doe...,0.0,0.0,0.0,0.0,0.0,1.0
+...ion of any data exchange in the Internet and which layer of the TCP/IP model does it...,1.0,0.0,0.0,0.0,0.0,0.0
+...he popular method for K-means clustering and what are the steps involved in this met...,1.0,0.0,0.0,0.0,0.0,0.0
+...hat was the initial abbreviation for Tor and what is its goal?,1.0,0.0,0.0,0.0,0.0,0.0
+"...g code?  ```ruby Counting words: Map 16 { “one” => 1, “ring” => 1, “to” => 1, “rul...",0.0,0.0,1.0,0.0,0.0,0.0
+"... ```ruby Counting words: Map 16 { “one” => 1, “ring” => 1, “to” => 1, “rule” => 1,...",0.0,0.0,1.0,0.0,0.0,0.0
+"...ting words: Map 16 { “one” => 1, “ring” => 1, “to” => 1, “rule” => 1, “them” => 1,...",0.0,0.0,1.0,0.0,0.0,0.0
+"... Map 16 { “one” => 1, “ring” => 1, “to” => 1, “rule” => 1, “them” => 1, “all” => 1...",0.0,0.0,1.0,0.0,0.0,0.0
+"...e” => 1, “ring” => 1, “to” => 1, “rule” => 1, “them” => 1, “all” => 1, “one” => 1,...",0.0,0.0,1.0,0.0,0.0,0.0
+"...g” => 1, “to” => 1, “rule” => 1, “them” => 1, “all” => 1, “one” => 1, “ring” => 1,...",0.0,0.0,1.0,0.0,0.0,0.0
+"...” => 1, “rule” => 1, “them” => 1, “all” => 1, “one” => 1, “ring” => 1, “to” => 1, ...",0.0,0.0,1.0,0.0,0.0,0.0
+"...e” => 1, “them” => 1, “all” => 1, “one” => 1, “ring” => 1, “to” => 1, “find” => 1,...",0.0,0.0,1.0,0.0,0.0,0.0
+"...m” => 1, “all” => 1, “one” => 1, “ring” => 1, “to” => 1, “find” => 1, “them” => 1 ...",0.0,0.0,1.0,0.0,0.0,0.0
+"...ll” => 1, “one” => 1, “ring” => 1, “to” => 1, “find” => 1, “them” => 1 } { “one” =...",0.0,0.0,1.0,0.0,0.0,0.0
+"...e” => 1, “ring” => 1, “to” => 1, “find” => 1, “them” => 1 } { “one” => 1, “ring” =...",0.0,0.0,1.0,0.0,0.0,0.0
+"...g” => 1, “to” => 1, “find” => 1, “them” => 1 } { “one” => 1, “ring” => 1, “to” => ...",0.0,0.0,1.0,0.0,0.0,0.0
+"...> 1, “to” => 1, “find” => 1, “them” => 1 } { “one” => 1, “ring” => 1, “to” => 1, “...",0.0,0.0,1.0,0.0,0.0,0.0
+"..., “to” => 1, “find” => 1, “them” => 1 } { “one” => 1, “ring” => 1, “to” => 1, “bri...",0.0,0.0,1.0,0.0,0.0,0.0
+"...> 1, “find” => 1, “them” => 1 } { “one” => 1, “ring” => 1, “to” => 1, “bring”=> 1,...",0.0,0.0,1.0,0.0,0.0,0.0
+"...> 1, “them” => 1 } { “one” => 1, “ring” => 1, “to” => 1, “bring”=> 1, “them” => 1,...",0.0,0.0,1.0,0.0,0.0,0.0
+"... => 1 } { “one” => 1, “ring” => 1, “to” => 1, “bring”=> 1, “them” => 1, “all” => 1...",0.0,0.0,1.0,0.0,0.0,0.0
+"...e” => 1, “ring” => 1, “to” => 1, “bring”=> 1, “them” => 1, “all” => 1, “and” => 1,...",0.0,0.0,1.0,0.0,0.0,0.0
+"...g” => 1, “to” => 1, “bring”=> 1, “them” => 1, “all” => 1, “and” => 1, “in” => 1, “...",0.0,0.0,1.0,0.0,0.0,0.0
+"...” => 1, “bring”=> 1, “them” => 1, “all” => 1, “and” => 1, “in” => 1, “the” => 1, “...",0.0,0.0,1.0,0.0,0.0,0.0
+"...ng”=> 1, “them” => 1, “all” => 1, “and” => 1, “in” => 1, “the” => 1, “darkness” =>...",0.0,0.0,1.0,0.0,0.0,0.0
+"...hem” => 1, “all” => 1, “and” => 1, “in” => 1, “the” => 1, “darkness” => 1, “bind” ...",0.0,0.0,1.0,0.0,0.0,0.0
+"...all” => 1, “and” => 1, “in” => 1, “the” => 1, “darkness” => 1, “bind” => 1,  “them...",0.0,0.0,1.0,0.0,0.0,0.0
+"...=> 1, “in” => 1, “the” => 1, “darkness” => 1, “bind” => 1,  “them” => 1 } Line 1 L...",0.0,0.0,1.0,0.0,0.0,0.0
+"... 1, “the” => 1, “darkness” => 1, “bind” => 1,  “them” => 1 } Line 1 Line 2 Input (...",0.0,0.0,1.0,0.0,0.0,0.0
+"..., “darkness” => 1, “bind” => 1,  “them” => 1 } Line 1 Line 2 Input (1, “One ring t...",0.0,0.0,1.0,0.0,0.0,0.0
+"...arkness” => 1, “bind” => 1,  “them” => 1 } Line 1 Line 2 Input (1, “One ring to ru...",0.0,0.0,1.0,0.0,0.0,0.0
+What is externally regulated behavior and how does it differ from intrinsically m...,1.0,0.0,0.0,0.0,0.0,0.0
+...Base Choice Coverage in software testing and how is it used to form test cases?,1.0,0.0,0.0,0.0,0.0,0.0
+What is click fraud and how does it impact online advertisers?,1.0,0.0,0.0,0.0,0.0,0.0
+...ns did Dave take to resolve the conflict and what is the resulting value of the vclo...,1.0,0.0,0.0,0.0,0.0,0.0
