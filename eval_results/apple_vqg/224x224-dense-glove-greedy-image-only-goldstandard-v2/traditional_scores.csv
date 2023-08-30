@@ -1,0 +1,459 @@
+model_out,reference,max_p,max_r,max_f1
+['what'],['how can words be counted with mapreduce'],0,0.0,0
+[''],"['describe the rdd workflow', 'how does the rdd workflow look like']",0,0.0,0
+['the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the'],['what are key aspects and differences of the kindergarten report card and the performance appraisal'],0,0.0,0
+[''],['what are the communication costs for semi join filtering'],0,0.0,0
+[''],"['what is a merkle tree', 'why is the merkle tree used in distributed systems']",0,0.0,0
+[''],"['what is the large margin principle', 'what is the goal behind large margin principle']",0,0.0,0
+[''],['what are the three main challenges of the bitcoin network'],0,0.0,0
+[''],"['explain pointwise learning to rank', 'what are the issues with pointwise learning to rank']",0,0.0,0
+['the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the'],['which differences exist between genders men and women in leadership effectiveness'],0,0.0,0
+[''],['what are examples of notable xss attacks'],0,0.0,0
+[''],['how is the inverse document frequency computed'],0,0.0,0
+['what what'],['what are the big data viewpoints'],0,0.0,0
+[''],['how can bitcoin network check authenticity of transaction'],0,0.0,0
+[''],['why should specifications be augmented with tests'],0,0.0,0
+[''],['explain empirical risk minimisation'],0,0.0,0
+[''],['how is the log likelihood defined for discriminative models'],0,0.0,0
+[''],"['can you explain the language bowl metaphor', 'explain the language bowl metaphor']",0,0.0,0
+['what the the'],['which are the key differences of cops versus teams'],0,0.0,0
+['what the the'],['how is the difficulty of the goals related to performance'],0,0.0,0
+[''],['describe erdo ̋s–re ́nyi model'],0,0.0,0
+['what what what what what'],['what are the assumptions of k means clustering'],0,0.0,0
+[''],['what is the idea of joins with filtering'],0,0.0,0
+[''],['what intradiagram consistency rules exist'],0,0.0,0
+['what'],['what is an example for an sql injection attack'],0,0.0,0
+[''],['how to construct a bayesian networks by building a diagnostic model'],0,0.0,0
+['what'],['what are the research questions used by becerrafernandez sabherwal 2001'],0,0.0,0
+[''],['why should posting sites be sorted'],0,0.0,0
+[''],['what is the idea of smoothing in sequential processes'],0,0.0,0
+['what what what the the the the the the the the the the the the the the the what what what what what what what what what what what what what what what'],['which are relevant factors for explaining the leadership gap'],0,0.0,0
+[''],['what is an example for a heap overflow attack'],0,0.0,0
+['what'],['what security is achieved with vpn'],0,0.0,0
+[''],"['what is the maximum number of links a network can have', 'what makes a graph complete']",0,0.0,0
+['what'],['what is the property rule'],0,0.0,0
+['what'],"['how can leaders increase followers motivation according to house and mitchel', 'how does pathgoal leadership realize it']",0,0.0,0
+['what what what what what what what what what what what what what what what what what what what what what what what what what what what what what what what what what'],['what is the definition of authenticity and what is a example attack and security solution for it'],0,0.0,0
+[''],['which steps are necessary to answer a boolean query with the help of the incidence matrix'],0,0.0,0
+[''],['how can mapreduce be used for iterative computations'],0,0.0,0
+['the the the'],['what are the different measures to calculate importance of nodes'],0,0.0,0
+['the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the'],['what characteristics does kane alavis 2007 design approach focus on'],0,0.0,0
+['the the the the the the the the'],"['why should knowledge be stored', 'what are the risks to knowledge retention']",0,0.0,0
+[''],['what are the factors influencing the components of the skills model'],0,0.0,0
+[''],"['what are random variables', 'define a random variable']",0,0.0,0
+[''],['how is the quality of documents determined'],0,0.0,0
+['what what what'],['what is a access matrix'],0,0.0,0
+[''],['how does type 1 of ransomware encryption of data work'],0,0.0,0
+['what'],['give an example of how range partitioning is used to create fragments for a table'],0,0.0,0
+[''],"['what is knowledge management from a knowledge work perspective according to lebovitz et al 2022', 'what is the role of information technology for knowledge work according to lebovitz et al 2022', 'what changes with ai according to lebovitz et al 2022']",0,0.0,0
+[''],['how does a simple cost model for allocation look like'],0,0.0,0
+['what what'],['how can an example for ontology look like in the financial services industry'],0,0.0,0
+['what'],['which views of a data cube can be used for different organizational roles'],0,0.0,0
+[''],['how is a distributed computation performed with aggregate functions'],0,0.0,0
+['what the the'],['what is the definition of a dms and what are the key functionalities in both the narrower and broader sense'],0,0.0,0
+[''],['what is the idea of approximate cosine similarity'],0,0.0,0
+['what'],['are there differences between genders in leadership effectiveness'],0,0.0,0
+[''],['which three components are implemented by each information retrieval system'],0,0.0,0
+['what what what'],['how it the procedure of a vpn'],0,0.0,0
+['what what'],['what are the relevant development languages for web applications'],0,0.0,0
+[''],"['what is the dirichlet distribution', 'explain the dirichlet distribution']",0,0.0,0
+[''],['what is the role of a component realization'],0,0.0,0
+[''],['explain logistic regression'],0,0.0,0
+['the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the'],"['what are strengths and criticisms of the skills approach', 'how can the skills approach be applied in practice']",0,0.0,0
+[''],['how can histograms be used to select a partitioning vector'],0,0.0,0
+['what'],['how to protect against ransomware type 1 attack encryption of data'],0,0.0,0
+[''],['how does a setup with eventual consistency look like'],0,0.0,0
+['what the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the'],"['what is a data warehouse dw', 'what is business intelligence bi']",0,0.0,0
+[''],"['what is a stationary policy', 'what is an optimal policy']",0,0.0,0
+[''],"['what is a set of random variables in probabilistic retrieval', 'how is the relevance judgment defined']",0,0.0,0
+[''],['what is an example for an sql injection attack'],0,0.0,0
+['what'],['what are the main differences between declarative and procedural knowledge'],0,0.0,0
+[''],['when does the exchange phase become difficult'],0,0.0,0
+['what what what what'],['how do motivational and individual factors influence the volume of contributions'],0,0.0,0
+['what'],['what are the layers of the tcpip model'],0,0.0,0
+[''],['what is markov chain monte carlo'],0,0.0,0
+['the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the'],['what are ko et als definitions for the three communication factors and the four motivational factors'],0,0.0,0
+[''],"['what are index terms', 'how are index terms structured']",0,0.0,0
+['what'],['what does the feature map of polynomial kernel contain'],0,0.0,0
+['what'],['what is a problem of the rainbow table approach and how is it solved'],0,0.0,0
+['what the'],['which impact has km on the employees'],0,0.0,0
+[''],['what is a policy'],0,0.0,0
+[''],"['what does a physical dataflow look like', 'what are the steps in a physical dataflow']",0,0.0,0
+[''],['what does a query tree with derived horizontal fragmentation and empty join elimination look like'],0,0.0,0
+[''],['what is counter mode'],0,0.0,0
+[''],"['how are vector clocks compared', 'when is one vector clock before the other']",0,0.0,0
+['how'],['how is the result obtained in spark'],0,0.0,0
+[''],['what is dns hijacking'],0,0.0,0
+['what'],['how is the attacker model and what are possible attacks on hashed passwords on a server'],0,0.0,0
+[''],['what are support vector machines'],0,0.0,0
+[''],"['define the theory of rational decisions', 'when is an agent rational']",0,0.0,0
+[''],['how can different indexing strategies be combined'],0,0.0,0
+[''],['how does latent semantic analysis use svd'],0,0.0,0
+[''],['when are two random variables independent'],0,0.0,0
+[''],"['differentiate between walk chain trail and path', 'what is a cycle and closed loop']",0,0.0,0
+['what'],['what is an example for a heap overflow attack'],0,0.0,0
+[''],"['what does the term bug mean', 'why should the term bug be avoided']",0,0.0,0
+[''],['what is an examples of a csrf attack'],0,0.0,0
+[''],['how would an offline attack on stored hashed values of passwords on a server look like'],0,0.0,0
+[''],"['what are gaussian mixture models', 'how can gmm be viewed as soft clustering variant of k means']",0,0.0,0
+[''],['what are possible goals of xss'],0,0.0,0
+[''],"['explain supervised and unsupervised machine learning', 'which two types of machine learning exist']",0,0.0,0
+[''],['define acyclic network'],0,0.0,0
+['what the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the'],['what extent of skills of the threeskill approach do you need for the various management levels top middle supervisory'],0,0.0,0
+[''],['what is the collection frequency'],0,0.0,0
+[''],"['how is the complete cost function to find an allocation schema defined', 'why is the total cost function overly simplified']",0,0.0,0
+['what'],['define kcore centrality'],0,0.0,0
+['what'],['define adjacency matrix'],0,0.0,0
+['what'],['what is a click fraud attack'],0,0.0,0
+[''],['what is the sum rule'],0,0.0,0
+['the the the the the the the the the the'],['what characteristics do hansen et al 1999 focus on'],0,0.0,0
+['what the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the'],"['how is the situational approach described', 'what is the leadership style and how is it related to the situational approach', 'what are the different leadership styles of the slii approach and how are they expressed by the leader']",0,0.0,0
+['what'],['what are header fields of an email'],0,0.0,0
+[''],['what is conjugate prior'],0,0.0,0
+['what the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the'],['which main questions are investigated by sturm et al 2022'],0,0.0,0
+[''],['describe leskovec and horvitz study'],0,0.0,0
+[''],['describe gaussian distribution'],0,0.0,0
+[''],"['define diameter', 'write expressions for average distance']",0,0.0,0
+[''],['what are the four phases of knowledge transfer and what are their key tasks'],0,0.0,0
+['what'],['does the gender of the leader affect their leadership style'],0,0.0,0
+[''],['describe k means clustering'],0,0.0,0
+['what what what what what'],['what is the intuition of differential privacy'],0,0.0,0
+[''],"['why do we introduce a discount factor', 'how is utility defined with a discount factor']",0,0.0,0
+[''],['describe sparsity via l0 regularization'],0,0.0,0
+[''],['what is crc'],0,0.0,0
+['what'],"['why does transactive memory not work in large groups', 'how to solve this problem']",0,0.0,0
+['what'],['what does the internal dataflow representation of a spark program look like'],0,0.0,0
+[''],['how can a vpn be realized'],0,0.0,0
+['the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the'],['what is the focus of wasko farajs 2005 studies'],0,0.0,0
+[''],['how to use the flatmap function'],0,0.0,0
+[''],['describe multivariate gaussian distribution'],0,0.0,0
+[''],['what are the eight main functionalities of text mining discussed in the lecture'],0,0.0,0
+['the'],['what are the problems of knowledge internalization'],0,0.0,0
+['what'],['what is session hijacking and what are countermeasures'],0,0.0,0
+[''],['what is an examples of a csrf attack'],0,0.0,0
+['what'],['how does rsa work'],0,0.0,0
+['what what'],['do the appropriation factors for bac require media synchronicity'],0,0.0,0
+[''],"['explain the spark runtime architecture', 'what is the structure of spark architecture']",0,0.0,0
+[''],['how is the icv calculated in the ah protocol in transport mode'],0,0.0,0
+[''],['why is the transfer of implicit knowledge becoming more difficult with an increasing degree of diffusion'],0,0.0,0
+[''],['what is an examples of a csrf attack'],0,0.0,0
+[''],['what is the terminology to represent preferences'],0,0.0,0
+[''],['how are input and output defined for parallel joins'],0,0.0,0
+[''],['how are infeasible test requirements handled in logic coverage criteria'],0,0.0,0
+[''],['how can spark be understood as a dataflow engine'],0,0.0,0
+[''],"['what are the steps of the rocchio algorithm', 'explain the rocchio algorithm']",0,0.0,0
+[''],['when is the merge of posting lists performed fastest'],0,0.0,0
+[''],['what are drawbacks of access matrixes'],0,0.0,0
+[''],['compare erdo ̋s–re ́nyi model and configuration model'],0,0.0,0
+['what'],['what are primitive data values what is the relationship to integer underoverflow attacks'],0,0.0,0
+[''],['explain empirical risk minimization'],0,0.0,0
+[''],['why arent self loops and multi edges a problem in random matching'],0,0.0,0
+['what'],['how does shared key authentication work'],0,0.0,0
+[''],['why is big data difficult to handle'],0,0.0,0
+['what'],['how does the expectancy theory vie theory vroom 1964 describe the creation of motivation and what is the motivational potential'],0,0.0,0
+['what'],['how are word counts computed in the mapreduce reduce phase'],0,0.0,0
+['what'],['what is the eu cookie directive'],0,0.0,0
+[''],"['how are tests and test paths denoted and what does syntacticsemantic reach mean', 'what is syntacticsemantic reach', 'how are tests and test paths denoted']",0,0.0,0
+['what what'],['what is multitasking and how does it work'],0,0.0,0
+[''],['what are race condition attacks'],0,0.0,0
+[''],"['why can mapreduce be interpreted as a dataflow', 'how is mapreduce generalized by dataflow engines']",0,0.0,0
+[''],['do you know some hadoop related projects'],0,0.0,0
+[''],['describe second order taylor polynomial multivariate case'],0,0.0,0
+[''],['what are alternative ways of weighting to rank documents'],0,0.0,0
+[''],['what are constraints among characteristics and how are they handled'],0,0.0,0
+['what what'],['describe the methodology of gradient descent'],0,0.0,0
+[''],['how do conveyance and convergence differ'],0,0.0,0
+[''],['describe sparsity via l1 regularization'],0,0.0,0
+[''],['what are famous examples for gdpr fines'],0,0.0,0
+[''],['describe the relationship between svd and linear regression'],0,0.0,0
+[''],['what is the concept of critical data'],0,0.0,0
+['what what what'],['what are the two modes of ipsec'],0,0.0,0
+[''],['what does the eckart young theorem say'],0,0.0,0
+[''],['what are the challenges in defining a learning algorithm'],0,0.0,0
+['the the the the'],['which categories of contingency factors exist'],0,0.0,0
+['what what what what what what what what what what what what what what what what what what what what what what what what what what what what what what what what what'],['what is the parameter 𝜖 and the composition theorem'],0,0.0,0
+[''],['what is the idea of latent and semantic information retrieval'],0,0.0,0
+['the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the'],['according to the matrix of pathgoal theory what leadership behaviors need to be applied in different settings depending on group members and task characteristics'],0,0.0,0
+[''],['what is shared key authentication'],0,0.0,0
+[''],"['explain the generative process of a language model', 'how does the generative process of a language model work']",0,0.0,0
+[''],['how is relevance usually expressed in information retrieval models'],0,0.0,0
+[''],['when is a map and when is a reduce program used'],0,0.0,0
+[''],"['what is the definition of verification and validation and how do they differ', 'what are the two principle objectives of vv']",0,0.0,0
+[''],['how is base choice coverage defined'],0,0.0,0
+['what'],['how to use sgd for logistic regression'],0,0.0,0
+[''],['how is correctness ensured in horizontal fragmentation'],0,0.0,0
+[''],['how is the ambiguity in acc handled'],0,0.0,0
+[''],"['what is the simplest way to compute a thesaurus', 'what is the cooccurrence thesaurus', 'how is the cooccurrence thesaurus constructed']",0,0.0,0
+['what the the the'],['what are the key aspects of cops maturity phase engaged in terms of people behavior process support and enabling technology'],0,0.0,0
+[''],['how exactly can integrity be attacked when crc is used wep'],0,0.0,0
+['what what'],['what is http'],0,0.0,0
+[''],['how do code injection attacks work'],0,0.0,0
+[''],['describe newtons method multivariate case'],0,0.0,0
+[''],['how is the formal definition of bnf'],0,0.0,0
+[''],['can you give an example for the binary independence model with relevance judgements'],0,0.0,0
+[''],['what goal has stage3 exploitation and what are possible tools'],0,0.0,0
+[''],['what are the goals for distributed transactions'],0,0.0,0
+[''],['what is the bayes rule'],0,0.0,0
+[''],['how can a tls connection be checked'],0,0.0,0
+['what the the the'],['what is the cyber ba and which technology is used'],0,0.0,0
+['the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the'],['which leader behaviors are described by the pathgoal theory and how'],0,0.0,0
+['what'],['how are word counts computed in the mapreduce reduce phase'],0,0.0,0
+[''],['explain the lloyds algorithm for k means'],0,0.0,0
+['what what'],['what are the main differences between explicit and tacit knowledge'],0,0.0,0
+[''],['what are simple paths and prime paths'],0,0.0,0
+[''],['why do we need information value theory'],0,0.0,0
+[''],['what is pretexting'],0,0.0,0
+[''],['how does the categorization functionality in text mining work and what are the key elements involved in the process'],0,0.0,0
+['what'],['how is range partitioning used to distribute data'],0,0.0,0
+[''],"['what are four fundamental subspaces', 'how to obtain bases for subspaces from svd']",0,0.0,0
+[''],['how are convolutional neural networks trained'],0,0.0,0
+[''],['how to compute the robustness of protocols for replication transparency'],0,0.0,0
+['what'],['what are countermeasures against csrf attacks'],0,0.0,0
+['what what what what what what what what what what what what what what what what what what what what what what what what what what what what what what what what what'],['what is a processing attack'],0,0.0,0
+['what'],['how is fragmentation transparency defined'],0,0.0,0
+[''],['how are matrix decompositions approximated'],0,0.0,0
+[''],"['what is a custom partitioner', 'what is a custom key comparator']",0,0.0,0
+['what'],['what are general advices regarding potentially harmful emails'],0,0.0,0
+['what the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the'],['which motivation theories exist and how are they categorized'],0,0.0,0
+['what what what what what'],['which components are generally contained in a process model of a text mining application'],0,0.0,0
+[''],['what can perceptron learn'],0,0.0,0
+[''],['how does parallel range partitioning sort work'],0,0.0,0
+['what'],['why do we need secure passwords and what are the challenges'],0,0.0,0
+['what the the the the the the the the the'],['what are the problems of knowledge integration'],0,0.0,0
+[''],['what is the probability that the generated model will have m links'],0,0.0,0
+['what'],['what is the tcpip model'],0,0.0,0
+['what'],['what are alternatives for key servers'],0,0.0,0
+[''],['how is bayes rule defined'],0,0.0,0
+[''],['what is the basic email architecture'],0,0.0,0
+['what'],['what is the relation between entropy and security'],0,0.0,0
+[''],['which method did lebovitz et al 2022 use'],0,0.0,0
+[''],"['why do we need models', 'what can the models be used for']",0,0.0,0
+[''],"['define the scope of a leaf node n', 'define the scope of an inner node n', 'define the scope of s']",0,0.0,0
+[''],['describe map with gaussian prior'],0,0.0,0
+['what'],['what are possible approaches to define anonymity'],0,0.0,0
+[''],['what is an example for a prime and probe attack'],0,0.0,0
+[''],['what is the relationship between bernoulli model and odds'],0,0.0,0
+['what'],['what are known knowledge management problems and what knowledge management processes handle them'],0,0.0,0
+[''],['how can rolebasedaccesscontrol be graphically represented'],0,0.0,0
+[''],['when are networks said to show the small world property'],0,0.0,0
+['the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the'],"['how is externally regulated behavior defined and how is it related to intrinsically motivated behavior', 'what is internalization']",0,0.0,0
+[''],['what are the components of cluster analysis'],0,0.0,0
+[''],['how does svd allow visualization of data'],0,0.0,0
+[''],['what is probabilistic pca'],0,0.0,0
+[''],['what is integer underoverflow what are famous examples'],0,0.0,0
+[''],['how must the merging of posting lists be adapted to support phrase queries'],0,0.0,0
+['what the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the'],['what are the resulting design recommendations of kane alavi'],0,0.0,0
+['what'],"['how to define “network of practice”', 'what is the definition of “electronic network of practice”', 'how are “electronic network of practice” and communities of practice related']",0,0.0,0
+[''],"['on what basis do hansen et al choose codification or personalization as the design approach', 'what is the difference between cost leadership and quality leadership']",0,0.0,0
+['what'],"['what is knowledge management from an organizational learning perspective according to sturm et al 2022', 'what is the role of information technology according to sturm et al 2022', 'what changes with ai according to sturm et al 2022']",0,0.0,0
+[''],['how can open system authentication be attacked'],0,0.0,0
+[''],"['why are not all biwords always indexed', 'how are biwords expanded so that they only represent meaningful concepts']",0,0.0,0
+[''],['how to deal with lost messages'],0,0.0,0
+[''],['what are disclosure risks'],0,0.0,0
+['the the the the the'],['what are the key differences between leadership and management'],0,0.0,0
+[''],['describe the terminology of the em algorithm'],0,0.0,0
+[''],['what are the possible states of an agent in the two phase commit protocol'],0,0.0,0
+['what'],['how does pseudocode for rainbow tables look like'],0,0.0,0
+[''],['what is the workflow for mac'],0,0.0,0
+[''],"['what is the porter algorithm', 'how does the porter algorithm work']",0,0.0,0
+[''],['how can multiple factors be considered for ranking documents'],0,0.0,0
+[''],['how does a sql statement that required decomposition look like'],0,0.0,0
+['what'],['what is the synthetic data approach what are types of synthetic data'],0,0.0,0
+['what'],['what is quid pro quo'],0,0.0,0
+['what'],['what are the exemplary steps of nonperturbative masking through generalization'],0,0.0,0
+[''],['reflect on the findings of leskovec and horvitz study'],0,0.0,0
+[''],"['why is pooling required', 'how are documents annotated in pooling']",0,0.0,0
+[''],['what is tor'],0,0.0,0
+[''],['what is the problem of dominating mining pools'],0,0.0,0
+['what the'],['how are communities of practice cops defined'],0,0.0,0
+[''],['how can relevance feedback be incorporated into estimations of probabilities for probabilistic retrieval'],0,0.0,0
+['the the the the the the'],['how to apply those studies in a case study'],0,0.0,0
+[''],['when was mapreduce released'],0,0.0,0
+['what'],['what are the limits and benefits of the seci model'],0,0.0,0
+['what'],['how does a chain of trust work'],0,0.0,0
+[''],['which assumptions hold in a markov decision process'],0,0.0,0
+['what'],['how do passwords work'],0,0.0,0
+[''],['which metric is usually optimized by information retrieval systems'],0,0.0,0
+[''],['when is the time for merging linear'],0,0.0,0
+[''],['how to perform read and write operations in quorum consensus'],0,0.0,0
+['what the'],['how does setting a specific hard goal differ from a do best goal in relation to the performance'],0,0.0,0
+[''],['how is clause coverage defined'],0,0.0,0
+['what the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the'],['what are strengths and criticisms of the al approach'],0,0.0,0
+[''],['comment on the why only for directed networks eigenvalue centrality is useful'],0,0.0,0
+[''],['what are the two problems of term frequency'],0,0.0,0
+[''],"['explain the cbow model', 'how is the cbow model used to compute word embeddings']",0,0.0,0
+['what'],['how are cluster sizes modeled in kmeans and gmms'],0,0.0,0
+[''],"['what are mixture models', 'give the interpretation of mixture models']",0,0.0,0
+[''],['what is the common cryptographic scenario'],0,0.0,0
+[''],['how does the partitioning of the input domain into blocks work'],0,0.0,0
+['what'],['how is the workflow of crc'],0,0.0,0
+[''],['what are joint distributions'],0,0.0,0
+['what'],['how are svd and pca related'],0,0.0,0
+['the the the the the the the'],['what are constituent attributes of electronic cops and what are qualifying elements'],0,0.0,0
+['what'],['what are the components of the knowledge spiral'],0,0.0,0
+[''],['explain the example for the binary independence model with available relevance judgements'],0,0.0,0
+[''],['describe the methodology of eigenvector centrality'],0,0.0,0
+[''],['what are the problems with the rules of the porter algorithm'],0,0.0,0
+[''],['what is utility theory used for'],0,0.0,0
+[''],['why is the size of positional indices problematic'],0,0.0,0
+[''],['how is each choice coverage defined'],0,0.0,0
+[''],['which results did becerrafernandez sabherwal 2001 find regarding the influence of the four processes on km effectiveness and employee satisfaction research question 1'],0,0.0,0
+[''],['what is unsupervised learning and what is the goal'],0,0.0,0
+['how how how how how'],['how are tasks processed using the cache'],0,0.0,0
+[''],['how to create a total order for a table with mapreduce'],0,0.0,0
+['how how how how how how how how how how how how how how how how how how how how how how how how how how how how how how how how how'],['how are the results from the spark program distributed across the nodes'],0,0.0,0
+['what what what what what what what what what what what what what what what what what what what what what what what what what what what what what what what what what'],"['how does the research model of ko et al 2005 look like', 'what influence do the factors have on each other and on the transfer of knowledge']",0,0.0,0
+[''],['what are the four information retrieval paradigms'],0,0.0,0
+['the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the'],"['what are strengths and criticisms of the pathgoal theory', 'how can the pathgoal theory be applied in practice']",0,0.0,0
+[''],['why is local serializability not enough for a distributed commit'],0,0.0,0
+[''],['how to decide whether to expect success using odds'],0,0.0,0
+['what'],['what does a query tree with derived horizontal fragmentation and union pull up look like'],0,0.0,0
+['the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the'],['what is the definition of the factors idealized influence and inspirational motivation of the tl model'],0,0.0,0
+[''],['what are message authentication codes'],0,0.0,0
+['what what'],['what is the principle of dombased xss'],0,0.0,0
+[''],['what are mail fetching protocols'],0,0.0,0
+[''],['what does the notation for fragments look like'],0,0.0,0
+[''],"['how are general inactive clause coverage and restricted inactive clause coverage defined', 'how do gicc and ricc differ']",0,0.0,0
+[''],['explain the twogenerals problem'],0,0.0,0
+['what'],['what are advantages and criticism of the belllapadula model'],0,0.0,0
+[''],"['how can we assess the agents degree of believe', 'how can betting games be used to assess agents']",0,0.0,0
+[''],['what is the setup of the centralized two phase commit protocol'],0,0.0,0
+[''],['what are the properties of estimators'],0,0.0,0
+[''],['what does the mapreduce execution workflow look like'],0,0.0,0
+[''],['where is big data successful used'],0,0.0,0
+[''],['what are the problems with pc and cc'],0,0.0,0
+[''],"['how are graphs used in testing and how are test requirements test criterion and satisfaction defined', 'how are graphs used in testing', 'how are test requirements test criterion and satisfaction defined']",0,0.0,0
+[''],['why is it possible to use grammar coverage criteria'],0,0.0,0
+[''],['which steps are involved in pooling'],0,0.0,0
+[''],"['what is guaranteed if an agent is in the ready state', 'when does the coordinator decide on a commit']",0,0.0,0
+['what'],['what is a discretionary access control dac and what advantagesdisadvantages does it have'],0,0.0,0
+['the the the the the the the'],['which research approach do kane alavi use and which important contingency factors and moderators which they consider'],0,0.0,0
+['what what what what what what what what what what what what what what what what what what what what what what what what what what what what what what what what what'],['how is a botnet coordinated'],0,0.0,0
+[''],['how does locality sensitive hashing work'],0,0.0,0
+['what'],['what is the goal of privilege escalation attacks and how do they work'],0,0.0,0
+[''],['which keys are reallocated when a node joins'],0,0.0,0
+[''],['what to look for in networks to know if small world property is present'],0,0.0,0
+[''],['differentiate in inference and decision'],0,0.0,0
+[''],['which three basic architectures exist for parallel dbms'],0,0.0,0
+['what'],['describe the methodology of eigenvector centrality'],0,0.0,0
+[''],['how does memory organization work in a multitasking system why do you need it'],0,0.0,0
+[''],['why are there so many different types of nosql databases'],0,0.0,0
+[''],['what do two vector clocks look like where there is no conflict'],0,0.0,0
+[''],['which strategies exist to avoid deadlocks'],0,0.0,0
+[''],"['explain the single pass clustering algorithm', 'how is the number of clusters determined in the single pass clustering algorithm']",0,0.0,0
+[''],['what is the common vulnerabilities and exposures cve and what is the definition for vulnerabilities and exposures'],0,0.0,0
+['what the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the'],['what are strengths and criticisms of the servant leadership approach'],0,0.0,0
+[''],['how are input and output for the parallel sort defined'],0,0.0,0
+['what'],['how would an online attack on stored hashed values of passwords on a server look like and what are countermeasures'],0,0.0,0
+[''],['how is elasticity used to measure the extensibility'],0,0.0,0
+[''],"['what is the framing effect', 'what is the anchoring effect']",0,0.0,0
+['what the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the'],"['what are the key factors to consider regarding the use of knowledge management systems kms', 'how can the use of kms be conceptualized and what is the key question when it comes to knowledge sharing']",0,0.0,0
+['the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the'],['which three definitions exist for the authentic leadership approach'],0,0.0,0
+[''],"['how can multidimensional data be stored', 'how can different views of the data be analyzed']",0,0.0,0
+['what'],['how efficient is the antientropy protocol'],0,0.0,0
+[''],"['what are word embeddings', 'explain word embeddings', 'what is the difference between sparse and dense term representations']",0,0.0,0
+[''],['how does information spread with the rumor spreading protocol and pull communication'],0,0.0,0
+['what'],['how can words be counted with mapreduce'],0,0.0,0
+[''],['how are documents word embeddings obtained using the cbow model'],0,0.0,0
+[''],['what are the drawbacks of automated thesaurus generation'],0,0.0,0
+[''],['what does a structured text representation look like'],0,0.0,0
+['the the the the the the the the the'],['what are the implications of the work of van der broek et al 2022'],0,0.0,0
+[''],['what does the no free lunch theorem trying to say'],0,0.0,0
+[''],['how are language models used for information retrieval'],0,0.0,0
+['what'],['what is domain keys identified mail dkim'],0,0.0,0
+['the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the'],['what are the moderators of the goal performance relationship'],0,0.0,0
+['what the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the'],['what are the implications of the work of lebovitz et al 2022'],0,0.0,0
+[''],['how is the relevance score computed if no relevance judgements are available'],0,0.0,0
+['what'],"['how does lmx theory describe leaders relationship to work units', 'what is the origin of lmx theory']",0,0.0,0
+['what'],['what are countermeasures against unauthorized access'],0,0.0,0
+[''],['which special case is covered by the markov decision process'],0,0.0,0
+[''],"['how is the bayes rule defined', 'what is the bayes rule']",0,0.0,0
+[''],['define average degree'],0,0.0,0
+[''],['differentiate between parametric and nonparametric models'],0,0.0,0
+[''],"['what is expansion', 'how does expansion work', 'what are the advantages and disadvantages of expansion']",0,0.0,0
+['what the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the'],['in conclusion which design approaches should you use for which contingency factors'],0,0.0,0
+[''],['what is the cosine similarity'],0,0.0,0
+['what the the the the the'],['what technology does kane alavi believe should be used for exploitation or exploration'],0,0.0,0
+[''],"['when do weights remain bounded', 'why data scale matters']",0,0.0,0
+['what'],"['describe the general pdbms architecture', 'what are the central parts of the general pdbms architecture']",0,0.0,0
+[''],['how can evidence be combined'],0,0.0,0
+[''],['write the expressions for expected number of selfloops'],0,0.0,0
+[''],['what are distributive aggregate functions'],0,0.0,0
+['what'],['what advantages does rbac have in contrast to a tradition access matrix'],0,0.0,0
+[''],['what are auxiliary specification artifacts'],0,0.0,0
+[''],['what makes naive bayes a family of classifiers'],0,0.0,0
+[''],"['how is the normalized discounted cumulative gain defined', 'how is the ideal discounted cumulative gain defined', 'how does the normalized discounted cumulative gain change if the number of relevant documents changes']",0,0.0,0
+['what'],['what is the generic smtp protocol flow'],0,0.0,0
+[''],"['how does routing with finger tables work', 'what is the advantage of routing with finger tables']",0,0.0,0
+[''],['how to identify which nodes are important'],0,0.0,0
+['the the'],['what characteristics does dennis vesseys design approach focus on'],0,0.0,0
+[''],['what language models are available to model the probability of word sequences in a language'],0,0.0,0
+[''],['define page rank centrality in detail'],0,0.0,0
+['what what what what what'],['what are the three components of kobra and what is the vision and obstacles for each'],0,0.0,0
+[''],['what is the definition of personal data'],0,0.0,0
+[''],['describe support vector classification'],0,0.0,0
+[''],['what does the workflow of rc4 look like'],0,0.0,0
+['what the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the'],['which gender stereotypes exist'],0,0.0,0
+[''],['what are the advantages and disadvantages of the basic approach to achieve replication consistency'],0,0.0,0
+[''],['explain structural properties'],0,0.0,0
+[''],['what is machine learning'],0,0.0,0
+[''],['what are examples for notable csrf attacks'],0,0.0,0
+[''],"['why is the document frequency used', 'what is the idea behind the global document frequency']",0,0.0,0
+[''],['how does the sender policy framework work'],0,0.0,0
+['the the the the the the'],['into which groups are the knowledge goals of km cycle divided'],0,0.0,0
+[''],['what are the four characteristics of network science'],0,0.0,0
+['the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the'],['what are the six global leadership behaviors of globe'],0,0.0,0
+[''],['what are the benefits of mapreduce'],0,0.0,0
+[''],"['what is an rdd action', 'how can sparks reduce action be used']",0,0.0,0
+[''],"['what are stragglers', 'why are stragglers a problem']",0,0.0,0
+[''],"['what is a testers job', 'how are test requirements and test criteria defined']",0,0.0,0
+[''],['why is it difficult to select a good partitioning vector'],0,0.0,0
+[''],['what is hadoop'],0,0.0,0
+[''],['what makes network science quantitative and empirical'],0,0.0,0
+['what'],['how is a virus defined'],0,0.0,0
+[''],['how does preclustering work to speed up the ranking of documents'],0,0.0,0
+[''],['what is a evil twin attack'],0,0.0,0
+[''],['what are the two scenarios that can occur when we want to rank documents'],0,0.0,0
+[''],['what are the decomposition steps'],0,0.0,0
+[''],"['how is replication transparency defined', 'what does it mean that a database is mutually consistent']",0,0.0,0
+[''],['how did the and and or operators affect a boolean query'],0,0.0,0
+[''],['which extensions exist for mapreduce'],0,0.0,0
+['what what'],['how can an agent act and perceive its environment'],0,0.0,0
+['what'],['what are the main security problems of cookies'],0,0.0,0
+[''],['how is a probabilistic retrieval system defined by robertson'],0,0.0,0
+[''],['what tradeoffs must be made with the rocchio algorithm'],0,0.0,0
+[''],['what enhances guessing attacks on passwords exist'],0,0.0,0
+[''],['how does the algorithm to evaluate decision networks work'],0,0.0,0
+[''],['what is the basic idea of direct sampling methods'],0,0.0,0
+['what what what what what what'],"['in what relation are task difficulty and effort', 'what is the relationship between goal difficulty and performance']",0,0.0,0
+[''],['describe multivariate gaussian distribution'],0,0.0,0
+[''],"['what are the limitations of erdo ̋s–re ́nyi model', 'what is the model useful for']",0,0.0,0
+[''],['how does dms support filling through archiving'],0,0.0,0
+[''],['what is the concept of scamming'],0,0.0,0
+['the the the the the the the the the the the'],['how did garud kumaraswamy implement a qualitative incentive system'],0,0.0,0
+['the the the the the the'],['what is the difference between knowledge augmentation and knowledge substitution'],0,0.0,0
+['the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the'],['in which ways do goals affect performance'],0,0.0,0
+[''],['how does information spread with the rumor spreading protocol and push communication'],0,0.0,0
+['how how how how how how how how how how how how how how how how how how how how how how how how how how how how how how how how how'],['how to filter log files with spark'],0,0.0,0
+[''],['what form does the intermediate step have'],0,0.0,0
+[''],['what is assumed when using partitions'],0,0.0,0
+[''],['what are determining predicates'],0,0.0,0
+[''],['what would be a practical example of the five elements of knowledge transfer with personal and impersonal transfer'],0,0.0,0
+[''],['why is data locality important'],0,0.0,0
+['the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the'],['what is selfdetermination theory sdt and what motivational distinction is it based on'],0,0.0,0
+['what what'],['what does encapsulation describe'],0,0.0,0
+[''],"['how does the reduceside join work', 'explain the reduceside join']",0,0.0,0
+[''],['how is the workflow of a hash function'],0,0.0,0
+[''],['how is ba related to the knowledge spiral'],0,0.0,0
+[''],['how does reduction for vertical fragmentation work'],0,0.0,0
+[''],"['what is stemming', 'how does stemming work']",0,0.0,0
+[''],['explain a vector clock example'],0,0.0,0
+[''],['what are the two approaches used in configuration model'],0,0.0,0
+[''],['explain empirical risk minimisation'],0,0.0,0
+[''],['what are the most important points to know about spark'],0,0.0,0
+['what'],['how is a worm defined'],0,0.0,0
+['what'],['which transformations exist in spark'],0,0.0,0
+[''],['what is the internal structure of the formula of pbjm'],0,0.0,0
+[''],['what are the two approaches to input domain modeling'],0,0.0,0
+[''],['how does the ranking work when relevance judgements are known'],0,0.0,0
+['what'],['what are the three main methods used for authentication and what are examples and problems of each method'],0,0.0,0

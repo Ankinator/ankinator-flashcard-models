@@ -1,0 +1,13 @@
+rouge_keys,scores
+rouge1_fmeasure,0.0020376171451061964
+rouge1_precision,0.004267566371709108
+rouge1_recall,0.0019178194925189018
+rouge2_fmeasure,0.0
+rouge2_precision,0.0
+rouge2_recall,0.0
+rougeL_fmeasure,0.0020376171451061964
+rougeL_precision,0.004267566371709108
+rougeL_recall,0.0019178194925189018
+rougeLsum_fmeasure,0.0020376171451061964
+rougeLsum_precision,0.004267566371709108
+rougeLsum_recall,0.0019178194925189018
